@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "focale-bot"
           git config user.email "focale-bot@users.noreply.github.com"
-          git add docs/cards.json docs/status.json 2>/dev/null || true
+          git add docs/cards.json docs/status.json docs/seen.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Rien de nouveau."
           else

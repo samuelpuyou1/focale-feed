@@ -48,6 +48,7 @@ BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appel
 MAX_CALLS = 40           # plafond de requêtes par lancement
 DUP_THRESHOLD = 0.28     # recouvrement de mots (titre + fait) au-delà duquel deux cartes racontent la même actu
 COVERED_DAYS = 3         # sujets récents rappelés à l'IA pour éviter les redites
+SPARE = 4                # cartes de réserve produites en plus, pour remplacer les doublons écartés à la relecture
 ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊÀÇ")
 MAX_AGE_HOURS = 36       # fraîcheur des articles retenus
 KEEP_DAYS = 7            # historique conservé dans cards.json
@@ -59,6 +60,7 @@ PREFERRED_MODELS = [m for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 GEMINI_URL = API_ROOT + "/models/{model}:generateContent"
 STATUS = ROOT / "docs" / "status.json"
+SEEN = ROOT / "docs" / "seen.json"   # articles déjà soumis à l'IA (gardés ou écartés) : jamais renvoyés
 MODELS: list[str] = []      # rempli par discover_models()
 ERRORS: list[str] = []      # résumé publié dans docs/status.json (sans la clé)
 DELAY_SECONDS = float(os.environ.get("GEMINI_DELAY", "7"))  # reste sous la limite gratuite par minute
@@ -224,6 +226,44 @@ def batch_prompt(topic: str, batch: list[dict], covered: list[str] = ()) -> str:
     covered_text = "\n".join(f"- {title}" for title in list(covered)[:80]) or "- (rien)"
     return PROMPT.format(subjects=", ".join(SUBJECTS[topic]), articles=articles, covered=covered_text,
                          topic_label="tech" if topic == "tech" else "économie, finance ou marchés")
+
+
+REVIEW_PROMPT = """Voici des titres de cartes d'actualité. Les « R » sont déjà publiées, les « N » sont nouvelles.
+Repère les cartes N qui racontent le même événement qu'une carte R, ou qu'une carte N de numéro plus petit
+(même fait vu sous un autre angle, par un autre média, ou réaction à cet événement).
+Réponds uniquement en JSON : {{"duplicates": [<numéros des cartes N à retirer>]}}.
+
+{titles}"""
+
+
+def review_duplicates(new_cards: list[dict], recent: list[dict], api_key: str) -> set[int]:
+    """Relecture finale par l'IA : indices (0-based) des nouvelles cartes qui font doublon. Vide en cas d'erreur."""
+    titles = "\n".join([f"R{n}. {c['title']}" for n, c in enumerate(recent[:80], 1)] +
+                       [f"N{n}. {c['title']} — {c['fact']}" for n, c in enumerate(new_cards, 1)])
+    try:
+        raw = call_gemini(REVIEW_PROMPT.format(titles=titles), api_key)
+    except GeminiError as error:
+        note(f"relecture des doublons impossible : {error}")
+        return set()
+    found = raw.get("duplicates", []) if isinstance(raw, dict) else []
+    out = set()
+    for value in found:
+        try:
+            n = int(str(value).lstrip("Nn"))
+        except ValueError:
+            continue
+        if 1 <= n <= len(new_cards):
+            out.add(n - 1)
+    return out
+
+
+def load_seen(now: datetime) -> dict[str, str]:
+    try:
+        seen = json.loads(SEEN.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
+    return {k: v for k, v in seen.items() if v >= cutoff}
 
 
 def batch_entries(raw, size: int) -> dict[int, dict]:
@@ -426,7 +466,8 @@ def main() -> int:
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
     existing = load_existing()
     print(f"Flux RSS ({len(sources)} sources), {len(existing)} cartes déjà publiées")
-    by_topic = collect(sources, {c["id"] for c in existing}, now)
+    seen = load_seen(now)
+    by_topic = collect(sources, {c["id"] for c in existing} | set(seen), now)
 
     if args.dry_run:
         for topic, items in by_topic.items():
@@ -455,9 +496,11 @@ def main() -> int:
     def wanted(topic: str) -> bool:
         # Chaque thème vise PER_TOPIC ; une fois l'autre thème épuisé, il peut combler jusqu'à DAILY_TARGET.
         others_done = all(not queues[t] for t in queues if t != topic)
-        return bool(queues[topic]) and (made[topic] < PER_TOPIC or others_done)
+        return bool(queues[topic]) and (made[topic] < PER_TOPIC + SPARE // 2 or others_done)
 
-    while len(new_cards) < DAILY_TARGET and calls < MAX_CALLS:
+    goal = DAILY_TARGET + SPARE
+    today = now.strftime("%Y-%m-%d")
+    while len(new_cards) < goal and calls < MAX_CALLS:
         open_topics = [t for t in queues if wanted(t)]
         if not open_topics:
             break
@@ -482,10 +525,12 @@ def main() -> int:
         for n, item in enumerate(batch, 1):
             entry = entries.get(n)
             card = validate(entry, item, rng) if entry else None
+            if entry and not (card and len(new_cards) >= goal):
+                seen[item["id"]] = today
             if card and any(same_story(card, other) for other in new_cards + recent):
                 print(f"  = doublon : {card['title'][:70]}")
             elif card:
-                if len(new_cards) < DAILY_TARGET:
+                if len(new_cards) < goal:
                     new_cards.append(card)
                     made[topic] += 1
                     print(f"  + [{topic}] {card['title']}")
@@ -493,11 +538,18 @@ def main() -> int:
                 note(f"réponse invalide ({item['source']}) : {json.dumps(entry, ensure_ascii=False)[:160]}")
             else:
                 print(f"  - ignoré : {item['title'][:70]}")
+    if new_cards:
+        dupes = review_duplicates(new_cards, recent, api_key)
+        for i in sorted(dupes):
+            print(f"  = doublon (relecture) : {new_cards[i]['title'][:70]}")
+        new_cards = [c for i, c in enumerate(new_cards) if i not in dupes][:DAILY_TARGET]
+        made = {t: sum(c["topic"] == t for c in new_cards) for t in made}
     if len(new_cards) < DAILY_MIN:
         note(f"seulement {len(new_cards)} cartes (objectif {DAILY_MIN}) : ajouter des sources dans sources.json")
 
     cards = merge(new_cards, existing, now)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    SEEN.write_text(json.dumps(seen, indent=0, sort_keys=True) + "\n", encoding="utf-8")
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS.write_text(json.dumps({
         "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "calls": calls,

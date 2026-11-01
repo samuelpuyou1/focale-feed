@@ -106,3 +106,18 @@ class DedupeTests(unittest.TestCase):
         prompt = bf.batch_prompt("tech", [ITEM | {"title": "A", "excerpt": "x"}], ["Piratage de Binance"])
         self.assertIn("- Piratage de Binance", prompt)
 
+
+class ReviewTests(unittest.TestCase):
+    def test_review_parses_numbers_and_ignores_errors(self):
+        new = [{"title": f"T{i}", "fact": "f"} for i in range(3)]
+        original = bf.call_gemini
+        try:
+            bf.call_gemini = lambda prompt, key: {"duplicates": [2, "N3", 9, "x"]}
+            self.assertEqual(bf.review_duplicates(new, [], "k"), {1, 2})
+            def boom(prompt, key):
+                raise bf.GeminiError("panne")
+            bf.call_gemini = boom
+            self.assertEqual(bf.review_duplicates(new, [], "k"), set())
+        finally:
+            bf.call_gemini = original
+

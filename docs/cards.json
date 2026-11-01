@@ -396,28 +396,6 @@
     }
   },
   {
-    "id": "rss-42b231ec63e3",
-    "title": "Baisse des prix des carburants à la pompe dès novembre",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "Le gouvernement libère des barils issus des réserves stratégiques pour faire baisser les prix des carburants dès ce premier novembre.",
-    "whyItMatters": "Cette mesure vise à réduire le coût du plein pour les automobilistes avec une économie estimée entre 12 et 18 centimes par litre. Elle illustre l'impact direct des interventions étatiques sur le pouvoir d'achat face à la cherté des produits pétroliers.",
-    "summary": "Le gouvernement libère des barils issus des réserves stratégiques pour faire baisser les prix des carburants dès ce premier novembre. Cette mesure vise à réduire le coût du plein pour les automobilistes avec une économie estimée entre 12 et 18 centimes par litre. Elle illustre l'impact direct des interventions étatiques sur le pouvoir d'achat face à la cherté des produits pétroliers.",
-    "source": "BFM Business",
-    "sourceURL": "https://www.bfmtv.com/economie/video-carburants-des-prix-a-la-pompe-en-baisse-des-ce-dimanche-1er-novembre_VN-202611010117.html",
-    "publishedAt": "2026-11-01T05:40:20Z",
-    "quiz": {
-      "question": "Quelle est l'origine de la baisse des prix du carburant annoncée ?",
-      "choices": [
-        "La hausse de la production des raffineries",
-        "Une baisse des taxes sur les produits pétroliers",
-        "La libération de barils des réserves stratégiques"
-      ],
-      "answerIndex": 2,
-      "explanation": "Le gouvernement utilise les réserves stratégiques vendues sous les prix du marché pour faire baisser les tarifs."
-    }
-  },
-  {
     "id": "rss-5f271a88afaa",
     "title": "Évolution des horaires d'heures creuses d'électricité",
     "topic": "finance",
@@ -877,28 +855,6 @@
       ],
       "answerIndex": 0,
       "explanation": "TikTok développe des services variés pour devenir une application utilisée pour la majorité des activités numériques."
-    }
-  },
-  {
-    "id": "rss-1a723a2c8f68",
-    "title": "Résilience du bitcoin après l'attaque de Binance",
-    "topic": "finance",
-    "subject": "Crypto",
-    "fact": "Le cours du bitcoin a mieux résisté que prévu après l'attaque informatique subie par la plateforme Binance.",
-    "whyItMatters": "Cette solidité apparente conforte la confiance de certains dirigeants d'entreprise dans la cryptomonnaie à long terme. Cependant, les professionnels appellent à la prudence car la tendance générale des marchés reste incertaine.",
-    "summary": "Le cours du bitcoin a mieux résisté que prévu après l'attaque informatique subie par la plateforme Binance. Cette solidité apparente conforte la confiance de certains dirigeants d'entreprise dans la cryptomonnaie à long terme. Cependant, les professionnels appellent à la prudence car la tendance générale des marchés reste incertaine.",
-    "source": "Cointelegraph",
-    "sourceURL": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "publishedAt": "2026-10-31T15:26:46Z",
-    "quiz": {
-      "question": "Comment le bitcoin a-t-il réagi après le piratage de Binance ?",
-      "choices": [
-        "Il a atteint un nouveau record absolu",
-        "Il s'est totalement effondré",
-        "Il a mieux résisté que prévu"
-      ],
-      "answerIndex": 2,
-      "explanation": "Le bitcoin a fait preuve d'une résistance inattendue malgré l'incident de sécurité."
     }
   },
   {
