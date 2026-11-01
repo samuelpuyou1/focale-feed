@@ -1,1 +1,200 @@
-[]
+[
+  {
+    "id": "rss-dac5600bfa8f",
+    "title": "Baisse du gazole de 21 centimes chez E.Leclerc et Coopérative U",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "E.Leclerc et Coopérative U réduisent le tarif du gazole de 21 centimes par litre à la suite de la libération des stocks stratégiques par l'État.",
+    "whyItMatters": "Cette diminution des tarifs à la pompe allège immédiatement le budget des automobilistes face à la cherté des carburants. Elle illustre l'impact direct des décisions gouvernementales sur les prix de vente pratiqués par les distributeurs.",
+    "summary": "E.Leclerc et Coopérative U réduisent le tarif du gazole de 21 centimes par litre à la suite de la libération des stocks stratégiques par l'État. Cette diminution des tarifs à la pompe allège immédiatement le budget des automobilistes face à la cherté des carburants. Elle illustre l'impact direct des décisions gouvernementales sur les prix de vente pratiqués par les distributeurs.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/energie/e-leclerc-annonce-21-centimes-d-euro-par-litre-des-dimanche-cooperative-u-promet-jusqu-a-21-centimes-selon-les-stations-apres-totalenergies-les-deux-distributeurs-vont-aussi-baisser-le-prix-du-gazole-grace-au-deblocage-des-stocks-strategiques_AD-202611010209.html",
+    "publishedAt": "2026-11-01T10:17:14Z",
+    "quiz": {
+      "question": "De combien le prix du gazole baisse-t-il chez E.Leclerc ?",
+      "choices": [
+        "10 centimes",
+        "30 centimes",
+        "21 centimes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le groupe a annoncé une diminution de 21 centimes par litre suite au déstockage des réserves stratégiques."
+    }
+  },
+  {
+    "id": "rss-b5efb87ef285",
+    "title": "La bonne santé inattendue de l'économie britannique saluée par le FMI",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le Royaume-Uni affiche une résistance économique surprenante marquée par une croissance relevée, un chômage en recul et des finances publiques en amélioration.",
+    "whyItMatters": "Cette situation favorable distingue positivement le pays dans le contexte international actuel et lui vaut les éloges du Fonds monétaire international. Les analystes préviennent toutefois que cette embellie conjoncturelle pourrait ne pas durer.",
+    "summary": "Le Royaume-Uni affiche une résistance économique surprenante marquée par une croissance relevée, un chômage en recul et des finances publiques en amélioration. Cette situation favorable distingue positivement le pays dans le contexte international actuel et lui vaut les éloges du Fonds monétaire international. Les analystes préviennent toutefois que cette embellie conjoncturelle pourrait ne pas durer.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/une-croissance-revue-a-la-hausse-un-chomage-qui-baisse-et-un-deficit-qui-se-resorbe-contrairement-a-la-france-le-royaume-uni-etonne-par-la-resistance-de-son-economie-et-recoit-les-felicitations-du-fmi_AV-202611010171.html",
+    "publishedAt": "2026-11-01T08:18:54Z",
+    "quiz": {
+      "question": "Quelle institution a félicité le Royaume-Uni pour sa résistance économique ?",
+      "choices": [
+        "Le Fonds monétaire international",
+        "La Réserve fédérale américaine",
+        "La Banque centrale européenne"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait mentionne explicitement que le pays reçoit les félicitations du FMI."
+    }
+  },
+  {
+    "id": "rss-c426dc65908b",
+    "title": "Le FBI implique la Corée du Nord dans un piratage de Binance",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Le FBI impute à la Corée du Nord le vol de plus de six milliards de dollars sur la plateforme de cryptomonnaies Binance et diffuse des adresses suspectes.",
+    "whyItMatters": "Cette intervention vise à mobiliser le secteur privé pour bloquer les flux financiers illicites. Elle met en lumière les risques persistants de blanchiment d'argent dans l'écosystème des monnaies numériques.",
+    "summary": "Le FBI impute à la Corée du Nord le vol de plus de six milliards de dollars sur la plateforme de cryptomonnaies Binance et diffuse des adresses suspectes. Cette intervention vise à mobiliser le secteur privé pour bloquer les flux financiers illicites. Elle met en lumière les risques persistants de blanchiment d'argent dans l'écosystème des monnaies numériques.",
+    "source": "Presse-citron",
+    "sourceURL": "https://www.presse-citron.net/fbi-accuse-pays-piratage-binance/",
+    "publishedAt": "2026-11-01T07:56:18Z",
+    "quiz": {
+      "question": "Quel pays est mis en cause par le FBI dans cette affaire de piratage?",
+      "choices": [
+        "La Russie",
+        "La Corée du Nord",
+        "La Chine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le FBI accuse directement la Corée du Nord d'avoir orchestré le vol de plus de six milliards de dollars sur Binance."
+    }
+  },
+  {
+    "id": "rss-c8c5bc01c82c",
+    "title": "Le patrimoine des Américains de plus de 75 ans s'envole",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La fortune médiane des Américains âgés de plus de 75 ans a connu une hausse de 37 % entre 2022 et 2025 pour atteindre 505 000 dollars.",
+    "whyItMatters": "Cette dynamique repose principalement sur la progression des revenus immobiliers et financiers de cette tranche d'âge. Elle illustre un creusement marquant des écarts de richesse intergénérationnels aux États-Unis.",
+    "summary": "La fortune médiane des Américains âgés de plus de 75 ans a connu une hausse de 37 % entre 2022 et 2025 pour atteindre 505 000 dollars. Cette dynamique repose principalement sur la progression des revenus immobiliers et financiers de cette tranche d'âge. Elle illustre un creusement marquant des écarts de richesse intergénérationnels aux États-Unis.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/patrimoine/les-americains-de-plus-de-75-ans-sont-desormais-15-fois-plus-riches-que-les-jeunes-generations-leur-patrimoine-median-a-bondi-de-37-en-trois-ans-quand-celui-des-moins-de-35-ans-a-chute-de-23_AV-202611010091.html",
+    "publishedAt": "2026-11-01T06:59:00Z",
+    "quiz": {
+      "question": "De quel montant est le patrimoine médian des plus de 75 ans en 2025 ?",
+      "choices": [
+        "750.000 dollars",
+        "350.000 dollars",
+        "505.000 dollars"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le patrimoine médian des Américains de plus de 75 ans a atteint 505.000 dollars grâce à une hausse de 37 %."
+    }
+  },
+  {
+    "id": "rss-507f5a1dbef0",
+    "title": "Alerte de la Cour des comptes sur le financement de la Sécu",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La Cour des comptes met en garde contre l'impasse financière et le creusement du déficit de la Sécurité sociale.",
+    "whyItMatters": "Cette situation critique menace la pérennité du système de financement actuel. Trouver des solutions rapides s'annonce complexe en l'absence de majorité au Parlement.",
+    "summary": "La Cour des comptes met en garde contre l'impasse financière et le creusement du déficit de la Sécurité sociale. Cette situation critique menace la pérennité du système de financement actuel. Trouver des solutions rapides s'annonce complexe en l'absence de majorité au Parlement.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/economie-social/finances-publiques/la-secu-peut-elle-faire-faillite-et-arreter-de-payer-les-retraites-ou-les-allocations-c-est-peu-probable-mais-elle-va-vite-devoir-trouver-une-maniere-de-se-financer-avant-de-tomber-dans-la-crise_AN-202611010089.html",
+    "publishedAt": "2026-11-01T05:59:00Z",
+    "quiz": {
+      "question": "Quelle institution tire la sonnette d'alarme sur les comptes de la Sécu ?",
+      "choices": [
+        "La Cour des comptes",
+        "La Banque centrale européenne",
+        "Le ministère de l'Intérieur"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait mentionne explicitement que la Cour des comptes alerte sur le financement de la Sécurité sociale."
+    }
+  },
+  {
+    "id": "rss-6dcc03c28426",
+    "title": "La prudence budgétaire des ménages chinois face aux crises",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La fragilité de l'immobilier et la pression sur les salaires poussent les consommateurs chinois à réduire leurs achats non essentiels.",
+    "whyItMatters": "Ce frein à la consommation illustre la morosité économique persistante du pays et la difficulté à relancer la demande intérieure. Malgré cette rigueur budgétaire, les familles continuent de financer l'éducation de leur progéniture.",
+    "summary": "La fragilité de l'immobilier et la pression sur les salaires poussent les consommateurs chinois à réduire leurs achats non essentiels. Ce frein à la consommation illustre la morosité économique persistante du pays et la difficulté à relancer la demande intérieure. Malgré cette rigueur budgétaire, les familles continuent de financer l'éducation de leur progéniture.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/01/les-gens-depensent-avec-precaution-en-chine-les-menages-preoccupes-par-les-incertitudes-economiques_6804017_3234.html",
+    "publishedAt": "2026-11-01T04:39:25Z",
+    "quiz": {
+      "question": "Quel poste de dépense les ménages chinois continuent-ils de privilégier malgré la crise ?",
+      "choices": [
+        "Les loisirs",
+        "L'immobilier",
+        "L'éducation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les foyers font des économies sur le superflu mais refusent de rogner sur les frais scolaires des enfants."
+    }
+  },
+  {
+    "id": "rss-2c1fea648c9f",
+    "title": "Xavier Niel critique la taxe sur les données votée par les députés",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le dirigeant de Free a vivement critiqué sur le réseau social X les députés socialistes à l'origine d'une taxe sur les données numériques adoptée à l'Assemblée.",
+    "whyItMatters": "Cette réaction met en lumière les vifs désaccords entre les acteurs des télécommunications et les parlementaires concernant la fiscalité du numérique. La mise en place de cette taxe sur chaque gigaoctet soulève des débats sur son impact économique pour le secteur.",
+    "summary": "Le dirigeant de Free a vivement critiqué sur le réseau social X les députés socialistes à l'origine d'une taxe sur les données numériques adoptée à l'Assemblée. Cette réaction met en lumière les vifs désaccords entre les acteurs des télécommunications et les parlementaires concernant la fiscalité du numérique. La mise en place de cette taxe sur chaque gigaoctet soulève des débats sur son impact économique pour le secteur.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/tech/2365207-ignares-incompetents-xavier-niel-fustige-les-deputes-socialistes-a-lorigine-de-la-taxe-de-55-centimes-par-gigaoctet.html",
+    "publishedAt": "2026-10-31T18:02:17Z",
+    "quiz": {
+      "question": "Qui a qualifié les auteurs de la taxe d'ignares incompétents ?",
+      "choices": [
+        "Xavier Niel",
+        "Un député socialiste",
+        "Un ministre de l'économie"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le fondateur de Free a réagi sur X pour critiquer les créateurs de cette taxe."
+    }
+  },
+  {
+    "id": "rss-da8844bbf2eb",
+    "title": "Les constructeurs automobiles adoptent l'impression 3D",
+    "topic": "finance",
+    "subject": "Startups",
+    "fact": "Des fabricants automobiles comme Ford, Rivian et General Motors intensifient le recours à l'impression 3D pour fabriquer rapidement et à moindre coût des prototypes, des outils d'usine et des composants en petite série.",
+    "whyItMatters": "Cette technologie permet d'accélérer les processus de fabrication tout en réduisant les dépenses globales de production. Pour le secteur, c'est un moyen d'améliorer l'efficacité industrielle et de s'adapter plus rapidement aux besoins du marché.",
+    "summary": "Des fabricants automobiles comme Ford, Rivian et General Motors intensifient le recours à l'impression 3D pour fabriquer rapidement et à moindre coût des prototypes, des outils d'usine et des composants en petite série. Cette technologie permet d'accélérer les processus de fabrication tout en réduisant les dépenses globales de production. Pour le secteur, c'est un moyen d'améliorer l'efficacité industrielle et de s'adapter plus rapidement aux besoins du marché.",
+    "source": "CNBC",
+    "sourceURL": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+    "publishedAt": "2026-10-31T12:00:01Z",
+    "quiz": {
+      "question": "Quel est l'objectif principal de l'utilisation de l'impression 3D pour ces constructeurs ?",
+      "choices": [
+        "Réduire les coûts et gagner en rapidité",
+        "Augmenter les prix de vente",
+        "Remplacer totalement la production de masse"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait indique clairement que l'objectif est de produire plus vite et à moindre coût."
+    }
+  },
+  {
+    "id": "rss-43523836c604",
+    "title": "Fermeture prochaine de l'assistant IA respectueux de la vie privee",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Le fondateur de l'assistant intelligent Ollie annonce l'arret de son service d'ici une semaine.",
+    "whyItMatters": "Cette disparition illustre la difficulte pour les acteurs de niche de s'imposer sur un marche sature d'assistants conversationnels. Elle pose aussi la question de l'avenir des solutions technologiques placees sous le signe de la confidentialite.",
+    "summary": "Le fondateur de l'assistant intelligent Ollie annonce l'arret de son service d'ici une semaine. Cette disparition illustre la difficulte pour les acteurs de niche de s'imposer sur un marche sature d'assistants conversationnels. Elle pose aussi la question de l'avenir des solutions technologiques placees sous le signe de la confidentialite.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+    "publishedAt": "2026-10-30T22:56:13Z",
+    "quiz": {
+      "question": "Quel est le sort reserve a l'assistant Ollie ?",
+      "choices": [
+        "Il leve des fonds",
+        "Il est rachete par un geant",
+        "Il arrete ses activites"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le fondateur a annonce la fermeture de l'assistant d'ici une semaine."
+    }
+  }
+]
