@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-01T11:05:28Z",
+  "ranAt": "2026-11-01T11:11:48Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
@@ -8,14 +8,14 @@
   ],
   "newCards": 24,
   "byTopic": {
-    "tech": 13,
-    "finance": 11
+    "tech": 10,
+    "finance": 14
   },
-  "calls": 11,
-  "totalCards": 47,
+  "calls": 18,
+  "totalCards": 69,
   "candidates": {
-    "tech": 92,
-    "finance": 84
+    "tech": 78,
+    "finance": 66
   },
   "errors": []
 }

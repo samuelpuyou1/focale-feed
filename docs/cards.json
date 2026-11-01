@@ -352,6 +352,28 @@
     }
   },
   {
+    "id": "rss-5f6766346932",
+    "title": "Câbles sous-marins, des infrastructures vitales menacées",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La journaliste Marie Baléo analyse la vulnérabilité des câbles sous-marins face aux stratégies de la Russie et de la Chine.",
+    "whyItMatters": "Ces infrastructures transportent l'écrasante majorité des données mondiales et soutiennent l'économie globale. Leur sécurisation représente un enjeu géopolitique majeur pour l'Europe.",
+    "summary": "La journaliste Marie Baléo analyse la vulnérabilité des câbles sous-marins face aux stratégies de la Russie et de la Chine. Ces infrastructures transportent l'écrasante majorité des données mondiales et soutiennent l'économie globale. Leur sécurisation représente un enjeu géopolitique majeur pour l'Europe.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/monde/la-russie-reste-la-menace-principale-pour-leurope-marie-baleo-decrypte-la-guerre-invisible-qui-menace-les-cables-sous-marins-et-nos-economies_646574",
+    "publishedAt": "2026-11-01T07:00:00Z",
+    "quiz": {
+      "question": "Quelle proportion des données mondiales transitent par les câbles sous-marins ?",
+      "choices": [
+        "Plus de 90 %",
+        "Moins de 20 %",
+        "Environ 50 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "Près de 600 câbles sous-marins acheminent plus de 90 % des données mondiales."
+    }
+  },
+  {
     "id": "rss-c8c5bc01c82c",
     "title": "Le patrimoine des Américains de plus de 75 ans s'envole",
     "topic": "finance",
@@ -572,6 +594,50 @@
     }
   },
   {
+    "id": "rss-b1d1b74e2339",
+    "title": "L'intelligence artificielle s'impose dans la création de jeux vidéo",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Un responsable de Xbox a indiqué que l'intelligence artificielle est déjà largement utilisée dans l'industrie du jeu vidéo.",
+    "whyItMatters": "Cette adoption généralisée transforme les méthodes de conception et de production des studios. Elle pourrait accélérer le développement des titres tout en modifiant les métiers du secteur.",
+    "summary": "Un responsable de Xbox a indiqué que l'intelligence artificielle est déjà largement utilisée dans l'industrie du jeu vidéo. Cette adoption généralisée transforme les méthodes de conception et de production des studios. Elle pourrait accélérer le développement des titres tout en modifiant les métiers du secteur.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/",
+    "publishedAt": "2026-10-31T20:00:00Z",
+    "quiz": {
+      "question": "Quel secteur intègre déjà largement l'intelligence artificielle selon un responsable de Xbox ?",
+      "choices": [
+        "La cybersécurité",
+        "Le jeu vidéo",
+        "La construction automobile"
+      ],
+      "answerIndex": 1,
+      "explanation": "Un responsable de Xbox a révélé que l'intelligence artificielle est déjà très présente dans la création de jeux."
+    }
+  },
+  {
+    "id": "rss-8797c586d3a6",
+    "title": "Arlo lance sa première caméra intérieure motorisée et intelligente",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "La marque Arlo a introduit sa caméra de sécurité Essential 3 2K PTZ Intérieure, dotée d'une motorisation et de fonctionnalités d'intelligence artificielle.",
+    "whyItMatters": "Cet appareil offre une surveillance panoramique capable de suivre les mouvements en temps réel au sein du domicile. Cette évolution intègre des technologies avancées dans un équipement de protection grand public.",
+    "summary": "La marque Arlo a introduit sa caméra de sécurité Essential 3 2K PTZ Intérieure, dotée d'une motorisation et de fonctionnalités d'intelligence artificielle. Cet appareil offre une surveillance panoramique capable de suivre les mouvements en temps réel au sein du domicile. Cette évolution intègre des technologies avancées dans un équipement de protection grand public.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/test/3132035_test-arlo-essential-3-2k-ptz-interieure-une-camera-de-securite-mecanisee-et-boostee-a-lia",
+    "publishedAt": "2026-10-31T19:00:00Z",
+    "quiz": {
+      "question": "Quelle est la particularité principale de la nouvelle caméra Arlo testée ?",
+      "choices": [
+        "Elle fonctionne sans électricité",
+        "Elle est entièrement étanche",
+        "Elle est motorisée et intègre de l'IA"
+      ],
+      "answerIndex": 2,
+      "explanation": "La caméra pivote, suit les mouvements et utilise l'intelligence artificielle de la marque."
+    }
+  },
+  {
     "id": "rss-7d968577e0ca",
     "title": "Binance rembourse la quasi-totalité des fonds volés",
     "topic": "tech",
@@ -635,6 +701,28 @@
       ],
       "answerIndex": 2,
       "explanation": "L'entreprise a prévenu que les gains ne remonteraient pas."
+    }
+  },
+  {
+    "id": "rss-83e08bd25784",
+    "title": "Medicare teste l'intelligence artificielle pour les soins",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Medicare expérimente l'intelligence artificielle pour automatiser les pré-approbations des soins de santé et réduire les dépenses superflues.",
+    "whyItMatters": "Cette automatisation entraîne une baisse immédiate du volume de services médicaux dispensés aux patients. Elle soulève des questions cruciales sur l'accès aux soins et la gestion des budgets de santé publique.",
+    "summary": "Medicare expérimente l'intelligence artificielle pour automatiser les pré-approbations des soins de santé et réduire les dépenses superflues. Cette automatisation entraîne une baisse immédiate du volume de services médicaux dispensés aux patients. Elle soulève des questions cruciales sur l'accès aux soins et la gestion des budgets de santé publique.",
+    "source": "MarketWatch",
+    "sourceURL": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
+    "publishedAt": "2026-10-31T17:26:00Z",
+    "quiz": {
+      "question": "Quel outil Medicare teste-t-il pour les pré-approbations ?",
+      "choices": [
+        "Une application mobile",
+        "Un service de visioconférence",
+        "L'intelligence artificielle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Medicare utilise l'intelligence artificielle pour cibler les dépenses médicales inutiles."
     }
   },
   {
@@ -836,6 +924,50 @@
     }
   },
   {
+    "id": "rss-9b344567bd10",
+    "title": "L'Agence ministérielle pour l'intelligence artificielle accélère",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "L'Agence ministérielle pour l'intelligence artificielle de défense détaille ses projets en cours, incluant le système Arcadia et un partenariat avec Mistral.",
+    "whyItMatters": "L'intégration de l'intelligence artificielle dans les technologies militaires répond à un besoin accru de souveraineté et de réactivité face aux conflits modernes. Ces développements redéfinissent les stratégies de défense et les partenariats technologiques des États.",
+    "summary": "L'Agence ministérielle pour l'intelligence artificielle de défense détaille ses projets en cours, incluant le système Arcadia et un partenariat avec Mistral. L'intégration de l'intelligence artificielle dans les technologies militaires répond à un besoin accru de souveraineté et de réactivité face aux conflits modernes. Ces développements redéfinissent les stratégies de défense et les partenariats technologiques des États.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/tech/2359979-un-veritable-changement-de-paradigme-comment-lagence-ia-des-armees-planche-sur-cette-technologie-de-rupture-interview.html",
+    "publishedAt": "2026-10-31T15:58:00Z",
+    "quiz": {
+      "question": "Quel est le nom du système de commandement et de contrôle mentionné ?",
+      "choices": [
+        "Mistral",
+        "Pendragon",
+        "Arcadia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le système de commandement et de contrôle se nomme Arcadia."
+    }
+  },
+  {
+    "id": "rss-c30e2660e86a",
+    "title": "Un grand franchisé français de KFC placé en sauvegarde",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le groupe ProNoïa, exploitant une quarantaine de restaurants KFC en France, a été placé en procédure de sauvegarde par la justice.",
+    "whyItMatters": "Cette décision judiciaire met en lumière les difficultés financières rencontrées par certains grands acteurs de la restauration rapide face au poids de leur endettement. Elle soulève des questions sur la pérennité de l'emploi et la gestion des réseaux de franchise dans le secteur.",
+    "summary": "Le groupe ProNoïa, exploitant une quarantaine de restaurants KFC en France, a été placé en procédure de sauvegarde par la justice. Cette décision judiciaire met en lumière les difficultés financières rencontrées par certains grands acteurs de la restauration rapide face au poids de leur endettement. Elle soulève des questions sur la pérennité de l'emploi et la gestion des réseaux de franchise dans le secteur.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/une-quarantaine-de-restaurants-sont-concernes-a-paris-bayonne-ou-dijon-rattrape-par-sa-dette-l-un-des-principaux-franchises-de-kfc-en-france-a-ete-place-en-procedure-de-sauvegarde_AD-202610310296.html",
+    "publishedAt": "2026-10-31T15:46:10Z",
+    "quiz": {
+      "question": "Quelle mesure a été prononcée pour le groupe ProNoïa ?",
+      "choices": [
+        "Une fusion acquisition",
+        "Une procédure de sauvegarde",
+        "Une liquidation judiciaire"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le tribunal de commerce de Bordeaux a placé le groupe en procédure de sauvegarde en raison de sa dette."
+    }
+  },
+  {
     "id": "rss-5690fa4bc638",
     "title": "TikTok développe de nouvelles fonctionnalités pour devenir une super app",
     "topic": "tech",
@@ -880,6 +1012,116 @@
     }
   },
   {
+    "id": "rss-71e4047a6651",
+    "title": "B succès pour la messagerie Bitchat sans réseau mobile en France",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "L'application de messagerie Bitchat, conçue pour fonctionner sans réseau mobile, connaît un net regain de popularité en France.",
+    "whyItMatters": "Ce succès soudain s'inscrit dans un contexte de mouvements sociaux et d'appels politiques au blocage des réseaux traditionnels. Il met en lumière l'intérêt grandissant pour des alternatives de communication décentralisées.",
+    "summary": "L'application de messagerie Bitchat, conçue pour fonctionner sans réseau mobile, connaît un net regain de popularité en France. Ce succès soudain s'inscrit dans un contexte de mouvements sociaux et d'appels politiques au blocage des réseaux traditionnels. Il met en lumière l'intérêt grandissant pour des alternatives de communication décentralisées.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/bitchat-pourquoi-cette-messagerie-a-soudainement-gagne-en-popularite-en-france/",
+    "publishedAt": "2026-10-31T15:03:56Z",
+    "quiz": {
+      "question": "Pourquoi la messagerie Bitchat gagne-t-elle en popularité en France ?",
+      "choices": [
+        "Elle fonctionne sans réseau mobile",
+        "Elle offre un stockage cloud illimité",
+        "Elle intègre une intelligence artificielle générative"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'application séduit grâce à sa capacité à opérer en dehors des réseaux cellulaires traditionnels."
+    }
+  },
+  {
+    "id": "rss-bef481001c7a",
+    "title": "Alta bank perd sa licence après la défaite du pouvoir serbe",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "La Banque nationale de Serbie a retiré la licence d'Alta bank suite à la dégradation de sa situation financière après les élections.",
+    "whyItMatters": "Cette décision a provoqué une ruée de clients paniqués vers les distributeurs pour retirer leurs fonds. Elle illustre l'impact direct des soubresauts politiques sur la stabilité du secteur bancaire local.",
+    "summary": "La Banque nationale de Serbie a retiré la licence d'Alta bank suite à la dégradation de sa situation financière après les élections. Cette décision a provoqué une ruée de clients paniqués vers les distributeurs pour retirer leurs fonds. Elle illustre l'impact direct des soubresauts politiques sur la stabilité du secteur bancaire local.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/assurance-banque/des-clients-paniques-se-sont-precipites-vers-les-distributeurs-pour-recuperer-leur-argent-six-jours-apres-la-victoire-de-l-opposition-aux-elections-une-banque-serbe-reputee-proche-du-pouvoir-sortant-perd-sa-licence-bancaire_AD-202610310269.html",
+    "publishedAt": "2026-10-31T14:32:44Z",
+    "quiz": {
+      "question": "Quelle banque serbe a perdu sa licence suite aux élections ?",
+      "choices": [
+        "Alta bank",
+        "Belgrade bank",
+        "Serbian Central Bank"
+      ],
+      "answerIndex": 0,
+      "explanation": "La Banque nationale de Serbie a retiré la licence d'Alta bank en raison d'une situation financière dégradée."
+    }
+  },
+  {
+    "id": "rss-5519c3396b54",
+    "title": "Le train léger Draisy attendu sur les petites lignes d'ici 2029",
+    "topic": "finance",
+    "subject": "Startups",
+    "fact": "Soutenu par le programme France 2030, le projet de train à batterie Draisy pourrait circuler dès 2029.",
+    "whyItMatters": "Ce train poids plume vise à remplacer les rames diesel vieillissantes sur les petites lignes régionales. Il offre une alternative économique et écologique pour maintenir la desserte des zones peu denses.",
+    "summary": "Soutenu par le programme France 2030, le projet de train à batterie Draisy pourrait circuler dès 2029. Ce train poids plume vise à remplacer les rames diesel vieillissantes sur les petites lignes régionales. Il offre une alternative économique et écologique pour maintenir la desserte des zones peu denses.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/transports/draisy-pese-et-coute-moitie-moins-qu-un-ter-le-train-poids-plume-a-batterie-de-la-sncf-et-de-lohr-pourrait-circuler-des-2029-sur-les-petites-lignes-du-grand-est-et-d-occitanie_AV-202610310265.html",
+    "publishedAt": "2026-10-31T14:13:02Z",
+    "quiz": {
+      "question": "Quel est le principal avantage technologique du train Draisy ?",
+      "choices": [
+        "Il fonctionne sur batterie",
+        "Il est entièrement autonome",
+        "Il roule à l'hydrogène"
+      ],
+      "answerIndex": 0,
+      "explanation": "Draisy est un train léger fonctionnant sur batterie destiné à remplacer les locomotives diesel."
+    }
+  },
+  {
+    "id": "rss-5f4418c90437",
+    "title": "Anthropic visé par une plainte des ayants droit d'Elvis Presley",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Les détenteurs des droits des chansons d'Elvis Presley poursuivent Anthropic en justice pour l'utilisation non autorisée de leurs titres lors de l'entraînement de l'assistant Claude.",
+    "whyItMatters": "Cette affaire illustre les tensions croissantes entre les créateurs de contenus et les entreprises d'intelligence artificielle concernant le droit d'auteur. Elle pourrait fixer un précédent juridique majeur sur l'utilisation d'œuvres protégées pour former des modèles génératifs.",
+    "summary": "Les détenteurs des droits des chansons d'Elvis Presley poursuivent Anthropic en justice pour l'utilisation non autorisée de leurs titres lors de l'entraînement de l'assistant Claude. Cette affaire illustre les tensions croissantes entre les créateurs de contenus et les entreprises d'intelligence artificielle concernant le droit d'auteur. Elle pourrait fixer un précédent juridique majeur sur l'utilisation d'œuvres protégées pour former des modèles génératifs.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/les-ayants-droit-delvis-reclament-des-comptes-a-anthropic/",
+    "publishedAt": "2026-10-31T14:02:34Z",
+    "quiz": {
+      "question": "Quel montant de dommages et intérêts est réclamé à Anthropic ?",
+      "choices": [
+        "50 millions de dollars",
+        "10 millions de dollars",
+        "100 millions de dollars"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les ayants droit réclament 50 millions de dollars pour l'utilisation des chansons sans autorisation."
+    }
+  },
+  {
+    "id": "rss-7ecbddd03e68",
+    "title": "Clôture massive de plans d'épargne logement d'ici 2030",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Trois millions de plans d'épargne logement ouverts après 2011 vont fermer automatiquement d'ici la fin de la décennie.",
+    "whyItMatters": "Cette échéance oblige les épargnants concernés à réorienter leurs liquidités vers d'autres supports pour éviter une baisse de rendement. Des alternatives comme l'assurance-vie ou le plan d'épargne en actions sont mises en avant pour replacer ces capitaux.",
+    "summary": "Trois millions de plans d'épargne logement ouverts après 2011 vont fermer automatiquement d'ici la fin de la décennie. Cette échéance oblige les épargnants concernés à réorienter leurs liquidités vers d'autres supports pour éviter une baisse de rendement. Des alternatives comme l'assurance-vie ou le plan d'épargne en actions sont mises en avant pour replacer ces capitaux.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/argent-et-placements/3-millions-de-pel-vont-etre-automatiquement-clotures-dici-2030-ou-placer-son-argent-pour-eviter-quil-ne-dorme-sur-un-livret-peu-remunerateur_646552",
+    "publishedAt": "2026-10-31T14:00:00Z",
+    "quiz": {
+      "question": "Quel type de placement est concerné par ces fermetures automatiques d'ici 2030 ?",
+      "choices": [
+        "Les PEL ouverts après 2011",
+        "Les plans d'épargne en actions",
+        "Les livrets A"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article précise la fermeture automatique des plans d'épargne logement ouverts après 2011."
+    }
+  },
+  {
     "id": "rss-0c70c4417841",
     "title": "Résilience des banques françaises malgré un contexte économique incertain",
     "topic": "finance",
@@ -899,6 +1141,28 @@
       ],
       "answerIndex": 0,
       "explanation": "L'article précise que c'est notamment grâce à leur diversification internationale que les banques ont affiché de bons résultats."
+    }
+  },
+  {
+    "id": "rss-72153e6d10b0",
+    "title": "Un homme quitte tout pour retrouver une compagne générée par IA",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Un homme au Brésil a vendu ses biens et parcouru des milliers de kilomètres pour rejoindre une femme qui s'est avérée être un personnage virtuel créé par intelligence artificielle.",
+    "whyItMatters": "Ce fait divers met en lumière la confusion croissante entre réalité et contenus synthétiques générés par les réseaux sociaux. Il interroge sur la vulnérabilité des utilisateurs face aux créations numériques ultra-réalistes.",
+    "summary": "Un homme au Brésil a vendu ses biens et parcouru des milliers de kilomètres pour rejoindre une femme qui s'est avérée être un personnage virtuel créé par intelligence artificielle. Ce fait divers met en lumière la confusion croissante entre réalité et contenus synthétiques générés par les réseaux sociaux. Il interroge sur la vulnérabilité des utilisateurs face aux créations numériques ultra-réalistes.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/il-lache-tout-pour-rejoindre-sa-promise-qui-etait-une-creation-de-lia/",
+    "publishedAt": "2026-10-31T13:02:56Z",
+    "quiz": {
+      "question": "Quelle était la profession de l'homme concerné ?",
+      "choices": [
+        "Développeur",
+        "Maçon",
+        "Journaliste"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'homme concerné est un maçon brésilien de 49 ans."
     }
   },
   {
@@ -946,6 +1210,94 @@
     }
   },
   {
+    "id": "rss-85b05f4073bf",
+    "title": "Incident de cybersécurité chez le spécialiste blockchain Chainalysis",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "La société d'analyse de la blockchain Chainalysis a subi une violation de données personnelles non sensibles.",
+    "whyItMatters": "Cet incident met en lumière les risques persistants pesant sur les infrastructures de sécurité et d'analyse des actifs numériques. Des informations d'identification d'utilisateurs ont notamment été exposées lors de cet événement.",
+    "summary": "La société d'analyse de la blockchain Chainalysis a subi une violation de données personnelles non sensibles. Cet incident met en lumière les risques persistants pesant sur les infrastructures de sécurité et d'analyse des actifs numériques. Des informations d'identification d'utilisateurs ont notamment été exposées lors de cet événement.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-10-31T11:22:49Z",
+    "quiz": {
+      "question": "Quel type de données a été exposé lors de l'incident chez Chainalysis ?",
+      "choices": [
+        "Des données non sensibles d'utilisateurs",
+        "Des clés privées de portefeuilles",
+        "Des fonds en cryptomonnaies"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'entreprise a indiqué que des identifiants, noms et adresses e-mail non sensibles avaient été exposés."
+    }
+  },
+  {
+    "id": "rss-d405f077f114",
+    "title": "Fitch maintient la note de la France mais menace d'un abaissement",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'agence Fitch a conservé la note de la dette française tout en prévenant d'une possible baisse future.",
+    "whyItMatters": "Cette menace reflète la détérioration continue de la situation budgétaire du pays. Elle pèse sur la confiance des investisseurs et le coût de financement de l'État sur les marchés.",
+    "summary": "L'agence Fitch a conservé la note de la dette française tout en prévenant d'une possible baisse future. Cette menace reflète la détérioration continue de la situation budgétaire du pays. Elle pèse sur la confiance des investisseurs et le coût de financement de l'État sur les marchés.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/economie/avertissement-sans-frais-de-fitch-ou-en-sont-les-notes-de-la-dette-francaise_646721",
+    "publishedAt": "2026-10-31T11:00:00Z",
+    "quiz": {
+      "question": "Quelle agence a menacé d'abaisser la note de la dette française ?",
+      "choices": [
+        "Fitch",
+        "Moody's",
+        "Standard & Poor's"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fitch a maintenu sa note tout en prévenant d'un risque d'abaissement face à la situation budgétaire."
+    }
+  },
+  {
+    "id": "rss-00f763513a5c",
+    "title": "Google Chrome utilise l'intelligence artificielle pour les formulaires",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Le navigateur Google Chrome intègre l'intelligence artificielle Gemini pour récupérer automatiquement des informations dans les e-mails et remplir les formulaires en ligne.",
+    "whyItMatters": "Cette nouveauté supprime une corvée récurrente pour les internautes en automatisant la saisie de données précises. Toutefois, les utilisateurs européens devront patienter en raison des restrictions réglementaires locales.",
+    "summary": "Le navigateur Google Chrome intègre l'intelligence artificielle Gemini pour récupérer automatiquement des informations dans les e-mails et remplir les formulaires en ligne. Cette nouveauté supprime une corvée récurrente pour les internautes en automatisant la saisie de données précises. Toutefois, les utilisateurs européens devront patienter en raison des restrictions réglementaires locales.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/google-chrome-vient-de-tuer-lune-des-corvees-les-plus-penibles-dinternet-fouiller-les-e-mails-pour-remplir-un-formulaire-en-ligne/",
+    "publishedAt": "2026-10-31T08:31:39Z",
+    "quiz": {
+      "question": "Quelle technologie permet à Chrome de remplir les formulaires ?",
+      "choices": [
+        "Une extension anti-spam",
+        "Gemini",
+        "Un module complémentaire payant"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'intelligence artificielle Gemini est utilisée pour trouver les informations nécessaires dans les e-mails."
+    }
+  },
+  {
+    "id": "rss-b465353f4923",
+    "title": "Adrien Bilal lauréat du Prix du meilleur jeune économiste 2026",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'économiste Adrien Bilal a reçu le Prix du meilleur jeune économiste 2026 pour ses travaux sur le climat et la croissance.",
+    "whyItMatters": "Ses recherches démontrent que réduire les émissions de CO2 reste rentable pour préserver la croissance face aux coûts du réchauffement. Ces conclusions éclairent les choix budgétaires futurs des gouvernements.",
+    "summary": "L'économiste Adrien Bilal a reçu le Prix du meilleur jeune économiste 2026 pour ses travaux sur le climat et la croissance. Ses recherches démontrent que réduire les émissions de CO2 reste rentable pour préserver la croissance face aux coûts du réchauffement. Ces conclusions éclairent les choix budgétaires futurs des gouvernements.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/idees/article/2026/10/31/adrien-bilal-prix-du-meilleur-jeune-economiste-2026-la-croissance-n-est-pas-l-adversaire-de-la-politique-climatique-c-est-meme-l-inverse_6803479_3232.html",
+    "publishedAt": "2026-10-31T08:30:07Z",
+    "quiz": {
+      "question": "Quel est le thème principal des travaux d'Adrien Bilal primés en 2026 ?",
+      "choices": [
+        "Le chômage de masse",
+        "L'inflation et la monnaie",
+        "Le climat et la croissance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Il analyse l'impact du réchauffement climatique sur la croissance économique et la rentabilité de la transition."
+    }
+  },
+  {
     "id": "rss-143ec005fd3b",
     "title": "Elon Musk prédit la fin de l'épargne retraite grâce à l'IA",
     "topic": "tech",
@@ -965,6 +1317,182 @@
       ],
       "answerIndex": 1,
       "explanation": "Elon Musk parie que les progrès de l'IA transformeront l'économie au point de rendre l'épargne inutile."
+    }
+  },
+  {
+    "id": "rss-bbfdc0ee8f63",
+    "title": "Alerte à la fraude WhatsApp via un faux concours",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "La gendarmerie nationale met en garde contre une escroquerie sur WhatsApp utilisant un faux concours de danse pour pirater les comptes.",
+    "whyItMatters": "Cette technique de manipulation pousse les utilisateurs à compromettre la sécurité de leur messagerie en voulant participer à un vote. La vigilance reste de mise face à ces sollicitations frauduleuses.",
+    "summary": "La gendarmerie nationale met en garde contre une escroquerie sur WhatsApp utilisant un faux concours de danse pour pirater les comptes. Cette technique de manipulation pousse les utilisateurs à compromettre la sécurité de leur messagerie en voulant participer à un vote. La vigilance reste de mise face à ces sollicitations frauduleuses.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/attention-a-ce-message-whatsapp-il-permet-aux-pirates-de-prendre-le-controle-de-votre-compte.html",
+    "publishedAt": "2026-10-31T08:00:22Z",
+    "quiz": {
+      "question": "Quel stratagème est utilisé pour piéger les victimes sur WhatsApp ?",
+      "choices": [
+        "Une offre de cryptomonnaie gratuite",
+        "Une fausse mise à jour de l'application",
+        "Un faux concours de danse"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les pirates utilisent un faux concours de danse pour inciter à voter et prendre le contrôle du compte."
+    }
+  },
+  {
+    "id": "rss-32d5cc83490c",
+    "title": "L'État français face au défi de la rationalisation de l'IA",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'administration française déploie de multiples outils d'intelligence artificielle de manière dispersée, entraînant des coûts et des efficacités variables.",
+    "whyItMatters": "Cette situation met en lumière un décalage entre les ambitions technologiques affichées et les moyens financiers réellement alloués. Une réorganisation s'avère indispensable pour optimiser la dépense publique, bien qu'elle suscite des inquiétudes syndicales.",
+    "summary": "L'administration française déploie de multiples outils d'intelligence artificielle de manière dispersée, entraînant des coûts et des efficacités variables. Cette situation met en lumière un décalage entre les ambitions technologiques affichées et les moyens financiers réellement alloués. Une réorganisation s'avère indispensable pour optimiser la dépense publique, bien qu'elle suscite des inquiétudes syndicales.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/tech-numerique/on-a-les-ambitions-des-etats-unis-mais-le-budget-du-bangladesh-la-machine-ia-au-coeur-de-letat_646673",
+    "publishedAt": "2026-10-31T08:00:00Z",
+    "quiz": {
+      "question": "Comment l'administration développe-t-elle ses outils d'intelligence artificielle ?",
+      "choices": [
+        "De manière centralisée",
+        "En ordre dispersé",
+        "Par un prestataire unique"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les ministères développent de nombreux outils de façon éparse, ce qui nécessite une phase de rationalisation."
+    }
+  },
+  {
+    "id": "rss-0e051776e427",
+    "title": "Apple officialise un MacBook Pro doté d'un écran tactile",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "La marque Apple a commercialisé un MacBook Pro équipé d'un écran tactile, contredisant ses positions passées.",
+    "whyItMatters": "Ce lancement marque un changement stratégique majeur pour l'entreprise qui jugeait autrefois cette ergonomie inadaptée. Il redéfinit l'expérience utilisateur sur les ordinateurs portables de la marque.",
+    "summary": "La marque Apple a commercialisé un MacBook Pro équipé d'un écran tactile, contredisant ses positions passées. Ce lancement marque un changement stratégique majeur pour l'entreprise qui jugeait autrefois cette ergonomie inadaptée. Il redéfinit l'expérience utilisateur sur les ordinateurs portables de la marque.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/un-virage-radical-apple-explique-pourquoi-il-lance-finalement-un-macbook-tactile/",
+    "publishedAt": "2026-10-31T07:01:12Z",
+    "quiz": {
+      "question": "Quel type d'ordinateur Apple vient-il de lancer avec un écran tactile ?",
+      "choices": [
+        "Un MacBook Air",
+        "Un iMac",
+        "Un MacBook Pro"
+      ],
+      "answerIndex": 2,
+      "explanation": "Apple a introduit un écran tactile sur son modèle MacBook Pro."
+    }
+  },
+  {
+    "id": "rss-60de3a0c2e7c",
+    "title": "La Chine durcit le ton contre la démesure technologique automobile",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "La Chine durcit sa réglementation pour limiter la prolifération des technologies jugées excessives à bord des véhicules.",
+    "whyItMatters": "Cette mesure vise à contrer la surenchère d'équipements électroniques et d'écrans géants dans l'habitacle. Elle pourrait obliger les constructeurs automobiles à repenser la conception de leurs futurs modèles.",
+    "summary": "La Chine durcit sa réglementation pour limiter la prolifération des technologies jugées excessives à bord des véhicules. Cette mesure vise à contrer la surenchère d'équipements électroniques et d'écrans géants dans l'habitacle. Elle pourrait obliger les constructeurs automobiles à repenser la conception de leurs futurs modèles.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/adieu-ecrans-geants-gadgets-inutiles-chine-durcit-ton-face-demesure-automobile.html",
+    "publishedAt": "2026-10-31T07:00:33Z",
+    "quiz": {
+      "question": "Quel équipement automobile est notamment visé par la nouvelle position de la Chine ?",
+      "choices": [
+        "Les moteurs électriques",
+        "Les ceintures de sécurité",
+        "Les écrans démesurés"
+      ],
+      "answerIndex": 2,
+      "explanation": "La Chine souhaite lutter contre la multiplication des technologies superflues, dont les écrans géants."
+    }
+  },
+  {
+    "id": "rss-455a59d7e960",
+    "title": "Saint-Nazaire surpasse Nantes sur le marché locatif",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le marché immobilier de Saint-Nazaire enregistre une forte attractivité avec une hausse des prix des appartements de 40,5 % en dix ans.",
+    "whyItMatters": "Cette dynamique locale illustre le report de l'investissement locatif vers des villes portuaires au détriment des grandes métropoles régionales comme Nantes, où le marché ralentit. Elle redéfinit la rentabilité pour les investisseurs immobiliers.",
+    "summary": "Le marché immobilier de Saint-Nazaire enregistre une forte attractivité avec une hausse des prix des appartements de 40,5 % en dix ans. Cette dynamique locale illustre le report de l'investissement locatif vers des villes portuaires au détriment des grandes métropoles régionales comme Nantes, où le marché ralentit. Elle redéfinit la rentabilité pour les investisseurs immobiliers.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/immobilier/linvestissement-locatif-est-plus-rentable-a-saint-nazaire-qua-nantes-comment-la-ville-portuaire-est-devenue-un-marche-immobilier-attractif_646702",
+    "publishedAt": "2026-10-31T06:30:00Z",
+    "quiz": {
+      "question": "Quelle ville voit son marché immobilier stagner face à Saint-Nazaire ?",
+      "choices": [
+        "Brest",
+        "Rennes",
+        "Nantes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le marché immobilier tourne au ralenti à Nantes tandis que Saint-Nazaire affiche une forte croissance."
+    }
+  },
+  {
+    "id": "rss-7d23ac08bc64",
+    "title": "Le bail réel solidaire pour acheter sans le terrain",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le dispositif du bail réel solidaire dissocie l'achat du bâti de celui du terrain pour faciliter l'accès à la propriété.",
+    "whyItMatters": "Cette formule permet de réduire significativement le coût initial d'acquisition d'un bien immobilier pour les ménages. Elle offre ainsi une alternative accessible dans un contexte de tension sur le marché foncier.",
+    "summary": "Le dispositif du bail réel solidaire dissocie l'achat du bâti de celui du terrain pour faciliter l'accès à la propriété. Cette formule permet de réduire significativement le coût initial d'acquisition d'un bien immobilier pour les ménages. Elle offre ainsi une alternative accessible dans un contexte de tension sur le marché foncier.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/argent/article/2026/10/31/peut-on-acheter-un-logement-sans-devenir-proprietaire-du-terrain_6803390_1657007.html",
+    "publishedAt": "2026-10-31T05:00:12Z",
+    "quiz": {
+      "question": "Que sépare le bail réel solidaire ?",
+      "choices": [
+        "Le neuf et l'ancien",
+        "Le bâti et le terrain",
+        "Le loyer et les charges"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le bail réel solidaire dissocie l'achat de la construction de celui du terrain."
+    }
+  },
+  {
+    "id": "rss-2fc373f9a604",
+    "title": "Le coût exorbitant des crèches et gardes à New York",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La garde d'enfants en bas âge accapare jusqu'à 40 % du budget des familles new-yorkaises, poussant nombre d'entre elles vers l'aide publique.",
+    "whyItMatters": "La cherté des structures d'accueil pèse lourdement sur le pouvoir d'achat et la natalité dans les grandes métropoles américaines. Cette situation met en lumière la dépendance croissante des foyers envers les dispositifs d'assistance étatiques.",
+    "summary": "La garde d'enfants en bas âge accapare jusqu'à 40 % du budget des familles new-yorkaises, poussant nombre d'entre elles vers l'aide publique. La cherté des structures d'accueil pèse lourdement sur le pouvoir d'achat et la natalité dans les grandes métropoles américaines. Cette situation met en lumière la dépendance croissante des foyers envers les dispositifs d'assistance étatiques.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/10/31/a-new-york-le-prix-des-creches-et-des-ecoles-et-des-structures-de-garde-est-si-exorbitant-qu-avoir-un-enfant-est-devenu-un-luxe_6803386_3234.html",
+    "publishedAt": "2026-10-31T04:30:15Z",
+    "quiz": {
+      "question": "Quelle part du budget familial la garde d'enfants peut-elle représenter à New York ?",
+      "choices": [
+        "30 % à 40 %",
+        "10 % à 15 %",
+        "50 % à 60 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "La garde des enfants en bas âge représente entre 30 % et 40 % du budget des familles new-yorkaises."
+    }
+  },
+  {
+    "id": "rss-728e0c2efd76",
+    "title": "La guerre au Moyen-Orient fait exploser les tarifs du fret pétrolier",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "La raréfaction des navires et l'allongement des trajets liés au conflit font bondir les prix du transport de pétrole.",
+    "whyItMatters": "Cette situation perturbe les chaînes logistiques mondiales et pèse lourdement sur les coûts de l'énergie. Les entreprises du secteur doivent réorganiser leurs flux pour s'adapter à cette nouvelle donne géopolitique.",
+    "summary": "La raréfaction des navires et l'allongement des trajets liés au conflit font bondir les prix du transport de pétrole. Cette situation perturbe les chaînes logistiques mondiales et pèse lourdement sur les coûts de l'énergie. Les entreprises du secteur doivent réorganiser leurs flux pour s'adapter à cette nouvelle donne géopolitique.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/10/31/penurie-de-navires-et-tarifs-record-comment-la-guerre-au-moyen-orient-fait-bondir-les-prix-du-transport-de-petrole_6803378_3234.html",
+    "publishedAt": "2026-10-31T04:00:48Z",
+    "quiz": {
+      "question": "Quel est l'impact direct du conflit au Moyen-Orient sur le transport pétrolier ?",
+      "choices": [
+        "Une baisse des tarifs du fret",
+        "Un arrêt total des exportations",
+        "Une hausse des tarifs du fret"
+      ],
+      "answerIndex": 2,
+      "explanation": "La raréfaction des navires et les détours provoquent une envolée des prix du transport."
     }
   },
   {
