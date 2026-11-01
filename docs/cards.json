@@ -1,5 +1,27 @@
 [
   {
+    "id": "rss-54c625b0e4e9",
+    "title": "Les cryptomonnaies adoptées par 11 % des Français",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Onze pour cent des Français détiennent désormais des cryptomonnaies, un marché qui profite d'un encadrement par un règlement européen.",
+    "whyItMatters": "Les actifs numériques séduisent une clientèle plus jeune qui y voit un outil de diversification pour son épargne. Cette professionnalisation progressive du secteur renforce sa légitimité auprès du grand public.",
+    "summary": "Onze pour cent des Français détiennent désormais des cryptomonnaies, un marché qui profite d'un encadrement par un règlement européen. Les actifs numériques séduisent une clientèle plus jeune qui y voit un outil de diversification pour son épargne. Cette professionnalisation progressive du secteur renforce sa légitimité auprès du grand public.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/argent-et-placements/11-des-francais-detiennent-des-cryptomonnaies-comment-investir-dans-le-bitcoin-et-les-autres-actifs-numeriques-sans-mettre-son-epargne-en-danger_646553",
+    "publishedAt": "2026-11-01T11:00:00Z",
+    "quiz": {
+      "question": "Quelle part des Français détient des cryptomonnaies ?",
+      "choices": [
+        "20 %",
+        "5 %",
+        "11 %"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article indique que 11 pour cent des Français possèdent des actifs numériques."
+    }
+  },
+  {
     "id": "rss-81c96a17e26e",
     "title": "Hausse de 7% des ventes de voitures neuves",
     "topic": "finance",
@@ -198,6 +220,28 @@
     }
   },
   {
+    "id": "rss-2a9c054dc572",
+    "title": "Reddit envisage de rendre la connexion obligatoire",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le dirigeant de Reddit a annoncé son intention d'exiger la création d'un compte pour consulter la plupart des publications.",
+    "whyItMatters": "Cette mesure modifierait radicalement l'accès à l'information sur l'une des plus grandes plateformes de discussion en ligne. Elle soulève des questions sur la confidentialité des utilisateurs et l'ouverture du web.",
+    "summary": "Le dirigeant de Reddit a annoncé son intention d'exiger la création d'un compte pour consulter la plupart des publications. Cette mesure modifierait radicalement l'accès à l'information sur l'une des plus grandes plateformes de discussion en ligne. Elle soulève des questions sur la confidentialité des utilisateurs et l'ouverture du web.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/culture-tech/web/3304783_reddit-bientot-accessible-uniquement-si-vous-etes-connecte-la-decision-du-reseau-social-divise",
+    "publishedAt": "2026-11-01T09:03:00Z",
+    "quiz": {
+      "question": "Que prévoit de rendre obligatoire Reddit pour ses contenus ?",
+      "choices": [
+        "La connexion à un compte",
+        "L'installation d'une application",
+        "Un abonnement payant"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le réseau social souhaite exiger d'être connecté pour voir la majorité des contenus."
+    }
+  },
+  {
     "id": "rss-b5efb87ef285",
     "title": "La bonne santé inattendue de l'économie britannique saluée par le FMI",
     "topic": "finance",
@@ -286,6 +330,28 @@
     }
   },
   {
+    "id": "rss-4553fd58eef7",
+    "title": "Volkswagen lance l'ID. Unyx 09 en Chine",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Volkswagen commercialise en Chine sa grande limousine électrique ID. Unyx 09 à partir de 24 000 euros.",
+    "whyItMatters": "Ce tarif agressif et cette importante autonomie de 755 kilomètres pourraient redéfinir la concurrence si le véhicule arrive en Europe. Cela illustre la pression exercée par les constructeurs pour rendre l'électrique plus accessible.",
+    "summary": "Volkswagen commercialise en Chine sa grande limousine électrique ID. Unyx 09 à partir de 24 000 euros. Ce tarif agressif et cette importante autonomie de 755 kilomètres pourraient redéfinir la concurrence si le véhicule arrive en Europe. Cela illustre la pression exercée par les constructeurs pour rendre l'électrique plus accessible.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/facturee-24-000-euros-impressionnante-limousine-volkswagen-pourrait-arriver-europe.html",
+    "publishedAt": "2026-11-01T07:00:38Z",
+    "quiz": {
+      "question": "Quel est le prix de départ de la limousine Volkswagen ID. Unyx 09 en Chine ?",
+      "choices": [
+        "15 000 euros",
+        "45 000 euros",
+        "24 000 euros"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le véhicule est vendu à partir de 24 000 euros sur le marché chinois."
+    }
+  },
+  {
     "id": "rss-c8c5bc01c82c",
     "title": "Le patrimoine des Américains de plus de 75 ans s'envole",
     "topic": "finance",
@@ -327,6 +393,50 @@
       ],
       "answerIndex": 0,
       "explanation": "L'extrait mentionne explicitement que la Cour des comptes alerte sur le financement de la Sécurité sociale."
+    }
+  },
+  {
+    "id": "rss-42b231ec63e3",
+    "title": "Baisse des prix des carburants à la pompe dès novembre",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement libère des barils issus des réserves stratégiques pour faire baisser les prix des carburants dès ce premier novembre.",
+    "whyItMatters": "Cette mesure vise à réduire le coût du plein pour les automobilistes avec une économie estimée entre 12 et 18 centimes par litre. Elle illustre l'impact direct des interventions étatiques sur le pouvoir d'achat face à la cherté des produits pétroliers.",
+    "summary": "Le gouvernement libère des barils issus des réserves stratégiques pour faire baisser les prix des carburants dès ce premier novembre. Cette mesure vise à réduire le coût du plein pour les automobilistes avec une économie estimée entre 12 et 18 centimes par litre. Elle illustre l'impact direct des interventions étatiques sur le pouvoir d'achat face à la cherté des produits pétroliers.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/video-carburants-des-prix-a-la-pompe-en-baisse-des-ce-dimanche-1er-novembre_VN-202611010117.html",
+    "publishedAt": "2026-11-01T05:40:20Z",
+    "quiz": {
+      "question": "Quelle est l'origine de la baisse des prix du carburant annoncée ?",
+      "choices": [
+        "La hausse de la production des raffineries",
+        "Une baisse des taxes sur les produits pétroliers",
+        "La libération de barils des réserves stratégiques"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le gouvernement utilise les réserves stratégiques vendues sous les prix du marché pour faire baisser les tarifs."
+    }
+  },
+  {
+    "id": "rss-5f271a88afaa",
+    "title": "Évolution des horaires d'heures creuses d'électricité",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Onze millions de foyers français utilisant les heures creuses pour leurs appareils devront adapter leurs habitudes cette semaine suite à des modifications d'horaires.",
+    "whyItMatters": "Cette modification bouscule une routine énergétique bien installée pour la gestion de la facture d'électricité. Elle intervient alors que l'optimisation de la consommation nocturne est un enjeu clé pour les usagers.",
+    "summary": "Onze millions de foyers français utilisant les heures creuses pour leurs appareils devront adapter leurs habitudes cette semaine suite à des modifications d'horaires. Cette modification bouscule une routine énergétique bien installée pour la gestion de la facture d'électricité. Elle intervient alors que l'optimisation de la consommation nocturne est un enjeu clé pour les usagers.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/video-electricite-de-nouveaux-horaires-pour-les-heures-creuses-des-cette-semaine_VN-202611010114.html",
+    "publishedAt": "2026-11-01T05:30:15Z",
+    "quiz": {
+      "question": "Combien de foyers français sont concernés par l'usage des heures creuses ?",
+      "choices": [
+        "5 millions",
+        "25 millions",
+        "11 millions"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article précise que cette habitude est ancrée chez 11 millions de Français."
     }
   },
   {
@@ -374,6 +484,28 @@
     }
   },
   {
+    "id": "rss-6dbca3cb8b4e",
+    "title": "Changements du mois de novembre pour les consommateurs",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Plusieurs évolutions tarifaires et réglementaires entrent en vigueur en ce début de mois de novembre.",
+    "whyItMatters": "Ces changements modifient directement le pouvoir d'achat des ménages entre hausse des factures énergétiques et revalorisation des pensions. Ils nécessitent une adaptation rapide des budgets individuels face à ces nouvelles charges.",
+    "summary": "Plusieurs évolutions tarifaires et réglementaires entrent en vigueur en ce début de mois de novembre. Ces changements modifient directement le pouvoir d'achat des ménages entre hausse des factures énergétiques et revalorisation des pensions. Ils nécessitent une adaptation rapide des budgets individuels face à ces nouvelles charges.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/argent/article/2026/11/01/ce-qui-change-le-1-novembre-gaz-credit-a-la-consommation-expulsions-locatives-petits-colis-retraites-complementaires_6803973_1657007.html",
+    "publishedAt": "2026-11-01T04:00:35Z",
+    "quiz": {
+      "question": "Quelle mesure financière concerne directement le secteur privé en novembre ?",
+      "choices": [
+        "La revalorisation des pensions",
+        "La suppression totale des taxes",
+        "Le gel des crédits bancaires"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les pensions du secteur privé font partie des éléments revalorisés en ce début de mois."
+    }
+  },
+  {
     "id": "rss-a8e3b1a57cd2",
     "title": "Les data centers s'invitent dans le débat politique local",
     "topic": "tech",
@@ -393,6 +525,28 @@
       ],
       "answerIndex": 2,
       "explanation": "L'article indique que les conversations ont constamment tourné autour de l'intelligence artificielle et des centres de données."
+    }
+  },
+  {
+    "id": "rss-eb5581ae1b1b",
+    "title": "Modification discrète d'Amazon sur les anciens Echo",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Amazon a opéré un changement discret réduisant l'utilité de l'entrée auxiliaire sur ses anciens haut-parleurs Echo.",
+    "whyItMatters": "Cette mise à jour contraint les utilisateurs à reconsidérer l'organisation de leur installation audio domestique. Elle illustre la dépendance des équipements connectés envers les décisions logicielles des fabricants.",
+    "summary": "Amazon a opéré un changement discret réduisant l'utilité de l'entrée auxiliaire sur ses anciens haut-parleurs Echo. Cette mise à jour contraint les utilisateurs à reconsidérer l'organisation de leur installation audio domestique. Elle illustre la dépendance des équipements connectés envers les décisions logicielles des fabricants.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
+    "publishedAt": "2026-11-01T00:00:00Z",
+    "quiz": {
+      "question": "Quel composant des anciens appareils Echo a été rendu moins utile ?",
+      "choices": [
+        "Le microphone",
+        "L'entrée auxiliaire",
+        "La connexion Wi-Fi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Amazon a modifié l'utilité de l'entrée auxiliaire sur ses anciens haut-parleurs Echo."
     }
   },
   {
@@ -484,6 +638,336 @@
     }
   },
   {
+    "id": "rss-03537aec5ffa",
+    "title": "La location de Mac pour l'IA s'avère peu rentable",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Les gains promis aux utilisateurs louant la puissance de leur Mac pour l'intelligence artificielle se sont révélés extrêmement faibles.",
+    "whyItMatters": "Ce projet qui promettait un complément de revenus montre les difficultés de décentraliser le calcul pour l'IA à grande échelle. Les participants se retrouvent avec des retours financiers bien inférieurs aux attentes.",
+    "summary": "Les gains promis aux utilisateurs louant la puissance de leur Mac pour l'intelligence artificielle se sont révélés extrêmement faibles. Ce projet qui promettait un complément de revenus montre les difficultés de décentraliser le calcul pour l'IA à grande échelle. Les participants se retrouvent avec des retours financiers bien inférieurs aux attentes.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/jusqua-200-dollars-par-mois-en-louant-son-mac-a-lia-deux-mois-apres-le-reve-seffondre.html",
+    "publishedAt": "2026-10-31T17:52:15Z",
+    "quiz": {
+      "question": "Qu'en est-il des revenus promis pour la location des Mac ?",
+      "choices": [
+        "Ils dépassent les prévisions",
+        "Ils sont restés conformes",
+        "Ils se sont révélés très maigres"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'entreprise a prévenu que les gains ne remonteraient pas."
+    }
+  },
+  {
+    "id": "rss-d87929c9fc3c",
+    "title": "Clichy prépare l'expérimentation de taxis autonomes avec G7 et Milla",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "La ville de Clichy, la compagnie G7 et le fabricant Milla préparent un projet pour tester des véhicules autonomes.",
+    "whyItMatters": "Cette initiative vise à expérimenter la mobilité sans chauffeur pour fluidifier les déplacements urbains du quotidien. Elle témoigne de la volonté progressive des municipalités d'intégrer les technologies de transport autonome.",
+    "summary": "La ville de Clichy, la compagnie G7 et le fabricant Milla préparent un projet pour tester des véhicules autonomes. Cette initiative vise à expérimenter la mobilité sans chauffeur pour fluidifier les déplacements urbains du quotidien. Elle témoigne de la volonté progressive des municipalités d'intégrer les technologies de transport autonome.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/clichy-veut-des-robotaxis/",
+    "publishedAt": "2026-10-31T17:02:07Z",
+    "quiz": {
+      "question": "Quel type de véhicule est concerné par le projet à Clichy ?",
+      "choices": [
+        "Des bus volants",
+        "Des vélos connectés",
+        "Des véhicules électriques autonomes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le projet porte sur des véhicules électriques autonomes pour les petits trajets."
+    }
+  },
+  {
+    "id": "rss-67446eac7d1e",
+    "title": "La course aux data centers IA menace les efforts écologiques",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Une étude indique que les géants de la tech se tournent à nouveau vers les énergies fossiles pour alimenter leurs supercalculateurs.",
+    "whyItMatters": "Ce recours aux énergies polluantes risque d'annuler de nombreuses années de progrès en matière d'écologie. C'est un défi majeur pour concilier le développement de l'intelligence artificielle et la transition énergétique.",
+    "summary": "Une étude indique que les géants de la tech se tournent à nouveau vers les énergies fossiles pour alimenter leurs supercalculateurs. Ce recours aux énergies polluantes risque d'annuler de nombreuses années de progrès en matière d'écologie. C'est un défi majeur pour concilier le développement de l'intelligence artificielle et la transition énergétique.",
+    "source": "Presse-citron",
+    "sourceURL": "https://www.presse-citron.net/15-ans-defforts-ecologiques-balayes-par-la-course-aux-data-centers-ia-cette-etude-fait-froid-dans-le-dos/",
+    "publishedAt": "2026-10-31T17:00:13Z",
+    "quiz": {
+      "question": "Quel type d'énergie est à nouveau sollicité par les géants de la tech selon l'étude ?",
+      "choices": [
+        "Les énergies fossiles",
+        "L'énergie éolienne",
+        "L'énergie solaire"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'étude souligne que la tech se tourne vers les énergies fossiles pour faire tourner rapidement ses supercalculateurs."
+    }
+  },
+  {
+    "id": "rss-2dbbde83c6c4",
+    "title": "Le modèle économique des voiliers Imoca fragilisé par l'innovation",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le marché des Imoca subit une hausse des coûts et des difficultés de vente liée à la surenchère technologique avant le Vendée Globe 2028.",
+    "whyItMatters": "Cette situation met en péril l'équilibre financier des équipes et la recherche de sponsors dans la course au large. Elle illustre comment la course à la performance peut menacer la pérennité d'un secteur sportif professionnel.",
+    "summary": "Le marché des Imoca subit une hausse des coûts et des difficultés de vente liée à la surenchère technologique avant le Vendée Globe 2028. Cette situation met en péril l'équilibre financier des équipes et la recherche de sponsors dans la course au large. Elle illustre comment la course à la performance peut menacer la pérennité d'un secteur sportif professionnel.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/sports/route-du-rhum-vendee-globe-pourquoi-le-marche-des-imoca-surchauffe-fragilise-par-la-course-a-linnovation_646687",
+    "publishedAt": "2026-10-31T17:00:00Z",
+    "quiz": {
+      "question": "Quel événement sportif met en lumière les difficultés financières des Imoca ?",
+      "choices": [
+        "Le Vendée Globe",
+        "La Coupe de l'America",
+        "Le Trophée Jules Verne"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article mentionne le Vendée Globe 2028 et la Route du Rhum pour illustrer la surchauffe du marché des Imoca."
+    }
+  },
+  {
+    "id": "rss-d67bb234dc82",
+    "title": "OpenAI critique la mémoire vive locale des ordinateurs",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Le dirigeant d'OpenAI estime regrettable que la mémoire vive des ordinateurs personnels ne soit pas centralisée dans des data centers.",
+    "whyItMatters": "Cette vision remet en cause le modèle actuel de l'informatique personnelle où chaque machine gère ses propres ressources. Elle intervient dans un contexte de forte tension sur les prix et la disponibilité des composants de mémoire.",
+    "summary": "Le dirigeant d'OpenAI estime regrettable que la mémoire vive des ordinateurs personnels ne soit pas centralisée dans des data centers. Cette vision remet en cause le modèle actuel de l'informatique personnelle où chaque machine gère ses propres ressources. Elle intervient dans un contexte de forte tension sur les prix et la disponibilité des composants de mémoire.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/le-patron-dopenai-juge-terrible-que-votre-pc-garde-sa-propre-ram-et-prefererait-la-voir-dans-ses-datacenters.html",
+    "publishedAt": "2026-10-31T16:50:53Z",
+    "quiz": {
+      "question": "Où le patron d'OpenAI voudrait-il voir la mémoire vive des ordinateurs ?",
+      "choices": [
+        "Dans les consoles de jeux",
+        "Dans les smartphones",
+        "Dans ses data centers"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le responsable juge regrettable que les PC gardent leur propre mémoire vive au lieu de l'exploiter dans des data centers."
+    }
+  },
+  {
+    "id": "rss-344dcf79744a",
+    "title": "OpenAI revoit ses ambitions de financement à la baisse",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "La dernière levée de fonds d'OpenAI ne répond pas aux attentes initiales et l'entreprise réduit son objectif financier.",
+    "whyItMatters": "Cette situation montre que même les géants de l'intelligence artificielle rencontrent des limites sur les marchés financiers. Cela pourrait freiner les investissements massifs nécessaires au développement de leurs technologies.",
+    "summary": "La dernière levée de fonds d'OpenAI ne répond pas aux attentes initiales et l'entreprise réduit son objectif financier. Cette situation montre que même les géants de l'intelligence artificielle rencontrent des limites sur les marchés financiers. Cela pourrait freiner les investissements massifs nécessaires au développement de leurs technologies.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "publishedAt": "2026-10-31T16:12:55Z",
+    "quiz": {
+      "question": "Quel est le problème rencontré par OpenAI ?",
+      "choices": [
+        "L'interdiction de ses serveurs",
+        "Une baisse de son objectif de financement",
+        "Un changement de direction générale"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'entreprise revoit à la baisse sa dernière levée de fonds qui ne suscite pas l'engouement espéré."
+    }
+  },
+  {
+    "id": "rss-2d37dd9641c8",
+    "title": "La Côte d'Ivoire cherche à sauver sa production de cacao",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La production ivoirienne de cacao pourrait chuter de 20 % d'ici 2050 à cause du manque de pluie, poussant le pays à développer des variétés résistantes.",
+    "whyItMatters": "En tant que premier producteur mondial représentant une large part de l'approvisionnement global, la stabilité de la filière ivoirienne est cruciale pour les marchés agroalimentaires. Une telle baisse menacerait l'équilibre des prix mondiaux du chocolat.",
+    "summary": "La production ivoirienne de cacao pourrait chuter de 20 % d'ici 2050 à cause du manque de pluie, poussant le pays à développer des variétés résistantes. En tant que premier producteur mondial représentant une large part de l'approvisionnement global, la stabilité de la filière ivoirienne est cruciale pour les marchés agroalimentaires. Une telle baisse menacerait l'équilibre des prix mondiaux du chocolat.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/agriculture/si-la-cote-d-ivoire-ne-fait-rien-sa-production-de-cacao-pourrait-chuter-de-20-d-ici-a-2050-le-premier-producteur-mondial-veut-developper-des-varietes-plus-resistantes-au-changement-climatique_AD-202610310301.html",
+    "publishedAt": "2026-10-31T16:04:07Z",
+    "quiz": {
+      "question": "Quelle baisse de production menace la Côte d'Ivoire d'ici 2050 ?",
+      "choices": [
+        "20 %",
+        "40 %",
+        "10 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait indique que la production de cacao pourrait chuter de 20 % d'ici à 2050 sans intervention."
+    }
+  },
+  {
+    "id": "rss-8b0726474584",
+    "title": "Tesla et Nvidia investissent massivement dans les puces Samsung",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Tesla et Nvidia prévoiraient d'investir près de 3 milliards de dollars dans les capacités de production de Samsung.",
+    "whyItMatters": "Cet investissement vise à sécuriser l'approvisionnement en substrats, des composants indispensables à la fabrication des puces d'intelligence artificielle. Il illustre la volonté des géants technologiques de verrouiller leur chaîne d'approvisionnement face à la forte demande.",
+    "summary": "Tesla et Nvidia prévoiraient d'investir près de 3 milliards de dollars dans les capacités de production de Samsung. Cet investissement vise à sécuriser l'approvisionnement en substrats, des composants indispensables à la fabrication des puces d'intelligence artificielle. Il illustre la volonté des géants technologiques de verrouiller leur chaîne d'approvisionnement face à la forte demande.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/10/31/tesla-et-nvidia-financent-samsung-pour-securiser-leurs-puces-ia/",
+    "publishedAt": "2026-10-31T16:00:53Z",
+    "quiz": {
+      "question": "Quel est le montant de l'investissement prévu par Tesla et Nvidia ?",
+      "choices": [
+        "Près de 30 milliards de dollars",
+        "Près de 300 millions de dollars",
+        "Près de 3 milliards de dollars"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les deux entreprises prévoient d'injecter près de 3 milliards de dollars dans la production de Samsung."
+    }
+  },
+  {
+    "id": "rss-6be20740deb5",
+    "title": "Vague de volatilité sur les marchés boursiers mondiaux",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Les publications financières de géants technologiques comme Google et Intel ont provoqué de fortes turbulences sur les places boursières mondiales.",
+    "whyItMatters": "Les performances de ces acteurs majeurs dictent souvent la tendance globale et influencent les décisions des investisseurs internationaux. Cette volatilité pousse ces derniers à réévaluer en profondeur leurs portefeuilles et leurs stratégies d'achat.",
+    "summary": "Les publications financières de géants technologiques comme Google et Intel ont provoqué de fortes turbulences sur les places boursières mondiales. Les performances de ces acteurs majeurs dictent souvent la tendance globale et influencent les décisions des investisseurs internationaux. Cette volatilité pousse ces derniers à réévaluer en profondeur leurs portefeuilles et leurs stratégies d'achat.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/conjoncture/une-semaine-assez-folle-pourquoi-les-marches-financiers-ont-ete-bouscules-ces-derniers-jours-20261031",
+    "publishedAt": "2026-10-31T16:00:29Z",
+    "quiz": {
+      "question": "Quelles entreprises ont principalement bousculé les marchés financiers ?",
+      "choices": [
+        "Tesla et Amazon",
+        "Apple et Microsoft",
+        "Google et Intel"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ce sont les résultats de Google et d'Intel qui ont eu des répercussions mondiales sur les indices."
+    }
+  },
+  {
+    "id": "rss-c2d32c1a15f9",
+    "title": "L'industrie française attirée par le marché et les aides aux USA",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Plusieurs groupes tricolores réalisent des investissements massifs aux États-Unis pour suivre leurs clients et profiter d'un marché dynamique ainsi que d'aides publiques.",
+    "whyItMatters": "Cette fuite des investissements industriels vers l'Amérique soulève des questions sur l'attractivité économique de la France et de l'Europe. Elle montre comment les incitations financières américaines influencent la stratégie des entreprises internationales.",
+    "summary": "Plusieurs groupes tricolores réalisent des investissements massifs aux États-Unis pour suivre leurs clients et profiter d'un marché dynamique ainsi que d'aides publiques. Cette fuite des investissements industriels vers l'Amérique soulève des questions sur l'attractivité économique de la France et de l'Europe. Elle montre comment les incitations financières américaines influencent la stratégie des entreprises internationales.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/energie-bon-marche-clientele-immense-autorites-probusiness-lindustrie-francaise-succombe-toujours-a-laimant-americain_646723",
+    "publishedAt": "2026-10-31T16:00:00Z",
+    "quiz": {
+      "question": "Pourquoi les groupes français investissent-ils massivement aux États-Unis ?",
+      "choices": [
+        "Pour se retirer du marché asiatique",
+        "Pour suivre leurs clients et profiter de subventions",
+        "Pour fuir totalement la législation européenne"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les entreprises misent sur ce marché porteur en suivant leurs clients et en profitant parfois du bouclier douanier et des aides."
+    }
+  },
+  {
+    "id": "rss-5690fa4bc638",
+    "title": "TikTok développe de nouvelles fonctionnalités pour devenir une super app",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "TikTok élargit ses services en intégrant des fonctionnalités allant des guides de restaurants aux paiements.",
+    "whyItMatters": "Cette stratégie rapproche la plateforme du modèle des applications tout-en-un très populaires en Asie. Elle pourrait transformer durablement les habitudes numériques des utilisateurs en centralisant leurs activités.",
+    "summary": "TikTok élargit ses services en intégrant des fonctionnalités allant des guides de restaurants aux paiements. Cette stratégie rapproche la plateforme du modèle des applications tout-en-un très populaires en Asie. Elle pourrait transformer durablement les habitudes numériques des utilisateurs en centralisant leurs activités.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+    "publishedAt": "2026-10-31T15:41:57Z",
+    "quiz": {
+      "question": "Quel type d'application TikTok cherche-t-il à devenir ?",
+      "choices": [
+        "Une super application",
+        "Un outil de visioconférence",
+        "Un logiciel de comptabilité"
+      ],
+      "answerIndex": 0,
+      "explanation": "TikTok développe des services variés pour devenir une application utilisée pour la majorité des activités numériques."
+    }
+  },
+  {
+    "id": "rss-1a723a2c8f68",
+    "title": "Résilience du bitcoin après l'attaque de Binance",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Le cours du bitcoin a mieux résisté que prévu après l'attaque informatique subie par la plateforme Binance.",
+    "whyItMatters": "Cette solidité apparente conforte la confiance de certains dirigeants d'entreprise dans la cryptomonnaie à long terme. Cependant, les professionnels appellent à la prudence car la tendance générale des marchés reste incertaine.",
+    "summary": "Le cours du bitcoin a mieux résisté que prévu après l'attaque informatique subie par la plateforme Binance. Cette solidité apparente conforte la confiance de certains dirigeants d'entreprise dans la cryptomonnaie à long terme. Cependant, les professionnels appellent à la prudence car la tendance générale des marchés reste incertaine.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-10-31T15:26:46Z",
+    "quiz": {
+      "question": "Comment le bitcoin a-t-il réagi après le piratage de Binance ?",
+      "choices": [
+        "Il a atteint un nouveau record absolu",
+        "Il s'est totalement effondré",
+        "Il a mieux résisté que prévu"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le bitcoin a fait preuve d'une résistance inattendue malgré l'incident de sécurité."
+    }
+  },
+  {
+    "id": "rss-7b5ed5dd303b",
+    "title": "Microsoft teste de nouveaux raccourcis sur Windows 11",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Microsoft déploie une mise à jour bêta de Windows 11 intégrant des raccourcis rapides pour le mode jeu et des fonctionnalités de recherche améliorées.",
+    "whyItMatters": "Ces ajouts permettent aux utilisateurs de gérer des paramètres comme le Wi-Fi ou le Bluetooth sans quitter leurs jeux. Ils améliorent l'ergonomie globale du système d'exploitation pour le quotidien.",
+    "summary": "Microsoft déploie une mise à jour bêta de Windows 11 intégrant des raccourcis rapides pour le mode jeu et des fonctionnalités de recherche améliorées. Ces ajouts permettent aux utilisateurs de gérer des paramètres comme le Wi-Fi ou le Bluetooth sans quitter leurs jeux. Ils améliorent l'ergonomie globale du système d'exploitation pour le quotidien.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+    "publishedAt": "2026-10-31T15:12:19Z",
+    "quiz": {
+      "question": "Que permettent les nouveaux raccourcis en mode jeu sur Windows 11 ?",
+      "choices": [
+        "De changer de jeu instantanément",
+        "De gérer des paramètres sans quitter le jeu",
+        "D'enregistrer des vidéos en 4K"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les raccourcis permettent de contrôler le Bluetooth, le Wi-Fi ou l'alimentation sans quitter le mode jeu."
+    }
+  },
+  {
+    "id": "rss-0c70c4417841",
+    "title": "Résilience des banques françaises malgré un contexte économique incertain",
+    "topic": "finance",
+    "subject": "Fintech",
+    "fact": "Les établissements financiers français affichent des profits élevés depuis le début de l'année grâce à leur diversification géographique, malgré un climat économique dégradé.",
+    "whyItMatters": "La solidité des banques est un baromètre essentiel de la santé financière globale et de la bonne distribution du crédit aux entreprises. Toutefois, l'assombrissement de l'horizon économique fait craindre des difficultés futures pour le secteur.",
+    "summary": "Les établissements financiers français affichent des profits élevés depuis le début de l'année grâce à leur diversification géographique, malgré un climat économique dégradé. La solidité des banques est un baromètre essentiel de la santé financière globale et de la bonne distribution du crédit aux entreprises. Toutefois, l'assombrissement de l'horizon économique fait craindre des difficultés futures pour le secteur.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/societes/pourquoi-les-banques-francaises-resistent-aussi-bien-dans-un-contexte-degrade-20261030",
+    "publishedAt": "2026-10-31T13:18:42Z",
+    "quiz": {
+      "question": "Qu'est-ce qui a notamment permis aux banques françaises de dégager de forts profits ?",
+      "choices": [
+        "Leur diversification internationale",
+        "La hausse des frais de tenue de compte",
+        "La suppression de la fiscalité locale"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article précise que c'est notamment grâce à leur diversification internationale que les banques ont affiché de bons résultats."
+    }
+  },
+  {
+    "id": "rss-40b1dd1e3e39",
+    "title": "Patrick Artus préconise de mobiliser l'épargne pour l'investissement",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'économiste Patrick Artus estime que la France doit accroître son épargne disponible pour combler son retard d'investissement dans l'innovation et la transition.",
+    "whyItMatters": "Le niveau et l'orientation de l'épargne nationale déterminent la capacité du pays à financer les grands chantiers d'avenir comme le numérique et l'intelligence artificielle. C'est un levier central pour la compétitivité économique face aux voisins européens.",
+    "summary": "L'économiste Patrick Artus estime que la France doit accroître son épargne disponible pour combler son retard d'investissement dans l'innovation et la transition. Le niveau et l'orientation de l'épargne nationale déterminent la capacité du pays à financer les grands chantiers d'avenir comme le numérique et l'intelligence artificielle. C'est un levier central pour la compétitivité économique face aux voisins européens.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/idees/article/2026/10/31/la-seule-maniere-de-corriger-le-sous-investissement-de-la-france-est-d-augmenter-le-montant-de-l-epargne-disponible_6803601_3232.html",
+    "publishedAt": "2026-10-31T13:00:04Z",
+    "quiz": {
+      "question": "Selon Patrick Artus, que doit faire la France pour corriger son sous-investissement ?",
+      "choices": [
+        "Réduire les dépenses publiques",
+        "Baisser les impôts des entreprises",
+        "Augmenter l'épargne disponible"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'économiste affirme que la seule manière de corriger le sous-investissement est d'augmenter le montant de l'épargne disponible."
+    }
+  },
+  {
     "id": "rss-da8844bbf2eb",
     "title": "Les constructeurs automobiles adoptent l'impression 3D",
     "topic": "finance",
@@ -503,6 +987,50 @@
       ],
       "answerIndex": 0,
       "explanation": "L'extrait indique clairement que l'objectif est de produire plus vite et à moindre coût."
+    }
+  },
+  {
+    "id": "rss-143ec005fd3b",
+    "title": "Elon Musk prédit la fin de l'épargne retraite grâce à l'IA",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Elon Musk affirme que les avancées de l'intelligence artificielle rendront l'épargne-retraite superflue, provoquant le scepticisme de plusieurs experts financiers.",
+    "whyItMatters": "Cette déclaration remet en question les méthodes traditionnelles de préparation financière pour l'avenir. Elle souligne le fossé entre les visions futuristes des dirigeants technologiques et la prudence des professionnels de la finance.",
+    "summary": "Elon Musk affirme que les avancées de l'intelligence artificielle rendront l'épargne-retraite superflue, provoquant le scepticisme de plusieurs experts financiers. Cette déclaration remet en question les méthodes traditionnelles de préparation financière pour l'avenir. Elle souligne le fossé entre les visions futuristes des dirigeants technologiques et la prudence des professionnels de la finance.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/elon-musk-a-un-conseil-pour-votre-argent-surprise-il-ne-fait-pas-lunanimite.html",
+    "publishedAt": "2026-10-31T08:21:47Z",
+    "quiz": {
+      "question": "Pourquoi Elon Musk estime-t-il l'épargne-retraite inutile selon l'article ?",
+      "choices": [
+        "Grâce à la hausse générale des salaires",
+        "À cause des progrès de l'intelligence artificielle",
+        "En raison de la baisse des taux d'intérêt"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elon Musk parie que les progrès de l'IA transformeront l'économie au point de rendre l'épargne inutile."
+    }
+  },
+  {
+    "id": "rss-6336aff37e57",
+    "title": "Nvidia pourrait se porter garant pour un data center d'IA",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Nvidia envisage de se porter garant pour un prêt destiné au financement d'un centre de données d'intelligence artificielle en Virginie-Occidentale.",
+    "whyItMatters": "Cette implication directe montre l'engagement des fabricants de puces pour soutenir financièrement les infrastructures indispensables à l'IA. Elle illustre aussi les nouvelles stratégies déployées pour rassurer les investisseurs face aux coûts massifs du secteur.",
+    "summary": "Nvidia envisage de se porter garant pour un prêt destiné au financement d'un centre de données d'intelligence artificielle en Virginie-Occidentale. Cette implication directe montre l'engagement des fabricants de puces pour soutenir financièrement les infrastructures indispensables à l'IA. Elle illustre aussi les nouvelles stratégies déployées pour rassurer les investisseurs face aux coûts massifs du secteur.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "publishedAt": "2026-10-31T01:20:05Z",
+    "quiz": {
+      "question": "Quel rôle Nvidia envisage-t-il pour un data center en Virginie-Occidentale ?",
+      "choices": [
+        "Garant de prêt",
+        "Fournisseur d'électricité",
+        "Propriétaire unique"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nvidia envisage de se porter garant pour le prêt finançant ce centre de données."
     }
   }
 ]
