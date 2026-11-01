@@ -47,8 +47,12 @@ MAX_CARDS = 80
 EXCERPT_CHARS = 600
 USER_AGENT = "FocaleFeed/1.0 (+https://github.com/focale-feed)"
 
-MODELS = [m for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m]
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+PREFERRED_MODELS = [m for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m]
+API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
+GEMINI_URL = API_ROOT + "/models/{model}:generateContent"
+STATUS = ROOT / "docs" / "status.json"
+MODELS: list[str] = []      # rempli par discover_models()
+ERRORS: list[str] = []      # résumé publié dans docs/status.json (sans la clé)
 DELAY_SECONDS = float(os.environ.get("GEMINI_DELAY", "7"))  # reste sous la limite gratuite par minute
 
 
@@ -203,6 +207,38 @@ class GeminiError(Exception):
     pass
 
 
+class QuotaExhausted(GeminiError):
+    """Quota gratuit épuisé ou indisponible : inutile d'insister aujourd'hui."""
+
+
+def note(message: str) -> None:
+    message = re.sub(r"key=[^&\s]+", "key=***", message)[:400]
+    print(f"  ! {message}", file=sys.stderr)
+    if len(ERRORS) < 12:
+        ERRORS.append(message)
+
+
+def discover_models(api_key: str) -> list[str]:
+    """Modèles Flash disponibles pour cette clé, préférés d'abord."""
+    req = urllib.request.Request(API_ROOT + "/models?pageSize=200", headers={"x-goog-api-key": api_key})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            payload = json.loads(resp.read())
+    except urllib.error.HTTPError as error:
+        note(f"liste des modèles : HTTP {error.code} {error.read()[:300]!r}")
+        return PREFERRED_MODELS
+    except Exception as error:
+        note(f"liste des modèles : {error}")
+        return PREFERRED_MODELS
+    available = [m["name"].split("/", 1)[-1] for m in payload.get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+    flash = [m for m in available if "flash" in m and not any(x in m for x in ("image", "tts", "live", "audio", "exp", "thinking"))]
+    ordered = [m for m in PREFERRED_MODELS if m in flash]
+    ordered += sorted((m for m in flash if m not in ordered and "preview" not in m), reverse=True)
+    print(f"  Modèles Flash disponibles : {', '.join(ordered[:6]) or 'aucun'}")
+    return ordered[:4] or PREFERRED_MODELS
+
+
 def call_gemini(prompt: str, api_key: str) -> dict:
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -220,14 +256,22 @@ def call_gemini(prompt: str, api_key: str) -> dict:
                 text = payload["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
             except urllib.error.HTTPError as error:
-                last_error = GeminiError(f"{model}: HTTP {error.code} {error.read()[:200]!r}")
-                if error.code == 429:          # quota par minute : on attend puis on réessaie
-                    time.sleep(30 * (attempt + 1))
+                detail = error.read()[:400].decode("utf-8", "replace")
+                last_error = GeminiError(f"{model}: HTTP {error.code} {detail}")
+                if error.code == 429:
+                    # Quota du jour épuisé ou offre gratuite indisponible : on passe au modèle suivant.
+                    if "PerDay" in detail or "limit: 0" in detail or "free_tier" in detail.lower():
+                        break
+                    time.sleep(20 * (attempt + 1))  # quota par minute : on attend puis on réessaie
                     continue
+                if error.code in (400, 401, 403):
+                    raise QuotaExhausted(str(last_error))  # clé invalide ou refusée : inutile d'insister
                 break                          # modèle indisponible : modèle suivant
             except (KeyError, IndexError, json.JSONDecodeError, urllib.error.URLError, TimeoutError) as error:
                 last_error = GeminiError(f"{model}: {error}")
                 time.sleep(3)
+    if last_error and "HTTP 429" in str(last_error):
+        raise QuotaExhausted(str(last_error))
     raise last_error or GeminiError("aucun modèle disponible")
 
 
@@ -319,26 +363,43 @@ def main() -> int:
                 print(f"  - {item['source']}: {item['title']}")
         return 0
 
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     if not api_key:
-        print("GEMINI_API_KEY manquante", file=sys.stderr)
+        note("GEMINI_API_KEY manquante : ajoute le secret dans Settings › Secrets and variables › Actions")
+        STATUS.parent.mkdir(parents=True, exist_ok=True)
+        STATUS.write_text(json.dumps({"ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "errors": ERRORS},
+                                     ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         return 1
 
+    MODELS[:] = discover_models(api_key)
     rng = random.Random(now.strftime("%Y%m%d"))
     new_cards: list[dict] = []
+    failures = 0
+    stop = False
     for topic, items in by_topic.items():
         made = 0
         for item in items:
-            if made >= PER_TOPIC:
+            if made >= PER_TOPIC or stop:
                 break
             prompt = PROMPT.format(subjects=", ".join(SUBJECTS[topic]), source=item["source"],
                                    topic_label="tech" if topic == "tech" else "économie, finance ou marchés",
                                    title=item["title"], excerpt=item["excerpt"])
             try:
-                card = validate(call_gemini(prompt, api_key), item, rng)
-            except GeminiError as error:
-                print(f"  ! {item['source']} — {error}", file=sys.stderr)
+                raw = call_gemini(prompt, api_key)
+                card = validate(raw, item, rng)
+                failures = 0
+                if card is None and not (isinstance(raw, dict) and raw.get("skip")):
+                    note(f"réponse invalide ({item['source']}) : {json.dumps(raw, ensure_ascii=False)[:200]}")
+            except QuotaExhausted as error:
+                note(f"arrêt : {error}")
+                stop = True
                 card = None
+            except GeminiError as error:
+                note(f"{item['source']} — {error}")
+                card = None
+                failures += 1
+                if failures >= 4:  # erreurs en série : on s'arrête pour aujourd'hui
+                    stop = True
             time.sleep(DELAY_SECONDS)
             if card:
                 new_cards.append(card)
@@ -350,6 +411,10 @@ def main() -> int:
     cards = merge(new_cards, existing, now)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    STATUS.write_text(json.dumps({
+        "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards),
+        "totalCards": len(cards), "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")
     # Échec seulement si rien n'a pu être produit alors qu'il y avait des candidats.
     return 0 if new_cards or not any(by_topic.values()) else 1
