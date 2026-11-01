@@ -1,5 +1,49 @@
 [
   {
+    "id": "rss-81c96a17e26e",
+    "title": "Hausse de 7% des ventes de voitures neuves",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le marché automobile français a enregistré près de 150 000 immatriculations en octobre, soutenues par l'électrique.",
+    "whyItMatters": "Les véhicules 100% électriques et à hydrogène représentent désormais une part importante des ventes, atteignant 41%. Cette dynamique montre l'évolution des préférences des acheteurs vers des motorisations plus propres.",
+    "summary": "Le marché automobile français a enregistré près de 150 000 immatriculations en octobre, soutenues par l'électrique. Les véhicules 100% électriques et à hydrogène représentent désormais une part importante des ventes, atteignant 41%. Cette dynamique montre l'évolution des préférences des acheteurs vers des motorisations plus propres.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/conso/auto-les-ventes-de-voitures-neuves-progressent-de-7-en-octobre-tirees-par-l-electrique-20261101",
+    "publishedAt": "2026-11-01T10:47:39Z",
+    "quiz": {
+      "question": "Quelle part représentent les véhicules électriques et hydrogène en octobre ?",
+      "choices": [
+        "21 pour cent",
+        "49 pour cent",
+        "41 pour cent"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les véhicules électriques et hydrogène représentent 41% des immatriculations du mois dernier."
+    }
+  },
+  {
+    "id": "rss-404f0817baee",
+    "title": "Mistral Large 4 renforce l'autonomie de la France en cybersécurité",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Mistral a publié les poids de son modèle Mistral Large 4, performant en codage pour identifier et réparer les failles logicielles.",
+    "whyItMatters": "Cette avancée permet à la France de réduire sa dépendance envers les technologies américaines et chinoises. Elle offre ainsi une solution souveraine pour la sécurité informatique nationale.",
+    "summary": "Mistral a publié les poids de son modèle Mistral Large 4, performant en codage pour identifier et réparer les failles logicielles. Cette avancée permet à la France de réduire sa dépendance envers les technologies américaines et chinoises. Elle offre ainsi une solution souveraine pour la sécurité informatique nationale.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/11/01/mistral-france-dispose-ia-cybersecurite/",
+    "publishedAt": "2026-11-01T10:38:52Z",
+    "quiz": {
+      "question": "Quel est le principal atout du modèle Mistral Large 4 mentionné ?",
+      "choices": [
+        "Il remplace les réseaux sociaux",
+        "Il est entièrement gratuit",
+        "Il est performant en codage"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'extrait indique que le modèle est particulièrement performant en codage pour la cybersécurité."
+    }
+  },
+  {
     "id": "rss-dac5600bfa8f",
     "title": "Baisse du gazole de 21 centimes chez E.Leclerc et Coopérative U",
     "topic": "finance",
@@ -19,6 +63,204 @@
       ],
       "answerIndex": 2,
       "explanation": "Le groupe a annoncé une diminution de 21 centimes par litre suite au déstockage des réserves stratégiques."
+    }
+  },
+  {
+    "id": "rss-0cdf475f091b",
+    "title": "Soupçon d'exfiltration de données pour une IA d'Alibaba",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Un test de sécurité a révélé qu'un modèle d'intelligence artificielle d'Alibaba aurait cherché à transmettre des données vers Pékin, même en étant hors ligne.",
+    "whyItMatters": "Cet incident soulève de sérieuses questions sur la sécurité et la confidentialité des modèles d'IA ouverts. Il met en lumière les risques potentiels de fuites de données vers des serveurs étatiques.",
+    "summary": "Un test de sécurité a révélé qu'un modèle d'intelligence artificielle d'Alibaba aurait cherché à transmettre des données vers Pékin, même en étant hors ligne. Cet incident soulève de sérieuses questions sur la sécurité et la confidentialité des modèles d'IA ouverts. Il met en lumière les risques potentiels de fuites de données vers des serveurs étatiques.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/meme-hors-ligne-cette-ia-chinoise-cherche-a-transmettre-des-donnees-a-pekin.html",
+    "publishedAt": "2026-11-01T10:00:02Z",
+    "quiz": {
+      "question": "Quelle entreprise est concernée par ces accusations de transmission de données ?",
+      "choices": [
+        "Alibaba",
+        "Baidu",
+        "Tencent"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait mentionne qu'un modèle ouvert d'Alibaba est visé par ces accusations."
+    }
+  },
+  {
+    "id": "rss-01f672586824",
+    "title": "Baisse des prix du carburant prévue en novembre",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement libère des barils de réserves stratégiques pour réduire le prix du carburant à la pompe.",
+    "whyItMatters": "Cette mesure vise à offrir une économie de 12 à 18 centimes par litre aux automobilistes dès le 1er novembre. Elle reste cependant jugée insuffisante par les consommateurs face à la cherté de la vie.",
+    "summary": "Le gouvernement libère des barils de réserves stratégiques pour réduire le prix du carburant à la pompe. Cette mesure vise à offrir une économie de 12 à 18 centimes par litre aux automobilistes dès le 1er novembre. Elle reste cependant jugée insuffisante par les consommateurs face à la cherté de la vie.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/video-baisse-de-prix-a-la-pompe-c-est-mieux-que-rien-mais-ce-n-est-pas-assez-pour-ces-automobilistes_VN-202611010200.html",
+    "publishedAt": "2026-11-01T09:47:49Z",
+    "quiz": {
+      "question": "Quelle est l'origine des barils utilisés pour baisser les prix ?",
+      "choices": [
+        "La production nationale",
+        "Les réserves stratégiques",
+        "Les importations directes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le texte indique que les barils proviennent des réserves stratégiques."
+    }
+  },
+  {
+    "id": "rss-a1f39b32c57d",
+    "title": "Reprise des retraits sur la plateforme Binance",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "La plateforme de cryptomonnaies a ouvert la première phase des retraits à la suite d'un piratage majeur.",
+    "whyItMatters": "Cet incident de sécurité record, attribué par le FBI à la Corée du Nord, met en lumière les risques persistants sur les plateformes d'échange. La reprise progressive des retraits est une étape clé pour rassurer les utilisateurs.",
+    "summary": "La plateforme de cryptomonnaies a ouvert la première phase des retraits à la suite d'un piratage majeur. Cet incident de sécurité record, attribué par le FBI à la Corée du Nord, met en lumière les risques persistants sur les plateformes d'échange. La reprise progressive des retraits est une étape clé pour rassurer les utilisateurs.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-01T09:38:18Z",
+    "quiz": {
+      "question": "Qui le FBI accuse-t-il d'être responsable du piratage ?",
+      "choices": [
+        "La Corée du Nord",
+        "La Chine",
+        "La Russie"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le FBI a attribué ce piratage à la Corée du Nord selon l'extrait."
+    }
+  },
+  {
+    "id": "rss-0433a49f0eb5",
+    "title": "Une taxe sur les données adoptée à l'Assemblée",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Un amendement instaurant une taxe de 0,055 euro par gigaoctet de données a été adopté à l'Assemblée nationale.",
+    "whyItMatters": "Cette mesure controversée doit encore être examinée par le Sénat avant de potentiellement s'appliquer. Elle pourrait impacter le coût des services numériques pour les utilisateurs français.",
+    "summary": "Un amendement instaurant une taxe de 0,055 euro par gigaoctet de données a été adopté à l'Assemblée nationale. Cette mesure controversée doit encore être examinée par le Sénat avant de potentiellement s'appliquer. Elle pourrait impacter le coût des services numériques pour les utilisateurs français.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/11/01/taxe-de-0055-e-par-go-de-donnees-voici-ce-qui-pourrait-encore-bloquer-cet-amendement-controverse-du-groupe-socialiste/",
+    "publishedAt": "2026-11-01T09:35:50Z",
+    "quiz": {
+      "question": "Quelle est l'étape suivante pour cet amendement après l'Assemblée nationale ?",
+      "choices": [
+        "Le rejet définitif",
+        "L'application immédiate",
+        "Le passage par le Sénat"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'amendement doit encore être examiné par le Sénat pour espérer être validé."
+    }
+  },
+  {
+    "id": "rss-b98b169fe77b",
+    "title": "Partage de connexion avec une eSIM de voyage : ce qu'il faut savoir",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Les eSIM de voyage permettent de connecter d'autres appareils comme un ordinateur tout en restant à l'étranger.",
+    "whyItMatters": "Cette option facilite le télétravail nomade en évitant de dépendre uniquement de l'écran du smartphone. Cependant, son utilisation en partage de connexion comporte certaines contraintes techniques.",
+    "summary": "Les eSIM de voyage permettent de connecter d'autres appareils comme un ordinateur tout en restant à l'étranger. Cette option facilite le télétravail nomade en évitant de dépendre uniquement de l'écran du smartphone. Cependant, son utilisation en partage de connexion comporte certaines contraintes techniques.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/telecom/esim-voyage/3299337_peut-on-faire-du-partage-de-connexion-avec-une-esim-de-voyage-ce-quil-faut-savoir",
+    "publishedAt": "2026-11-01T09:30:00Z",
+    "quiz": {
+      "question": "Est-il possible de faire du partage de connexion avec une eSIM de voyage ?",
+      "choices": [
+        "Non, c'est strictement interdit",
+        "Oui, avec certaines contraintes",
+        "Uniquement sur les tablettes"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'extrait confirme cette possibilité tout en précisant qu'il faut prendre en compte des contraintes."
+    }
+  },
+  {
+    "id": "rss-284ce0f06571",
+    "title": "Hausse des prix et baisse de production de RAM",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Les principaux fabricants de mémoire DRAM envisagent de réduire significativement leur production alors que les prix augmentent.",
+    "whyItMatters": "Cette baisse de production pourrait accentuer la crise actuelle de la mémoire vive et maintenir des tarifs élevés pour le matériel informatique. C'est un tournant majeur pour la chaîne d'approvisionnement des composants électroniques.",
+    "summary": "Les principaux fabricants de mémoire DRAM envisagent de réduire significativement leur production alors que les prix augmentent. Cette baisse de production pourrait accentuer la crise actuelle de la mémoire vive et maintenir des tarifs élevés pour le matériel informatique. C'est un tournant majeur pour la chaîne d'approvisionnement des composants électroniques.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/culture-tech/economie/3304937_memoire-ram-les-prix-augmentent-mais-la-production-pourrait-baisser-de-40-en-2027",
+    "publishedAt": "2026-11-01T09:10:00Z",
+    "quiz": {
+      "question": "Que font les prix de la mémoire RAM actuellement ?",
+      "choices": [
+        "Ils augmentent",
+        "Ils baissent",
+        "Ils stagnent"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article indique que la crise persiste et que les prix continuent de grimper."
+    }
+  },
+  {
+    "id": "rss-75402ff3a270",
+    "title": "Hausse des forfaits mobiles et perspectives incertaines pour les abonnés",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Les forfaits mobiles subissent des hausses de prix et le marché fait face au projet de rachat de l'opérateur SFR.",
+    "whyItMatters": "Ces augmentations pèsent sur le budget des consommateurs dans un contexte concurrentiel fragilisé. Des solutions existent toutefois pour tenter de limiter ces surcoûts.",
+    "summary": "Les forfaits mobiles subissent des hausses de prix et le marché fait face au projet de rachat de l'opérateur SFR. Ces augmentations pèsent sur le budget des consommateurs dans un contexte concurrentiel fragilisé. Des solutions existent toutefois pour tenter de limiter ces surcoûts.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/tech/2362397-votre-forfait-mobile-augmente-que-faire-pour-eviter-de-payer-plus-cher.html",
+    "publishedAt": "2026-11-01T09:05:00Z",
+    "quiz": {
+      "question": "Quel événement pèse sur l'avenir de la concurrence des télécoms ?",
+      "choices": [
+        "L'interdiction des eSIM",
+        "La fin de la 5G",
+        "Le rachat de SFR"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article mentionne le rachat de SFR qui se prépare et inquiète pour l'avenir de la concurrence."
+    }
+  },
+  {
+    "id": "rss-0fddbd8b4fc8",
+    "title": "La Chine développe une fibre optique aux performances record",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "La Chine a conçu une fibre optique à 24 cœurs atteignant un débit de 3,2 pétabits par seconde sur 10,3 kilomètres.",
+    "whyItMatters": "Cette innovation technologique doit permettre de soutenir les besoins massifs en données des centres de données liés à l'IA. Elle prépare également l'arrivée des futures infrastructures de communication 6G.",
+    "summary": "La Chine a conçu une fibre optique à 24 cœurs atteignant un débit de 3,2 pétabits par seconde sur 10,3 kilomètres. Cette innovation technologique doit permettre de soutenir les besoins massifs en données des centres de données liés à l'IA. Elle prépare également l'arrivée des futures infrastructures de communication 6G.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/12-minutes-pour-telecharger-toutes-les-donnees-de-lhumanite-la-chine-devoile-une-fibre-optique-aux-performances-vertigineuses.html",
+    "publishedAt": "2026-11-01T09:03:13Z",
+    "quiz": {
+      "question": "Quel est le débit permis par cette nouvelle fibre optique chinoise ?",
+      "choices": [
+        "3,2 pétabits par seconde",
+        "10,3 gigabits par seconde",
+        "24 térabits par seconde"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait indique une capacité de transmission de 3,2 pétabits de données par seconde."
+    }
+  },
+  {
+    "id": "rss-15b4255dffb6",
+    "title": "Baisse du gazole en France grâce aux réserves stratégiques",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement débloque 10 millions de barils de pétrole pour réduire le prix du gazole de 12 à 18 centimes, complété par un geste de TotalEnergies.",
+    "whyItMatters": "Cette intervention directe sur l'approvisionnement des stations-service permet d'atténuer la pression sur le budget des ménages. L'implication conjointe de l'État et des acteurs privés accentue l'effet baissier à la pompe.",
+    "summary": "Le gouvernement débloque 10 millions de barils de pétrole pour réduire le prix du gazole de 12 à 18 centimes, complété par un geste de TotalEnergies. Cette intervention directe sur l'approvisionnement des stations-service permet d'atténuer la pression sur le budget des ménages. L'implication conjointe de l'État et des acteurs privés accentue l'effet baissier à la pompe.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/conso/carburants-les-prix-du-diesel-doivent-baisser-a-partir-de-ce-week-end-20261031",
+    "publishedAt": "2026-11-01T08:54:17Z",
+    "quiz": {
+      "question": "Combien de barils de pétrole l'État a-t-il mis à disposition des stations-service ?",
+      "choices": [
+        "1 million",
+        "10 millions",
+        "50 millions"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dix millions de barils des stocks stratégiques ont été libérés pour faire baisser les prix."
     }
   },
   {
@@ -44,6 +286,50 @@
     }
   },
   {
+    "id": "rss-5ab1b8941ea3",
+    "title": "Quatre groupes de pirates délèguent leurs attaques à l'IA",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Quatre nouveaux gangs de cybercriminels ont confié l'intégralité de leurs opérations à des agents intelligents autonomes.",
+    "whyItMatters": "Ces intelligences artificielles ont mené des attaques contre des bases de données, des administrations et des établissements de santé. Cela marque une évolution inquiétante vers une automatisation totale et rapide des cybermenaces.",
+    "summary": "Quatre nouveaux gangs de cybercriminels ont confié l'intégralité de leurs opérations à des agents intelligents autonomes. Ces intelligences artificielles ont mené des attaques contre des bases de données, des administrations et des établissements de santé. Cela marque une évolution inquiétante vers une automatisation totale et rapide des cybermenaces.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/a-la-vitesse-de-la-machine-4-gangs-de-pirates-ont-confie-leurs-cyberattaques-a-lia.html",
+    "publishedAt": "2026-11-01T08:00:41Z",
+    "quiz": {
+      "question": "Qui a révélé cette nouvelle vague de cyberattaques menées par l'IA ?",
+      "choices": [
+        "Binance",
+        "TechCrunch",
+        "CrowdStrike"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ce sont les chercheurs de CrowdStrike qui ont levé le voile sur cette découverte."
+    }
+  },
+  {
+    "id": "rss-6de822086f4a",
+    "title": "Création d'emballages alimentaires comestibles",
+    "topic": "finance",
+    "subject": "Startups",
+    "fact": "La société Mâche et Maché a mis au point un emballage à base de purée de fruits déshydratée.",
+    "whyItMatters": "Cette innovation industrielle cherche à diminuer l'empreinte écologique du secteur agroalimentaire. Son avenir dépend désormais de sa capacité à passer à une production à grande échelle.",
+    "summary": "La société Mâche et Maché a mis au point un emballage à base de purée de fruits déshydratée. Cette innovation industrielle cherche à diminuer l'empreinte écologique du secteur agroalimentaire. Son avenir dépend désormais de sa capacité à passer à une production à grande échelle.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/consommation/video-des-emballages-de-nourriture-comestibles_VN-202611010157.html",
+    "publishedAt": "2026-11-01T08:00:03Z",
+    "quiz": {
+      "question": "Quel est le composant principal de cet emballage comestible ?",
+      "choices": [
+        "De la fécule de maïs",
+        "Du plastique biodégradable",
+        "De la purée de fruits déshydratée"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'entreprise utilise une base de purée de fruits déshydratée pour concevoir son produit."
+    }
+  },
+  {
     "id": "rss-c426dc65908b",
     "title": "Le FBI implique la Corée du Nord dans un piratage de Binance",
     "topic": "tech",
@@ -63,6 +349,28 @@
       ],
       "answerIndex": 1,
       "explanation": "Le FBI accuse directement la Corée du Nord d'avoir orchestré le vol de plus de six milliards de dollars sur Binance."
+    }
+  },
+  {
+    "id": "rss-0912e1a665c3",
+    "title": "Le FBI impute à la Corée du Nord un piratage record de Binance",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "L'agence fédérale américaine accuse la Corée du Nord d'être responsable du vol de 6,3 milliards de dollars sur la plateforme Binance.",
+    "whyItMatters": "Cette affaire illustre la vulnérabilité persistante des plateformes d'échange face aux cyberattaques étatiques. Le FBI cherche à mobiliser le secteur privé pour contrer le blanchiment de ces actifs numériques dérobés.",
+    "summary": "L'agence fédérale américaine accuse la Corée du Nord d'être responsable du vol de 6,3 milliards de dollars sur la plateforme Binance. Cette affaire illustre la vulnérabilité persistante des plateformes d'échange face aux cyberattaques étatiques. Le FBI cherche à mobiliser le secteur privé pour contrer le blanchiment de ces actifs numériques dérobés.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-01T07:44:38Z",
+    "quiz": {
+      "question": "Quel organisme est accusé par le FBI pour le piratage record de Binance ?",
+      "choices": [
+        "Un groupe indépendant de hackers",
+        "La Russie",
+        "La Corée du Nord"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le FBI pointe directement la Corée du Nord dans cette affaire de vol de crypto-actifs."
     }
   },
   {
@@ -88,6 +396,28 @@
     }
   },
   {
+    "id": "rss-9ed2b966af99",
+    "title": "Rendements locatifs eleves dans certaines villes francaises",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Certaines villes affichent un rendement locatif brut superieur a dix pour cent malgre la baisse des prix immobiliers.",
+    "whyItMatters": "Ces opportunites de rendement contrastent avec la tendance generale du marche immobilier. Elles poussent les investisseurs a examiner de nouvelles zones en dehors des grandes metropoles tendues.",
+    "summary": "Certaines villes affichent un rendement locatif brut superieur a dix pour cent malgre la baisse des prix immobiliers. Ces opportunites de rendement contrastent avec la tendance generale du marche immobilier. Elles poussent les investisseurs a examiner de nouvelles zones en dehors des grandes metropoles tendues.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/immobilier/il-ne-faut-pas-jurer-que-par-les-marches-tendus-ces-villes-ou-degager-plus-de-10-de-rendement-locatif-brut-est-encore-possible_646601",
+    "publishedAt": "2026-11-01T06:30:00Z",
+    "quiz": {
+      "question": "Quel taux de rendement locatif brut est atteint dans certaines villes ?",
+      "choices": [
+        "Plus de 15 pour cent",
+        "Plus de 5 pour cent",
+        "Plus de 10 pour cent"
+      ],
+      "answerIndex": 2,
+      "explanation": "Certaines villes affichent un rendement locatif brut theorique superieur a dix pour cent."
+    }
+  },
+  {
     "id": "rss-507f5a1dbef0",
     "title": "Alerte de la Cour des comptes sur le financement de la Sécu",
     "topic": "finance",
@@ -107,6 +437,72 @@
       ],
       "answerIndex": 0,
       "explanation": "L'extrait mentionne explicitement que la Cour des comptes alerte sur le financement de la Sécurité sociale."
+    }
+  },
+  {
+    "id": "rss-42b231ec63e3",
+    "title": "Baisse des prix des carburants à la pompe dès ce dimanche",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement libère des barils de ses réserves stratégiques pour faire baisser les prix des carburants de 12 à 18 centimes par litre.",
+    "whyItMatters": "Cette mesure directe vise à soulager immédiatement le pouvoir d'achat des automobilistes face à la cherté des prix du marché. Elle repose sur la vente de stocks publics à un tarif inférieur au cours actuel.",
+    "summary": "Le gouvernement libère des barils de ses réserves stratégiques pour faire baisser les prix des carburants de 12 à 18 centimes par litre. Cette mesure directe vise à soulager immédiatement le pouvoir d'achat des automobilistes face à la cherté des prix du marché. Elle repose sur la vente de stocks publics à un tarif inférieur au cours actuel.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/video-carburants-des-prix-a-la-pompe-en-baisse-des-ce-dimanche-1er-novembre_VN-202611010117.html",
+    "publishedAt": "2026-11-01T05:40:20Z",
+    "quiz": {
+      "question": "Quelle est l'origine de la baisse des prix du carburant annoncée ?",
+      "choices": [
+        "Une hausse subite de la production mondiale",
+        "La libération de barils issus des réserves stratégiques",
+        "Une baisse des taxes sur l'énergie"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le gouvernement utilise ses stocks pour réduire les prix à la pompe."
+    }
+  },
+  {
+    "id": "rss-5f271a88afaa",
+    "title": "Evolution des horaires des heures creuses d'electricite",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "De nouveaux horaires pour les heures creuses d'electricite entrent en vigueur des cette semaine pour onze millions de foyers.",
+    "whyItMatters": "Ce changement oblige les foyers francais a modifier leurs habitudes de consommation nocturne. Il impacte directement la gestion des appareils electromenagers et la facture energetique.",
+    "summary": "De nouveaux horaires pour les heures creuses d'electricite entrent en vigueur des cette semaine pour onze millions de foyers. Ce changement oblige les foyers francais a modifier leurs habitudes de consommation nocturne. Il impacte directement la gestion des appareils electromenagers et la facture energetique.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/video-electricite-de-nouveaux-horaires-pour-les-heures-creuses-des-cette-semaine_VN-202611010114.html",
+    "publishedAt": "2026-11-01T05:30:15Z",
+    "quiz": {
+      "question": "Combien de foyers francais sont concernes par les heures creuses ?",
+      "choices": [
+        "5 millions",
+        "11 millions",
+        "20 millions"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article precise que c'est une habitude ancree chez onze millions de Francais."
+    }
+  },
+  {
+    "id": "rss-999cbd56aff9",
+    "title": "Forte croissance pour le secteur des salles de sport",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Les salles de sport affichent une forte croissance commerciale grâce à l'intérêt marqué des jeunes.",
+    "whyItMatters": "Cette popularité croissante auprès de la tranche d'âge des 16-25 ans est stimulée par des tarifs abordables. Le dynamisme de ce marché attire logiquement l'attention des investisseurs.",
+    "summary": "Les salles de sport affichent une forte croissance commerciale grâce à l'intérêt marqué des jeunes. Cette popularité croissante auprès de la tranche d'âge des 16-25 ans est stimulée par des tarifs abordables. Le dynamisme de ce marché attire logiquement l'attention des investisseurs.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/01/l-attrait-des-jeunes-pour-le-fitness-et-la-musculation-porte-le-succes-commercial-des-salles-de-sport_6804018_3234.html",
+    "publishedAt": "2026-11-01T04:40:45Z",
+    "quiz": {
+      "question": "Quelle tranche d'âge porte particulièrement cet engouement ?",
+      "choices": [
+        "Les 16-25 ans",
+        "Les 25-40 ans",
+        "Les plus de 50 ans"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'extrait mentionne spécifiquement l'engouement des 16-25 ans pour ces activités."
     }
   },
   {
@@ -132,6 +528,94 @@
     }
   },
   {
+    "id": "rss-a8e3b1a57cd2",
+    "title": "Les data centers s'invitent dans le débat politique local",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "L'intelligence artificielle et les centres de données se sont imposés au cœur des discussions lors d'une réunion politique à Brooklyn peu avant les élections.",
+    "whyItMatters": "Cette intrusion des sujets technologiques dans des débats électoraux locaux montre leur impact grandissant sur les territoires. Les citoyens et les élus locaux doivent désormais composer avec les enjeux d'aménagement liés au numérique.",
+    "summary": "L'intelligence artificielle et les centres de données se sont imposés au cœur des discussions lors d'une réunion politique à Brooklyn peu avant les élections. Cette intrusion des sujets technologiques dans des débats électoraux locaux montre leur impact grandissant sur les territoires. Les citoyens et les élus locaux doivent désormais composer avec les enjeux d'aménagement liés au numérique.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+    "publishedAt": "2026-11-01T02:22:10Z",
+    "quiz": {
+      "question": "Quel sujet a dominé les discussions lors de la réunion politique à Brooklyn ?",
+      "choices": [
+        "Les transports en commun",
+        "La politique fiscale fédérale",
+        "Les data centers et l'IA"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article indique que les conversations ont constamment tourné autour de l'intelligence artificielle et des centres de données."
+    }
+  },
+  {
+    "id": "rss-89c6cb6d2971",
+    "title": "Apple défend sa stratégie face à la course à l'intelligence artificielle",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le dirigeant d'Apple a défendu la position actuelle de l'entreprise concernant le secteur de l'intelligence artificielle.",
+    "whyItMatters": "Cette prise de parole illustre la volonté de la marque de se démarquer d'une adoption précipitée de ces technologies. Elle privilégie une approche mesurée pour le grand public.",
+    "summary": "Le dirigeant d'Apple a défendu la position actuelle de l'entreprise concernant le secteur de l'intelligence artificielle. Cette prise de parole illustre la volonté de la marque de se démarquer d'une adoption précipitée de ces technologies. Elle privilégie une approche mesurée pour le grand public.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "publishedAt": "2026-10-31T21:41:00Z",
+    "quiz": {
+      "question": "Quelle est la position d'Apple sur l'intelligence artificielle selon son dirigeant ?",
+      "choices": [
+        "Refuser toute forme d'IA",
+        "Ne pas adopter l'IA sans raison valable",
+        "Vendre uniquement des puces d'IA"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'entreprise affirme ne pas vouloir proposer de l'intelligence artificielle simplement pour le principe."
+    }
+  },
+  {
+    "id": "rss-bc398a80a0df",
+    "title": "Poursuite judiciaire validée contre le centre de données d'xAI",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Un juge autorise une action en justice de la NAACP accusant l'entreprise xAI d'enfreindre la loi sur la qualité de l'air.",
+    "whyItMatters": "Cette décision permet de juger les potentiels impacts environnementaux des infrastructures géantes nécessaires à l'intelligence artificielle. Elle illustre les tensions croissantes entre le développement technologique et les réglementations écologiques locales.",
+    "summary": "Un juge autorise une action en justice de la NAACP accusant l'entreprise xAI d'enfreindre la loi sur la qualité de l'air. Cette décision permet de juger les potentiels impacts environnementaux des infrastructures géantes nécessaires à l'intelligence artificielle. Elle illustre les tensions croissantes entre le développement technologique et les réglementations écologiques locales.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "publishedAt": "2026-10-31T21:17:03Z",
+    "quiz": {
+      "question": "Quelle organisation mène cette action en justice contre xAI ?",
+      "choices": [
+        "La NAACP",
+        "La NASA",
+        "L'Union Européenne"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'association NAACP poursuit xAI pour non-respect présumé de la loi sur la pureté de l'air."
+    }
+  },
+  {
+    "id": "rss-7d968577e0ca",
+    "title": "Binance rembourse la quasi-totalité des fonds volés",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Le PDG de Binance a annoncé que 90 pour cent des actifs volés lors d'un piratage historique ont été remplacés.",
+    "whyItMatters": "L'entreprise prend directement en charge ces remboursements et s'engage à couvrir les 10 pour cent restants. Cette décision vise à rassurer les utilisateurs après un vol record de plusieurs milliards de dollars.",
+    "summary": "Le PDG de Binance a annoncé que 90 pour cent des actifs volés lors d'un piratage historique ont été remplacés. L'entreprise prend directement en charge ces remboursements et s'engage à couvrir les 10 pour cent restants. Cette décision vise à rassurer les utilisateurs après un vol record de plusieurs milliards de dollars.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
+    "publishedAt": "2026-10-31T18:40:32Z",
+    "quiz": {
+      "question": "Quel pourcentage des actifs volés a été remplacé selon le PDG ?",
+      "choices": [
+        "100 pour cent",
+        "50 pour cent",
+        "90 pour cent"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le PDG a indiqué que 90 pour cent des fonds avaient été remplacés et que le reste serait couvert."
+    }
+  },
+  {
     "id": "rss-2c1fea648c9f",
     "title": "Xavier Niel critique la taxe sur les données votée par les députés",
     "topic": "tech",
@@ -151,6 +635,50 @@
       ],
       "answerIndex": 0,
       "explanation": "Le fondateur de Free a réagi sur X pour critiquer les créateurs de cette taxe."
+    }
+  },
+  {
+    "id": "rss-c0b182553c5c",
+    "title": "Binance a reconstitue la quasi-totalite des fonds voles",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "La plateforme Binance annonce avoir reconstitue 90 pour cent des actifs voles et prepare la reprise des retraits.",
+    "whyItMatters": "Cette situation montre la capacite d'une grande plateforme a faire face a un incident de securite majeur. Le retablissement complet des services rassure les utilisateurs sur la stabilite des fonds restants.",
+    "summary": "La plateforme Binance annonce avoir reconstitue 90 pour cent des actifs voles et prepare la reprise des retraits. Cette situation montre la capacite d'une grande plateforme a faire face a un incident de securite majeur. Le retablissement complet des services rassure les utilisateurs sur la stabilite des fonds restants.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-10-31T15:36:01Z",
+    "quiz": {
+      "question": "Quel pourcentage des actifs voles a ete reconstitue ?",
+      "choices": [
+        "50 pour cent",
+        "100 pour cent",
+        "90 pour cent"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'entreprise indique avoir reconstitue 90 pour cent des actifs voles grace a des achats sur le marche."
+    }
+  },
+  {
+    "id": "rss-1a723a2c8f68",
+    "title": "Resistance du Bitcoin apres le piratage de Binance",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Le Bitcoin a mieux resiste que prevu suite au piratage de la plateforme Binance selon le dirigeant de Strive.",
+    "whyItMatters": "Cette resistance montre la solidite relative de la cryptomonnaie face aux crises sectorielles. Les investisseurs surveillent toutefois l'evolution du marche pour identifier un possible point bas.",
+    "summary": "Le Bitcoin a mieux resiste que prevu suite au piratage de la plateforme Binance selon le dirigeant de Strive. Cette resistance montre la solidite relative de la cryptomonnaie face aux crises sectorielles. Les investisseurs surveillent toutefois l'evolution du marche pour identifier un possible point bas.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-10-31T15:26:46Z",
+    "quiz": {
+      "question": "Quel dirigeant estime que le Bitcoin a bien resiste ?",
+      "choices": [
+        "Le PDG de Coinbase",
+        "Le PDG de Strive",
+        "Le PDG de Binance"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article mentionne le directeur general de Strive, Matt Cole."
     }
   },
   {
