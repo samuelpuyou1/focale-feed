@@ -1,0 +1,66 @@
+"""Tests sans réseau : python3 -m unittest discover -s tests"""
+import random
+import sys
+import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import build_feed as bf  # noqa: E402
+
+ITEM = {"id": "rss-abc", "topic": "finance", "source": "La Tribune", "link": "https://exemple.fr/a",
+        "published": datetime(2026, 11, 1, 6, tzinfo=timezone.utc)}
+RAW = {
+    "title": "La BCE maintient ses taux",
+    "fact": "La Banque centrale européenne laisse ses taux inchangés ce jeudi.",
+    "whyItMatters": "Le coût du crédit ne bouge pas pour l'instant. Les marchés attendent une baisse en mars.",
+    "subject": "Macro",
+    "quiz": {"question": "Que décide la BCE ?", "choices": ["Elle baisse ses taux", "Elle maintient ses taux", "Elle les monte"],
+             "answer": "Elle maintient ses taux", "explanation": "Les taux restent au même niveau."},
+}
+
+RSS = b"""<?xml version="1.0"?><rss><channel>
+<item><title>Titre A</title><link>https://exemple.fr/a</link><description>&lt;p&gt;Un chapeau &amp;amp; du texte.&lt;/p&gt;</description>
+<pubDate>Sun, 01 Nov 2026 06:00:00 +0100</pubDate></item></channel></rss>"""
+
+ATOM = b"""<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Titre B</title>
+<link rel="alternate" href="https://exemple.fr/b"/><summary>Resume</summary><updated>2026-11-01T05:00:00Z</updated></entry></feed>"""
+
+
+class BuildFeedTests(unittest.TestCase):
+    def test_valid_card_keeps_correct_answer(self):
+        card = bf.validate(RAW, ITEM, random.Random(1))
+        self.assertIsNotNone(card)
+        self.assertEqual(card["quiz"]["choices"][card["quiz"]["answerIndex"]], "Elle maintient ses taux")
+        self.assertEqual(card["sourceURL"], "https://exemple.fr/a")
+        self.assertEqual(card["publishedAt"], "2026-11-01T06:00:00Z")
+
+    def test_rejects_unknown_subject_and_bad_answer(self):
+        self.assertIsNone(bf.validate({**RAW, "subject": "Sport"}, ITEM, random.Random(1)))
+        bad = {**RAW, "quiz": {**RAW["quiz"], "answer": "Autre"}}
+        self.assertIsNone(bf.validate(bad, ITEM, random.Random(1)))
+        self.assertIsNone(bf.validate({"skip": True}, ITEM, random.Random(1)))
+
+    def test_parses_rss_and_atom(self):
+        rss = bf.parse_feed(RSS)[0]
+        self.assertEqual(rss["link"], "https://exemple.fr/a")
+        self.assertEqual(rss["excerpt"], "Un chapeau & du texte.")
+        self.assertEqual(rss["published"], datetime(2026, 11, 1, 5, tzinfo=timezone.utc))
+        atom = bf.parse_feed(ATOM)[0]
+        self.assertEqual(atom["link"], "https://exemple.fr/b")
+
+    def test_filters_promotions(self):
+        self.assertFalse(bf.is_relevant("Black Friday : les meilleures offres TV"))
+        self.assertFalse(bf.is_relevant("Netflix : les séries à voir en novembre"))
+        self.assertTrue(bf.is_relevant("La BCE maintient ses taux directeurs"))
+
+    def test_merge_dedupes_and_drops_old(self):
+        now = datetime(2026, 11, 1, tzinfo=timezone.utc)
+        old = {"id": "old", "publishedAt": (now - timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ")}
+        a = {"id": "a", "publishedAt": "2026-10-31T10:00:00Z"}
+        merged = bf.merge([a], [a, old], now)
+        self.assertEqual([c["id"] for c in merged], ["a"])
+
+
+if __name__ == "__main__":
+    unittest.main()

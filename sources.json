@@ -1,0 +1,12 @@
+[
+  {"name": "TechCrunch", "topic": "tech", "url": "https://techcrunch.com/feed/"},
+  {"name": "The Verge", "topic": "tech", "url": "https://www.theverge.com/rss/index.xml"},
+  {"name": "Presse-citron", "topic": "tech", "url": "https://www.presse-citron.net/feed/"},
+  {"name": "Numerama", "topic": "tech", "url": "https://www.numerama.com/feed/"},
+  {"name": "Frandroid", "topic": "tech", "url": "https://www.frandroid.com/feed"},
+  {"name": "La Tribune", "topic": "finance", "url": "https://www.latribune.fr/rss/rubriques/bourse.html"},
+  {"name": "BFM Business", "topic": "finance", "url": "https://www.bfmtv.com/rss/economie/"},
+  {"name": "Le Monde", "topic": "finance", "url": "https://www.lemonde.fr/economie/rss_full.xml"},
+  {"name": "Challenges", "topic": "finance", "url": "https://www.challenges.fr/rss.xml"},
+  {"name": "CNBC", "topic": "finance", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html"}
+]
