@@ -40,10 +40,14 @@ SUBJECTS = {
 }
 ALL_SUBJECTS = sorted({s for subjects in SUBJECTS.values() for s in subjects})
 
-PER_TOPIC = 6            # nouvelles cartes par thème et par jour
+PER_TOPIC = 12           # objectif par thème et par jour
+DAILY_TARGET = 24        # objectif total : un thème en manque est complété par l'autre
+DAILY_MIN = 20           # en dessous, le rapport le signale
+BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appels, quota préservé)
+MAX_CALLS = 40           # plafond de requêtes par lancement
 MAX_AGE_HOURS = 36       # fraîcheur des articles retenus
 KEEP_DAYS = 7            # historique conservé dans cards.json
-MAX_CARDS = 80
+MAX_CARDS = 200
 EXCERPT_CHARS = 600
 USER_AGENT = "FocaleFeed/1.0 (+https://github.com/focale-feed)"
 
@@ -184,23 +188,46 @@ def collect(sources: list[dict], known_ids: set[str], now: datetime) -> dict[str
 
 # ---------------------------------------------------------------- IA
 
-PROMPT = """Tu es rédacteur pour Focale, une app française qui résume l'actualité tech et finance en une minute.
-À partir UNIQUEMENT de l'extrait ci-dessous, écris une carte en français, avec tes propres mots (ne recopie aucune phrase de l'extrait).
+PROMPT = """Tu es rédacteur pour Focale, une app française qui résume l'actualité {topic_label} en une minute.
+Pour CHAQUE article numéroté ci-dessous, écris une carte en français, avec tes propres mots, à partir UNIQUEMENT
+de son titre et de son extrait (ne recopie aucune phrase ; traduis si l'article est en anglais).
 Règles :
-- N'invente aucun fait, chiffre ou nom absent de l'extrait. Ton neutre, tutoiement interdit, pas d'emoji.
+- N'invente aucun fait, chiffre ou nom absent de l'extrait. Ton neutre, tutoiement interdit, pas d'emoji. Accents corrects.
 - "title" : 70 caractères maximum, informatif, sans point final.
 - "fact" : une phrase qui dit ce qui s'est passé (« Le fait »).
 - "whyItMatters" : 2 phrases qui expliquent l'enjeu pour un lecteur non spécialiste (« Pourquoi ça compte »).
 - "subject" : un seul parmi {subjects}.
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
   "answer" = le texte exact du bon choix ; "explanation" = une phrase.
-- Réponds {{"skip": true}} si l'extrait est trop vague pour une carte fiable, OU si le sujet n'est pas une vraie actualité
-  {topic_label} utile (politique pure, faits divers, sport, divertissement, conseils d'achat, promotion, publi-rédactionnel).
-Réponds uniquement en JSON avec les clés : title, fact, whyItMatters, subject, quiz {{question, choices, answer, explanation}}.
+- Garde les annonces de produits, les tests et les décisions d'entreprises : ce sont de vraies actus.
+- Mets "skip": true seulement si l'extrait est vide de faits, ou si c'est un guide d'achat, un bon plan, une promotion,
+  du sport, du divertissement, un fait divers ou de la politique sans enjeu {topic_label}.
+Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters", "subject",
+"quiz": {{"question", "choices", "answer", "explanation"}}}} ou {{"i": <numéro>, "skip": true}}]}}, une entrée par article.
 
-Média : {source}
-Titre : {title}
-Extrait : {excerpt}"""
+{articles}"""
+
+
+def batch_prompt(topic: str, batch: list[dict]) -> str:
+    articles = "\n\n".join(f"[{n}] Média : {item['source']}\nTitre : {item['title']}\nExtrait : {item['excerpt']}"
+                             for n, item in enumerate(batch, 1))
+    return PROMPT.format(subjects=", ".join(SUBJECTS[topic]), articles=articles,
+                         topic_label="tech" if topic == "tech" else "économie, finance ou marchés")
+
+
+def batch_entries(raw, size: int) -> dict[int, dict]:
+    """Réponse de l'IA → {numéro d'article: entrée}."""
+    entries = raw.get("cards", []) if isinstance(raw, dict) else raw if isinstance(raw, list) else []
+    out = {}
+    for entry in entries:
+        if isinstance(entry, dict):
+            try:
+                n = int(entry.get("i"))
+            except (TypeError, ValueError):
+                continue
+            if 1 <= n <= size:
+                out[n] = entry
+    return out
 
 
 class GeminiError(Exception):
@@ -251,7 +278,7 @@ def call_gemini(prompt: str, api_key: str) -> dict:
                 GEMINI_URL.format(model=model), data=body, method="POST",
                 headers={"Content-Type": "application/json", "x-goog-api-key": api_key})
             try:
-                with urllib.request.urlopen(req, timeout=60) as resp:
+                with urllib.request.urlopen(req, timeout=150) as resp:
                     payload = json.loads(resp.read())
                 text = payload["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
@@ -374,45 +401,55 @@ def main() -> int:
     MODELS[:] = discover_models(api_key)
     rng = random.Random(now.strftime("%Y%m%d"))
     new_cards: list[dict] = []
-    failures = 0
-    stop = False
-    for topic, items in by_topic.items():
-        made = 0
-        for item in items:
-            if made >= PER_TOPIC or stop:
+    made = {topic: 0 for topic in by_topic}
+    queues = {topic: list(items) for topic, items in by_topic.items()}
+    calls = failures = 0
+
+    def wanted(topic: str) -> bool:
+        # Chaque thème vise PER_TOPIC ; une fois l'autre thème épuisé, il peut combler jusqu'à DAILY_TARGET.
+        others_done = all(not queues[t] for t in queues if t != topic)
+        return bool(queues[topic]) and (made[topic] < PER_TOPIC or others_done)
+
+    while len(new_cards) < DAILY_TARGET and calls < MAX_CALLS:
+        open_topics = [t for t in queues if wanted(t)]
+        if not open_topics:
+            break
+        topic = min(open_topics, key=lambda t: made[t])  # le thème le moins servi d'abord
+        batch, queues[topic] = queues[topic][:BATCH_SIZE], queues[topic][BATCH_SIZE:]
+        calls += 1
+        try:
+            entries = batch_entries(call_gemini(batch_prompt(topic, batch), api_key), len(batch))
+            failures = 0
+        except QuotaExhausted as error:
+            note(f"arrêt : {error}")
+            break
+        except GeminiError as error:
+            note(f"lot {topic} — {error}")
+            failures += 1
+            if failures >= 3:  # erreurs en série : on s'arrête pour aujourd'hui
                 break
-            prompt = PROMPT.format(subjects=", ".join(SUBJECTS[topic]), source=item["source"],
-                                   topic_label="tech" if topic == "tech" else "économie, finance ou marchés",
-                                   title=item["title"], excerpt=item["excerpt"])
-            try:
-                raw = call_gemini(prompt, api_key)
-                card = validate(raw, item, rng)
-                failures = 0
-                if card is None and not (isinstance(raw, dict) and raw.get("skip")):
-                    note(f"réponse invalide ({item['source']}) : {json.dumps(raw, ensure_ascii=False)[:200]}")
-            except QuotaExhausted as error:
-                note(f"arrêt : {error}")
-                stop = True
-                card = None
-            except GeminiError as error:
-                note(f"{item['source']} — {error}")
-                card = None
-                failures += 1
-                if failures >= 4:  # erreurs en série : on s'arrête pour aujourd'hui
-                    stop = True
+            continue
+        finally:
             time.sleep(DELAY_SECONDS)
-            if card:
+        for n, item in enumerate(batch, 1):
+            entry = entries.get(n)
+            card = validate(entry, item, rng) if entry else None
+            if card and len(new_cards) < DAILY_TARGET:
                 new_cards.append(card)
-                made += 1
+                made[topic] += 1
                 print(f"  + [{topic}] {card['title']}")
+            elif entry and not entry.get("skip"):
+                note(f"réponse invalide ({item['source']}) : {json.dumps(entry, ensure_ascii=False)[:160]}")
             else:
                 print(f"  - ignoré : {item['title'][:70]}")
+    if len(new_cards) < DAILY_MIN:
+        note(f"seulement {len(new_cards)} cartes (objectif {DAILY_MIN}) : ajouter des sources dans sources.json")
 
     cards = merge(new_cards, existing, now)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS.write_text(json.dumps({
-        "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards),
+        "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "calls": calls,
         "totalCards": len(cards), "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")

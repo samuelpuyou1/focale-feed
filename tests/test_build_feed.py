@@ -64,3 +64,18 @@ class BuildFeedTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BatchTests(unittest.TestCase):
+    def test_batch_entries_maps_numbers(self):
+        raw = {"cards": [{"i": 2, **RAW}, {"i": 1, "skip": True}, {"i": 9, **RAW}, {"i": "x"}]}
+        entries = bf.batch_entries(raw, 3)
+        self.assertEqual(set(entries), {1, 2})
+        self.assertTrue(entries[1]["skip"])
+
+    def test_prompt_numbers_articles(self):
+        prompt = bf.batch_prompt("finance", [ITEM | {"title": "A", "excerpt": "x"}, ITEM | {"title": "B", "excerpt": "y"}])
+        self.assertIn("[1] Média : La Tribune", prompt)
+        self.assertIn("[2]", prompt)
+        self.assertIn("Macro", prompt)
+

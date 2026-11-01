@@ -4,9 +4,17 @@
   {"name": "Presse-citron", "topic": "tech", "url": "https://www.presse-citron.net/feed/"},
   {"name": "Numerama", "topic": "tech", "url": "https://www.numerama.com/feed/"},
   {"name": "Frandroid", "topic": "tech", "url": "https://www.frandroid.com/feed"},
+  {"name": "01net", "topic": "tech", "url": "https://www.01net.com/actualites/feed/"},
+  {"name": "Ars Technica", "topic": "tech", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+  {"name": "Engadget", "topic": "tech", "url": "https://www.engadget.com/rss.xml"},
+  {"name": "Journal du Geek", "topic": "tech", "url": "https://www.journaldugeek.com/feed/"},
   {"name": "La Tribune", "topic": "finance", "url": "https://www.latribune.fr/rss/rubriques/bourse.html"},
   {"name": "BFM Business", "topic": "finance", "url": "https://www.bfmtv.com/rss/economie/"},
   {"name": "Le Monde", "topic": "finance", "url": "https://www.lemonde.fr/economie/rss_full.xml"},
   {"name": "Challenges", "topic": "finance", "url": "https://www.challenges.fr/rss.xml"},
-  {"name": "CNBC", "topic": "finance", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html"}
+  {"name": "CNBC", "topic": "finance", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html"},
+  {"name": "Le Figaro", "topic": "finance", "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"},
+  {"name": "MarketWatch", "topic": "finance", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+  {"name": "Cointelegraph", "topic": "finance", "url": "https://cointelegraph.com/rss"},
+  {"name": "Maddyness", "topic": "finance", "url": "https://www.maddyness.com/feed/"}
 ]
