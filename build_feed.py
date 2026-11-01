@@ -434,10 +434,11 @@ def main() -> int:
         for n, item in enumerate(batch, 1):
             entry = entries.get(n)
             card = validate(entry, item, rng) if entry else None
-            if card and len(new_cards) < DAILY_TARGET:
-                new_cards.append(card)
-                made[topic] += 1
-                print(f"  + [{topic}] {card['title']}")
+            if card:
+                if len(new_cards) < DAILY_TARGET:
+                    new_cards.append(card)
+                    made[topic] += 1
+                    print(f"  + [{topic}] {card['title']}")
             elif entry and not entry.get("skip"):
                 note(f"réponse invalide ({item['source']}) : {json.dumps(entry, ensure_ascii=False)[:160]}")
             else:
