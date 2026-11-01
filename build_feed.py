@@ -23,6 +23,7 @@ import random
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -45,6 +46,9 @@ DAILY_TARGET = 24        # objectif total : un thème en manque est complété p
 DAILY_MIN = 20           # en dessous, le rapport le signale
 BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appels, quota préservé)
 MAX_CALLS = 40           # plafond de requêtes par lancement
+DUP_THRESHOLD = 0.28     # recouvrement de mots (titre + fait) au-delà duquel deux cartes racontent la même actu
+COVERED_DAYS = 3         # sujets récents rappelés à l'IA pour éviter les redites
+ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊÀÇ")
 MAX_AGE_HOURS = 36       # fraîcheur des articles retenus
 KEEP_DAYS = 7            # historique conservé dans cards.json
 MAX_CARDS = 200
@@ -200,18 +204,25 @@ Règles :
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
   "answer" = le texte exact du bon choix ; "explanation" = une phrase.
 - Garde les annonces de produits, les tests et les décisions d'entreprises : ce sont de vraies actus.
-- Mets "skip": true seulement si l'extrait est vide de faits, ou si c'est un guide d'achat, un bon plan, une promotion,
+- Une seule carte par événement : mets "skip": true si l'article raconte le même événement qu'un sujet
+  « déjà couvert » (même sous un autre angle ou par un autre média), ou qu'un article précédent de ce lot.
+- Mets aussi "skip": true si l'extrait est vide de faits, ou si c'est un guide d'achat, un bon plan, une promotion,
   du sport, du divertissement, un fait divers ou de la politique sans enjeu {topic_label}.
 Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters", "subject",
 "quiz": {{"question", "choices", "answer", "explanation"}}}} ou {{"i": <numéro>, "skip": true}}]}}, une entrée par article.
 
+Déjà couvert :
+{covered}
+
+Articles :
 {articles}"""
 
 
-def batch_prompt(topic: str, batch: list[dict]) -> str:
+def batch_prompt(topic: str, batch: list[dict], covered: list[str] = ()) -> str:
     articles = "\n\n".join(f"[{n}] Média : {item['source']}\nTitre : {item['title']}\nExtrait : {item['excerpt']}"
                              for n, item in enumerate(batch, 1))
-    return PROMPT.format(subjects=", ".join(SUBJECTS[topic]), articles=articles,
+    covered_text = "\n".join(f"- {title}" for title in list(covered)[:80]) or "- (rien)"
+    return PROMPT.format(subjects=", ".join(SUBJECTS[topic]), articles=articles, covered=covered_text,
                          topic_label="tech" if topic == "tech" else "économie, finance ou marchés")
 
 
@@ -302,6 +313,37 @@ def call_gemini(prompt: str, api_key: str) -> dict:
     raise last_error or GeminiError("aucun modèle disponible")
 
 
+STOPWORDS = set("""avec dans pour par sur sous des les une est sont aux leur leurs plus moins entre apres avant
+depuis cette ces son ses qui que quoi dont tout tous elle elles ils face vers chez selon grace afin ainsi lors comme
+mais donc""".split())
+
+
+def story_words(card: dict) -> set[str]:
+    text = unicodedata.normalize("NFKD", f"{card.get('title', '')} {card.get('fact', '')}".lower())
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    return {w.rstrip("s") for w in re.findall(r"[a-z0-9][a-z0-9\-]{2,}", text) if w not in STOPWORDS}
+
+
+def same_story(a: dict, b: dict) -> bool:
+    wa, wb = story_words(a), story_words(b)
+    return bool(wa and wb) and len(wa & wb) / len(wa | wb) >= DUP_THRESHOLD
+
+
+def has_accents(*texts: str) -> bool:
+    """Un français de trois phrases sans aucun accent trahit une réponse dégradée."""
+    joined = " ".join(texts)
+    return len(joined) < 120 or any(ch in ACCENTS for ch in joined)
+
+
+def dedupe(cards: list[dict]) -> list[dict]:
+    """Garde la première carte publiée de chaque actu."""
+    kept: list[dict] = []
+    for card in sorted(cards, key=lambda c: c.get("publishedAt", "")):
+        if not any(same_story(card, other) for other in kept):
+            kept.append(card)
+    return kept
+
+
 def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
     """Vérifie la réponse de l'IA et produit une carte au format de l'app. None si invalide."""
     if not isinstance(raw, dict) or raw.get("skip"):
@@ -322,6 +364,8 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
     if not (8 <= len(title) <= 90 and 20 <= len(fact) <= 320 and 30 <= len(why) <= 500):
         return None
     if subject not in ALL_SUBJECTS or not question or not explanation:
+        return None
+    if not has_accents(title, fact, why):
         return None
     choices = list(dict.fromkeys(c for c in choices if c))
     if not 3 <= len(choices) <= 4 or answer not in choices or any(len(c) > 90 for c in choices):
@@ -368,6 +412,7 @@ def merge(new_cards: list[dict], existing: list[dict], now: datetime) -> list[di
             continue
         seen.add(card["id"])
         cards.append(card)
+    cards = dedupe(cards)
     cards.sort(key=lambda c: c["publishedAt"], reverse=True)
     return cards[:MAX_CARDS]
 
@@ -404,6 +449,8 @@ def main() -> int:
     made = {topic: 0 for topic in by_topic}
     queues = {topic: list(items) for topic, items in by_topic.items()}
     calls = failures = 0
+    recent_cut = (now - timedelta(days=COVERED_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    recent = [c for c in existing if c.get("publishedAt", "") >= recent_cut]
 
     def wanted(topic: str) -> bool:
         # Chaque thème vise PER_TOPIC ; une fois l'autre thème épuisé, il peut combler jusqu'à DAILY_TARGET.
@@ -418,7 +465,8 @@ def main() -> int:
         batch, queues[topic] = queues[topic][:BATCH_SIZE], queues[topic][BATCH_SIZE:]
         calls += 1
         try:
-            entries = batch_entries(call_gemini(batch_prompt(topic, batch), api_key), len(batch))
+            entries = batch_entries(call_gemini(batch_prompt(topic, batch, [c["title"] for c in new_cards + recent]), api_key),
+                                    len(batch))
             failures = 0
         except QuotaExhausted as error:
             note(f"arrêt : {error}")
@@ -434,7 +482,9 @@ def main() -> int:
         for n, item in enumerate(batch, 1):
             entry = entries.get(n)
             card = validate(entry, item, rng) if entry else None
-            if card:
+            if card and any(same_story(card, other) for other in new_cards + recent):
+                print(f"  = doublon : {card['title'][:70]}")
+            elif card:
                 if len(new_cards) < DAILY_TARGET:
                     new_cards.append(card)
                     made[topic] += 1

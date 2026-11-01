@@ -79,3 +79,30 @@ class BatchTests(unittest.TestCase):
         self.assertIn("[2]", prompt)
         self.assertIn("Macro", prompt)
 
+
+class DedupeTests(unittest.TestCase):
+    def card(self, title, fact, date="2026-11-01T08:00:00Z"):
+        return {"id": title, "title": title, "fact": fact, "publishedAt": date}
+
+    def test_same_story_across_sources(self):
+        a = self.card("Le FBI implique la Corée du Nord dans un piratage de Binance",
+                      "Le FBI attribue à la Corée du Nord le vol de fonds sur Binance.")
+        b = self.card("Le FBI impute à la Corée du Nord un piratage record de Binance",
+                      "Selon le FBI, des pirates nord-coréens ont volé des fonds à Binance.")
+        c = self.card("Mistral Large 4 renforce la cybersécurité française",
+                      "Mistral dévoile un modèle destiné aux équipes de sécurité.")
+        self.assertTrue(bf.same_story(a, b))
+        self.assertFalse(bf.same_story(a, c))
+        b["publishedAt"] = "2026-11-01T09:00:00Z"
+        self.assertEqual([x["id"] for x in bf.dedupe([b, a, c])], [a["id"], c["id"]])
+
+    def test_rejects_unaccented_french(self):
+        raw = {**RAW, "fact": "Les rendements locatifs sont eleves dans certaines villes francaises cette annee.",
+               "whyItMatters": "Les investisseurs peuvent viser ces marches. Le choix de la ville reste decisif pour la rentabilite.",
+               "title": "Rendements locatifs eleves"}
+        self.assertIsNone(bf.validate(raw, ITEM, random.Random(1)))
+
+    def test_prompt_lists_covered_topics(self):
+        prompt = bf.batch_prompt("tech", [ITEM | {"title": "A", "excerpt": "x"}], ["Piratage de Binance"])
+        self.assertIn("- Piratage de Binance", prompt)
+

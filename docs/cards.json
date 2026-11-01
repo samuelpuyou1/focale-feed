@@ -88,50 +88,6 @@
     }
   },
   {
-    "id": "rss-01f672586824",
-    "title": "Baisse des prix du carburant prévue en novembre",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "Le gouvernement libère des barils de réserves stratégiques pour réduire le prix du carburant à la pompe.",
-    "whyItMatters": "Cette mesure vise à offrir une économie de 12 à 18 centimes par litre aux automobilistes dès le 1er novembre. Elle reste cependant jugée insuffisante par les consommateurs face à la cherté de la vie.",
-    "summary": "Le gouvernement libère des barils de réserves stratégiques pour réduire le prix du carburant à la pompe. Cette mesure vise à offrir une économie de 12 à 18 centimes par litre aux automobilistes dès le 1er novembre. Elle reste cependant jugée insuffisante par les consommateurs face à la cherté de la vie.",
-    "source": "BFM Business",
-    "sourceURL": "https://www.bfmtv.com/economie/video-baisse-de-prix-a-la-pompe-c-est-mieux-que-rien-mais-ce-n-est-pas-assez-pour-ces-automobilistes_VN-202611010200.html",
-    "publishedAt": "2026-11-01T09:47:49Z",
-    "quiz": {
-      "question": "Quelle est l'origine des barils utilisés pour baisser les prix ?",
-      "choices": [
-        "La production nationale",
-        "Les réserves stratégiques",
-        "Les importations directes"
-      ],
-      "answerIndex": 1,
-      "explanation": "Le texte indique que les barils proviennent des réserves stratégiques."
-    }
-  },
-  {
-    "id": "rss-a1f39b32c57d",
-    "title": "Reprise des retraits sur la plateforme Binance",
-    "topic": "finance",
-    "subject": "Crypto",
-    "fact": "La plateforme de cryptomonnaies a ouvert la première phase des retraits à la suite d'un piratage majeur.",
-    "whyItMatters": "Cet incident de sécurité record, attribué par le FBI à la Corée du Nord, met en lumière les risques persistants sur les plateformes d'échange. La reprise progressive des retraits est une étape clé pour rassurer les utilisateurs.",
-    "summary": "La plateforme de cryptomonnaies a ouvert la première phase des retraits à la suite d'un piratage majeur. Cet incident de sécurité record, attribué par le FBI à la Corée du Nord, met en lumière les risques persistants sur les plateformes d'échange. La reprise progressive des retraits est une étape clé pour rassurer les utilisateurs.",
-    "source": "Cointelegraph",
-    "sourceURL": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "publishedAt": "2026-11-01T09:38:18Z",
-    "quiz": {
-      "question": "Qui le FBI accuse-t-il d'être responsable du piratage ?",
-      "choices": [
-        "La Corée du Nord",
-        "La Chine",
-        "La Russie"
-      ],
-      "answerIndex": 0,
-      "explanation": "Le FBI a attribué ce piratage à la Corée du Nord selon l'extrait."
-    }
-  },
-  {
     "id": "rss-0433a49f0eb5",
     "title": "Une taxe sur les données adoptée à l'Assemblée",
     "topic": "tech",
@@ -242,28 +198,6 @@
     }
   },
   {
-    "id": "rss-15b4255dffb6",
-    "title": "Baisse du gazole en France grâce aux réserves stratégiques",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "Le gouvernement débloque 10 millions de barils de pétrole pour réduire le prix du gazole de 12 à 18 centimes, complété par un geste de TotalEnergies.",
-    "whyItMatters": "Cette intervention directe sur l'approvisionnement des stations-service permet d'atténuer la pression sur le budget des ménages. L'implication conjointe de l'État et des acteurs privés accentue l'effet baissier à la pompe.",
-    "summary": "Le gouvernement débloque 10 millions de barils de pétrole pour réduire le prix du gazole de 12 à 18 centimes, complété par un geste de TotalEnergies. Cette intervention directe sur l'approvisionnement des stations-service permet d'atténuer la pression sur le budget des ménages. L'implication conjointe de l'État et des acteurs privés accentue l'effet baissier à la pompe.",
-    "source": "Le Figaro",
-    "sourceURL": "https://www.lefigaro.fr/conso/carburants-les-prix-du-diesel-doivent-baisser-a-partir-de-ce-week-end-20261031",
-    "publishedAt": "2026-11-01T08:54:17Z",
-    "quiz": {
-      "question": "Combien de barils de pétrole l'État a-t-il mis à disposition des stations-service ?",
-      "choices": [
-        "1 million",
-        "10 millions",
-        "50 millions"
-      ],
-      "answerIndex": 1,
-      "explanation": "Dix millions de barils des stocks stratégiques ont été libérés pour faire baisser les prix."
-    }
-  },
-  {
     "id": "rss-b5efb87ef285",
     "title": "La bonne santé inattendue de l'économie britannique saluée par le FMI",
     "topic": "finance",
@@ -330,28 +264,6 @@
     }
   },
   {
-    "id": "rss-c426dc65908b",
-    "title": "Le FBI implique la Corée du Nord dans un piratage de Binance",
-    "topic": "tech",
-    "subject": "Cybersécurité",
-    "fact": "Le FBI impute à la Corée du Nord le vol de plus de six milliards de dollars sur la plateforme de cryptomonnaies Binance et diffuse des adresses suspectes.",
-    "whyItMatters": "Cette intervention vise à mobiliser le secteur privé pour bloquer les flux financiers illicites. Elle met en lumière les risques persistants de blanchiment d'argent dans l'écosystème des monnaies numériques.",
-    "summary": "Le FBI impute à la Corée du Nord le vol de plus de six milliards de dollars sur la plateforme de cryptomonnaies Binance et diffuse des adresses suspectes. Cette intervention vise à mobiliser le secteur privé pour bloquer les flux financiers illicites. Elle met en lumière les risques persistants de blanchiment d'argent dans l'écosystème des monnaies numériques.",
-    "source": "Presse-citron",
-    "sourceURL": "https://www.presse-citron.net/fbi-accuse-pays-piratage-binance/",
-    "publishedAt": "2026-11-01T07:56:18Z",
-    "quiz": {
-      "question": "Quel pays est mis en cause par le FBI dans cette affaire de piratage?",
-      "choices": [
-        "La Russie",
-        "La Corée du Nord",
-        "La Chine"
-      ],
-      "answerIndex": 1,
-      "explanation": "Le FBI accuse directement la Corée du Nord d'avoir orchestré le vol de plus de six milliards de dollars sur Binance."
-    }
-  },
-  {
     "id": "rss-0912e1a665c3",
     "title": "Le FBI impute à la Corée du Nord un piratage record de Binance",
     "topic": "finance",
@@ -396,28 +308,6 @@
     }
   },
   {
-    "id": "rss-9ed2b966af99",
-    "title": "Rendements locatifs eleves dans certaines villes francaises",
-    "topic": "finance",
-    "subject": "Marchés",
-    "fact": "Certaines villes affichent un rendement locatif brut superieur a dix pour cent malgre la baisse des prix immobiliers.",
-    "whyItMatters": "Ces opportunites de rendement contrastent avec la tendance generale du marche immobilier. Elles poussent les investisseurs a examiner de nouvelles zones en dehors des grandes metropoles tendues.",
-    "summary": "Certaines villes affichent un rendement locatif brut superieur a dix pour cent malgre la baisse des prix immobiliers. Ces opportunites de rendement contrastent avec la tendance generale du marche immobilier. Elles poussent les investisseurs a examiner de nouvelles zones en dehors des grandes metropoles tendues.",
-    "source": "Challenges",
-    "sourceURL": "https://www.challenges.fr/immobilier/il-ne-faut-pas-jurer-que-par-les-marches-tendus-ces-villes-ou-degager-plus-de-10-de-rendement-locatif-brut-est-encore-possible_646601",
-    "publishedAt": "2026-11-01T06:30:00Z",
-    "quiz": {
-      "question": "Quel taux de rendement locatif brut est atteint dans certaines villes ?",
-      "choices": [
-        "Plus de 15 pour cent",
-        "Plus de 5 pour cent",
-        "Plus de 10 pour cent"
-      ],
-      "answerIndex": 2,
-      "explanation": "Certaines villes affichent un rendement locatif brut theorique superieur a dix pour cent."
-    }
-  },
-  {
     "id": "rss-507f5a1dbef0",
     "title": "Alerte de la Cour des comptes sur le financement de la Sécu",
     "topic": "finance",
@@ -437,50 +327,6 @@
       ],
       "answerIndex": 0,
       "explanation": "L'extrait mentionne explicitement que la Cour des comptes alerte sur le financement de la Sécurité sociale."
-    }
-  },
-  {
-    "id": "rss-42b231ec63e3",
-    "title": "Baisse des prix des carburants à la pompe dès ce dimanche",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "Le gouvernement libère des barils de ses réserves stratégiques pour faire baisser les prix des carburants de 12 à 18 centimes par litre.",
-    "whyItMatters": "Cette mesure directe vise à soulager immédiatement le pouvoir d'achat des automobilistes face à la cherté des prix du marché. Elle repose sur la vente de stocks publics à un tarif inférieur au cours actuel.",
-    "summary": "Le gouvernement libère des barils de ses réserves stratégiques pour faire baisser les prix des carburants de 12 à 18 centimes par litre. Cette mesure directe vise à soulager immédiatement le pouvoir d'achat des automobilistes face à la cherté des prix du marché. Elle repose sur la vente de stocks publics à un tarif inférieur au cours actuel.",
-    "source": "BFM Business",
-    "sourceURL": "https://www.bfmtv.com/economie/video-carburants-des-prix-a-la-pompe-en-baisse-des-ce-dimanche-1er-novembre_VN-202611010117.html",
-    "publishedAt": "2026-11-01T05:40:20Z",
-    "quiz": {
-      "question": "Quelle est l'origine de la baisse des prix du carburant annoncée ?",
-      "choices": [
-        "Une hausse subite de la production mondiale",
-        "La libération de barils issus des réserves stratégiques",
-        "Une baisse des taxes sur l'énergie"
-      ],
-      "answerIndex": 1,
-      "explanation": "Le gouvernement utilise ses stocks pour réduire les prix à la pompe."
-    }
-  },
-  {
-    "id": "rss-5f271a88afaa",
-    "title": "Evolution des horaires des heures creuses d'electricite",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "De nouveaux horaires pour les heures creuses d'electricite entrent en vigueur des cette semaine pour onze millions de foyers.",
-    "whyItMatters": "Ce changement oblige les foyers francais a modifier leurs habitudes de consommation nocturne. Il impacte directement la gestion des appareils electromenagers et la facture energetique.",
-    "summary": "De nouveaux horaires pour les heures creuses d'electricite entrent en vigueur des cette semaine pour onze millions de foyers. Ce changement oblige les foyers francais a modifier leurs habitudes de consommation nocturne. Il impacte directement la gestion des appareils electromenagers et la facture energetique.",
-    "source": "BFM Business",
-    "sourceURL": "https://www.bfmtv.com/economie/video-electricite-de-nouveaux-horaires-pour-les-heures-creuses-des-cette-semaine_VN-202611010114.html",
-    "publishedAt": "2026-11-01T05:30:15Z",
-    "quiz": {
-      "question": "Combien de foyers francais sont concernes par les heures creuses ?",
-      "choices": [
-        "5 millions",
-        "11 millions",
-        "20 millions"
-      ],
-      "answerIndex": 1,
-      "explanation": "L'article precise que c'est une habitude ancree chez onze millions de Francais."
     }
   },
   {
@@ -638,50 +484,6 @@
     }
   },
   {
-    "id": "rss-c0b182553c5c",
-    "title": "Binance a reconstitue la quasi-totalite des fonds voles",
-    "topic": "finance",
-    "subject": "Crypto",
-    "fact": "La plateforme Binance annonce avoir reconstitue 90 pour cent des actifs voles et prepare la reprise des retraits.",
-    "whyItMatters": "Cette situation montre la capacite d'une grande plateforme a faire face a un incident de securite majeur. Le retablissement complet des services rassure les utilisateurs sur la stabilite des fonds restants.",
-    "summary": "La plateforme Binance annonce avoir reconstitue 90 pour cent des actifs voles et prepare la reprise des retraits. Cette situation montre la capacite d'une grande plateforme a faire face a un incident de securite majeur. Le retablissement complet des services rassure les utilisateurs sur la stabilite des fonds restants.",
-    "source": "Cointelegraph",
-    "sourceURL": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "publishedAt": "2026-10-31T15:36:01Z",
-    "quiz": {
-      "question": "Quel pourcentage des actifs voles a ete reconstitue ?",
-      "choices": [
-        "50 pour cent",
-        "100 pour cent",
-        "90 pour cent"
-      ],
-      "answerIndex": 2,
-      "explanation": "L'entreprise indique avoir reconstitue 90 pour cent des actifs voles grace a des achats sur le marche."
-    }
-  },
-  {
-    "id": "rss-1a723a2c8f68",
-    "title": "Resistance du Bitcoin apres le piratage de Binance",
-    "topic": "finance",
-    "subject": "Crypto",
-    "fact": "Le Bitcoin a mieux resiste que prevu suite au piratage de la plateforme Binance selon le dirigeant de Strive.",
-    "whyItMatters": "Cette resistance montre la solidite relative de la cryptomonnaie face aux crises sectorielles. Les investisseurs surveillent toutefois l'evolution du marche pour identifier un possible point bas.",
-    "summary": "Le Bitcoin a mieux resiste que prevu suite au piratage de la plateforme Binance selon le dirigeant de Strive. Cette resistance montre la solidite relative de la cryptomonnaie face aux crises sectorielles. Les investisseurs surveillent toutefois l'evolution du marche pour identifier un possible point bas.",
-    "source": "Cointelegraph",
-    "sourceURL": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "publishedAt": "2026-10-31T15:26:46Z",
-    "quiz": {
-      "question": "Quel dirigeant estime que le Bitcoin a bien resiste ?",
-      "choices": [
-        "Le PDG de Coinbase",
-        "Le PDG de Strive",
-        "Le PDG de Binance"
-      ],
-      "answerIndex": 1,
-      "explanation": "L'article mentionne le directeur general de Strive, Matt Cole."
-    }
-  },
-  {
     "id": "rss-da8844bbf2eb",
     "title": "Les constructeurs automobiles adoptent l'impression 3D",
     "topic": "finance",
@@ -701,28 +503,6 @@
       ],
       "answerIndex": 0,
       "explanation": "L'extrait indique clairement que l'objectif est de produire plus vite et à moindre coût."
-    }
-  },
-  {
-    "id": "rss-43523836c604",
-    "title": "Fermeture prochaine de l'assistant IA respectueux de la vie privee",
-    "topic": "tech",
-    "subject": "IA",
-    "fact": "Le fondateur de l'assistant intelligent Ollie annonce l'arret de son service d'ici une semaine.",
-    "whyItMatters": "Cette disparition illustre la difficulte pour les acteurs de niche de s'imposer sur un marche sature d'assistants conversationnels. Elle pose aussi la question de l'avenir des solutions technologiques placees sous le signe de la confidentialite.",
-    "summary": "Le fondateur de l'assistant intelligent Ollie annonce l'arret de son service d'ici une semaine. Cette disparition illustre la difficulte pour les acteurs de niche de s'imposer sur un marche sature d'assistants conversationnels. Elle pose aussi la question de l'avenir des solutions technologiques placees sous le signe de la confidentialite.",
-    "source": "TechCrunch",
-    "sourceURL": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-    "publishedAt": "2026-10-30T22:56:13Z",
-    "quiz": {
-      "question": "Quel est le sort reserve a l'assistant Ollie ?",
-      "choices": [
-        "Il leve des fonds",
-        "Il est rachete par un geant",
-        "Il arrete ses activites"
-      ],
-      "answerIndex": 2,
-      "explanation": "Le fondateur a annonce la fermeture de l'assistant d'ici une semaine."
     }
   }
 ]
