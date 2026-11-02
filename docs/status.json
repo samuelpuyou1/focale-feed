@@ -1,21 +1,21 @@
 {
-  "ranAt": "2026-11-01T11:11:48Z",
+  "ranAt": "2026-11-02T13:02:47Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.1-flash",
     "gemini-flash-lite-latest"
   ],
-  "newCards": 24,
+  "newCards": 22,
   "byTopic": {
-    "tech": 10,
-    "finance": 14
+    "tech": 11,
+    "finance": 11
   },
-  "calls": 18,
-  "totalCards": 69,
+  "calls": 6,
+  "totalCards": 91,
   "candidates": {
-    "tech": 78,
-    "finance": 66
+    "tech": 105,
+    "finance": 107
   },
   "errors": []
 }

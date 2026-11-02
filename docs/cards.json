@@ -1,5 +1,489 @@
 [
   {
+    "id": "rss-0243151cee9e",
+    "title": "Vague de cyberattaques sur des supermarchés européens",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Des supermarchés dans plusieurs pays européens ont subi des cyberattaques ayant modifié la température de leurs réfrigérateurs et congélateurs.",
+    "whyItMatters": "Ces incidents soulignent la vulnérabilité des infrastructures de la grande distribution face aux cybermenaces. Cela met en péril la chaîne du froid et la sécurité des denrées alimentaires.",
+    "summary": "Des supermarchés dans plusieurs pays européens ont subi des cyberattaques ayant modifié la température de leurs réfrigérateurs et congélateurs. Ces incidents soulignent la vulnérabilité des infrastructures de la grande distribution face aux cybermenaces. Cela met en péril la chaîne du froid et la sécurité des denrées alimentaires.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1024300/europe-freezer-fridge-hack-cyberattack",
+    "publishedAt": "2026-11-02T13:00:35Z",
+    "quiz": {
+      "question": "Quel équipement a été visé dans ces supermarchés ?",
+      "choices": [
+        "Les caisses automatiques",
+        "Les frigos et congélateurs",
+        "Les systèmes de vidéosurveillance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les cyberattaques ont entraîné des variations soudaines de température dans les réfrigérateurs et congélateurs."
+    }
+  },
+  {
+    "id": "rss-859285aef5bd",
+    "title": "Encadrement prochain des rétrocessions des conseillers",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le gendarme de la Bourse va préciser les règles de rémunération des conseillers financiers par les gestionnaires de produits.",
+    "whyItMatters": "Cette mesure vise à plus de transparence sur les commissions touchées par les conseillers lorsqu'ils recommandent des placements. Elle protège ainsi les épargnants contre des incitations financières potentiellement biaisées.",
+    "summary": "Le gendarme de la Bourse va préciser les règles de rémunération des conseillers financiers par les gestionnaires de produits. Cette mesure vise à plus de transparence sur les commissions touchées par les conseillers lorsqu'ils recommandent des placements. Elle protège ainsi les épargnants contre des incitations financières potentiellement biaisées.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/argent/article/2026/11/02/les-retrocessions-des-conseillers-financiers-bientot-mieux-encadrees_6805254_1657007.html",
+    "publishedAt": "2026-11-02T13:00:23Z",
+    "quiz": {
+      "question": "Qui va encadrer les conditions de rémunération des conseillers financiers ?",
+      "choices": [
+        "Les banques centrales",
+        "Le gendarme de la Bourse",
+        "Le ministère de l'Économie"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'autorité boursière prépare une note pour encadrer ces pratiques de rémunération."
+    }
+  },
+  {
+    "id": "rss-3fcf88f51b3f",
+    "title": "Anthropic limite les capacités de Claude pour les jeux",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Anthropic a mis à jour son assistant Claude afin qu'il ne puisse plus copier des jeux vidéo.",
+    "whyItMatters": "Cette précaution juridique vise à prévenir les poursuites potentielles de studios pour violation de la propriété intellectuelle. Les entreprises d'IA cherchent ainsi à sécuriser leurs modèles face aux risques de plagiat.",
+    "summary": "Anthropic a mis à jour son assistant Claude afin qu'il ne puisse plus copier des jeux vidéo. Cette précaution juridique vise à prévenir les poursuites potentielles de studios pour violation de la propriété intellectuelle. Les entreprises d'IA cherchent ainsi à sécuriser leurs modèles face aux risques de plagiat.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/anthropic-ne-veut-plus-que-claude-copie-des-jeux-video.html",
+    "publishedAt": "2026-11-02T13:00:03Z",
+    "quiz": {
+      "question": "Pourquoi Anthropic a-t-il modifié son chatbot Claude ?",
+      "choices": [
+        "Pour réduire sa consommation d'énergie",
+        "Pour augmenter sa vitesse de calcul",
+        "Pour éviter de copier des jeux vidéo"
+      ],
+      "answerIndex": 2,
+      "explanation": "La mise à jour protège l'entreprise contre d'éventuelles attaques judiciaires de studios."
+    }
+  },
+  {
+    "id": "rss-309b643061f1",
+    "title": "Google enquête sur un bug de batterie des Pixel Watch",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Google a identifié un problème provoquant une baisse anormale de l'autonomie des montres Pixel Watch et prépare un correctif.",
+    "whyItMatters": "Une autonomie dégradée nuit directement à l'expérience utilisateur des montres connectées au quotidien. Ce correctif est attendu pour rétablir le fonctionnement normal des appareils.",
+    "summary": "Google a identifié un problème provoquant une baisse anormale de l'autonomie des montres Pixel Watch et prépare un correctif. Une autonomie dégradée nuit directement à l'expérience utilisateur des montres connectées au quotidien. Ce correctif est attendu pour rétablir le fonctionnement normal des appareils.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/marques/google/3306693_google-a-enfin-identifie-le-probleme-qui-fait-fondre-la-batterie-des-pixel-watch",
+    "publishedAt": "2026-11-02T12:51:56Z",
+    "quiz": {
+      "question": "Quel appareil est concerné par ce problème de batterie ?",
+      "choices": [
+        "Le Pixel Phone",
+        "La Pixel Watch",
+        "La tablette Pixel"
+      ],
+      "answerIndex": 1,
+      "explanation": "Plusieurs utilisateurs ont signalé une chute brutale de l'autonomie de leur Pixel Watch."
+    }
+  },
+  {
+    "id": "rss-0efb837c0cf0",
+    "title": "Christophe Fanichet nommé à la tête d'Eurostar",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Christophe Fanichet prend la direction d'Eurostar pour faire face à l'arrivée de nouveaux concurrents sur le marché transmanche.",
+    "whyItMatters": "Cette nomination intervient alors que le monopole historique de l'opérateur est directement menacé par de nouveaux acteurs ferroviaires. La gestion de cette transition déterminera la part de marché future de l'entreprise.",
+    "summary": "Christophe Fanichet prend la direction d'Eurostar pour faire face à l'arrivée de nouveaux concurrents sur le marché transmanche. Cette nomination intervient alors que le monopole historique de l'opérateur est directement menacé par de nouveaux acteurs ferroviaires. La gestion de cette transition déterminera la part de marché future de l'entreprise.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/transports/debarque-de-la-direction-de-sncf-voyageurs-christophe-fanichet-se-recase-a-la-tete-d-eurostar-pour-affronter-la-future-concurrence_AV-202611020522.html",
+    "publishedAt": "2026-11-02T12:50:45Z",
+    "quiz": {
+      "question": "Quel est le principal défi d'Eurostar sous la direction de Christophe Fanichet ?",
+      "choices": [
+        "La baisse du trafic touristique",
+        "La hausse du prix des péages",
+        "L'arrivée de nouveaux concurrents"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'opérateur transmanche doit affronter la fin de son monopole face à l'émergence de nouveaux acteurs."
+    }
+  },
+  {
+    "id": "rss-44914673932a",
+    "title": "Tuxedo dévoile le Nano Pro Gen15, un mini-PC taillé pour Linux",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le fabricant Tuxedo a lancé le Nano Pro Gen15, un mini-PC associant un processeur Intel Panther Lake et une mémoire vive évolutive.",
+    "whyItMatters": "Ce modèle offre une solution puissante et modulaire pour les utilisateurs privilégiant les systèmes d'exploitation libres. Il démontre la vitalité du marché des ordinateurs compacts haut de gamme.",
+    "summary": "Le fabricant Tuxedo a lancé le Nano Pro Gen15, un mini-PC associant un processeur Intel Panther Lake et une mémoire vive évolutive. Ce modèle offre une solution puissante et modulaire pour les utilisateurs privilégiant les systèmes d'exploitation libres. Il démontre la vitalité du marché des ordinateurs compacts haut de gamme.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/mini-pc/3306431_linux-panther-lake-et-128-go-de-ram-tuxedo-degaine-un-mini-pc-interessant-a-plus-dun-titre",
+    "publishedAt": "2026-11-02T12:41:29Z",
+    "quiz": {
+      "question": "Quel système d'exploitation est principalement visé par le constructeur Tuxedo ?",
+      "choices": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tuxedo est spécialisé dans la conception de machines spécifiquement optimisées pour Linux."
+    }
+  },
+  {
+    "id": "rss-5f98c728ed0b",
+    "title": "L'Allemagne confiante malgré des stocks de gaz bas",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement allemand affiche sa confiance pour l'hiver en dépit de réserves de gaz remplies à seulement 61,5%.",
+    "whyItMatters": "Ce niveau est inférieur aux exigences réglementaires fixées pour la période, faisant craindre des tensions sur l'approvisionnement énergétique. L'exécutif estime néanmoins que les capacités d'importation et la consommation maîtrisée suffiront.",
+    "summary": "Le gouvernement allemand affiche sa confiance pour l'hiver en dépit de réserves de gaz remplies à seulement 61,5%. Ce niveau est inférieur aux exigences réglementaires fixées pour la période, faisant craindre des tensions sur l'approvisionnement énergétique. L'exécutif estime néanmoins que les capacités d'importation et la consommation maîtrisée suffiront.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/energie/ses-reserves-de-gaz-ne-sont-remplies-qu-a-61-5-pourtant-l-allemagne-se-dit-confiante-pour-affronter-l-hiver_AD-202611020515.html",
+    "publishedAt": "2026-11-02T12:30:28Z",
+    "quiz": {
+      "question": "Quel est le taux de remplissage des réserves de gaz en Allemagne ?",
+      "choices": [
+        "61,5 %",
+        "82,3 %",
+        "75,0 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les réserves de gaz du pays atteignent 61,5 %, soit un niveau inférieur aux seuils réglementaires."
+    }
+  },
+  {
+    "id": "rss-30f60a5566b6",
+    "title": "Projet de fusion entre Marvell et Lumentum",
+    "topic": "finance",
+    "subject": "Fintech",
+    "fact": "Les entreprises Marvell et Lumentum prévoient de fusionner via une transaction financée en actions.",
+    "whyItMatters": "Ce rapprochement stratégique vise à se positionner fortement sur le marché en plein essor des réseaux optiques. L'opération illustre la consolidation en cours dans le secteur technologique.",
+    "summary": "Les entreprises Marvell et Lumentum prévoient de fusionner via une transaction financée en actions. Ce rapprochement stratégique vise à se positionner fortement sur le marché en plein essor des réseaux optiques. L'opération illustre la consolidation en cours dans le secteur technologique.",
+    "source": "MarketWatch",
+    "sourceURL": "https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories",
+    "publishedAt": "2026-11-02T12:26:00Z",
+    "quiz": {
+      "question": "Sur quel marché se positionne principalement ce projet de fusion ?",
+      "choices": [
+        "Les puces graphiques",
+        "Les réseaux optiques",
+        "Le stockage cloud"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le projet cible spécifiquement le marché dynamique de la mise en réseau optique."
+    }
+  },
+  {
+    "id": "rss-dcd95b56954e",
+    "title": "Ryanair gèle les salaires et mise sur l'IA face au kérosène",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Face à la flambée des coûts du carburant, Ryanair prévoit de geler les salaires et d'accroître l'usage de l'intelligence artificielle.",
+    "whyItMatters": "La hausse du kérosène pèse lourdement sur la rentabilité des compagnies aériennes et alimente l'inflation pour les voyageurs. Cette stratégie illustre la recherche de gains de productivité par l'automatisation dans le secteur.",
+    "summary": "Face à la flambée des coûts du carburant, Ryanair prévoit de geler les salaires et d'accroître l'usage de l'intelligence artificielle. La hausse du kérosène pèse lourdement sur la rentabilité des compagnies aériennes et alimente l'inflation pour les voyageurs. Cette stratégie illustre la recherche de gains de productivité par l'automatisation dans le secteur.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/societes/ryanair-veut-geler-les-salaires-et-utiliser-davantage-l-ia-pour-reduire-ses-couts-face-a-la-flambee-du-carburant-20261102",
+    "publishedAt": "2026-11-02T12:02:19Z",
+    "quiz": {
+      "question": "Quelle mesure Ryanair envisage-t-elle face à la hausse du kérosène ?",
+      "choices": [
+        "Geler les salaires et utiliser l'IA",
+        "Réduire la flotte d'avions",
+        "Fermer des lignes européennes"
+      ],
+      "answerIndex": 0,
+      "explanation": "La compagnie cherche à réduire ses coûts opérationnels pour faire face à la flambée des prix du carburant."
+    }
+  },
+  {
+    "id": "rss-543c9fc69c1f",
+    "title": "Google teste avec succès une intelligence artificielle dans l'espace",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Google a fait fonctionner un modèle d'intelligence artificielle Gemma à bord d'un satellite en orbite équipé de puces TPU.",
+    "whyItMatters": "Cette réussite valide la résistance des processeurs dédiés à l'IA face aux conditions spatiales extrêmes, comme les radiations. Cette avancée ouvre la voie à un traitement autonome des données directement depuis l'espace.",
+    "summary": "Google a fait fonctionner un modèle d'intelligence artificielle Gemma à bord d'un satellite en orbite équipé de puces TPU. Cette réussite valide la résistance des processeurs dédiés à l'IA face aux conditions spatiales extrêmes, comme les radiations. Cette avancée ouvre la voie à un traitement autonome des données directement depuis l'espace.",
+    "source": "Journal du Geek",
+    "sourceURL": "https://www.journaldugeek.com/2026/11/02/google-envoie-son-ia-dans-lespace-voici-la-premiere-reponse-generee-en-dehors-de-la-terre/",
+    "publishedAt": "2026-11-02T12:01:47Z",
+    "quiz": {
+      "question": "Quel modèle d'intelligence artificielle a été testé dans l'espace par Google ?",
+      "choices": [
+        "Claude",
+        "Gemma",
+        "Gemini"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le test spatial a été réalisé en exploitant le modèle Gemma à bord du satellite."
+    }
+  },
+  {
+    "id": "rss-68cee77dc5ba",
+    "title": "Imerys décroche sa concession minière de lithium",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Imerys a obtenu la concession pour exploiter un gisement de lithium dans l'Allier dans le cadre d'un projet de 1,8 milliard d'euros.",
+    "whyItMatters": "Ce projet stratégique soutenu par l'État doit sécuriser l'approvisionnement en métaux essentiels pour la transition énergétique en France. Toutefois, plusieurs obstacles techniques et réglementaires restent à surmonter avant le lancement effectif.",
+    "summary": "Imerys a obtenu la concession pour exploiter un gisement de lithium dans l'Allier dans le cadre d'un projet de 1,8 milliard d'euros. Ce projet stratégique soutenu par l'État doit sécuriser l'approvisionnement en métaux essentiels pour la transition énergétique en France. Toutefois, plusieurs obstacles techniques et réglementaires restent à surmonter avant le lancement effectif.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/industrie/gisement-strategique-dans-lallier-ces-freins-quimerys-doit-encore-lever-pour-concretiser-sa-future-mine-de-lithium-un-projet-a-18-milliard-deuros-soutenu-par-letat_646730",
+    "publishedAt": "2026-11-02T12:00:00Z",
+    "quiz": {
+      "question": "Quel est le montant estimé du projet de mine de lithium d'Imerys ?",
+      "choices": [
+        "1,2 milliard d'euros",
+        "2,5 milliards d'euros",
+        "1,8 milliard d'euros"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le projet d'exploitation du gisement dans l'Allier représente un investissement de 1,8 milliard d'euros."
+    }
+  },
+  {
+    "id": "rss-c2356e7b8dfc",
+    "title": "Des millions d'utilisateurs touchés par des extensions Chrome malveillantes",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Plus de 300 extensions pour Google Chrome ont détourné des recherches et collecté des données auprès de treize millions d'internautes.",
+    "whyItMatters": "Cette faille met en lumière les risques persistants liés aux modules complémentaires téléchargés sur les navigateurs web. Elle rappelle la nécessité de vérifier régulièrement les outils installés pour protéger sa vie privée.",
+    "summary": "Plus de 300 extensions pour Google Chrome ont détourné des recherches et collecté des données auprès de treize millions d'internautes. Cette faille met en lumière les risques persistants liés aux modules complémentaires téléchargés sur les navigateurs web. Elle rappelle la nécessité de vérifier régulièrement les outils installés pour protéger sa vie privée.",
+    "source": "Presse-citron",
+    "sourceURL": "https://www.presse-citron.net/pieges-extensions-suspectes-google-chrome/",
+    "publishedAt": "2026-11-02T11:56:36Z",
+    "quiz": {
+      "question": "Quel problème a été découvert sur ces extensions Chrome ?",
+      "choices": [
+        "Une surconsommation de mémoire",
+        "Le détournement de recherches et la collecte de données",
+        "Un blocage total du navigateur"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les extensions ciblées récupéraient des informations personnelles tout en modifiant les résultats de recherche."
+    }
+  },
+  {
+    "id": "rss-e84e783bb28e",
+    "title": "Alstom abaisse ses perspectives et subit des retards",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le groupe ferroviaire Alstom a de nouveau réduit ses prévisions pour l'exercice en raison de retards persistants dans ses livraisons.",
+    "whyItMatters": "Malgré un carnet de commandes bien rempli, l'incapacité à livrer assez rapidement pénalise la rentabilité de l'industriel. Cela met en lumière les difficultés opérationnelles majeures que traverse l'entreprise sur certains contrats.",
+    "summary": "Le groupe ferroviaire Alstom a de nouveau réduit ses prévisions pour l'exercice en raison de retards persistants dans ses livraisons. Malgré un carnet de commandes bien rempli, l'incapacité à livrer assez rapidement pénalise la rentabilité de l'industriel. Cela met en lumière les difficultés opérationnelles majeures que traverse l'entreprise sur certains contrats.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/entreprises/industries/l-entreprise-a-meme-mis-en-place-un-commando-pour-comprendre-ce-qui-peche-comment-les-contrats-en-allemagne-empoisonnent-alstom-dont-la-rentabilite-chute-encore_AN-202611020500.html",
+    "publishedAt": "2026-11-02T11:51:47Z",
+    "quiz": {
+      "question": "Quel est le principal problème opérationnel rencontré par Alstom ?",
+      "choices": [
+        "Un manque de commandes",
+        "Une pénurie de matières premières",
+        "Des retards de livraison"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'industriel reçoit beaucoup de commandes mais ne livre pas assez vite."
+    }
+  },
+  {
+    "id": "rss-1b17d004db79",
+    "title": "Le gouvernement veut faciliter le travail dominical",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'exécutif envisage d'élargir les dérogations pour l'ouverture des commerces le dimanche après des dégradations.",
+    "whyItMatters": "Cette mesure législative vise à aider les commerçants touchés par des violences et des pillages récents à reconstituer leur chiffre d'affaires. Elle suscite toutefois des débats sur le temps de travail et la concertation sociale.",
+    "summary": "L'exécutif envisage d'élargir les dérogations pour l'ouverture des commerces le dimanche après des dégradations. Cette mesure législative vise à aider les commerçants touchés par des violences et des pillages récents à reconstituer leur chiffre d'affaires. Elle suscite toutefois des débats sur le temps de travail et la concertation sociale.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/02/en-reponse-aux-commercants-eprouves-par-les-violences-du-17-octobre-le-gouvernement-demande-aux-prefets-de-faciliter-l-ouverture-des-commerces-le-dimanche_6805243_3234.html",
+    "publishedAt": "2026-11-02T11:47:51Z",
+    "quiz": {
+      "question": "Quel événement motive cette proposition d'ouverture dominicale accrue ?",
+      "choices": [
+        "Des pillages lors de manifestations",
+        "Une grève générale des transports",
+        "Une baisse historique de la consommation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le projet fait suite aux destructions et pillages subis par des milliers de magasins lors de manifestations."
+    }
+  },
+  {
+    "id": "rss-e25f707e48e9",
+    "title": "Mer Noire : la guerre menace l'exportation des céréales",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Les frappes russes en mer Noire ciblent les navires exportant des céréales ukrainiennes, fragilisant le commerce maritime.",
+    "whyItMatters": "Cette situation critique la sécurité alimentaire mondiale et met en lumière les tensions géopolitiques pesant sur les marchés agricoles. Les opérateurs surveillent de près l'impact de ce conflit sur l'approvisionnement international.",
+    "summary": "Les frappes russes en mer Noire ciblent les navires exportant des céréales ukrainiennes, fragilisant le commerce maritime. Cette situation critique la sécurité alimentaire mondiale et met en lumière les tensions géopolitiques pesant sur les marchés agricoles. Les opérateurs surveillent de près l'impact de ce conflit sur l'approvisionnement international.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/monde/le-lieu-le-plus-dangereux-au-monde-pour-les-marins-pourquoi-la-nouvelle-bataille-russo-ukrainienne-menace-la-securite-alimentaire-du-monde_646732",
+    "publishedAt": "2026-11-02T11:45:00Z",
+    "quiz": {
+      "question": "Quelle zone maritime est particulièrement menacée selon l'article ?",
+      "choices": [
+        "La mer Méditerranée",
+        "La mer Noire",
+        "Le détroit d'Ormuz"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'intensification des frappes russes dans cette zone perturbe l'exportation des céréales ukrainiennes."
+    }
+  },
+  {
+    "id": "rss-2888be39d972",
+    "title": "Accident d'une hypercar de BYD avant sa tentative de record",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Une Yangwang U9 Xtreme de BYD a eu un accident sur une piste fermée en Chine avant une tentative de record de vitesse.",
+    "whyItMatters": "Cet incident pourrait compromettre les ambitions du constructeur de franchir la barre des 500 km/h à Dubaï. Il illustre les risques techniques inhérents aux tests de performance extrême sur les véhicules électriques.",
+    "summary": "Une Yangwang U9 Xtreme de BYD a eu un accident sur une piste fermée en Chine avant une tentative de record de vitesse. Cet incident pourrait compromettre les ambitions du constructeur de franchir la barre des 500 km/h à Dubaï. Il illustre les risques techniques inhérents aux tests de performance extrême sur les véhicules électriques.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/vroom/2365677-lhypercar-de-byd-secrase-a-haute-vitesse-le-record-a-500-km-h-est-il-menace.html",
+    "publishedAt": "2026-11-02T11:44:34Z",
+    "quiz": {
+      "question": "Quel était l'objectif visé par le constructeur BYD avec ce véhicule ?",
+      "choices": [
+        "Une tentative de record de vitesse à plus de 500 km/h",
+        "Une autonomie record de 1000 kilomètres",
+        "Le lancement du premier véhicule volant"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le véhicule préparait une performance majeure à Dubaï pour dépasser les 500 km/h."
+    }
+  },
+  {
+    "id": "rss-7a3574e60963",
+    "title": "Apple alerte des utilisateurs d'iPhone contre des logiciels espions",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Apple a prévenu des utilisateurs d'iPhone dans 99 pays, dont la France, d'une campagne de cyberespionnage par des gouvernements étrangers.",
+    "whyItMatters": "Ces attaques ciblées soulignent la persistance des menaces informatiques sophistiquées visant des personnalités ou des citoyens spécifiques. Elles incitent les fabricants à renforcer continuellement leurs protocoles de sécurité mobile.",
+    "summary": "Apple a prévenu des utilisateurs d'iPhone dans 99 pays, dont la France, d'une campagne de cyberespionnage par des gouvernements étrangers. Ces attaques ciblées soulignent la persistance des menaces informatiques sophistiquées visant des personnalités ou des citoyens spécifiques. Elles incitent les fabricants à renforcer continuellement leurs protocoles de sécurité mobile.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/panique-iphone-apple-garde-operation-espionnage-99-pays-france.html",
+    "publishedAt": "2026-11-02T11:30:50Z",
+    "quiz": {
+      "question": "Par qui ces logiciels espions mercenaires ont-ils été déployés ?",
+      "choices": [
+        "Par des pirates informatiques indépendants",
+        "Par des opérateurs téléphoniques",
+        "Par des gouvernements étrangers"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les alertes émises par Apple concernent des logiciels espions d'origine étatique."
+    }
+  },
+  {
+    "id": "rss-a93aef32c74c",
+    "title": "Apple préparerait trois nouveaux modèles d'iPad",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Apple pourrait lancer trois nouvelles tablettes iPad au début de l'année prochaine.",
+    "whyItMatters": "Le renouvellement régulier de la gamme iPad stimule le marché des tablettes tactiles. Cela permet à Apple de maintenir sa position face à la concurrence.",
+    "summary": "Apple pourrait lancer trois nouvelles tablettes iPad au début de l'année prochaine. Le renouvellement régulier de la gamme iPad stimule le marché des tablettes tactiles. Cela permet à Apple de maintenir sa position face à la concurrence.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2303590/apple-is-reportedly-launching-three-new-ipads-early-next-year/",
+    "publishedAt": "2026-11-02T11:12:11Z",
+    "quiz": {
+      "question": "Combien de nouveaux iPad Apple pourrait-il lancer ?",
+      "choices": [
+        "Cinq",
+        "Trois",
+        "Un"
+      ],
+      "answerIndex": 1,
+      "explanation": "Des sources indiquent qu'Apple pourrait dévoiler trois nouveaux modèles d'iPad au début de l'année prochaine."
+    }
+  },
+  {
+    "id": "rss-9e1ddd41050e",
+    "title": "Ford promet la sécurité des données de ses clients",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Ford a officialisé un engagement de confidentialité pour rassurer ses clients sur la protection des données de leur véhicule.",
+    "whyItMatters": "Les voitures connectées collectent une quantité croissante d'informations personnelles. Cette initiative vise à instaurer la confiance face aux risques de piratage et d'utilisation abusive des données.",
+    "summary": "Ford a officialisé un engagement de confidentialité pour rassurer ses clients sur la protection des données de leur véhicule. Les voitures connectées collectent une quantité croissante d'informations personnelles. Cette initiative vise à instaurer la confiance face aux risques de piratage et d'utilisation abusive des données.",
+    "source": "TechCrunch",
+    "sourceURL": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
+    "publishedAt": "2026-11-02T11:00:00Z",
+    "quiz": {
+      "question": "Quel engagement Ford vient-il de prendre ?",
+      "choices": [
+        "Garantir la sécurité des données des véhicules",
+        "Offrir des réductions sur l'achat de voitures",
+        "Supprimer toute collecte de données personnelles"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ford a lancé une promesse de confidentialité pour assurer la protection des données de ses clients."
+    }
+  },
+  {
+    "id": "rss-f4e501349171",
+    "title": "Trezor relève sa limite de mots de passe suite à des vols",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Trezor a augmenté sa limite de mots de passe en réaction aux récents piratages de portefeuilles crypto.",
+    "whyItMatters": "Cette modification de sécurité intervient après des attaques d'envergure ayant ciblé la concurrence. Elle vise à renforcer la protection des utilisateurs contre la compromission de leurs informations de récupération.",
+    "summary": "Trezor a augmenté sa limite de mots de passe en réaction aux récents piratages de portefeuilles crypto. Cette modification de sécurité intervient après des attaques d'envergure ayant ciblé la concurrence. Elle vise à renforcer la protection des utilisateurs contre la compromission de leurs informations de récupération.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/trezor-wallet-passphrase-limit-128-characters-coldcard-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-02T10:46:59Z",
+    "quiz": {
+      "question": "Qu'a fait Trezor en réaction aux attaques sur les portefeuilles ?",
+      "choices": [
+        "Il a baissé ses tarifs",
+        "Il a arrêté son activité",
+        "Il a relevé sa limite de mots de passe"
+      ],
+      "answerIndex": 2,
+      "explanation": "Trezor a levé son plafond de mots de passe suite aux incidents de sécurité signalés."
+    }
+  },
+  {
+    "id": "rss-5c9e0a8d1b31",
+    "title": "Scandale autour de la chute du courtier turc Tera",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'enquête sur la faillite du courtier Tera implique des responsables politiques et met en attente un demi-million d'épargnants.",
+    "whyItMatters": "Cette affaire met en lumière des montages financiers frauduleux aux ramifications politiques importantes en Turquie. Elle laisse des centaines de milliers d'investisseurs dans l'incertitude quant au remboursement de leurs fonds.",
+    "summary": "L'enquête sur la faillite du courtier Tera implique des responsables politiques et met en attente un demi-million d'épargnants. Cette affaire met en lumière des montages financiers frauduleux aux ramifications politiques importantes en Turquie. Elle laisse des centaines de milliers d'investisseurs dans l'incertitude quant au remboursement de leurs fonds.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/02/en-turquie-la-debacle-des-fonds-d-investissement-aux-ramifications-financieres-et-politiques-tentaculaires_6805233_3234.html",
+    "publishedAt": "2026-11-02T10:30:17Z",
+    "quiz": {
+      "question": "Combien d'épargnants attendent le remboursement de leurs investissements suite à cette affaire ?",
+      "choices": [
+        "Dix mille",
+        "Un demi-million",
+        "Deux millions"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article mentionne qu'un demi-million d'épargnants attendent le remboursement de leurs investissements."
+    }
+  },
+  {
+    "id": "rss-c22e5e7d6e81",
+    "title": "Jackery lance l'Explorer 100D, sa plus petite station électrique",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Jackery a dévoilé l'Explorer 100D, une station d'énergie portable ultra-compacte fonctionnant avec une batterie lithium fer phosphate.",
+    "whyItMatters": "Ce format miniature facilite le transport d'énergie pour les nomades et les adeptes d'activités en extérieur. L'utilisation de cette technologie chimique garantit également une plus grande longévité et sécurité.",
+    "summary": "Jackery a dévoilé l'Explorer 100D, une station d'énergie portable ultra-compacte fonctionnant avec une batterie lithium fer phosphate. Ce format miniature facilite le transport d'énergie pour les nomades et les adeptes d'activités en extérieur. L'utilisation de cette technologie chimique garantit également une plus grande longévité et sécurité.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+    "publishedAt": "2026-11-02T05:00:00Z",
+    "quiz": {
+      "question": "Quelle technologie de batterie équipe la nouvelle station Jackery ?",
+      "choices": [
+        "Plomb-acide",
+        "Lithium fer phosphate",
+        "Nickel-métal hydrure"
+      ],
+      "answerIndex": 1,
+      "explanation": "La station utilise des batteries LFP reconnues pour leur sécurité et leur durée de vie accrue."
+    }
+  },
+  {
     "id": "rss-54c625b0e4e9",
     "title": "Les cryptomonnaies adoptées par 11 % des Français",
     "topic": "finance",
