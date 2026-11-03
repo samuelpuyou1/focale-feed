@@ -12,3 +12,7 @@ fait réécrire chaque actu en français par l'API Gemini (offre gratuite) avec 
 Respect des médias : seuls le titre et le chapeau publiés en RSS sont utilisés, jamais l'article complet
 ni les images ; les faits sont reformulés et chaque carte cite le média avec un lien vers l'article original.
 Pour retirer une source, supprime sa ligne dans `sources.json`.
+
+## Langues
+Chaque carte est écrite en français puis traduite en anglais, espagnol, hindi et chinois simplifié (`translations`).
+Les cartes déjà publiées sans traduction sont rattrapées aux lancements suivants (24 requêtes de traduction au plus par lancement).
