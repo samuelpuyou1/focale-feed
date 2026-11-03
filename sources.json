@@ -1,5 +1,5 @@
 [
-  {"name": "TechCrunch", "topic": "tech", "url": "https://techcrunch.com/feed/"},
+  {"name": "Tech Xplore", "topic": "tech", "url": "https://techxplore.com/rss-feed/"},
   {"name": "The Verge", "topic": "tech", "url": "https://www.theverge.com/rss/index.xml"},
   {"name": "Presse-citron", "topic": "tech", "url": "https://www.presse-citron.net/feed/"},
   {"name": "Numerama", "topic": "tech", "url": "https://www.numerama.com/feed/"},
@@ -14,7 +14,6 @@
   {"name": "Challenges", "topic": "finance", "url": "https://www.challenges.fr/rss.xml"},
   {"name": "CNBC", "topic": "finance", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html"},
   {"name": "Le Figaro", "topic": "finance", "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"},
-  {"name": "MarketWatch", "topic": "finance", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
   {"name": "Cointelegraph", "topic": "finance", "url": "https://cointelegraph.com/rss"},
   {"name": "Maddyness", "topic": "finance", "url": "https://www.maddyness.com/feed/"}
 ]
