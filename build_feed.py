@@ -202,7 +202,7 @@ Pour CHAQUE article numéroté ci-dessous, écris une carte en français, avec t
 de son titre et de son extrait (ne recopie aucune phrase ; traduis si l'article est en anglais).
 Règles :
 - N'invente aucun fait, chiffre ou nom absent de l'extrait. Ton neutre, tutoiement interdit, pas d'emoji. Accents corrects.
-- "title" : 70 caractères maximum, informatif, sans point final.
+- "title" : 55 caractères maximum (il doit tenir sur 3 lignes d'un téléphone), informatif, sans point final.
 - "fact" : une phrase qui dit ce qui s'est passé (« Le fait »).
 - "whyItMatters" : 2 phrases qui expliquent l'enjeu pour un lecteur non spécialiste (« Pourquoi ça compte »).
 - "subject" : un seul parmi {subjects}.
@@ -263,6 +263,7 @@ def review_duplicates(new_cards: list[dict], recent: list[dict], api_key: str) -
 TRANSLATE_PROMPT = """Traduis ces cartes d'actualité du français vers le {language}, pour une app d'actualité grand public.
 Style naturel, clair et concis, pas de mot à mot. Garde les noms propres, les chiffres et les sigles.
 N'ajoute ni ne retire aucune information. Garde les choix du quiz dans le même ordre et au même nombre.
+Le titre reste court : 60 caractères au plus.
 Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters",
 "quiz": {{"question", "choices", "explanation"}}}}]}}, une entrée par carte.
 
