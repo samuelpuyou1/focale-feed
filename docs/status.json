@@ -1,37 +1,33 @@
 {
-  "ranAt": "2026-11-03T09:01:45Z",
+  "ranAt": "2026-11-03T12:35:53Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.1-flash",
     "gemini-flash-lite-latest"
   ],
-  "newCards": 24,
+  "newCards": 22,
   "byTopic": {
-    "tech": 11,
-    "finance": 13
+    "tech": 12,
+    "finance": 10
   },
-  "calls": 10,
-  "totalCards": 115,
+  "calls": 7,
+  "totalCards": 137,
   "translated": {
-    "en": 115,
-    "es": 115,
-    "hi": 0,
-    "zh": 0
+    "en": 22,
+    "es": 22,
+    "hi": 137,
+    "zh": 40
   },
   "untranslated": {
     "en": 0,
     "es": 0,
-    "hi": 115,
-    "zh": 115
+    "hi": 0,
+    "zh": 97
   },
   "candidates": {
-    "tech": 148,
-    "finance": 122
+    "tech": 114,
+    "finance": 112
   },
-  "errors": [
-    "réponse invalide (TechCrunch) : {\"i\": 2, \"title\": \"Apple teste des fonctions audio dopees a l'IA sur Apple Watch\", \"fact\": \"Apple a lance la phase de test beta de nouvelles fonctionnalites aud",
-    "réponse invalide (The Verge) : {\"i\": 3, \"title\": \"Chiffre d'affaires record pour l'iPhone malgre l'absence de modele standard\", \"fact\": \"Apple a enregistre un trimestre record pour les ventes",
-    "réponse invalide (Journal du Geek) : {\"i\": 5, \"title\": \"Apple prepare un premier robot domestique dote d'un ecran\", \"fact\": \"Apple concoit un appareil domestique dote d'un ecran fixe sur un bras mo"
-  ]
+  "errors": []
 }
