@@ -202,10 +202,13 @@ Pour CHAQUE article numéroté ci-dessous, écris une carte en français, avec t
 de son titre et de son extrait (ne recopie aucune phrase ; traduis si l'article est en anglais).
 Règles :
 - N'invente aucun fait, chiffre ou nom absent de l'extrait. Ton neutre, tutoiement interdit, pas d'emoji. Accents corrects.
+- Relis chaque phrase : orthographe et accords justes (singulier/pluriel, masculin/féminin).
 - "title" : 55 caractères maximum (il doit tenir sur 3 lignes d'un téléphone), informatif, sans point final.
 - "fact" : une phrase qui dit ce qui s'est passé (« Le fait »).
 - "whyItMatters" : 2 phrases qui expliquent l'enjeu pour un lecteur non spécialiste (« Pourquoi ça compte »).
-- "subject" : un seul parmi {subjects}.
+- "subject" : un seul parmi {subjects}, celui qui décrit le cœur de l'actu. « Marchés » = Bourse, actions, indices,
+  taux ou matières premières ; « Macro » = économie générale, emploi, inflation, budgets ; les résultats ou difficultés
+  d'une entreprise non cotée ou d'une enseigne relèvent de « Macro » sauf si l'article parle de son cours de Bourse.
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
   les mauvais choix sont du même type que la bonne réponse et crédibles pour qui n'a pas lu la carte
   (jamais de noms inventés ni de réponse absurde) ;
