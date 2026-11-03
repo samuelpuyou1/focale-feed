@@ -48,6 +48,9 @@ BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appel
 MAX_CALLS = 40           # plafond de requêtes par lancement
 DUP_THRESHOLD = 0.28     # recouvrement de mots (titre + fait) au-delà duquel deux cartes racontent la même actu
 COVERED_DAYS = 3         # sujets récents rappelés à l'IA pour éviter les redites
+TRANSLATIONS = {"en": "anglais", "es": "espagnol", "hi": "hindi", "zh": "chinois simplifié"}
+TRANSLATE_BATCH = 10     # cartes traduites par requête
+TRANSLATE_MAX_CALLS = 24 # plafond de requêtes de traduction par lancement (nouvelles cartes d'abord, puis rattrapage)
 SPARE = 4                # cartes de réserve produites en plus, pour remplacer les doublons écartés à la relecture
 ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊÀÇ")
 MAX_AGE_HOURS = 36       # fraîcheur des articles retenus
@@ -255,6 +258,71 @@ def review_duplicates(new_cards: list[dict], recent: list[dict], api_key: str) -
         if 1 <= n <= len(new_cards):
             out.add(n - 1)
     return out
+
+
+TRANSLATE_PROMPT = """Traduis ces cartes d'actualité du français vers le {language}, pour une app d'actualité grand public.
+Style naturel, clair et concis, pas de mot à mot. Garde les noms propres, les chiffres et les sigles.
+N'ajoute ni ne retire aucune information. Garde les choix du quiz dans le même ordre et au même nombre.
+Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters",
+"quiz": {{"question", "choices", "explanation"}}}}]}}, une entrée par carte.
+
+{cards}"""
+
+
+def translation_source(card: dict) -> dict:
+    quiz = card["quiz"]
+    return {"title": card["title"], "fact": card["fact"], "whyItMatters": card["whyItMatters"],
+            "quiz": {"question": quiz["question"], "choices": quiz["choices"], "explanation": quiz["explanation"]}}
+
+
+def valid_translation(raw, card: dict) -> dict | None:
+    """Traduction complète et cohérente avec la carte (même nombre de choix), sinon None."""
+    if not isinstance(raw, dict):
+        return None
+    try:
+        quiz = raw["quiz"]
+        out = {"title": str(raw["title"]).strip().rstrip("."), "fact": str(raw["fact"]).strip(),
+               "whyItMatters": str(raw["whyItMatters"]).strip(),
+               "quiz": {"question": str(quiz["question"]).strip(),
+                        "choices": [str(c).strip() for c in quiz["choices"]],
+                        "explanation": str(quiz["explanation"]).strip()}}
+    except (KeyError, TypeError):
+        return None
+    texts = [out["title"], out["fact"], out["whyItMatters"], out["quiz"]["question"], out["quiz"]["explanation"]]
+    choices = out["quiz"]["choices"]
+    if not all(texts) or len(out["title"]) > 140 or len(choices) != len(card["quiz"]["choices"]) or not all(choices):
+        return None
+    return out
+
+
+def translate_cards(cards: list[dict], api_key: str, budget: int = TRANSLATE_MAX_CALLS) -> dict[str, int]:
+    """Ajoute `translations[langue]` aux cartes qui n'en ont pas, dans l'ordre de la liste (les plus récentes d'abord)."""
+    done = {code: 0 for code in TRANSLATIONS}
+    calls = 0
+    for code, language in TRANSLATIONS.items():
+        todo = [c for c in cards if code not in (c.get("translations") or {})]
+        for start in range(0, len(todo), TRANSLATE_BATCH):
+            if calls >= budget:
+                return done
+            batch = todo[start:start + TRANSLATE_BATCH]
+            listing = "\n".join(f"[{n}] {json.dumps(translation_source(c), ensure_ascii=False)}" for n, c in enumerate(batch, 1))
+            calls += 1
+            try:
+                entries = batch_entries(call_gemini(TRANSLATE_PROMPT.format(language=language, cards=listing), api_key), len(batch))
+            except QuotaExhausted as error:
+                note(f"traduction arrêtée : {error}")
+                return done
+            except GeminiError as error:
+                note(f"traduction {code} — {error}")
+                continue
+            finally:
+                time.sleep(DELAY_SECONDS)
+            for n, card in enumerate(batch, 1):
+                text = valid_translation(entries.get(n), card)
+                if text:
+                    card.setdefault("translations", {})[code] = text
+                    done[code] += 1
+    return done
 
 
 def load_seen(now: datetime) -> dict[str, str]:
@@ -548,12 +616,14 @@ def main() -> int:
         note(f"seulement {len(new_cards)} cartes (objectif {DAILY_MIN}) : ajouter des sources dans sources.json")
 
     cards = merge(new_cards, existing, now)
+    translated = translate_cards(cards, api_key)
+    missing = {code: sum(code not in (c.get("translations") or {}) for c in cards) for code in TRANSLATIONS}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     SEEN.write_text(json.dumps(seen, indent=0, sort_keys=True) + "\n", encoding="utf-8")
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS.write_text(json.dumps({
         "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "calls": calls,
-        "totalCards": len(cards), "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
+        "totalCards": len(cards), "translated": translated, "untranslated": missing, "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")
     # Échec seulement si rien n'a pu être produit alors qu'il y avait des candidats.

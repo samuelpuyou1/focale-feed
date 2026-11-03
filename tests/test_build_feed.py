@@ -121,3 +121,30 @@ class ReviewTests(unittest.TestCase):
         finally:
             bf.call_gemini = original
 
+
+class TranslationTests(unittest.TestCase):
+    CARD = {"id": "x", "title": "La BCE maintient ses taux", "fact": "f", "whyItMatters": "w",
+            "quiz": {"question": "q", "choices": ["a", "b", "c"], "answerIndex": 1, "explanation": "e"}}
+    EN = {"title": "The ECB holds rates.", "fact": "F", "whyItMatters": "W",
+          "quiz": {"question": "Q", "choices": ["A", "B", "C"], "explanation": "E"}}
+
+    def test_valid_translation_keeps_choice_count(self):
+        out = bf.valid_translation(self.EN, self.CARD)
+        self.assertEqual(out["title"], "The ECB holds rates")
+        bad = {**self.EN, "quiz": {**self.EN["quiz"], "choices": ["A", "B"]}}
+        self.assertIsNone(bf.valid_translation(bad, self.CARD))
+        self.assertIsNone(bf.valid_translation({"title": "x"}, self.CARD))
+
+    def test_translate_cards_fills_every_language(self):
+        cards = [dict(self.CARD, id=str(i)) for i in range(3)]
+        original, delay = bf.call_gemini, bf.DELAY_SECONDS
+        try:
+            bf.DELAY_SECONDS = 0
+            bf.call_gemini = lambda prompt, key: {"cards": [{"i": n, **self.EN} for n in range(1, 4)]}
+            done = bf.translate_cards(cards, "k")
+        finally:
+            bf.call_gemini, bf.DELAY_SECONDS = original, delay
+        self.assertEqual(done, {"en": 3, "es": 3, "hi": 3, "zh": 3})
+        self.assertEqual(set(cards[0]["translations"]), {"en", "es", "hi", "zh"})
+        self.assertEqual(cards[2]["translations"]["zh"]["quiz"]["choices"], ["A", "B", "C"])
+
