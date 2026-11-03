@@ -207,6 +207,8 @@ Règles :
 - "whyItMatters" : 2 phrases qui expliquent l'enjeu pour un lecteur non spécialiste (« Pourquoi ça compte »).
 - "subject" : un seul parmi {subjects}.
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
+  les mauvais choix sont du même type que la bonne réponse et crédibles pour qui n'a pas lu la carte
+  (jamais de noms inventés ni de réponse absurde) ;
   "answer" = le texte exact du bon choix ; "explanation" = une phrase.
 - Garde les annonces de produits, les tests et les décisions d'entreprises : ce sont de vraies actus.
 - Une seule carte par événement : mets "skip": true si l'article raconte le même événement qu'un sujet
@@ -534,6 +536,12 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
     existing = load_existing()
+    # Une source retirée de sources.json (conditions incompatibles…) disparaît aussi des cartes déjà publiées.
+    active = {s["name"] for s in sources}
+    removed = [c for c in existing if c.get("source") not in active]
+    existing = [c for c in existing if c.get("source") in active]
+    if removed:
+        print(f"  - {len(removed)} cartes retirées (sources supprimées)")
     print(f"Flux RSS ({len(sources)} sources), {len(existing)} cartes déjà publiées")
     seen = load_seen(now)
     by_topic = collect(sources, {c["id"] for c in existing} | set(seen), now)
