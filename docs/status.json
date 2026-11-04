@@ -1,23 +1,23 @@
 {
-  "ranAt": "2026-11-04T12:44:53Z",
+  "ranAt": "2026-11-04T20:23:27Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.1-flash",
     "gemini-flash-lite-latest"
   ],
-  "newCards": 22,
+  "newCards": 24,
   "byTopic": {
-    "tech": 9,
-    "finance": 13
+    "tech": 13,
+    "finance": 11
   },
   "calls": 8,
-  "totalCards": 166,
+  "totalCards": 190,
   "translated": {
-    "en": 22,
-    "es": 22,
-    "hi": 22,
-    "zh": 22
+    "en": 24,
+    "es": 24,
+    "hi": 24,
+    "zh": 24
   },
   "untranslated": {
     "en": 0,
@@ -26,8 +26,15 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 130,
-    "finance": 110
+    "tech": 124,
+    "finance": 105
   },
-  "errors": []
+  "errors": [
+    "réponse invalide (Journal du Geek) : {\"i\": 2, \"title\": \"Des neurones humains connectes a un robot\", \"fact\": \"Des scientifiques ont relie des neurones humains a un chien robot pour lui permettre de ",
+    "réponse invalide (Tech Xplore) : {\"i\": 3, \"title\": \"Des ecrans a focalisation adaptive pour la VR\", \"fact\": \"Des chercheurs ont teste un ecran varifocal qui ajuste la mise au point selon la pro",
+    "réponse invalide (The Verge) : {\"i\": 4, \"title\": \"Microsoft teste de nouvelles facons de jouer en cloud\", \"fact\": \"Microsoft deploie deux apercus permettant d'utiliser un telephone comme mane",
+    "réponse invalide (Numerama) : {\"i\": 6, \"title\": \"Revolut va desactiver ses anciens IBAN lituaniens\", \"fact\": \"Revolut mettra fin definitivement le 4 janvier 2027 aux anciens IBAN lituaniens ",
+    "réponse invalide (Frandroid) : {\"i\": 7, \"title\": \"Google Photos prepare une refonte de son IA\", \"fact\": \"La prochaine mise a jour d'Android integre des lignes de code annoncant une evolution ",
+    "réponse invalide (01net) : {\"i\": 8, \"title\": \"Des fuites evoquent une batterie plus grosse pour l'iPhone 18\", \"fact\": \"Des informations issues de reseaux sociaux indiquent qu'Apple prevoi"
+  ]
 }

@@ -1,5 +1,1925 @@
 [
   {
+    "id": "rss-b6ceabf91c49",
+    "title": "AT&T intègre Gemini pour sécuriser les maisons connectées",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Le système de sécurité d'AT&T s'associe à l'intelligence artificielle Gemini pour offrir de nouvelles fonctionnalités de surveillance.",
+    "whyItMatters": "Cette intégration illustre la convergence entre les assistants intelligents et la sécurité domestique connectée. Les utilisateurs peuvent désormais exploiter l'IA pour analyser plus facilement l'historique de leurs caméras.",
+    "summary": "Le système de sécurité d'AT&T s'associe à l'intelligence artificielle Gemini pour offrir de nouvelles fonctionnalités de surveillance. Cette intégration illustre la convergence entre les assistants intelligents et la sécurité domestique connectée. Les utilisateurs peuvent désormais exploiter l'IA pour analyser plus facilement l'historique de leurs caméras.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+    "publishedAt": "2026-11-04T20:23:24Z",
+    "quiz": {
+      "question": "Quelle technologie améliore le système de sécurité d'AT&T ?",
+      "choices": [
+        "Claude",
+        "Gemini",
+        "ChatGPT"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le système Connected Life intègre les fonctionnalités de Gemini pour Home."
+    },
+    "translations": {
+      "en": {
+        "title": "AT&T integrates Gemini for smart home security",
+        "fact": "AT&T's security system is partnering with the Gemini AI to offer new monitoring features.",
+        "whyItMatters": "This integration highlights the convergence of smart assistants and connected home security. Users can now leverage AI to easily analyze their camera history.",
+        "quiz": {
+          "question": "Which technology is upgrading AT&T's security system?",
+          "choices": [
+            "Claude",
+            "Gemini",
+            "ChatGPT"
+          ],
+          "explanation": "The Connected Life system integrates Gemini for Home features."
+        }
+      },
+      "es": {
+        "title": "AT&T integra Gemini en sus casas conectadas",
+        "fact": "El sistema de seguridad de AT&T se asocia con la inteligencia artificial Gemini para ofrecer nuevas funciones de vigilancia.",
+        "whyItMatters": "Esta integración ilustra la convergencia entre los asistentes inteligentes y la seguridad doméstica conectada. Los usuarios ahora pueden usar la IA para analizar más fácilmente el historial de sus cámaras.",
+        "quiz": {
+          "question": "¿Qué tecnología mejora el sistema de seguridad de AT&T?",
+          "choices": [
+            "Claude",
+            "Gemini",
+            "ChatGPT"
+          ],
+          "explanation": "El sistema Connected Life integra las funciones de Gemini para Home."
+        }
+      },
+      "hi": {
+        "title": "AT&T ने स्मार्ट होम सुरक्षा के लिए जेमिनी जोड़ा",
+        "fact": "AT&T की सुरक्षा प्रणाली ने निगरानी के नए फीचर्स देने के लिए Gemini आर्टिफिशियल इंटेलिजेंस के साथ साझेदारी की है।",
+        "whyItMatters": "यह एकीकरण智能 सहायक और जुड़े हुए घरेलू सुरक्षा के बीच के तालमेल को दिखाता है। उपयोगकर्ता अब अपने कैमरे के इतिहास का अधिक आसानी से विश्लेषण करने के लिए AI का उपयोग कर सकते हैं।",
+        "quiz": {
+          "question": "कौन सी तकनीक AT&T की सुरक्षा प्रणाली को बेहतर बनाती है?",
+          "choices": [
+            "Claude",
+            "Gemini",
+            "ChatGPT"
+          ],
+          "explanation": "Connected Life सिस्टम में Home के लिए Gemini के फीचर्स शामिल हैं।"
+        }
+      },
+      "zh": {
+        "title": "AT&T 引入 Gemini 守护智能家居",
+        "fact": "AT&T 的安全系统与人工智能 Gemini 达成合作，提供全新的监控功能。",
+        "whyItMatters": "此次整合凸显了智能助手与互联家庭安全之间的融合。用户现在可以利用人工智能更轻松地分析摄像头的历史记录。",
+        "quiz": {
+          "question": "哪项技术改进了 AT&T 的安全系统？",
+          "choices": [
+            "Claude",
+            "Gemini",
+            "ChatGPT"
+          ],
+          "explanation": "Connected Life 系统集成了用于 Home 的 Gemini 功能。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-711482c1c496",
+    "title": "Bourse : dynamique contrastée pour Riot et Hut 8",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "L'action de l'entreprise de minage Riot a progressé grâce à un contrat de location pour l'intelligence artificielle, tandis que celle de Hut 8 a reculé suite à des revenus décevants.",
+    "whyItMatters": "Les acteurs du minage de cryptomonnaies cherchent à diversifier leurs sources de revenus en se tournant vers les infrastructures pour l'intelligence artificielle. Ces choix stratégiques influencent directement la confiance des investisseurs et les cours en Bourse.",
+    "summary": "L'action de l'entreprise de minage Riot a progressé grâce à un contrat de location pour l'intelligence artificielle, tandis que celle de Hut 8 a reculé suite à des revenus décevants. Les acteurs du minage de cryptomonnaies cherchent à diversifier leurs sources de revenus en se tournant vers les infrastructures pour l'intelligence artificielle. Ces choix stratégiques influencent directement la confiance des investisseurs et les cours en Bourse.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-04T18:47:56Z",
+    "quiz": {
+      "question": "Pourquoi l'action de Riot a-t-elle progressé en Bourse ?",
+      "choices": [
+        "Grâce à un contrat lié à l'intelligence artificielle",
+        "En raison d'un rachat par un concurrent",
+        "Suite à une forte hausse du cours du Bitcoin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Riot a vu son action grimper après une location d'infrastructure pour l'intelligence artificielle."
+    },
+    "translations": {
+      "en": {
+        "title": "Market split for Riot and Hut 8 stock",
+        "fact": "Mining company Riot's stock rose thanks to an AI leasing deal, while Hut 8 dropped following disappointing revenue.",
+        "whyItMatters": "Crypto miners are seeking to diversify revenue streams by turning to AI infrastructure. These strategic choices directly impact investor confidence and stock prices.",
+        "quiz": {
+          "question": "Why did Riot's stock rise on the market?",
+          "choices": [
+            "Thanks to an AI-related contract",
+            "Due to a buyout by a competitor",
+            "Following a sharp spike in Bitcoin"
+          ],
+          "explanation": "Riot saw its stock climb after leasing AI infrastructure."
+        }
+      },
+      "es": {
+        "title": "Bolsa: dinámica dispar para Riot y Hut 8",
+        "fact": "Las acciones de la minera Riot subieron gracias a un contrato de alquiler para inteligencia artificial, mientras que las de Hut 8 cayeron tras unos ingresos decepcionantes.",
+        "whyItMatters": "Las empresas de criptomonedas buscan diversificar sus ingresos apostando por infraestructuras de inteligencia artificial. Estas decisiones estratégicas influyen directamente en la confianza de los inversores y en la Bolsa.",
+        "quiz": {
+          "question": "¿Por qué subieron las acciones de Riot en Bolsa?",
+          "choices": [
+            "Gracias a un contrato vinculado a la inteligencia artificial",
+            "Debido a una compra por parte de un competidor",
+            "Tras una fuerte subida del precio del Bitcoin"
+          ],
+          "explanation": "Riot vio subir sus acciones tras alquilar infraestructura para inteligencia artificial."
+        }
+      },
+      "hi": {
+        "title": "शेयर बाज़ार: Riot और Hut 8 के लिए अलग रुख",
+        "fact": "आर्टिफिशियल इंटेलिजेंस के लिए एक लीज़ अनुबंध के कारण माइनing कंपनी Riot का शेयर बढ़ा, जबकि कमज़ोर कमाई के बाद Hut 8 का शेयर गिर गया।",
+        "whyItMatters": "क्रिप्टोकरेंसी माइनिंग कंपनियाँ आर्टिफिशियल इंटेलिजेंस के बुनियादी ढांचे की ओर रुख करके अपने राजस्व स्रोतों में विविधता लाना चाहती हैं। ये रणनीतिक विकल्प सीधे तौर पर निवेशकों के विश्वास और शेयर की कीमतों को प्रभावित करते हैं।",
+        "quiz": {
+          "question": "बाज़ार में Riot का शेयर क्यों बढ़ा?",
+          "choices": [
+            "आर्टिफिशियल इंटेलिजेंस से जुड़े एक अनुबंध की बदौलत",
+            "किसी प्रतिद्वंद्वी द्वारा अधिग्रहण के कारण",
+            "बिटकॉइन की कीमत में भारी उछाल के बाद"
+          ],
+          "explanation": "आर्टिफिशियल इंटेलिजेंस के लिए बुनियादी ढांचे को किराए पर देने के बाद Riot का शेयर बढ़ गया।"
+        }
+      },
+      "zh": {
+        "title": "股市：Riot 与 Hut 8 走势分化",
+        "fact": "加密货币挖矿公司 Riot 的股价因一项人工智能租赁合同而上涨，而 Hut 8 的股价则因收益不及预期而下跌。",
+        "whyItMatters": "加密货币挖矿企业正通过转向人工智能基础设施来寻求多元化的收入来源。这些战略选择直接影响着投资者的信心和股价表现。",
+        "quiz": {
+          "question": "为什么 Riot 的股价在股市上涨？",
+          "choices": [
+            "得益于一项与人工智能相关的合同",
+            "由于被竞争对手收购",
+            "随比特币价格暴涨而上涨"
+          ],
+          "explanation": "在出租用于人工智能的基础设施后，Riot 的股价应声上涨。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-06bb49b103c0",
+    "title": "Le principal fournisseur de cartouches de Nintendo arrête",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le principal fournisseur de cartouches de jeux pour Nintendo se retire du marché de la fabrication de ROM.",
+    "whyItMatters": "Ce retrait pourrait perturber la chaîne d'approvisionnement des supports physiques pour les consoles. C'est un nouveau signal préoccupant pour les amateurs de jeux vidéo sur cartouche.",
+    "summary": "Le principal fournisseur de cartouches de jeux pour Nintendo se retire du marché de la fabrication de ROM. Ce retrait pourrait perturber la chaîne d'approvisionnement des supports physiques pour les consoles. C'est un nouveau signal préoccupant pour les amateurs de jeux vidéo sur cartouche.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2306886/nintendos-main-switch-cartridge-supplier-is-leaving-the-rom-business/",
+    "publishedAt": "2026-11-04T18:39:08Z",
+    "quiz": {
+      "question": "Quel composant le principal fournisseur de Nintendo arrête-t-il de produire ?",
+      "choices": [
+        "Les ROMs de cartouches",
+        "Les dalles d'écran",
+        "Les batteries de manettes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le fabricant quitte le secteur de la production de cartouches physiques."
+    },
+    "translations": {
+      "en": {
+        "title": "Nintendo's main cartridge supplier stops production",
+        "fact": "Nintendo's primary game cartridge supplier is exiting the ROM manufacturing market.",
+        "whyItMatters": "This withdrawal could disrupt the physical media supply chain for consoles. It is another concerning signal for physical cartridge gamers.",
+        "quiz": {
+          "question": "What component is Nintendo's main supplier stopping production of?",
+          "choices": [
+            "Cartridge ROMs",
+            "Display panels",
+            "Controller batteries"
+          ],
+          "explanation": "The manufacturer is leaving the physical cartridge production sector."
+        }
+      },
+      "es": {
+        "title": "El principal proveedor de cartuchos de Nintendo para",
+        "fact": "El principal proveedor de cartuchos de juegos para Nintendo se retira del mercado de fabricación de ROM.",
+        "whyItMatters": "Esta retirada podría perturbar la cadena de suministro de soportes físicos para consolas. Es otra señal preocupante para los aficionados a los videojuegos en cartucho.",
+        "quiz": {
+          "question": "¿Qué componente deja de producir el principal proveedor de Nintendo?",
+          "choices": [
+            "Los ROM de los cartuchos",
+            "Los paneles de pantalla",
+            "Las baterías de los mandos"
+          ],
+          "explanation": "El fabricante abandona el sector de la producción de cartuchos físicos."
+        }
+      },
+      "hi": {
+        "title": "Nintendo का मुख्य कार्टリッジ आपूर्तिकर्ता बंद",
+        "fact": "Nintendo के लिए गेम कार्टリッジ का मुख्य आपूर्तिकर्ता ROM निर्माण के बाज़ार से हट रहा है।",
+        "whyItMatters": "यह वापसी कंसोल के लिए भौतिक मीडिया की आपूर्ति श्रृंखला को बाधित कर सकती है। कार्टリッジ पर वीडियो गेम के प्रशंसकों के लिए यह एक और चिंताजनक संकेत है।",
+        "quiz": {
+          "question": "Nintendo का मुख्य आपूर्तिकर्ता किस घटक का उत्पादन बंद कर रहा है?",
+          "choices": [
+            "कार्टリッジ ROM",
+            "स्क्रीन पैनल",
+            "कंट्रोलर बैटरी"
+          ],
+          "explanation": "निर्माता भौतिक कार्टリッジ उत्पादन क्षेत्र से बाहर निकल रहा है।"
+        }
+      },
+      "zh": {
+        "title": "任天堂主力卡带供应商将退出",
+        "fact": "任天堂游戏卡带的主要供应商正在退出 ROM 制造市场。",
+        "whyItMatters": "这一撤出可能会扰乱实体游戏主机的供应链。对于卡带游戏爱好者来说，这是一个令人担忧的新信号。",
+        "quiz": {
+          "question": "任天堂的主力供应商停止生产什么组件？",
+          "choices": [
+            "卡带 ROM",
+            "屏幕面板",
+            "手柄电池"
+          ],
+          "explanation": "该制造商正在退出实体卡带生产行业。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-d0178f35064d",
+    "title": "Nothing tease un premier appareil basé sur l'intelligence artificielle",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "L'entreprise Nothing s'apprête à lancer son tout premier appareil doté d'une intelligence artificielle native au mois de décembre.",
+    "whyItMatters": "Ce lancement concrétise les ambitions affichées par la marque depuis plus d'un an autour de systèmes d'exploitation intelligents. Il témoigne de la volonté des fabricants de diversifier leurs produits au-delà des smartphones traditionnels.",
+    "summary": "L'entreprise Nothing s'apprête à lancer son tout premier appareil doté d'une intelligence artificielle native au mois de décembre. Ce lancement concrétise les ambitions affichées par la marque depuis plus d'un an autour de systèmes d'exploitation intelligents. Il témoigne de la volonté des fabricants de diversifier leurs produits au-delà des smartphones traditionnels.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+    "publishedAt": "2026-11-04T18:26:07Z",
+    "quiz": {
+      "question": "Quand Nothing prévoit-il de lancer son nouvel appareil ?",
+      "choices": [
+        "En décembre",
+        "En janvier",
+        "En septembre"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le PDG Carl Pei a annoncé un lancement prévu pour le mois de décembre."
+    },
+    "translations": {
+      "en": {
+        "title": "Nothing teases its first AI-powered device",
+        "fact": "Nothing is getting ready to launch its very first device featuring native artificial intelligence in December.",
+        "whyItMatters": "This launch brings to life the brand's ambitions for intelligent operating systems over the past year. It shows manufacturers' desire to diversify beyond traditional smartphones.",
+        "quiz": {
+          "question": "When does Nothing plan to launch its new device?",
+          "choices": [
+            "In December",
+            "In January",
+            "In September"
+          ],
+          "explanation": "CEO Carl Pei announced a launch scheduled for December."
+        }
+      },
+      "es": {
+        "title": "Nothing avanza su primer dispositivo con IA",
+        "fact": "La empresa Nothing se prepara para lanzar su primer dispositivo con inteligencia artificial nativa en diciembre.",
+        "whyItMatters": "Este lanzamiento materializa las ambiciones de la marca en torno a los sistemas operativos inteligentes. Demuestra la voluntad de los fabricantes de diversificar sus productos más allá de los smartphones tradicionales.",
+        "quiz": {
+          "question": "¿Cuándo planea Nothing lanzar su nuevo dispositivo?",
+          "choices": [
+            "En diciembre",
+            "En enero",
+            "En septiembre"
+          ],
+          "explanation": "El consejero delegado Carl Pei anunció un lanzamiento previsto para diciembre."
+        }
+      },
+      "hi": {
+        "title": "Nothing ने पहले AI-आधारित डिवाइस की झलक दी",
+        "fact": "Nothing कंपनी दिसंबर के महीने में अपनी पहली नेटिव आर्टिफिशियल इंटेलिजेंस वाली डिवाइस लॉन्च करने की तैयारी कर रही है।",
+        "whyItMatters": "यह लॉन्च स्मार्ट ऑपरेटिंग सिस्टम के इर्द-गिर्द एक साल से अधिक समय से ब्रांड द्वारा दिखाए गए महत्वाकांक्षाओं को ठोस रूप देता है। यह निर्माताओं की पारंपरिक स्मार्टफोन से आगे बढ़कर अपने उत्पादों में विविधता लाने की इच्छा को दर्शाता है।",
+        "quiz": {
+          "question": "Nothing अपना नया डिवाइस कब लॉन्च करने की योजना बना रहा है?",
+          "choices": [
+            "दिसंबर में",
+            "जनवरी में",
+            "सितंबर में"
+          ],
+          "explanation": "CEO कार्ल पेई ने दिसंबर के महीने में लॉन्च होने की घोषणा की है।"
+        }
+      },
+      "zh": {
+        "title": "Nothing 预热首款 AI 设备",
+        "fact": "Nothing 公司准备在 12 月份推出其首款搭载原生人工智能的设备。",
+        "whyItMatters": "这次发布将该品牌一年多来围绕智能操作系统的雄心变成了现实。它证明了制造商将产品拓展至传统智能手机之外的意愿。",
+        "quiz": {
+          "question": "Nothing 计划什么时候推出新设备？",
+          "choices": [
+            "12月",
+            "1月",
+            "9月"
+          ],
+          "explanation": "CEO Carl Pei 宣布发布计划定在 12 月。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-f0eb7c84d9f4",
+    "title": "Circle diversifie ses revenus face à la baisse des rendements",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Circle cherche à diversifier ses sources de revenus via les frais de paiement et le jalonnement.",
+    "whyItMatters": "Cette stratégie vise à compenser la pression exercée sur son stablecoin par la baisse des rendements et la concurrence. L'entreprise cherche ainsi à sécuriser sa croissance financière à long terme.",
+    "summary": "Circle cherche à diversifier ses sources de revenus via les frais de paiement et le jalonnement. Cette stratégie vise à compenser la pression exercée sur son stablecoin par la baisse des rendements et la concurrence. L'entreprise cherche ainsi à sécuriser sa croissance financière à long terme.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/news/circles-arc-token-sale-earnings-yields-usdc-income?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-04T18:02:42Z",
+    "quiz": {
+      "question": "Sur quels leviers Circle mise-t-il pour diversifier ses revenus ?",
+      "choices": [
+        "La vente de matériel informatique",
+        "L'émission de nouvelles actions en Bourse",
+        "Les frais de paiement et le jalonnement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Circle s'oriente vers les frais de paiement et le jalonnement pour contrer la baisse des rendements de son stablecoin."
+    },
+    "translations": {
+      "en": {
+        "title": "Circle diversifies revenue amid falling yields",
+        "fact": "Circle is looking to diversify its revenue sources through payment fees and staking.",
+        "whyItMatters": "This strategy aims to offset pressure on its stablecoin from falling yields and competition. The company is seeking to secure long-term financial growth.",
+        "quiz": {
+          "question": "What levers is Circle using to diversify its revenue?",
+          "choices": [
+            "Selling hardware",
+            "Issuing new stock",
+            "Payment fees and staking"
+          ],
+          "explanation": "Circle is turning to payment fees and staking to counter falling stablecoin yields."
+        }
+      },
+      "es": {
+        "title": "Circle diversifica sus ingresos ante menor rendimiento",
+        "fact": "Circle busca diversificar sus fuentes de ingresos mediante comisiones de pago y participación (staking).",
+        "whyItMatters": "Esta estrategia busca compensar la presión sobre su stablecoin debido a los menores rendimientos y la competencia. La empresa intenta así asegurar su crecimiento financiero a largo plazo.",
+        "quiz": {
+          "question": "¿Qué palancas usa Circle para diversificar sus ingresos?",
+          "choices": [
+            "La venta de hardware informático",
+            "La emisión de nuevas acciones en Bolsa",
+            "Las comisiones de pago y el staking"
+          ],
+          "explanation": "Circle se orienta hacia las comisiones de pago y el staking para contrarrestar la caída de rendimiento de su stablecoin."
+        }
+      },
+      "hi": {
+        "title": "कम रिटर्न के बीच Circle ने आय में विविधता लाई",
+        "fact": "Circle भुगतान शुल्क और स्टैकिंग के माध्यम से अपने राजस्व स्रोतों में विविधता लाने की कोशिश कर रहा है।",
+        "whyItMatters": "इस रणनीति का उद्देश्य कम रिटर्न और प्रतिस्पर्धा द्वारा इसके स्टेबलकॉइन पर डाले जा रहे दबाव की भरपाई करना है। इस प्रकार कंपनी अपनी दीर्घकालिक वित्तीय वृद्धि को सुरक्षित करना चाहती है।",
+        "quiz": {
+          "question": "Circle अपनी आय में विविधता लाने के लिए किन उपायों पर दांव लगा रहा है?",
+          "choices": [
+            "कंप्यूटर हार्डवेयर की बिक्री",
+            "स्टॉक मार्केट में नए शेयर जारी करना",
+            "भुगतान शुल्क और स्टैकिंग"
+          ],
+          "explanation": "Circle अपने स्टेबलकॉइन पर रिटर्न में गिरावट का मुकाबला करने के लिए भुगतान शुल्क और स्टैकिंग की ओर रुख कर रहा है।"
+        }
+      },
+      "zh": {
+        "title": "面对收益下降，Circle 业务多元化",
+        "fact": "Circle 正寻求通过支付费用和质押服务来拓宽收入来源。",
+        "whyItMatters": "此项战略旨在抵消收益下降和竞争加剧对其稳定币施加的压力。该公司借此寻求保障其长期的财务增长。",
+        "quiz": {
+          "question": "Circle 依靠哪些杠杆来实现收入多元化？",
+          "choices": [
+            "销售硬件设备",
+            "在股市发行新股",
+            "支付费用和质押服务"
+          ],
+          "explanation": "Circle 转向支付费用和质押服务，以应对其稳定币收益下降的问题。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-130f1c049dde",
+    "title": "L'Enough Phone teste la demande pour les petits mobiles",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Un nouveau smartphone compact, l'Enough Phone, arrive sur le marché pour répondre à la demande de formats plus petits.",
+    "whyItMatters": "Ce lancement met à l'épreuve l'intérêt réel des consommateurs pour des appareils privilégiant l'ergonomie physique aux performances brutes. Il offre une alternative sur un marché dominé par les grands écrans.",
+    "summary": "Un nouveau smartphone compact, l'Enough Phone, arrive sur le marché pour répondre à la demande de formats plus petits. Ce lancement met à l'épreuve l'intérêt réel des consommateurs pour des appareils privilégiant l'ergonomie physique aux performances brutes. Il offre une alternative sur un marché dominé par les grands écrans.",
+    "source": "Ars Technica",
+    "sourceURL": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+    "publishedAt": "2026-11-04T18:00:40Z",
+    "quiz": {
+      "question": "Quel est le principal argument mis en avant par l'Enough Phone ?",
+      "choices": [
+        "Un format compact",
+        "Un capteur photo de 200 mégapixels",
+        "Un prix ultra-faible"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'appareil mise sur sa petite taille pour tenir facilement dans la main."
+    },
+    "translations": {
+      "en": {
+        "title": "Enough Phone tests demand for small mobiles",
+        "fact": "A new compact smartphone, the Enough Phone, is hitting the market to meet demand for smaller form factors.",
+        "whyItMatters": "This launch tests real consumer interest in devices that prioritize physical ergonomics over raw performance. It offers an alternative in a market dominated by large screens.",
+        "quiz": {
+          "question": "What is the main selling point of the Enough Phone?",
+          "choices": [
+            "A compact size",
+            "A 200-megapixel camera",
+            "An ultra-low price"
+          ],
+          "explanation": "The device relies on its small size to easily fit in the hand."
+        }
+      },
+      "es": {
+        "title": "Enough Phone prueba la demanda de móviles pequeños",
+        "fact": "Un nuevo smartphone compacto, el Enough Phone, llega al mercado para responder a la demanda de formatos más pequeños.",
+        "whyItMatters": "Este lanzamiento pone a prueba el interés real de los consumidores por dispositivos que priorizan la ergonomía frente al rendimiento bruto. Ofrece una alternativa en un mercado dominado por pantallas grandes.",
+        "quiz": {
+          "question": "¿Cuál es el principal argumento del Enough Phone?",
+          "choices": [
+            "Un formato compacto",
+            "Una cámara de 200 megapíxeles",
+            "Un precio ultrabajo"
+          ],
+          "explanation": "El dispositivo apuesta por su pequeño tamaño para caber fácilmente en la mano."
+        }
+      },
+      "hi": {
+        "title": "Enough Phone ने छोटे मोबाइलों की मांग को परखा",
+        "fact": "छोटे आकारों की मांग को पूरा करने के लिए एक नया कॉम्पैक्ट स्मार्टफोन, Enough Phone, बाज़ार में आ रहा है।",
+        "whyItMatters": "यह लॉन्च कच्चे प्रदर्शन पर शारीरिक एर्गोनॉमिक्स को प्राथमिकता देने वाले उपकरणों के लिए उपभोक्ताओं की वास्तविक रुचि का परीक्षण करता है। यह बड़ी स्क्रीन वाले बाज़ार में एक विकल्प प्रदान करता है।",
+        "quiz": {
+          "question": "Enough Phone द्वारा हाइलाइट किया गया मुख्य तर्क क्या है?",
+          "choices": [
+            "एक कॉम्पैक्ट आकार",
+            "200 मेगापिक्सल का फोटो सेंसर",
+            "अल्ट्रा-कम कीमत"
+          ],
+          "explanation": "यह डिवाइस हाथ में आसानी से फिट होने के लिए अपने छोटे आकार पर भरोसा करता है।"
+        }
+      },
+      "zh": {
+        "title": "Enough Phone 测试小屏手机需求",
+        "fact": "一款名为 Enough Phone 的全新紧凑型智能手机进入市场，以满足对小尺寸机型的需求。",
+        "whyItMatters": "这次发布考验了消费者对兼顾物理工效与基础性能的设备的真实兴趣。它为大屏主导的市场提供了一种替代选择。",
+        "quiz": {
+          "question": "Enough Phone 强调的主要卖点是什么？",
+          "choices": [
+            "紧凑的尺寸",
+            "2亿像素摄像头",
+            "超低的价格"
+          ],
+          "explanation": "该设备主打小巧机身，方便单手掌握。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-27eda38cd86e",
+    "title": "Baisse en Bourse pour Tesla et SpaceX",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Les actions de Tesla et SpaceX ont chuté en Bourse après la victoire des démocrates au Congrès et l'engagement financier d'Elon Musk.",
+    "whyItMatters": "Ce recul boursier illustre la sensibilité des marchés aux basculements politiques et aux risques d'enquêtes parlementaires. Les investisseurs redoutent que les projets de fusion et les implantations texanes des entreprises ne fassent l'objet d'un contrôle accru.",
+    "summary": "Les actions de Tesla et SpaceX ont chuté en Bourse après la victoire des démocrates au Congrès et l'engagement financier d'Elon Musk. Ce recul boursier illustre la sensibilité des marchés aux basculements politiques et aux risques d'enquêtes parlementaires. Les investisseurs redoutent que les projets de fusion et les implantations texanes des entreprises ne fassent l'objet d'un contrôle accru.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/monde/il-avait-depense-pres-de-500-millions-de-dollars-pour-soutenir-les-republicains-apres-la-victoire-democrate-les-actions-tesla-et-space-x-delon-musk-degringolent_646833",
+    "publishedAt": "2026-11-04T18:00:00Z",
+    "quiz": {
+      "question": "Quel événement a entraîné la baisse des actions Tesla et SpaceX en Bourse ?",
+      "choices": [
+        "Une amende record infligée par l'Union européenne",
+        "L'interdiction de vente de véhicules au Texas",
+        "La victoire des démocrates au Congrès"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les actions ont chuté après la victoire des démocrates aux élections, faisant craindre des enquêtes parlementaires sur les affaires d'Elon Musk."
+    },
+    "translations": {
+      "en": {
+        "title": "Market drop for Tesla and SpaceX",
+        "fact": "Tesla and SpaceX shares dropped after the Democrats won Congress and Elon Musk made a financial commitment.",
+        "whyItMatters": "This market pullback shows how sensitive markets are to political shifts and risks of parliamentary investigations. Investors fear merger plans and Texas operations may face increased scrutiny.",
+        "quiz": {
+          "question": "What event caused Tesla and SpaceX shares to drop?",
+          "choices": [
+            "A record EU fine",
+            "A vehicle sales ban in Texas",
+            "The Democrats winning Congress"
+          ],
+          "explanation": "Shares fell after the Democrats' election victory, raising fears of congressional investigations into Elon Musk's businesses."
+        }
+      },
+      "es": {
+        "title": "Caída en Bolsa para Tesla y SpaceX",
+        "fact": "Las acciones de Tesla y SpaceX cayeron en Bolsa tras la victoria demócrata en el Congreso y el compromiso financiero de Elon Musk.",
+        "whyItMatters": "Este retroceso bursátil ilustra la sensibilidad de los mercados a los cambios políticos y al riesgo de investigaciones parlamentarias. Los inversores temen que los proyectos de fusión y las sedes de las empresas en Texas sufran un mayor control.",
+        "quiz": {
+          "question": "¿Qué evento provocó la caída bursátil de Tesla y SpaceX?",
+          "choices": [
+            "Una multa récord de la Unión Europea",
+            "La prohibición de vender vehículos en Texas",
+            "La victoria de los demócratas en el Congreso"
+          ],
+          "explanation": "Las acciones cayeron tras la victoria de los demócratas en las elecciones, lo que hace temer investigaciones parlamentarias sobre los negocios de Elon Musk."
+        }
+      },
+      "hi": {
+        "title": "Tesla और SpaceX के शेयरों में शेयर बाज़ार की गिरावट",
+        "fact": "कांग्रेस में डेमोक्रेट्स की जीत और एलन मस्क की वित्तीय प्रतिबद्धता के बाद शेयर बाज़ार में Tesla और SpaceX के शेयर गिर गए।",
+        "whyItMatters": "यह शेयर बाज़ार की गिरावट राजनीतिक बदलावों और संसदीय जाँच के जोखिमों के प्रति बाज़ारों की संवेदनशीलता को दर्शाती है। निवेशकों को डर है कि कंपनियों की विलय परियोजनाएँ और टेक्सास के ठिकाने बढ़ी हुई जाँच के दायरे में आ सकते हैं।",
+        "quiz": {
+          "question": "किस घटना के कारण शेयर बाज़ार में Tesla और SpaceX के शेयर गिरे?",
+          "choices": [
+            "यूरोपीय संघ द्वारा लगाया गया रिकॉर्ड जुर्माना",
+            "टेक्सास में वाहनों की बिक्री पर प्रतिबंध",
+            "कांग्रेस में डेमोक्रेट्स की जीत"
+          ],
+          "explanation": "एलन मस्क के व्यवसायों पर संसदीय जाँच की आशंका पैदा करते हुए, डेमोक्रेट्स के चुनाव जीतने के बाद शेयर गिर गए।"
+        }
+      },
+      "zh": {
+        "title": "特斯拉与 SpaceX 股价下跌",
+        "fact": "在民主党赢得国会选举以及埃隆·马斯克作出财务承诺后，特斯拉和 SpaceX 的股价在股市下跌。",
+        "whyItMatters": "此次股价回落表明了市场对政治风向和议会调查风险的敏感性。投资者担心这些公司的合并计划和得克萨斯州的布局可能会面临更严格的审查。",
+        "quiz": {
+          "question": "哪个事件导致特斯拉和 SpaceX 股价在股市下跌？",
+          "choices": [
+            "欧盟开出的创纪录罚单",
+            "得州禁止销售汽车",
+            "民主党赢得国会选举"
+          ],
+          "explanation": "在民主党赢得选举引发人们对埃隆·马斯克商业行为遭到国会调查的担忧后，股价应声下跌。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-ec30dd4a48b0",
+    "title": "Apple adapte l'Accès facile pour son smartphone pliant",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Apple déploie une adaptation de la fonction Accès facile afin de faciliter l'usage de l'écran externe de son smartphone pliant.",
+    "whyItMatters": "Cette mise à jour logicielle répond directement aux difficultés ergonomiques inhérentes aux formats pliants. Elle améliore le confort d'utilisation au quotidien pour naviguer à une seule main.",
+    "summary": "Apple déploie une adaptation de la fonction Accès facile afin de faciliter l'usage de l'écran externe de son smartphone pliant. Cette mise à jour logicielle répond directement aux difficultés ergonomiques inhérentes aux formats pliants. Elle améliore le confort d'utilisation au quotidien pour naviguer à une seule main.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/iphone-duo-apple-corrige-son-defaut-le-plus-genant-avec-une-nouvelle-fonction.html",
+    "publishedAt": "2026-11-04T17:30:55Z",
+    "quiz": {
+      "question": "Quelle fonction Apple adapte-t-elle pour son téléphone pliant ?",
+      "choices": [
+        "True Tone",
+        "Accès facile",
+        "Dynamic Island"
+      ],
+      "answerIndex": 1,
+      "explanation": "La fonction est repensée pour simplifier la manipulation de l'écran externe d'une seule main."
+    },
+    "translations": {
+      "en": {
+        "title": "Apple adapts Reachability for its folding phone",
+        "fact": "Apple is rolling out an adaptation of the Reachability feature to make using the outer screen of its folding smartphone easier.",
+        "whyItMatters": "This software update directly addresses ergonomic issues inherent to folding formats. It improves daily usability for one-handed navigation.",
+        "quiz": {
+          "question": "Which feature is Apple adapting for its folding phone?",
+          "choices": [
+            "True Tone",
+            "Reachability",
+            "Dynamic Island"
+          ],
+          "explanation": "The feature is redesigned to simplify one-handed use of the outer screen."
+        }
+      },
+      "es": {
+        "title": "Apple adapta su función Alcance para plegables",
+        "fact": "Apple despliega una adaptación de la función Alcance para facilitar el uso de la pantalla externa de su smartphone plegable.",
+        "whyItMatters": "Esta actualización de software responde directamente a las dificultades ergonómicas de los formatos plegables. Mejora la comodidad diaria para navegar con una sola mano.",
+        "quiz": {
+          "question": "¿Qué función adapta Apple para su teléfono plegable?",
+          "choices": [
+            "True Tone",
+            "Alcance",
+            "Dynamic Island"
+          ],
+          "explanation": "La función se ha rediseñado para simplificar el manejo de la pantalla externa con una sola mano."
+        }
+      },
+      "hi": {
+        "title": "Apple ने अपने फोल्डेबल फोन के लिए Easy Access ढाला",
+        "fact": "Apple अपने फोल्डेबल स्मार्टफोन की बाहरी स्क्रीन के उपयोग को आसान बनाने के लिए Easy Access फ़ंक्शन का एक अनुकूलन रोल आउट कर रहा है।",
+        "whyItMatters": "यह सॉफ़्टवेयर अपडेट फोल्डेबल फॉर्मेट की स्वाभाविक एर्गोनॉमिक कठिनाइयों का सीधे जवाब देता है। यह एक हाथ से नेविगेट करने के लिए दैनिक उपयोग के आराम को बेहतर बनाता है.",
+        "quiz": {
+          "question": "Apple अपने फोल्डेबल फोन के लिए किस फ़ंक्शन को अनुकूलित कर रहा है?",
+          "choices": [
+            "True Tone",
+            "Easy Access",
+            "Dynamic Island"
+          ],
+          "explanation": "एक हाथ से बाहरी स्क्रीन को संभालना आसान बनाने के लिए फ़ंक्शन को फिर से डिज़ाइन किया गया है।"
+        }
+      },
+      "zh": {
+        "title": "苹果为折叠手机适配便捷访问",
+        "fact": "苹果公司推出了便捷访问功能的适配版本，以便用户更轻松地使用折叠屏手机的外屏。",
+        "whyItMatters": "这次软件更新直接解决了折叠屏手机固有的工效学难题。它提升了单手日常导航的操作舒适度。",
+        "quiz": {
+          "question": "苹果为其折叠手机适配了哪项功能？",
+          "choices": [
+            "原色显示 (True Tone)",
+            "便捷访问",
+            "灵动岛"
+          ],
+          "explanation": "该功能经过重新设计，简化了单手操作外屏的操作。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-6b24079909bc",
+    "title": "Le secteur privé s'engage pour la préservation de la nature",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Trente-huit acteurs, dont le Medef, ont signé une déclaration liant santé économique et protection de la biodiversité.",
+    "whyItMatters": "Cette initiative illustre une prise de conscience croissante du monde économique face aux risques environnementaux. Elle formalise l'implication des entreprises dans la préservation des écosystèmes naturels.",
+    "summary": "Trente-huit acteurs, dont le Medef, ont signé une déclaration liant santé économique et protection de la biodiversité. Cette initiative illustre une prise de conscience croissante du monde économique face aux risques environnementaux. Elle formalise l'implication des entreprises dans la préservation des écosystèmes naturels.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/green-economie/toutes-les-entreprises-sans-exception-dependent-de-la-nature-a-paris-loffice-francais-de-la-biodiversite-veut-mobiliser-le-secteur-prive_646832",
+    "publishedAt": "2026-11-04T17:30:00Z",
+    "quiz": {
+      "question": "Quel organisme patronal fait partie des signataires de la déclaration ?",
+      "choices": [
+        "La CPME",
+        "Le Medef",
+        "L'Afep"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le Medef figure parmi les signataires de cette déclaration reconnaissant les liens entre économie et nature."
+    },
+    "translations": {
+      "en": {
+        "title": "Private sector commits to nature conservation",
+        "fact": "Thirty-eight players, including Medef, have signed a declaration linking economic health to biodiversity protection.",
+        "whyItMatters": "This initiative illustrates a growing awareness in the business world regarding environmental risks. It formalizes corporate involvement in preserving natural ecosystems.",
+        "quiz": {
+          "question": "Which employer organization is among the signatories?",
+          "choices": [
+            "CPME",
+            "Medef",
+            "Afep"
+          ],
+          "explanation": "Medef is among the signatories of this declaration recognizing the ties between economy and nature."
+        }
+      },
+      "es": {
+        "title": "El sector privado se compromete con la naturaleza",
+        "fact": "Treinta y ocho actores, entre ellos el Medef, firmaron una declaración que vincula la salud económica con la protección de la biodiversidad.",
+        "whyItMatters": "Esta iniciativa muestra una mayor conciencia del mundo empresarial ante los riesgos ambientales. Formaliza la implicación de las empresas en la preservación de los ecosistemas naturales.",
+        "quiz": {
+          "question": "¿Qué organización empresarial firmó la declaración?",
+          "choices": [
+            "La CPME",
+            "El Medef",
+            "L'Afep"
+          ],
+          "explanation": "El Medef figura entre los firmantes de esta declaración que reconoce los vínculos entre economía y naturaleza."
+        }
+      },
+      "hi": {
+        "title": "निजी क्षेत्र प्रकृति के संरक्षण के लिए प्रतिबद्ध है",
+        "fact": "MEDEF सहित अड़तीस अभिनेताओं ने आर्थिक स्वास्थ्य और जैव विविधता की रक्षा को जोड़ने वाले एक घोषणापत्र पर हस्ताक्षर किए हैं।",
+        "whyItMatters": "यह पहल पर्यावरणीय जोखिमों के सामने आर्थिक दुनिया की बढ़ती जागरूकता को दर्शाती है। यह प्राकृतिक पारिस्थितिक तंत्र के संरक्षण में कंपनियों की भागीदारी को औपचारिक रूप देती है।",
+        "quiz": {
+          "question": "घोषणापत्र पर हस्ताक्षर करने वालों में कौन सा नियोक्ता संगठन शामिल है?",
+          "choices": [
+            "CPME",
+            "Medef",
+            "Afep"
+          ],
+          "explanation": "अर्थव्यवस्था और प्रकृति के बीच की कड़ियों को पहचानने वाले इस घोषणापत्र पर हस्ताक्षर करने वालों में Medef शामिल है।"
+        }
+      },
+      "zh": {
+        "title": "私营部门承诺保护自然环境",
+        "fact": "包括法国企业联合会 (Medef) 在内的 38 个主体签署了一项将经济健康与生物多样性保护联系起来的宣言。",
+        "whyItMatters": "这一倡议展现了经济界对环境风险日益增强的觉醒。它正式确立了企业在保护自然生态系统方面的参与度。",
+        "quiz": {
+          "question": "哪个雇主组织是该宣言的签署方之一？",
+          "choices": [
+            "法国中小型企业联合会 (CPME)",
+            "法国企业联合会 (Medef)",
+            "法国私营企业协会 (Afep)"
+          ],
+          "explanation": "Medef 是承认经济与自然之间联系的该宣言的签署方之一。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a78c3ee25d3b",
+    "title": "Investissement massif de Shein en Pologne",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Shein prévoit d'investir 500 millions d'euros dans sa plateforme logistique en Pologne pour faire face aux taxes européennes sur les petits colis.",
+    "whyItMatters": "Cet investissement stratégique permet au géant de la mode en ligne de restructurer sa chaîne d'approvisionnement face aux nouvelles barrières douanières. L'objectif est de préserver sa compétitivité sur le marché européen.",
+    "summary": "Shein prévoit d'investir 500 millions d'euros dans sa plateforme logistique en Pologne pour faire face aux taxes européennes sur les petits colis. Cet investissement stratégique permet au géant de la mode en ligne de restructurer sa chaîne d'approvisionnement face aux nouvelles barrières douanières. L'objectif est de préserver sa compétitivité sur le marché européen.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/societes/shein-va-investir-500-millions-d-euros-en-pologne-pour-developper-sa-plateforme-logistique-europeenne-20261104",
+    "publishedAt": "2026-11-04T17:29:04Z",
+    "quiz": {
+      "question": "Quel est le montant de l'investissement prévu par Shein en Pologne ?",
+      "choices": [
+        "1 milliard d'euros",
+        "250 millions d'euros",
+        "500 millions d'euros"
+      ],
+      "answerIndex": 2,
+      "explanation": "Shein investit 500 millions d'euros pour développer sa plateforme logistique européenne située en Pologne."
+    },
+    "translations": {
+      "en": {
+        "title": "Shein's massive investment in Poland",
+        "fact": "Shein plans to invest €500 million in its logistics platform in Poland to cope with European taxes on small parcels.",
+        "whyItMatters": "This strategic investment allows the online fast-fashion giant to restructure its supply chain against new trade barriers. The goal is to maintain competitiveness in the European market.",
+        "quiz": {
+          "question": "What is the investment amount planned by Shein in Poland?",
+          "choices": [
+            "€1 billion",
+            "€250 million",
+            "€500 million"
+          ],
+          "explanation": "Shein is investing €500 million to expand its European logistics platform located in Poland."
+        }
+      },
+      "es": {
+        "title": "Inversión masiva de Shein en Polonia",
+        "fact": "Shein planea invertir 500 millones de euros en su plataforma logística en Polonia para hacer frente a los impuestos europeos a los paquetes pequeños.",
+        "whyItMatters": "Esta inversión estratégica permite al gigante de la moda online reestructurar su cadena de suministro ante las nuevas barreras aduaneras. El objetivo es mantener su competitividad en el mercado europeo.",
+        "quiz": {
+          "question": "¿A cuánto asciende la inversión prevista por Shein en Polonia?",
+          "choices": [
+            "1.000 millones de euros",
+            "250 millones de euros",
+            "500 millones de euros"
+          ],
+          "explanation": "Shein invierte 500 millones de euros para desarrollar su plataforma logística europea en Polonia."
+        }
+      },
+      "hi": {
+        "title": "पोलैंड में Shein का भारी निवेश",
+        "fact": "Shein छोटे पार्सल पर यूरोपीय करों से निपटने के लिए पोलैंड में अपने लॉजिस्टिक्स प्लेटफॉर्म में 50 करोड़ यूरो का निवेश करने की योजना बना रहा है।",
+        "whyItMatters": "यह रणनीतिक निवेश ऑनलाइन फैशन दिग्गज को नई सीमा शुल्क बाधाओं के सामने अपनी आपूर्ति श्रृंखला को पुनर्गठित करने की अनुमति देता है। इसका उद्देश्य यूरोपीय बाज़ार में अपनी प्रतिस्पर्धात्मकता को बनाए रखना है।",
+        "quiz": {
+          "question": "पोलैंड में Shein द्वारा नियोजित निवेश की राशि क्या है?",
+          "choices": [
+            "1 अरब यूरो",
+            "25 करोड़ यूरो",
+            "50 करोड़ यूरो"
+          ],
+          "explanation": "Shein पोलैंड में स्थित अपने यूरोपीय लॉजिस्टिक्स प्लेटफॉर्म को विकसित करने के लिए 50 करोड़ यूरो का निवेश कर रहा है।"
+        }
+      },
+      "zh": {
+        "title": "希音 (Shein) 在波兰进行巨额投资",
+        "fact": "Shein 计划在其波兰物流平台上投资 5 亿欧元，以应对欧洲对小包裹征收的关税。",
+        "whyItMatters": "这项战略投资使这家在线时尚巨头能够在面对新的关税壁垒时重组其供应链。其目的是保持其在欧洲市场上的竞争力。",
+        "quiz": {
+          "question": "Shein 计划在波兰投资多少金额？",
+          "choices": [
+            "10亿欧元",
+            "2.5亿欧元",
+            "5亿欧元"
+          ],
+          "explanation": "Shein 投资 5 亿欧元用于发展其位于波兰的欧洲物流平台。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-80049a939957",
+    "title": "Un débat relancé sur la fin des 35 heures en France",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Un candidat à la présidentielle propose d'augmenter le temps de travail quotidien et d'exonérer de cotisations les heures au-delà de la trente-cinquième.",
+    "whyItMatters": "Cette mesure vise à doper le pouvoir d'achat des salariés tout en augmentant le temps de travail global dans les entreprises. Elle rouvre un débat politique et économique sensible sur le modèle du temps de travail en France.",
+    "summary": "Un candidat à la présidentielle propose d'augmenter le temps de travail quotidien et d'exonérer de cotisations les heures au-delà de la trente-cinquième. Cette mesure vise à doper le pouvoir d'achat des salariés tout en augmentant le temps de travail global dans les entreprises. Elle rouvre un débat politique et économique sensible sur le modèle du temps de travail en France.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/elections/presidentielles/un-13e-voire-un-14e-mois-de-salaire-contre-la-fin-des-35-heures-la-promesse-de-bruno-retailleau-est-elle-viable-20261104",
+    "publishedAt": "2026-11-04T17:19:07Z",
+    "quiz": {
+      "question": "Quel est l'objectif affiché de cette proposition sur le temps de travail ?",
+      "choices": [
+        "Augmenter le pouvoir d'achat",
+        "Réduire le chômage des jeunes",
+        "Harmoniser les règles européennes"
+      ],
+      "answerIndex": 0,
+      "explanation": "La proposition cherche à redonner du pouvoir d'achat en incitant à travailler davantage."
+    },
+    "translations": {
+      "en": {
+        "title": "New debate on ending the 35-hour workweek in France",
+        "fact": "A presidential candidate proposes increasing daily working hours and exempting overtime beyond 35 hours from social contributions.",
+        "whyItMatters": "This measure aims to boost employees' purchasing power while increasing total working hours in companies. It reopens a sensitive political and economic debate on France's working-time model.",
+        "quiz": {
+          "question": "What is the stated goal of this working-time proposal?",
+          "choices": [
+            "Increase purchasing power",
+            "Reduce youth unemployment",
+            "Harmonize European rules"
+          ],
+          "explanation": "The proposal aims to restore purchasing power by encouraging people to work more."
+        }
+      },
+      "es": {
+        "title": "Debate sobre el fin de las 35 horas en Francia",
+        "fact": "Un candidato presidencial propone aumentar la jornada laboral diaria y eximir de cotizaciones las horas extra a partir de la trigésima quinta.",
+        "whyItMatters": "Esta medida busca impulsar el poder adquisitivo de los empleados y aumentar el tiempo de trabajo global en las empresas. Reabre un debate político y económico delicado sobre el modelo de jornada laboral en Francia.",
+        "quiz": {
+          "question": "¿Cuál es el objetivo declarado de esta propuesta sobre el tiempo de trabajo?",
+          "choices": [
+            "Aumentar el poder adquisitivo",
+            "Reducir el desempleo juvenil",
+            "Armonizar las normas europeas"
+          ],
+          "explanation": "La propuesta busca devolver poder adquisitivo al incentivar un mayor número de horas trabajadas."
+        }
+      },
+      "hi": {
+        "title": "फ्रांस में 35 घंटे के काम के नियम पर बहस तेज",
+        "fact": "एक राष्ट्रपति पद के उम्मीदवार ने दैनिक काम के घंटे बढ़ाने और 35 घंटे से अधिक के काम को कर-मुक्त करने का प्रस्ताव दिया है।",
+        "whyItMatters": "इस उपाय का उद्देश्य कर्मचारियों की क्रय शक्ति बढ़ाना और कंपनियों में कुल कार्य समय को बढ़ाना है। यह फ्रांस में काम के घंटों के मॉडल पर एक संवेदनशील राजनीतिक और आर्थिक बहस को फिर से शुरू करता है।",
+        "quiz": {
+          "question": "काम के घंटों से जुड़े इस प्रस्ताव का मुख्य उद्देश्य क्या है?",
+          "choices": [
+            "क्रय शक्ति बढ़ाना",
+            "युवा बेरोजगारी कम करना",
+            "यूरोपीय नियमों में सामंजस्य बिठाना"
+          ],
+          "explanation": "इस प्रस्ताव का उद्देश्य अधिक काम करने के लिए प्रेरित करके क्रय शक्ति को बढ़ाना है।"
+        }
+      },
+      "zh": {
+        "title": "法国再次掀起关于废除35小时工作制的辩论",
+        "fact": "一名总统候选人提议增加每日工作时长，并对超过35小时的部分免缴社会保险费。",
+        "whyItMatters": "该措施旨在提高员工的购买力，同时增加企业整体工作时间。这重新引发了法国社会关于工作时间模型的敏感政治与经济辩论。",
+        "quiz": {
+          "question": "这项工作时间提案的明确目标是什么？",
+          "choices": [
+            "提高购买力",
+            "减少青年失业率",
+            "统一欧洲规则"
+          ],
+          "explanation": "该提案旨在通过鼓励多工作来恢复购买力。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-1b12de3cca5f",
+    "title": "Projet de reprise en tandem pour le BHV",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Deux entrepreneurs se sont associés pour présenter un dossier de reprise devant le tribunal, prévoyant d'occuper un tiers de la surface du grand magasin parisien.",
+    "whyItMatters": "L'avenir de cette enseigne historique de la capitale mobilise de nouveaux repreneurs face aux difficultés financières du secteur de la distribution. Ce projet dessine une restructuration partielle de la surface commerciale existante.",
+    "summary": "Deux entrepreneurs se sont associés pour présenter un dossier de reprise devant le tribunal, prévoyant d'occuper un tiers de la surface du grand magasin parisien. L'avenir de cette enseigne historique de la capitale mobilise de nouveaux repreneurs face aux difficultés financières du secteur de la distribution. Ce projet dessine une restructuration partielle de la surface commerciale existante.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/conjoncture/un-tandem-d-entrepreneurs-veut-faire-rayonner-le-made-in-france-au-bhv-20261104",
+    "publishedAt": "2026-11-04T17:16:48Z",
+    "quiz": {
+      "question": "Quelle proportion du grand magasin le projet de reprise compte-t-il occuper ?",
+      "choices": [
+        "Un tiers de la surface",
+        "La moitié de la surface",
+        "La totalité des locaux"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le tandem d'entrepreneurs propose d'exploiter un tiers de la surface du BHV."
+    },
+    "translations": {
+      "en": {
+        "title": "Tandem takeover bid proposed for BHV department store",
+        "fact": "Two entrepreneurs have teamed up to submit a takeover bid to the court, planning to occupy a third of the Parisian department store's floor space.",
+        "whyItMatters": "The future of this historic capital retailer is rallying new buyers amid financial difficulties in the retail sector. This project outlines a partial restructuring of the existing retail space.",
+        "quiz": {
+          "question": "What proportion of the department store does the takeover project plan to occupy?",
+          "choices": [
+            "One-third of the floor space",
+            "Half of the floor space",
+            "The entire premises"
+          ],
+          "explanation": "The duo of entrepreneurs proposes to operate one-third of BHV's floor space."
+        }
+      },
+      "es": {
+        "title": "Proyecto de adquisición en tándem para el BHV",
+        "fact": "Dos emprendedores se han asociado para presentar una oferta de adquisición ante el tribunal, con la previsión de ocupar un tercio de la superficie del gran almacén parisino.",
+        "whyItMatters": "El futuro de este emblema comercial de la capital moviliza a nuevos compradores ante las dificultades financieras del sector. Este proyecto dibuja una reestructuración parcial de la superficie comercial existente.",
+        "quiz": {
+          "question": "¿Qué proporción del gran almacén prevé ocupar el proyecto de adquisición?",
+          "choices": [
+            "Un tercio de la superficie",
+            "La mitad de la superficie",
+            "La totalidad de los locales"
+          ],
+          "explanation": "El tándem de emprendedores propone explotar un tercio de la superficie del BHV."
+        }
+      },
+      "hi": {
+        "title": "BHV के लिए दो निवेशकों द्वारा अधिग्रहण की योजना",
+        "fact": "दो उद्यमियों ने अदालत के सामने अधिग्रहण का प्रस्ताव पेश किया है, जिसके तहत वे पेरिस के इस डिपार्टमेंटल स्टोर के एक तिहाई हिस्से पर कब्जा करेंगे।",
+        "whyItMatters": "खुदकुशी की कगार पर पहुंचे खुदरा क्षेत्र के बीच इस ऐतिहासिक स्टोर का भविष्य नए निवेशकों को आकर्षित कर रहा है। यह परियोजना मौजूदा व्यावसायिक क्षेत्र के आंशिक पुनर्गठन को दर्शाती है।",
+        "quiz": {
+          "question": "अधिग्रहण योजना के तहत डिपार्टमेंटल स्टोर के कितने हिस्से पर कब्जा करने की योजना है?",
+          "choices": [
+            "एक तिहाई हिस्सा",
+            "आधा हिस्सा",
+            "पूरा परिसर"
+          ],
+          "explanation": "उद्यमी जोड़ी ने BHV के एक तिहाई हिस्से का संचालन करने का प्रस्ताव दिया है।"
+        }
+      },
+      "zh": {
+        "title": "巴黎BHV百货公司迎来联合接盘计划",
+        "fact": "两名企业家联手向法院提交了一份收购申请，计划占据这家巴黎百货公司三分之一的面积。",
+        "whyItMatters": "面对零售行业的财务困境，这家首都老牌百货公司的未来吸引了新的接盘者。该项目对现有商业空间进行了局部重组。",
+        "quiz": {
+          "question": "收购计划打算占据该百货公司的什么比例？",
+          "choices": [
+            "三分之一的面积",
+            "一半的面积",
+            "全部的场所"
+          ],
+          "explanation": "这对企业家计划运营BHV百货公司三分之一的面积。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-9b3c0efbc6b2",
+    "title": "Un utilisateur fait tourner des jeux Switch sur Apple TV",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Un projet nommé TVPort utilise l'intelligence artificielle pour adapter des jeux Nintendo Switch sur les boîtiers Apple TV.",
+    "whyItMatters": "Cette initiative montre comment les outils d'IA facilitent le portage de logiciels entre des écosystèmes technologiques fermés. Elle illustre l'ingéniosité des développeurs indépendants pour contourner les barrières matérielles.",
+    "summary": "Un projet nommé TVPort utilise l'intelligence artificielle pour adapter des jeux Nintendo Switch sur les boîtiers Apple TV. Cette initiative montre comment les outils d'IA facilitent le portage de logiciels entre des écosystèmes technologiques fermés. Elle illustre l'ingéniosité des développeurs indépendants pour contourner les barrières matérielles.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2306727/redditor-uses-ai-to-get-switch-games-running-natively-on-apple-tv/",
+    "publishedAt": "2026-11-04T17:15:09Z",
+    "quiz": {
+      "question": "Quel outil a permis de porter des jeux Switch sur Apple TV ?",
+      "choices": [
+        "GitHub Copilot",
+        "ChatGPT",
+        "Claude Code"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le projet TVPort s'appuie sur Claude Code pour adapter les logiciels."
+    },
+    "translations": {
+      "en": {
+        "title": "User gets Switch games running on Apple TV",
+        "fact": "A project named TVPort uses artificial intelligence to adapt Nintendo Switch games for Apple TV boxes.",
+        "whyItMatters": "This initiative shows how AI tools facilitate software porting between closed tech ecosystems. It illustrates the ingenuity of independent developers in bypassing hardware barriers.",
+        "quiz": {
+          "question": "What tool made it possible to port Switch games to Apple TV?",
+          "choices": [
+            "GitHub Copilot",
+            "ChatGPT",
+            "Claude Code"
+          ],
+          "explanation": "The TVPort project relies on Claude Code to adapt the software."
+        }
+      },
+      "es": {
+        "title": "Juegos de Switch en Apple TV gracias a un usuario",
+        "fact": "Un proyecto llamado TVPort utiliza inteligencia artificial para adaptar juegos de Nintendo Switch a los dispositivos Apple TV.",
+        "whyItMatters": "Esta iniciativa demuestra cómo las herramientas de IA facilitan la adaptación de software entre ecosistemas tecnológicos cerrados. Ilustra el ingenio de los desarrolladores independientes para sortear las barreras de hardware.",
+        "quiz": {
+          "question": "¿Qué herramienta permitió adaptar los juegos de Switch al Apple TV?",
+          "choices": [
+            "GitHub Copilot",
+            "ChatGPT",
+            "Claude Code"
+          ],
+          "explanation": "El proyecto TVPort se apoya en Claude Code para adaptar el software."
+        }
+      },
+      "hi": {
+        "title": "यूज़र ने Apple TV पर चलाईं Switch गेम्स",
+        "fact": "TVPort नामक एक प्रोजेक्ट आर्टिफिशियल इंटेलिजेंस का उपयोग करके Nintendo Switch गेम्स को Apple TV बॉक्स के अनुकूल बना रहा है।",
+        "whyItMatters": "यह पहल दर्शाती है कि कैसे AI उपकरण बंद तकनीकी प्रणालियों के बीच सॉफ्टवेयर पोर्ट करना आसान बनाते हैं। यह हार्डवेयर बाधाओं को दूर करने के लिए स्वतंत्र डेवलपर्स की बुद्धिमत्ता को दर्शाती है।",
+        "quiz": {
+          "question": "किस टूल की मदद से Switch गेम्स को Apple TV पर लाया गया?",
+          "choices": [
+            "GitHub Copilot",
+            "ChatGPT",
+            "Claude Code"
+          ],
+          "explanation": "TVPort प्रोजेक्ट ने सॉफ्टवेयर को अनुकूलित करने के लिए Claude Code का उपयोग किया है।"
+        }
+      },
+      "zh": {
+        "title": "用户在Apple TV上成功运行Switch游戏",
+        "fact": "一个名为TVPort的项目利用人工智能将任天堂Switch游戏适配到Apple TV机顶盒上。",
+        "whyItMatters": "这一创举展示了AI工具如何促进封闭技术生态系统之间的软件移植，彰显了独立开发者绕过硬件壁垒的巧思。",
+        "quiz": {
+          "question": "什么工具让Switch游戏得以移植到Apple TV上？",
+          "choices": [
+            "GitHub Copilot",
+            "ChatGPT",
+            "Claude Code"
+          ],
+          "explanation": "TVPort项目依托Claude Code来适配这些软件。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-6d5fa63d1110",
+    "title": "Le futur protocole Bluetooth promet d'être beaucoup plus rapide",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le déploiement du Bluetooth HDT en 2027 va accélérer les échanges de données entre les appareils sans fil.",
+    "whyItMatters": "Cette évolution technique doit fluidifier la communication et les usages de nombreux équipements du quotidien. Les fabricants pourront ainsi proposer des connexions plus performantes à leurs utilisateurs.",
+    "summary": "Le déploiement du Bluetooth HDT en 2027 va accélérer les échanges de données entre les appareils sans fil. Cette évolution technique doit fluidifier la communication et les usages de nombreux équipements du quotidien. Les fabricants pourront ainsi proposer des connexions plus performantes à leurs utilisateurs.",
+    "source": "Engadget",
+    "sourceURL": "https://www.engadget.com/2306723/bluetooth-is-going-to-get-a-lot-faster-in-2027/",
+    "publishedAt": "2026-11-04T17:14:21Z",
+    "quiz": {
+      "question": "Quelle technologie sans fil doit progresser en 2027 selon l'article ?",
+      "choices": [
+        "La 6G",
+        "Le Wi-Fi 8",
+        "Le Bluetooth HDT"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article annonce le déploiement du Bluetooth HDT pour 2027 afin d'améliorer la vitesse des appareils sans fil."
+    },
+    "translations": {
+      "en": {
+        "title": "Future Bluetooth protocol promises much faster speeds",
+        "fact": "The rollout of Bluetooth HDT in 2027 will speed up data exchange between wireless devices.",
+        "whyItMatters": "This technical upgrade should streamline communication and everyday use across numerous devices. Manufacturers will thus be able to offer higher-performance connections to their users.",
+        "quiz": {
+          "question": "Which wireless technology is set to advance in 2027 according to the article?",
+          "choices": [
+            "6G",
+            "Wi-Fi 8",
+            "Bluetooth HDT"
+          ],
+          "explanation": "The article announces the rollout of Bluetooth HDT for 2027 to improve wireless device speed."
+        }
+      },
+      "es": {
+        "title": "El futuro protocolo Bluetooth promete mayor velocidad",
+        "fact": "El despliegue del Bluetooth HDT en 2027 acelerará el intercambio de datos entre dispositivos inalámbricos.",
+        "whyItMatters": "Esta evolución técnica busca agilizar la comunicación y el uso de numerosos equipos cotidianos. De este modo, los fabricantes podrán ofrecer conexiones más eficientes a sus usuarios.",
+        "quiz": {
+          "question": "¿Qué tecnología inalámbrica debe avanzar en 2027 según el artículo?",
+          "choices": [
+            "La 6G",
+            "El Wi-Fi 8",
+            "El Bluetooth HDT"
+          ],
+          "explanation": "El artículo anuncia el despliegue del Bluetooth HDT en 2027 para mejorar la velocidad de los dispositivos inalámbricos."
+        }
+      },
+      "hi": {
+        "title": "आने वाला ब्लूटूथ प्रोटोकॉल होगा बहुत तेज",
+        "fact": "2027 में ब्लूटूथ HDT के आने से वायरलेस उपकरणों के बीच डेटा का आदान-प्रदान तेज हो जाएगा।",
+        "whyItMatters": "यह तकनीकी विकास दैनिक उपयोग के कई उपकरणों में संचार और कार्यप्रणाली को सुगम बनाएगा। इससे निर्माताओं को अपने उपयोगकर्ताओं को बेहतर कनेक्शन प्रदान करने में मदद मिलेगी।",
+        "quiz": {
+          "question": "लेख के अनुसार 2027 में किस वायरलेस तकनीक में सुधार होना है?",
+          "choices": [
+            "6G",
+            "Wi-Fi 8",
+            "ब्लूटूथ HDT"
+          ],
+          "explanation": "लेख में वायरलेस उपकरणों की गति में सुधार के लिए 2027 में ब्लूटूथ HDT के आने की घोषणा की गई है।"
+        }
+      },
+      "zh": {
+        "title": "未来的蓝牙协议承诺带来显著的提速",
+        "fact": "2027年蓝牙HDT的部署将加速无线设备之间的数据交换。",
+        "whyItMatters": "这一技术演进旨在使日常众多设备的通信和使用更加流畅。制造商从而能为用户提供性能更强的连接。",
+        "quiz": {
+          "question": "根据文章，哪种无线技术将在2027年取得进展？",
+          "choices": [
+            "6G",
+            "Wi-Fi 8",
+            "蓝牙HDT"
+          ],
+          "explanation": "文章宣布在2027年部署蓝牙HDT，以提高无线设备的传输速度。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-46859d39c06b",
+    "title": "Nouveau Rafale d'essais pour préparer le futur standard F5",
+    "topic": "tech",
+    "subject": "Macro",
+    "fact": "La Direction générale de l'armement a reçu le Rafale B374, un avion d'essais non destiné au combat.",
+    "whyItMatters": "Cet appareil va permettre de tester les équipements du futur standard Rafale F5, à commencer par son nouveau radar. Il constitue une étape clé pour moderniser les capacités technologiques et militaires de l'appareil.",
+    "summary": "La Direction générale de l'armement a reçu le Rafale B374, un avion d'essais non destiné au combat. Cet appareil va permettre de tester les équipements du futur standard Rafale F5, à commencer par son nouveau radar. Il constitue une étape clé pour moderniser les capacités technologiques et militaires de l'appareil.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/ce-rafale-ne-partira-jamais-au-combat-et-cest-pourtant-lui-qui-preparera-le-futur-f5.html",
+    "publishedAt": "2026-11-04T17:03:37Z",
+    "quiz": {
+      "question": "Quel est le rôle principal du nouveau Rafale B374 reçu par la DGA ?",
+      "choices": [
+        "Participer à des missions de combat",
+        "Assurer la formation des pilotes de ligne",
+        "Servir d'avion d'essais et de tests"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le Rafale B374 est bardé d'instruments pour tester les équipements du futur standard F5."
+    },
+    "translations": {
+      "en": {
+        "title": "New test Rafale prepares future F5 standard",
+        "fact": "The French Defense Procurement Agency received the Rafale B374, a test aircraft not intended for combat.",
+        "whyItMatters": "This aircraft will test equipment for the future Rafale F5 standard, starting with its new radar. It marks a key step in modernizing the aircraft's technological and military capabilities.",
+        "quiz": {
+          "question": "What is the main role of the new Rafale B374 received by the DGA?",
+          "choices": [
+            "Participate in combat missions",
+            "Provide training for airline pilots",
+            "Serve as a test aircraft"
+          ],
+          "explanation": "The Rafale B374 is packed with instruments to test equipment for the future F5 standard."
+        }
+      },
+      "es": {
+        "title": "Nuevo Rafale de pruebas para preparar el estándar F5",
+        "fact": "La Dirección General de Armamento recibió el Rafale B374, un avión de pruebas no destinado al combate.",
+        "whyItMatters": "Este aparato permitirá probar los equipos del futuro estándar Rafale F5, empezando por su nuevo radar. Constituye un paso clave para modernizar las capacidades tecnológicas y militares de la aeronave.",
+        "quiz": {
+          "question": "¿Cuál es la función principal del nuevo Rafale B374 recibido por la DGA?",
+          "choices": [
+            "Participar en misiones de combate",
+            "Garantizar la formación de pilotos comerciales",
+            "Servir como avión de pruebas y ensayos"
+          ],
+          "explanation": "El Rafale B374 está equipado con instrumentos para probar los componentes del futuro estándar F5."
+        }
+      },
+      "hi": {
+        "title": "भविष्य के F5 मानक के लिए नया राफेल परीक्षण",
+        "fact": "शस्त्र निदेशालय ने राफेल B374 प्राप्त किया है, जो मुकाबला करने के लिए नहीं बल्कि परीक्षण के लिए एक विमान है।",
+        "whyItMatters": "यह विमान भविष्य के राफेल F5 मानक के उपकरणों का परीक्षण करने में मदद करेगा, जिसकी शुरुआत इसके नए राफेल रडार से होगी। यह विमान की तकनीकी और सैन्य क्षमताओं के आधुनिकीकरण में एक महत्वपूर्ण कदम है।",
+        "quiz": {
+          "question": "DGA द्वारा प्राप्त नए राफेल B374 की मुख्य भूमिका क्या है?",
+          "choices": [
+            "लड़ाकू अभियानों में भाग लेना",
+            "यात्री विमान चालकों को प्रशिक्षण देना",
+            "परीक्षण विमान के रूप में कार्य करना"
+          ],
+          "explanation": "राफेल B374 भविष्य के F5 मानक के उपकरणों का परीक्षण करने के लिए उपकरणों से लैस है।"
+        }
+      },
+      "zh": {
+        "title": "全新阵风战机试飞，为未来F5标准做准备",
+        "fact": "法国军备总局接收了“阵风”B374号飞机，这是一架不用于作战的测试机。",
+        "whyItMatters": "该飞机将用于测试未来“阵风”F5标准的设备，首先是其新型雷达。它是实现该机型技术和军事能力现代化的关键一步。",
+        "quiz": {
+          "question": "军备总局接收的新阵风B374的主要作用是什么？",
+          "choices": [
+            "参与作战任务",
+            "确保民航飞行员培训",
+            "用作实验和测试机"
+          ],
+          "explanation": "“阵风”B374装备了各种仪器，用于测试未来F5标准的设备。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a698f8f3638d",
+    "title": "Alerte d'économistes sur la politique budgétaire",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Des économistes estiment qu'une politique d'austérité indifférenciée en période de ralentissement économique pourrait pénaliser l'activité et l'emploi en France.",
+    "whyItMatters": "Cette analyse éclaire les choix délicats du gouvernement face au déficit public et à la conjoncture. Elle souligne le risque de fragiliser durablement la croissance si les mesures de rigueur ne sont pas ciblées.",
+    "summary": "Des économistes estiment qu'une politique d'austérité indifférenciée en période de ralentissement économique pourrait pénaliser l'activité et l'emploi en France. Cette analyse éclaire les choix délicats du gouvernement face au déficit public et à la conjoncture. Elle souligne le risque de fragiliser durablement la croissance si les mesures de rigueur ne sont pas ciblées.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/idees/article/2026/11/04/la-politique-budgetaire-francaise-n-est-pas-particulierement-efficace-pour-soutenir-durablement-l-activite_6806371_3232.html",
+    "publishedAt": "2026-11-04T17:00:13Z",
+    "quiz": {
+      "question": "Selon les économistes cités, quel est le risque d'une austérité indifférenciée ?",
+      "choices": [
+        "De paralyser le marché immobilier",
+        "De provoquer une envolée de l'inflation",
+        "De freiner l'activité et d'accentuer le chômage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les économistes soulignent qu'une telle politique appliquée en période de ralentissement pèse lourdement sur l'activité et l'emploi."
+    },
+    "translations": {
+      "en": {
+        "title": "Economists warn against budget austerity policy",
+        "fact": "Economists believe that indiscriminate austerity during an economic slowdown could penalize activity and employment in France.",
+        "whyItMatters": "This analysis sheds light on the government's difficult choices regarding public deficits and economic conditions. It highlights the risk of permanently weakening growth if rigor measures are not targeted.",
+        "quiz": {
+          "question": "According to the cited economists, what is the risk of indiscriminate austerity?",
+          "choices": [
+            "Paralyzing the real estate market",
+            "Triggering a surge in inflation",
+            "Slow down activity and increase unemployment"
+          ],
+          "explanation": "Economists point out that such a policy applied during a slowdown heavily weighs on activity and employment."
+        }
+      },
+      "es": {
+        "title": "Alerta de economistas sobre la política presupuestaria",
+        "fact": "Economistas advierten que una política de austeridad generalizada en plena desaceleración económica podría perjudicar la actividad y el empleo en Francia.",
+        "whyItMatters": "Este análisis arroja luz sobre las difíciles decisiones del gobierno ante el déficit público y la coyuntura. Subraya el riesgo de debilitar el crecimiento de forma duradera si las medidas de rigor no están bien enfocadas.",
+        "quiz": {
+          "question": "Según los economistas citados, ¿cuál es el riesgo de una austeridad indiscriminada?",
+          "choices": [
+            "Paralizar el mercado inmobiliario",
+            "Provocar una disparada de la inflación",
+            "Frenar la actividad y acentuar el desempleo"
+          ],
+          "explanation": "Los economistas recalcan que tal política aplicada en periodos de desaceleración pesa gravemente sobre la actividad y el empleo."
+        }
+      },
+      "hi": {
+        "title": "अर्थशास्त्रियों की राजकोषीय नीति पर चेतावनी",
+        "fact": "अर्थशास्त्रियों का मानना है कि आर्थिक मंदी के दौरान बिना किसी भेदभाव के अपनाई गई कठोरता की नीति फ्रांस में गतिविधि और रोजगार को नुकसान पहुंचा सकती है।",
+        "whyItMatters": "यह विश्लेषण सार्वजनिक घाटे और आर्थिक स्थिति के सामने सरकार के कठिन विकल्पों पर प्रकाश डालਦਾ है। यह रेखांकित करता है कि यदि कठोरता के उपाय लक्षित नहीं किए गए, तो विकास को लंबे समय के लिए झटका लग सकता है।",
+        "quiz": {
+          "question": "उद्धृत अर्थशास्त्रियों के अनुसार, बिना भेदभाव वाली कठोरता का क्या जोखिम है?",
+          "choices": [
+            "रियल एस्टेट बाजार का ठप होना",
+            "महंगाई का तेजी से बढ़ना",
+            "गतिविधि का धीमा होना और बेरोजगारी का बढ़ना"
+          ],
+          "explanation": "अर्थशास्त्रियों ने इस बात पर जोर दिया है कि मंदी के दौरान ऐसी नीति गतिविधि और रोजगार पर भारी असर डालती है।"
+        }
+      },
+      "zh": {
+        "title": "经济学家就财政政策发出警告",
+        "fact": "经济学家认为，在经济放缓时期采取无差别的紧缩政策可能会损害法国的经济活动和就业。",
+        "whyItMatters": "这一分析阐明了政府在公共赤字和经济形势面前艰难的选择。它强调了如果紧缩措施缺乏针对性，可能会对经济增长造成持久削弱的风险。",
+        "quiz": {
+          "question": "根据所引用的经济学家观点，无差别紧缩政策的风险是什么？",
+          "choices": [
+            "瘫痪房地产市场",
+            "引发通货膨胀飙升",
+            "抑制经济活动并加剧失业"
+          ],
+          "explanation": "经济学家强调，在经济放缓时期实施此类政策会严重加重经济活动和就业的负担。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-813eddd3d671",
+    "title": "Le baril de Brent chute sous les 100 dollars",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Le prix du baril de pétrole Brent est repassé sous la barre des 100 dollars après les élections de mi-mandat.",
+    "whyItMatters": "Ce recul des cours est lié à la victoire démocrate au Congrès, qui pourrait limiter la marge de manœuvre de l'exécutif face à l'Iran. Il offre un répit bienvenu sur le front des coûts énergétiques.",
+    "summary": "Le prix du baril de pétrole Brent est repassé sous la barre des 100 dollars après les élections de mi-mandat. Ce recul des cours est lié à la victoire démocrate au Congrès, qui pourrait limiter la marge de manœuvre de l'exécutif face à l'Iran. Il offre un répit bienvenu sur le front des coûts énergétiques.",
+    "source": "Le Figaro",
+    "sourceURL": "https://www.lefigaro.fr/conjoncture/le-baril-de-petrole-brent-passe-sous-les-100-dollars-apres-la-victoire-democrate-aux-midterms-20261104",
+    "publishedAt": "2026-11-04T16:57:06Z",
+    "quiz": {
+      "question": "Sous quel seuil le baril de Brent est-il descendu ?",
+      "choices": [
+        "80 dollars",
+        "100 dollars",
+        "120 dollars"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le baril de pétrole Brent est passé sous les 100 dollars à la suite du scrutin américain."
+    },
+    "translations": {
+      "en": {
+        "title": "Brent crude drops below $100 a barrel",
+        "fact": "The price of Brent crude oil fell back below the $100 mark following the midterm elections.",
+        "whyItMatters": "This price drop is linked to the Democratic victory in Congress, which could limit the executive's leeway regarding Iran. It offers a welcome respite on energy costs.",
+        "quiz": {
+          "question": "Below which threshold did Brent crude drop?",
+          "choices": [
+            "$80",
+            "$100",
+            "$120"
+          ],
+          "explanation": "Brent crude oil dropped below $100 following the US election."
+        }
+      },
+      "es": {
+        "title": "El barril de Brent cae por debajo de los 100 dólares",
+        "fact": "El precio del petróleo Brent volvió a situarse por debajo de la barrera de los 100 dólares tras las elecciones de mitad de mandato.",
+        "whyItMatters": "Este descenso de los precios está ligado a la victoria demócrata en el Congreso, que podría limitar el margen de maniobra del ejecutivo frente a Irán. Supone un respiro muy esperado en los costes energéticos.",
+        "quiz": {
+          "question": "¿Por debajo de qué umbral ha bajado el barril de Brent?",
+          "choices": [
+            "80 dólares",
+            "100 dólares",
+            "120 dólares"
+          ],
+          "explanation": "El barril de petróleo Brent cayó por debajo de los 100 dólares tras los comicios estadounidenses."
+        }
+      },
+      "hi": {
+        "title": "ब्रेंट क्रूड ऑयल का भाव 100 डॉलर से नीचे गिरा",
+        "fact": "मध्य-अवधि के चुनावों के बाद ब्रेंट क्रूड ऑयल का भाव 100 डॉलर प्रति बैरल के नीचे आ गया है।",
+        "whyItMatters": "कीतों में यह गिरावट कांग्रेस में डेमोक्रेट की जीत से जुड़ी है, जिससे ईरान के संबंध में सरकार के हाथ बंध सकते हैं। यह ऊर्जा लागत के मोर्चे पर एक राहत भरी खबर है।",
+        "quiz": {
+          "question": "ब्रेंट क्रूड ऑयल का भाव किस सीमा से नीचे गिर गया है?",
+          "choices": [
+            "80 डॉलर",
+            "100 डॉलर",
+            "120 डॉलर"
+          ],
+          "explanation": "अमेरिकी चुनावों के परिणामों के बाद ब्रेंट क्रूड ऑयल 100 डॉलर से नीचे आ गया।"
+        }
+      },
+      "zh": {
+        "title": "布伦特原油价格跌破100美元",
+        "fact": "在美国中期选举后，布伦特原油价格重新跌破100美元大关。",
+        "whyItMatters": "油价下跌与民主党在国会获胜有关，这可能会限制行政部门面对伊朗时的操作空间。它为能源成本带来了一个受欢迎的喘息机会。",
+        "quiz": {
+          "question": "布伦特原油价格跌到了哪个门槛以下？",
+          "choices": [
+            "80美元",
+            "100美元",
+            "120美元"
+          ],
+          "explanation": "在美国大选之后，布伦特原油价格跌至100美元以下。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a5ef91d617ee",
+    "title": "Nouveau réglage dans Nvidia App pour préserver les performances en jeu",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Nvidia intègre dans son application un paramètre permettant de prioriser les applications sur la carte graphique afin de protéger les images par seconde.",
+    "whyItMatters": "Ce mécanisme évite que des tâches de fond ne ralentissent intempestivement les jeux vidéo. Il offre aux utilisateurs un meilleur contrôle sur l'allocation des ressources de leur carte graphique.",
+    "summary": "Nvidia intègre dans son application un paramètre permettant de prioriser les applications sur la carte graphique afin de protéger les images par seconde. Ce mécanisme évite que des tâches de fond ne ralentissent intempestivement les jeux vidéo. Il offre aux utilisateurs un meilleur contrôle sur l'allocation des ressources de leur carte graphique.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/marques/nvidia/3311107_nvidia-app-voici-un-nouveau-reglage-pour-empecher-vos-taches-de-fond-dachever-vos-fps",
+    "publishedAt": "2026-11-04T16:53:54Z",
+    "quiz": {
+      "question": "Quel composant est ciblé par ce nouveau réglage de Nvidia App ?",
+      "choices": [
+        "La mémoire vive",
+        "Le processeur central",
+        "La carte graphique"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le réglage permet de choisir quelle application passe en priorité sur la carte graphique."
+    },
+    "translations": {
+      "en": {
+        "title": "New Nvidia App setting preserves in-game performance",
+        "fact": "Nvidia is adding a setting to its app to prioritize applications on the graphics card to protect frames per second.",
+        "whyItMatters": "This mechanism prevents background tasks from unexpectedly slowing down video games. It gives users better control over their graphics card resource allocation.",
+        "quiz": {
+          "question": "Which component is targeted by this new Nvidia App setting?",
+          "choices": [
+            "RAM",
+            "Central processor",
+            "Graphics card"
+          ],
+          "explanation": "The setting allows you to choose which application takes priority on the graphics card."
+        }
+      },
+      "es": {
+        "title": "Nuevo ajuste en Nvidia App para proteger los fps",
+        "fact": "Nvidia integra en su aplicación un parámetro que permite priorizar aplicaciones en la tarjeta gráfica para proteger los fotogramas por segundo.",
+        "whyItMatters": "Este mecanismo evita que las tareas en segundo plano ralenticen inoportunamente los videojuegos. Ofrece a los usuarios un mejor control sobre la asignación de recursos de su tarjeta gráfica.",
+        "quiz": {
+          "question": "¿Qué componente es el objetivo de este nuevo ajuste de Nvidia App?",
+          "choices": [
+            "La memoria RAM",
+            "El procesador central",
+            "La tarjeta gráfica"
+          ],
+          "explanation": "El ajuste permite seleccionar qué aplicación tiene prioridad en la tarjeta gráfica."
+        }
+      },
+      "hi": {
+        "title": "गेमिंग प्रदर्शन बचाने के लिए Nvidia App में नया सेटिंग्स",
+        "fact": "Nvidia ने अपने ऐप में एक ऐसा पैरामीटर जोड़ा है जो फ्रेम प्रति सेकंड (FPS) की रक्षा के लिए ग्राफिक्स कार्ड पर एप्लिकेशन को प्राथमिकता देता है।",
+        "whyItMatters": "यह तंत्र पृष्ठभूमि के कार्यों को वीडियो गेम को अचानक धीमा करने से रोकता है। यह उपयोगकर्ताओं को उनके ग्राफिक्स कार्ड के संसाधनों के आवंटन पर बेहतर नियंत्रण देता है।",
+        "quiz": {
+          "question": "Nvidia App की इस नई सेटिंग से कौन सा घटक लक्षित है?",
+          "choices": [
+            "रैम (RAM)",
+            "सेंट्रल प्रोसेसर (CPU)",
+            "ग्राफिक्स कार्ड"
+          ],
+          "explanation": "यह सेटिंग यह चुनने की अनुमति देती है कि कौन सा एप्लिकेशन ग्राफिक्स कार्ड पर प्राथमिकता लेगा।"
+        }
+      },
+      "zh": {
+        "title": "Nvidia App新设置：保障游戏运行性能",
+        "fact": "Nvidia在其应用程序中集成了一项设置，允许优先处理显卡上的应用，以保护帧率。",
+        "whyItMatters": "该机制可防止后台任务不合时宜地拖慢电子游戏。它为用户提供了对其显卡资源分配的更好控制。",
+        "quiz": {
+          "question": "Nvidia App的这项新设置针对的是哪个组件？",
+          "choices": [
+            "内存",
+            "中央处理器",
+            "显卡"
+          ],
+          "explanation": "该设置允许选择哪个应用程序在显卡上享有优先权。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-ff7dbf7928b5",
+    "title": "Six outils pour vérifier si vos identifiants ont fuité en ligne",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Plusieurs milliards d'identifiants volés circulent actuellement sur des forums de hackers et le darknet.",
+    "whyItMatters": "Face à la multiplication des vols de données, des plateformes dédiées permettent de contrôler rapidement la sécurité de ses comptes. Cette démarche préventive aide à limiter les risques d'usurpation d'identité.",
+    "summary": "Plusieurs milliards d'identifiants volés circulent actuellement sur des forums de hackers et le darknet. Face à la multiplication des vols de données, des plateformes dédiées permettent de contrôler rapidement la sécurité de ses comptes. Cette démarche préventive aide à limiter les risques d'usurpation d'identité.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/cyberguerre/1164940-5-sites-pour-savoir-si-vos-infos-ont-fuite-sur-le-web.html",
+    "publishedAt": "2026-11-04T16:38:11Z",
+    "quiz": {
+      "question": "Où se revendent principalement les identifiants volés ?",
+      "choices": [
+        "Sur les sites officiels",
+        "Sur les réseaux sociaux",
+        "Sur le darknet"
+      ],
+      "answerIndex": 2,
+      "explanation": "Les listes de données compromises s'échangent sur des forums de pirates et le darknet."
+    },
+    "translations": {
+      "en": {
+        "title": "Six tools to check if your login details leaked online",
+        "fact": "Billions of stolen credentials are currently circulating on hacker forums and the dark web.",
+        "whyItMatters": "Facing rising data theft, dedicated platforms allow users to quickly check their account security. This preventative step helps limit the risk of identity theft.",
+        "quiz": {
+          "question": "Where are stolen credentials mainly resold?",
+          "choices": [
+            "On official websites",
+            "On social media",
+            "On the dark web"
+          ],
+          "explanation": "Compromised data lists are traded on hacker forums and the dark web."
+        }
+      },
+      "es": {
+        "title": "Seis herramientas para comprobar si tus datos se filtraron",
+        "fact": "Miles de millones de credenciales robadas circulan actualmente por foros de piratas informáticos y la dark web.",
+        "whyItMatters": "Ante el aumento del robo de datos, plataformas especializadas permiten verificar rápidamente la seguridad de las cuentas. Esta medida preventiva ayuda a limitar los riesgos de suplantación de identidad.",
+        "quiz": {
+          "question": "¿Dónde se revenden principalmente las credenciales robadas?",
+          "choices": [
+            "En sitios web oficiales",
+            "En redes sociales",
+            "En la dark web"
+          ],
+          "explanation": "Las listas de datos comprometidos se intercambian en foros de hackers y en la dark web."
+        }
+      },
+      "hi": {
+        "title": "यह जांचने के लिए छह टूल कि आपका डेटा लीक हुआ है या नहीं",
+        "fact": "वर्तमान में अरबों चुराए गए क्रेडेंशियल्स हैकर्स के मंचों और डार्कनेट पर घूम रहे हैं।",
+        "whyItMatters": "डेटा चोरी की बढ़ती घटनाओं के बीच, समर्पित प्लेटफॉर्म खातों की सुरक्षा की त्वरित जांच करने की अनुमति देते हैं। यह निवारक कदम पहचान की चोरी के जोखिम को सीमित करने में मदद करता है।",
+        "quiz": {
+          "question": "चुराए गए क्रेडेंशियल्स मुख्य रूप से कहां बेचे जाते हैं?",
+          "choices": [
+            "आधिकारिक वेबसाइटों पर",
+            "सोशल मीडिया पर",
+            "डार्कनेट पर"
+          ],
+          "explanation": "समझौता किए गए डेटा की सूची हैकर्स के मंचों और डार्कनेट पर आदान-प्रदान की जाती है।"
+        }
+      },
+      "zh": {
+        "title": "六款工具助您检查在线凭据是否泄露",
+        "fact": "目前有数十亿被盗的登录凭据在黑客论坛和暗网上流传。",
+        "whyItMatters": "面对日益增多的数据盗窃，专用平台可让用户快速检查其账户安全性。这种预防性措施有助于限制身份被盗用的风险。",
+        "quiz": {
+          "question": "被盗凭据主要在哪里被转售？",
+          "choices": [
+            "在官方网站上",
+            "在社交网络上",
+            "在暗网上"
+          ],
+          "explanation": "受损的数据列表在黑客论坛和暗网上进行交换。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-868b661c5e46",
+    "title": "Binance détaille la longue préparation des hackers en crypto",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Les pirates à l'origine du vol de milliards en cryptomonnaies ont passé des mois à planifier leur attaque.",
+    "whyItMatters": "Le mode opératoire comprenait des infections de ordinateurs portables, des outils internes compromis et de faux entretiens d'embauche. Cette sophistication montre la menace croissante qui pèse sur la sécurité des plateformes d'échange.",
+    "summary": "Les pirates à l'origine du vol de milliards en cryptomonnaies ont passé des mois à planifier leur attaque. Le mode opératoire comprenait des infections de ordinateurs portables, des outils internes compromis et de faux entretiens d'embauche. Cette sophistication montre la menace croissante qui pèse sur la sécurité des plateformes d'échange.",
+    "source": "Ars Technica",
+    "sourceURL": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+    "publishedAt": "2026-11-04T16:06:03Z",
+    "quiz": {
+      "question": "Quelle technique a notamment été utilisée par les hackers selon Binance ?",
+      "choices": [
+        "Une attaque par déni de service",
+        "De faux entretiens d'embauche",
+        "Le piratage des réseaux satellites"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les pirates ont eu recours à de faux entretiens pour infiltrer les systèmes."
+    },
+    "translations": {
+      "en": {
+        "title": "Binance details hackers' long crypto preparation",
+        "fact": "The hackers behind the theft of billions in cryptocurrencies spent months planning their attack.",
+        "whyItMatters": "The modus operandi included laptop infections, compromised internal tools, and fake job interviews. This sophistication highlights the growing threat to exchange platform security.",
+        "quiz": {
+          "question": "What specific technique did hackers use according to Binance?",
+          "choices": [
+            "A denial-of-service attack",
+            "Fake job interviews",
+            "Satellite network hacking"
+          ],
+          "explanation": "The hackers used fake interviews to infiltrate the systems."
+        }
+      },
+      "es": {
+        "title": "Binance detalla la larga preparación de los hackers cripto",
+        "fact": "Los piratas informáticos responsables del robo millonario en criptomonedas pasaron meses planificando su ataque.",
+        "whyItMatters": "El modus operandi incluyó la infección de ordenadores portátiles, la vulneración de herramientas internas y falsas entrevistas de trabajo. Esta sofisticación evidencia la creciente amenaza contra la seguridad de las plataformas.",
+        "quiz": {
+          "question": "¿Qué técnica utilizaron los hackers según Binance?",
+          "choices": [
+            "Un ataque de denegación de servicio",
+            "Falsas entrevistas de trabajo",
+            "El pirateo de redes de satélite"
+          ],
+          "explanation": "Los piratas informáticos recurrieron a falsas entrevistas para infiltrarse en los sistemas."
+        }
+      },
+      "hi": {
+        "title": "Binance ने क्रिप्टो में हैकर्स की लंबी तैयारी का खुलासा किया",
+        "fact": "अरबों की क्रिप्टोकरेंसी की चोरी के पीछे के हैकर्स ने अपने हमले की योजना बनाने में महीनों बिताए।",
+        "whyItMatters": "इस कार्यप्रणाली में लैपटॉप को संक्रमित करना, आंतरिक उपकरणों से छेड़छाड़ करना और नकली नौकरी के इंटरव्यू शामिल थे। यह परिपक्वता एक्सचेंजों की सुरक्षा के लिए बढ़ते खतरे को दर्शाती है।",
+        "quiz": {
+          "question": "Binance के अनुसार हैकर्स द्वारा किस तकनीक का विशेष रूप से उपयोग किया गया था?",
+          "choices": [
+            "डिनॉयल ऑफ सर्विस (DDoS) हमला",
+            "नकली नौकरी के इंटरव्यू",
+            "सैटेलाइट नेटवर्क को हैक करना"
+          ],
+          "explanation": "पाइरेट्स ने सिस्टम में सेंध लगाने के लिए नकली इंटरव्यू का सहारा लिया था।"
+        }
+      },
+      "zh": {
+        "title": "币安详细披露加密货币黑客的长期筹备过程",
+        "fact": "窃取数十亿美元加密货币的黑客花了好几个月的时间来策划他们的攻击。",
+        "whyItMatters": "其作案手法包括感染笔记本电脑、破坏内部工具以及假面试。这种复杂性表明加密货币交易所的安全正面临日益增长的威胁。",
+        "quiz": {
+          "question": "根据币安的说法，黑客特别使用了什么技术？",
+          "choices": [
+            "拒绝服务攻击",
+            "虚假的工作面试",
+            "黑客攻击卫星网络"
+          ],
+          "explanation": "黑客利用虚假面试潜入了系统内部。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-63a2778396f7",
+    "title": "Orange plaide pour la souveraineté technologique européenne",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La directrice générale d'Orange a souligné la forte dépendance de l'Europe dans plusieurs domaines technologiques.",
+    "whyItMatters": "Ce constat met en lumière les défis stratégiques du secteur des télécommunications face aux géants étrangers. Il relance le débat sur la nécessité d'un renforcement de la souveraineté numérique européenne.",
+    "summary": "La directrice générale d'Orange a souligné la forte dépendance de l'Europe dans plusieurs domaines technologiques. Ce constat met en lumière les défis stratégiques du secteur des télécommunications face aux géants étrangers. Il relance le débat sur la nécessité d'un renforcement de la souveraineté numérique européenne.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/video/2026/11/04/christel-heydemann-directrice-generale-d-orange-la-dependance-de-l-europe-est-majeure-dans-de-multiples-domaines-technologiques_6806325_3234.html",
+    "publishedAt": "2026-11-04T16:00:25Z",
+    "quiz": {
+      "question": "Quel problème majeur a souligné la directrice générale d'Orange ?",
+      "choices": [
+        "La dépendance technologique de l'Europe",
+        "La pénurie de forfaits mobiles en France",
+        "Le coût excessif de la fibre optique"
+      ],
+      "answerIndex": 0,
+      "explanation": "La dirigeante a insisté sur la dépendance majeure de l'Europe dans de multiples domaines technologiques."
+    },
+    "translations": {
+      "en": {
+        "title": "Orange calls for European tech sovereignty",
+        "fact": "Orange's CEO highlighted Europe's heavy reliance on foreign technology across multiple sectors.",
+        "whyItMatters": "This observation highlights the strategic challenges facing the telecom industry against foreign giants. It revives the debate on boosting Europe's digital sovereignty.",
+        "quiz": {
+          "question": "What major issue did the CEO of Orange highlight?",
+          "choices": [
+            "Europe's technological dependency",
+            "The shortage of mobile plans in France",
+            "The excessive cost of fiber optics"
+          ],
+          "explanation": "The leader insisted on Europe's major dependence in multiple technological fields."
+        }
+      },
+      "es": {
+        "title": "Orange pide soberanía tecnológica en Europa",
+        "fact": "La directora general de Orange destacó la gran dependencia de Europa en varios ámbitos tecnológicos.",
+        "whyItMatters": "Este diagnóstico resalta los retos estratégicos de las telecos ante los gigantes extranjeros y reabre el debate sobre reforzar la soberanía digital europea.",
+        "quiz": {
+          "question": "¿Qué gran problema destacó la directora general de Orange?",
+          "choices": [
+            "La dependencia tecnológica de Europa",
+            "La escasez de tarifas móviles en Francia",
+            "El coste excesivo de la fibra óptica"
+          ],
+          "explanation": "La directiva insistió en la gran dependencia de Europa en múltiples ámbitos tecnológicos."
+        }
+      },
+      "hi": {
+        "title": "ऑरेंज ने की यूरोपीय तकनीकी संप्रभुता की वकालत",
+        "fact": "ऑरेंज की मुख्य कार्यकारी अधिकारी ने कई तकनीकी क्षेत्रों में यूरोप की भारी निर्भरता पर जोर दिया है।",
+        "whyItMatters": "यह स्थिति विदेशी दिग्गजों के सामने दूरसञ्चार क्षेत्र की रणनीतिक चुनौतियों को उजागर करती है। इससे यूरोपीय डिजिटल संप्रभुता को मजबूत करने की आवश्यकता पर बहस फिर से शुरू हो गई है।",
+        "quiz": {
+          "question": "ऑरेंज की सीईओ ने किस बड़ी समस्या पर प्रकाश डाला?",
+          "choices": [
+            "यूरोप की तकनीकी निर्भरता",
+            "फ्रांस में मोबाइल प्लान की कमी",
+            "फाइबर ऑप्टिक्स की अत्यधिक लागत"
+          ],
+          "explanation": "प्रमुख ने कई तकनीकी क्षेत्रों में यूरोप की भारी निर्भरता पर जोर दिया।"
+        }
+      },
+      "zh": {
+        "title": "Orange呼吁实现欧洲技术自主",
+        "fact": "Orange首席执行官指出，欧洲在多个技术领域存在严重依赖。",
+        "whyItMatters": "这一现状凸显了电信行业在面对外国巨头时的战略挑战，并再次引发了关于增强欧洲数字主权必要性的讨论。",
+        "quiz": {
+          "question": "Orange首席执行官指出了什么重大问题？",
+          "choices": [
+            "欧洲的技术依赖",
+            "法国移动套餐短缺",
+            "光纤过高的成本"
+          ],
+          "explanation": "该高管强调了欧洲在多个技术领域的主要依赖性。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-7aec6fbf394c",
+    "title": "Forte hausse des ventes de voitures électriques d'occasion",
+    "topic": "tech",
+    "subject": "Macro",
+    "fact": "Selon les données d'AAA Data, les immatriculations de voitures électriques d'occasion ont progressé de 42,8 % en octobre.",
+    "whyItMatters": "Cette augmentation reflète l'adaptation des automobilistes face à la hausse des prix des carburants fossiles. Le marché de la seconde main devient ainsi un levier clé pour l'adoption des véhicules propres.",
+    "summary": "Selon les données d'AAA Data, les immatriculations de voitures électriques d'occasion ont progressé de 42,8 % en octobre. Cette augmentation reflète l'adaptation des automobilistes face à la hausse des prix des carburants fossiles. Le marché de la seconde main devient ainsi un levier clé pour l'adoption des véhicules propres.",
+    "source": "Presse-citron",
+    "sourceURL": "https://www.presse-citron.net/francais-voiture-electrique-occasion-hausse/",
+    "publishedAt": "2026-11-04T15:56:45Z",
+    "quiz": {
+      "question": "Quelle a été la hausse des ventes de voitures électriques d'occasion en octobre ?",
+      "choices": [
+        "42,8 %",
+        "60,1 %",
+        "25,4 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les chiffres d'AAA Data confirment une augmentation de 42,8 % sur un mois."
+    },
+    "translations": {
+      "en": {
+        "title": "Surge in used electric car sales",
+        "fact": "According to AAA Data, registrations of used electric cars rose by 42.8% in October.",
+        "whyItMatters": "This increase shows how drivers are adapting to rising fossil fuel prices. The second-hand market is becoming a key driver for clean vehicle adoption.",
+        "quiz": {
+          "question": "What was the increase in used electric car sales in October?",
+          "choices": [
+            "42.8%",
+            "60.1%",
+            "25.4%"
+          ],
+          "explanation": "AAA Data figures confirm a 42.8% increase over the month."
+        }
+      },
+      "es": {
+        "title": "Fuerte subida de coches eléctricos de segunda mano",
+        "fact": "Según datos de AAA Data, las matriculaciones de coches eléctricos usados subieron un 42,8 % en octubre.",
+        "whyItMatters": "Este incremento refleja cómo se adaptan los conductores a los caros combustibles fósiles. El mercado de ocasión es clave para adoptar vehículos limpios.",
+        "quiz": {
+          "question": "¿Cuál fue el incremento en ventas de coches eléctricos usados en octubre?",
+          "choices": [
+            "42,8 %",
+            "60,1 %",
+            "25,4 %"
+          ],
+          "explanation": "Los datos de AAA Data confirman un incremento del 42,8 % en un mes."
+        }
+      },
+      "hi": {
+        "title": "सेकंड-हैंड इलेक्ट्रिक कारों की बिक्री में भारी उछाल",
+        "fact": "AAA Data के आंकड़ों के अनुसार, अक्टूबर में पुरानी इलेक्ट्रिक कारों के पंजीकरण में 42.8% की वृद्धि हुई है।",
+        "whyItMatters": "यह वृद्धि जीवाश्म ईंधन की बढ़ती कीमतों के बीच चालकों के अनुकूल होने को दर्शाती है। इस प्रकार सेकंड-हैंड बाजार स्वच्छ वाहनों को अपनाने के लिए एक मुख्य जरिया बन रहा है।",
+        "quiz": {
+          "question": "अक्टूबर में पुरानी इलेक्ट्रिक कारों की बिक्री में कितने प्रतिशत की वृद्धि हुई?",
+          "choices": [
+            "42.8 %",
+            "60.1 %",
+            "25.4 %"
+          ],
+          "explanation": "AAA Data के आंकड़े एक महीने में 42.8% की वृद्धि की पुष्टि करते हैं।"
+        }
+      },
+      "zh": {
+        "title": "二手电动车销量大幅增长",
+        "fact": "根据AAA Data的数据，10月份二手电动车注册量增长了42.8%。",
+        "whyItMatters": "这一增长反映了车主为应对化石燃料价格上涨而做出的调整。二手市场正成为普及清洁能源汽车的关键杠杆。",
+        "quiz": {
+          "question": "10月份二手电动车销量增长了多少？",
+          "choices": [
+            "42,8 %",
+            "60,1 %",
+            "25,4 %"
+          ],
+          "explanation": "AAA Data的数据证实，单月增幅达到了42.8%。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-8a629aa46492",
+    "title": "Une avancée majeure pour prolonger la vie des cellules solaires",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Des chercheurs de l'Université Polytechnique de Hong Kong ont identifié une cause cachée du vieillissement des cellules solaires à pérovskite.",
+    "whyItMatters": "Cette découverte s'accompagne d'une solution technique pour prolonger la durée de vie de ces panneaux exposés à la lumière. Il s'agit d'une étape importante pour commercialiser cette technologie photovoltaïque.",
+    "summary": "Des chercheurs de l'Université Polytechnique de Hong Kong ont identifié une cause cachée du vieillissement des cellules solaires à pérovskite. Cette découverte s'accompagne d'une solution technique pour prolonger la durée de vie de ces panneaux exposés à la lumière. Il s'agit d'une étape importante pour commercialiser cette technologie photovoltaïque.",
+    "source": "Tech Xplore",
+    "sourceURL": "https://techxplore.com/news/2026-11-uncover-hidden-aging-perovskite-solar.html",
+    "publishedAt": "2026-11-04T15:00:11Z",
+    "quiz": {
+      "question": "Quelle technologie solaire est concernée par cette découverte ?",
+      "choices": [
+        "Les cellules à pérovskite",
+        "Les panneaux thermiques",
+        "Les batteries au lithium"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'étude porte spécifiquement sur le vieillissement des cellules solaires à pérovskite."
+    },
+    "translations": {
+      "en": {
+        "title": "A major breakthrough for solar cell lifespan",
+        "fact": "Researchers at the Hong Kong Polytechnic University have identified a hidden cause of aging in perovskite solar cells.",
+        "whyItMatters": "This discovery comes with a technical solution to extend the lifespan of light-exposed panels. It is a major step toward commercializing this photovoltaic tech.",
+        "quiz": {
+          "question": "Which solar technology is involved in this discovery?",
+          "choices": [
+            "Perovskite cells",
+            "Thermal panels",
+            "Lithium batteries"
+          ],
+          "explanation": "The study focuses specifically on the aging of perovskite solar cells."
+        }
+      },
+      "es": {
+        "title": "Avance para alargar la vida de las células solares",
+        "fact": "Investigadores de la Universidad Politécnica de Hong Kong hallaron una causa oculta del envejecimiento de las células solares de perovskita.",
+        "whyItMatters": "El hallazgo trae una solución técnica para alargar la vida de estos paneles expuestos a la luz, un paso clave para comercializar esta tecnología fotovoltaica.",
+        "quiz": {
+          "question": "¿Qué tecnología solar se beneficia de este descubrimiento?",
+          "choices": [
+            "Las células de perovskita",
+            "Los paneles térmicos",
+            "Las baterías de litio"
+          ],
+          "explanation": "El estudio se centra específicamente en el envejecimiento de las células solares de perovskita."
+        }
+      },
+      "hi": {
+        "title": "सोलर सेल की आयु बढ़ाने की दिशा में एक बड़ी सफलता",
+        "fact": "हांगकांग पॉलिटेक्निक यूनिवर्सिटी के शोधकर्ताओं ने पेरोव्स्काइट सोलर सेल की उम्र बढ़ने के एक छिपे हुए कारण का पता लगाया है।",
+        "whyItMatters": "इस खोज के साथ प्रकाश के संपर्क में आने वाले इन पैनलों के जीवनकाल को बढ़ाने के लिए एक तकनीकी समाधान भी मिला है। इस फोटोवोल्टिक तकनीक को बाजार में लाने की दिशा में यह एक महत्वपूर्ण कदम है।",
+        "quiz": {
+          "question": "इस खोज का संबंध किस सोलर तकनीक से है?",
+          "choices": [
+            "पेरोव्स्काइट सेल",
+            "थर्मल पैनल",
+            "लिथियम बैटरी"
+          ],
+          "explanation": "यह अध्ययन विशेष रूप से पेरोव्स्काइट सोलर सेल की उम्र बढ़ने से संबंधित है।"
+        }
+      },
+      "zh": {
+        "title": "延长太阳能电池寿命取得重大突破",
+        "fact": "香港理工大学的研究人员找出了钙钛矿太阳能电池老化的一个隐藏原因。",
+        "whyItMatters": "这一发现伴随着一项技术解决方案，可延长这些受光照面板的使用寿命。这是该光伏技术走向商业化迈出的重要一步。",
+        "quiz": {
+          "question": "这项发现涉及哪种太阳能技术？",
+          "choices": [
+            "钙钛矿电池",
+            "热力面板",
+            "锂电池"
+          ],
+          "explanation": "该研究专门针对钙钛矿太阳能电池的老化问题。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-70624f076922",
+    "title": "Le Haut Conseil des finances publiques juge la croissance fragile",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le Haut Conseil des finances publiques qualifie la prévision de croissance de 0,5 % pour 2026 de difficilement atteignable.",
+    "whyItMatters": "Cet avis intervient après de récents reculs successifs du PIB français, illustrant la difficulté à redresser la trajectoire économique. Il pèse sur les arbitrages budgétaires à venir pour l'État.",
+    "summary": "Le Haut Conseil des finances publiques qualifie la prévision de croissance de 0,5 % pour 2026 de difficilement atteignable. Cet avis intervient après de récents reculs successifs du PIB français, illustrant la difficulté à redresser la trajectoire économique. Il pèse sur les arbitrages budgétaires à venir pour l'État.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/04/une-croissance-de-0-5-en-2026-est-difficilement-atteignable-selon-le-haut-conseil-des-finances-publiques_6806233_3234.html",
+    "publishedAt": "2026-11-04T13:42:37Z",
+    "quiz": {
+      "question": "Quel taux de croissance pour 2026 est jugé difficilement atteignable ?",
+      "choices": [
+        "0,5 %",
+        "1,2 %",
+        "2,0 %"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le Haut Conseil des finances publiques a estimé que l'objectif de 0,5 % de croissance pour 2026 était difficilement atteignable."
+    },
+    "translations": {
+      "en": {
+        "title": "French public finances council warns on growth",
+        "fact": "The High Council of Public Finances considers the 0.5% growth forecast for 2026 hard to achieve.",
+        "whyItMatters": "This opinion follows recent successive drops in French GDP, showing the difficulty of righting the economic path. It weighs on upcoming state budget choices.",
+        "quiz": {
+          "question": "What 2026 growth rate is considered hard to achieve?",
+          "choices": [
+            "0.5%",
+            "1.2%",
+            "2.0%"
+          ],
+          "explanation": "The High Council of Public Finances estimated that the 0.5% growth target for 2026 is hard to achieve."
+        }
+      },
+      "es": {
+        "title": "Frágil crecimiento según las finanzas públicas",
+        "fact": "El Alto Consejo de las Finanzas Públicas considera que la previsión de crecimiento del 0,5 % para 2026 es difícil de alcanzar.",
+        "whyItMatters": "Este aviso llega tras varias caídas seguidas del PIB francés, mostrando lo difícil que es enderezar la economía y afectando a futuros presupuestos del Estado.",
+        "quiz": {
+          "question": "¿Qué tasa de crecimiento para 2026 se ve difícil de alcanzar?",
+          "choices": [
+            "0,5 %",
+            "1,2 %",
+            "2,0 %"
+          ],
+          "explanation": "El Alto Consejo de las Finanzas Públicas estimó que la meta del 0,5 % de crecimiento para 2026 es difícil de alcanzar."
+        }
+      },
+      "hi": {
+        "title": "सार्वजनिक वित्त परिषद ने विकास को माना कमजोर",
+        "fact": "उच्च सार्वजनिक वित्त परिषद ने 2026 के लिए 0.5% की विकास दर के अनुमान को प्राप्त करना कठिन बताया है।",
+        "whyItMatters": "यह राय फ्रांसीसी जीडीपी में हाल ही में हुई लगातार गिरावट के बाद आई है, जो आर्थिक स्थिति को सुधारने में कठिनाई को दर्शाती है। यह राज्य के आगामी बजटीय निर्णयों पर भारी पड़ता है।",
+        "quiz": {
+          "question": "2026 के लिए किस विकास दर को हासिल करना कठिन माना गया है?",
+          "choices": [
+            "0.5 %",
+            "1.2 %",
+            "2.0 %"
+          ],
+          "explanation": "उच्च सार्वजनिक वित्त परिषद ने अनुमान लगाया कि 2026 के लिए 0.5% की वृद्धि का लक्ष्य हासिल करना कठिन है।"
+        }
+      },
+      "zh": {
+        "title": "法国公共财政最高委员会认为经济增长脆弱",
+        "fact": "法国公共财政最高委员会认为2026年0.5%的增长预测很难实现。",
+        "whyItMatters": "在此意见发表之前，法国GDP连续出现下滑，这说明扭转经济轨迹十分困难。这也对国家未来的预算决策产生了影响。",
+        "quiz": {
+          "question": "2026年的哪项增长率被认为难以达到？",
+          "choices": [
+            "0,5 %",
+            "1,2 %",
+            "2,0 %"
+          ],
+          "explanation": "法国公共财政最高委员会估计，2026年0.5%的增长目标很难实现。"
+        }
+      }
+    }
+  },
+  {
     "id": "rss-389864e7d23d",
     "title": "CVS Health s'apprête à scinder ses activités",
     "topic": "finance",
