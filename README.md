@@ -4,7 +4,7 @@ Les actus quotidiennes de l'app **Focale** : chaque matin, une GitHub Action lit
 fait réécrire chaque actu en français par l'API Gemini (offre gratuite) avec un quiz, et publie
 `docs/cards.json`, que l'app télécharge.
 
-- **Sources** : `sources.json` (nom affiché, thème `tech`/`finance`, adresse du flux). Ajoute ou retire une ligne.
+- **Sources** : `sources.json` (nom affiché, thème `tech`/`finance`, région `fr`/`en`/`es`/`in`/`cn`, adresse du flux). Ajoute ou retire une ligne. Quotas par région : `REGION_QUOTA` dans `build_feed.py`. État juridique : `SOURCES-LEGAL.md`.
 - **Relancer à la main** : onglet *Actions* › *Daily feed* › *Run workflow*.
 - **Clé Gemini** : *Settings* › *Secrets and variables* › *Actions* › secret `GEMINI_API_KEY`.
 - **Tester en local** : `python3 build_feed.py --dry-run` (sans IA), `python3 -m unittest discover -s tests`.
