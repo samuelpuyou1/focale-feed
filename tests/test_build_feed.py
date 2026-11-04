@@ -148,3 +148,40 @@ class TranslationTests(unittest.TestCase):
         self.assertEqual(set(cards[0]["translations"]), {"en", "es", "hi", "zh"})
         self.assertEqual(cards[2]["translations"]["zh"]["quiz"]["choices"], ["A", "B", "C"])
 
+
+
+class RegionAndQualityTests(unittest.TestCase):
+    def test_card_carries_source_region(self):
+        card = bf.validate(RAW, {**ITEM, "region": "in"}, random.Random(1))
+        self.assertEqual(card["region"], "in")
+        self.assertEqual(bf.validate(RAW, ITEM, random.Random(1))["region"], "fr", "Sans région : France")
+
+    def test_pick_batch_prefers_regions_under_quota(self):
+        queue = [{"id": f"fr{i}", "region": "fr"} for i in range(10)] + [{"id": "es1", "region": "es"}]
+        batch, rest = bf.pick_batch(queue, {"fr": bf.REGION_QUOTA["fr"], "es": 0}, 4)
+        self.assertEqual([i["id"] for i in batch], ["es1"], "La France a déjà son quota : place à l'Espagne")
+        self.assertEqual(len(rest), 10)
+        full = {r: q for r, q in bf.REGION_QUOTA.items()}
+        batch, rest = bf.pick_batch(queue, full, 4)
+        self.assertEqual(len(batch), 4, "Tous les quotas remplis : on complète quand même")
+
+    def test_quality_review_fixes_rejects_and_survives_errors(self):
+        card = bf.validate(RAW, ITEM, random.Random(1))
+        other = dict(card, id="b", title="Une autre carte de la BCE")
+        original = bf.call_gemini
+        try:
+            bf.call_gemini = lambda prompt, key: {"cards": [
+                {"i": 1, "fact": "La Banque centrale européenne a laissé ses taux inchangés jeudi."},
+                {"i": 2, "reject": True}]}
+            kept, fixed, rejected = bf.review_quality([card, other], {}, "k")
+            self.assertEqual((len(kept), fixed, rejected), (1, 1, 1))
+            self.assertTrue(kept[0]["summary"].startswith("La Banque centrale européenne a laissé"))
+            bf.call_gemini = lambda prompt, key: {"cards": [{"i": 1, "subject": "Sport"}]}
+            kept, fixed, _ = bf.review_quality([card], {}, "k")
+            self.assertEqual((kept[0]["subject"], fixed), ("Macro", 0), "Correction invalide ignorée")
+            def boom(prompt, key):
+                raise bf.GeminiError("panne")
+            bf.call_gemini = boom
+            self.assertEqual(bf.review_quality([card], {}, "k")[0], [card])
+        finally:
+            bf.call_gemini = original

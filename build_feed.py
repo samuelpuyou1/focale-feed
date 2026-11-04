@@ -41,9 +41,12 @@ SUBJECTS = {
 }
 ALL_SUBJECTS = sorted({s for subjects in SUBJECTS.values() for s in subjects})
 
-PER_TOPIC = 12           # objectif par thème et par jour
-DAILY_TARGET = 24        # objectif total : un thème en manque est complété par l'autre
-DAILY_MIN = 20           # en dessous, le rapport le signale
+PER_TOPIC = 15           # objectif par thème et par jour
+DAILY_TARGET = 30        # objectif total : un thème en manque est complété par l'autre
+DAILY_MIN = 24           # en dessous, le rapport le signale
+# Cartes par région de source et par jour (l'app montre ~1 carte sur 3 de la région de la langue choisie).
+# fr = France, en = monde anglophone, es = Espagne, in = Inde, cn = Chine.
+REGION_QUOTA = {"fr": 8, "en": 8, "es": 5, "in": 5, "cn": 4}
 BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appels, quota préservé)
 MAX_CALLS = 40           # plafond de requêtes par lancement
 DUP_THRESHOLD = 0.28     # recouvrement de mots (titre + fait) au-delà duquel deux cartes racontent la même actu
@@ -176,7 +179,7 @@ def collect(sources: list[dict], known_ids: set[str], now: datetime) -> dict[str
             cid = card_id(item["link"])
             if cid in known_ids:
                 continue
-            item.update(id=cid, source=source["name"], topic=source["topic"],
+            item.update(id=cid, source=source["name"], topic=source["topic"], region=source.get("region", "fr"),
                         published=item["published"] or now)
             fresh.append(item)
         fresh.sort(key=lambda i: i["published"], reverse=True)
@@ -199,7 +202,7 @@ def collect(sources: list[dict], known_ids: set[str], now: datetime) -> dict[str
 
 PROMPT = """Tu es rédacteur pour Focale, une app française qui résume l'actualité {topic_label} en une minute.
 Pour CHAQUE article numéroté ci-dessous, écris une carte en français, avec tes propres mots, à partir UNIQUEMENT
-de son titre et de son extrait (ne recopie aucune phrase ; traduis si l'article est en anglais).
+de son titre et de son extrait (ne recopie aucune phrase ; traduis si l'article est dans une autre langue).
 Règles :
 - N'invente aucun fait, chiffre ou nom absent de l'extrait. Ton neutre, tutoiement interdit, pas d'emoji. Accents corrects.
 - Relis chaque phrase : orthographe et accords justes (singulier/pluriel, masculin/féminin).
@@ -495,6 +498,7 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
         "whyItMatters": why,
         "summary": f"{fact} {why}",
         "source": item["source"],
+        "region": item.get("region", "fr"),
         "sourceURL": item["link"],
         "publishedAt": item["published"].strftime("%Y-%m-%dT%H:%M:%SZ"),
         "quiz": {
@@ -504,6 +508,84 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
             "explanation": explanation,
         },
     }
+
+
+# ---------------------------------------------------------------- Régions
+
+def pick_batch(queue: list[dict], made_region: dict[str, int], size: int) -> tuple[list[dict], list[dict]]:
+    """Jusqu'à `size` articles, en priorité des régions encore sous leur quota du jour.
+    Quand plus aucune région n'est sous quota (ou n'a de candidats), on complète avec le reste."""
+    planned = dict(made_region)
+    batch, rest = [], []
+    for item in queue:
+        region = item.get("region", "fr")
+        if len(batch) < size and planned.get(region, 0) < REGION_QUOTA.get(region, 0):
+            batch.append(item)
+            planned[region] = planned.get(region, 0) + 1
+        else:
+            rest.append(item)
+    if not batch:
+        batch, rest = rest[:size], rest[size:]
+    return batch, rest
+
+
+# ---------------------------------------------------------------- Relecture qualité
+
+QUALITY_PROMPT = """Tu relis des cartes d'actualité avant publication. Chaque carte numérotée est suivie de l'extrait
+dont elle a été tirée. Vérifie :
+1. qu'elle n'affirme rien (fait, chiffre, nom) que l'extrait ne dit pas ;
+2. l'orthographe et les accords (singulier/pluriel, masculin/féminin) ;
+3. le sujet, parmi {subjects} : « Marchés » = Bourse, actions, indices, taux, matières premières ;
+   « Macro » = économie générale, emploi, inflation, budgets, entreprises hors Bourse.
+Réponds uniquement en JSON : {{"cards": [...]}}, une entrée par carte :
+{{"i": <numéro>, "ok": true}} si tout va bien ;
+{{"i": <numéro>, "title"?, "fact"?, "whyItMatters"?, "subject"?}} avec seulement les champs corrigés ;
+{{"i": <numéro>, "reject": true}} si la carte affirme ce que l'extrait ne dit pas.
+
+{cards}"""
+
+
+def apply_correction(card: dict, fix: dict, topic_subjects: list[str]) -> dict:
+    """Applique une correction de la relecture si elle reste valide ; sinon garde la carte telle quelle."""
+    fixed = dict(card)
+    for key in ("title", "fact", "whyItMatters", "subject"):
+        if isinstance(fix.get(key), str) and fix[key].strip():
+            fixed[key] = fix[key].strip().rstrip(".") if key == "title" else fix[key].strip()
+    valid = (8 <= len(fixed["title"]) <= 90 and 20 <= len(fixed["fact"]) <= 320 and 30 <= len(fixed["whyItMatters"]) <= 500
+             and fixed["subject"] in topic_subjects and has_accents(fixed["title"], fixed["fact"], fixed["whyItMatters"]))
+    if not valid:
+        return card
+    fixed["summary"] = f"{fixed['fact']} {fixed['whyItMatters']}"
+    return fixed
+
+
+def review_quality(cards: list[dict], excerpts: dict[str, str], api_key: str) -> tuple[list[dict], int, int]:
+    """Relecture IA des nouvelles cartes : fidélité à l'extrait, accords, sujet.
+    Retourne (cartes gardées, corrigées, rejetées). En cas d'erreur, les cartes passent telles quelles."""
+    if not cards:
+        return cards, 0, 0
+    text = "\n\n".join(
+        f"[{n}] Sujet : {c['subject']}\nTitre : {c['title']}\nLe fait : {c['fact']}\nPourquoi ça compte : {c['whyItMatters']}"
+        f"\nExtrait d'origine : {excerpts.get(c['id'], '')}" for n, c in enumerate(cards, 1))
+    try:
+        entries = batch_entries(call_gemini(QUALITY_PROMPT.format(subjects=", ".join(ALL_SUBJECTS), cards=text), api_key),
+                                len(cards))
+    except GeminiError as error:
+        note(f"relecture qualité impossible : {error}")
+        return cards, 0, 0
+    kept, fixed_count, rejected = [], 0, 0
+    for n, card in enumerate(cards, 1):
+        fix = entries.get(n) or {}
+        if fix.get("reject"):
+            rejected += 1
+            print(f"  x rejetée (relecture) : {card['title'][:70]}")
+            continue
+        corrected = apply_correction(card, fix, SUBJECTS[card["topic"]])
+        if corrected != card:
+            fixed_count += 1
+            print(f"  ~ corrigée : {corrected['title'][:70]}")
+        kept.append(corrected)
+    return kept, fixed_count, rejected
 
 
 # ---------------------------------------------------------------- Fusion
@@ -568,6 +650,8 @@ def main() -> int:
     rng = random.Random(now.strftime("%Y%m%d"))
     new_cards: list[dict] = []
     made = {topic: 0 for topic in by_topic}
+    made_region = {region: 0 for region in REGION_QUOTA}
+    excerpts: dict[str, str] = {}
     queues = {topic: list(items) for topic, items in by_topic.items()}
     calls = failures = 0
     recent_cut = (now - timedelta(days=COVERED_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -585,7 +669,7 @@ def main() -> int:
         if not open_topics:
             break
         topic = min(open_topics, key=lambda t: made[t])  # le thème le moins servi d'abord
-        batch, queues[topic] = queues[topic][:BATCH_SIZE], queues[topic][BATCH_SIZE:]
+        batch, queues[topic] = pick_batch(queues[topic], made_region, BATCH_SIZE)
         calls += 1
         try:
             entries = batch_entries(call_gemini(batch_prompt(topic, batch, [c["title"] for c in new_cards + recent]), api_key),
@@ -613,17 +697,22 @@ def main() -> int:
                 if len(new_cards) < goal:
                     new_cards.append(card)
                     made[topic] += 1
-                    print(f"  + [{topic}] {card['title']}")
+                    made_region[card["region"]] = made_region.get(card["region"], 0) + 1
+                    excerpts[card["id"]] = f"{item['title']} — {item['excerpt']}"
+                    print(f"  + [{topic}/{card['region']}] {card['title']}")
             elif entry and not entry.get("skip"):
                 note(f"réponse invalide ({item['source']}) : {json.dumps(entry, ensure_ascii=False)[:160]}")
             else:
                 print(f"  - ignoré : {item['title'][:70]}")
+    fixed = rejected = 0
     if new_cards:
+        new_cards, fixed, rejected = review_quality(new_cards, excerpts, api_key)
         dupes = review_duplicates(new_cards, recent, api_key)
         for i in sorted(dupes):
             print(f"  = doublon (relecture) : {new_cards[i]['title'][:70]}")
         new_cards = [c for i, c in enumerate(new_cards) if i not in dupes][:DAILY_TARGET]
         made = {t: sum(c["topic"] == t for c in new_cards) for t in made}
+        made_region = {r: sum(c.get("region") == r for c in new_cards) for r in REGION_QUOTA}
     if len(new_cards) < DAILY_MIN:
         note(f"seulement {len(new_cards)} cartes (objectif {DAILY_MIN}) : ajouter des sources dans sources.json")
 
@@ -634,7 +723,8 @@ def main() -> int:
     SEEN.write_text(json.dumps(seen, indent=0, sort_keys=True) + "\n", encoding="utf-8")
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS.write_text(json.dumps({
-        "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "calls": calls,
+        "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "byRegion": made_region,
+        "quality": {"fixed": fixed, "rejected": rejected}, "calls": calls,
         "totalCards": len(cards), "translated": translated, "untranslated": missing, "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")

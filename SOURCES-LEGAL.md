@@ -15,6 +15,29 @@ Focale reprend le titre et le chapeau du flux, **reformule** les faits avec l'IA
 |---|---|
 | Tech Xplore | Flux fournis « at no charge for both personal and commercial use ». ([page des flux](https://techxplore.com/feeds/)) |
 
+## Institutions publiques (ajoutées le 4 novembre 2026)
+| Source | Région | Conditions |
+|---|---|---|
+| BCE | fr | Réutilisation libre, source citée, sans dénaturer le contenu ([avertissement juridique](https://www.ecb.europa.eu/home/disclaimer/html/index.en.html)) |
+| INSEE | fr | Licence Ouverte Etalab : réutilisation libre, y compris commerciale, avec mention de la source |
+| AMF, CNIL | fr | Sites publics français ; à confirmer sur leurs mentions légales (Licence Ouverte le plus souvent) |
+| Federal Reserve | en | Publications du gouvernement américain, en principe libres de droits |
+| RBI | in | Reproduction autorisée avec mention de la source (notices de publications de la RBI) |
+| Tech Xplore Business | en | Même réseau que Tech Xplore : usage personnel et commercial autorisé |
+
+Ces sources sont précieuses mais publient peu d'actus « grand public » : l'IA en écarte beaucoup.
+
+## Médias régionaux ajoutés (à faire autoriser avant l'App Store)
+Aucune condition RSS publique trouvée : même statut que les médias de la section suivante.
+- Espagne : Xataka, Genbeta, Hipertextual, Expansión, El País Economía.
+- Inde : Inc42, YourStory, ET Tech.
+- Chine : IT之家, cnBeta, 少数派, 华尔街见闻.
+
+## Écartées
+- **Mint** : les conditions du groupe Hindustan Times réservent les contenus, flux RSS compris, à un usage personnel et non commercial.
+- **PIB** (Inde) et **Business Standard** : ils refusent l'accès au robot (erreur 403).
+- **Banque de France, Banco de España, CNMV, El Economista, Gadgets 360, Caixin** : flux inaccessibles (403 ou 404).
+
 ## Sans conditions RSS publiques trouvées
 The Verge (Vox Media), Ars Technica (Condé Nast), Engadget (Yahoo), CNBC, Cointelegraph, Le Monde, Le Figaro, La Tribune, BFM Business, Challenges, Presse-citron, Numerama, Frandroid, 01net, Journal du Geek, Maddyness.
 
