@@ -1,23 +1,23 @@
 {
-  "ranAt": "2026-11-03T19:15:06Z",
+  "ranAt": "2026-11-04T12:44:53Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.1-flash",
     "gemini-flash-lite-latest"
   ],
-  "newCards": 24,
+  "newCards": 22,
   "byTopic": {
-    "tech": 13,
-    "finance": 11
+    "tech": 9,
+    "finance": 13
   },
-  "calls": 9,
-  "totalCards": 144,
+  "calls": 8,
+  "totalCards": 166,
   "translated": {
-    "en": 24,
-    "es": 24,
-    "hi": 24,
-    "zh": 111
+    "en": 22,
+    "es": 22,
+    "hi": 22,
+    "zh": 22
   },
   "untranslated": {
     "en": 0,
@@ -26,8 +26,8 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 141,
-    "finance": 113
+    "tech": 130,
+    "finance": 110
   },
   "errors": []
 }

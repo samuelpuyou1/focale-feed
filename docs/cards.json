@@ -1,5 +1,1765 @@
 [
   {
+    "id": "rss-389864e7d23d",
+    "title": "CVS Health s'apprête à scinder ses activités",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le géant de la santé CVS prévoit de se séparer de son activité de pharmacie, annulant de fait le rachat d'Aetna réalisé en 2018.",
+    "whyItMatters": "Cette opération marque le démantèlement du conglomérat intégré créé il y a plusieurs années. Elle redéfinit la stratégie du groupe face aux défis du secteur de la santé aux Etats-Unis.",
+    "summary": "Le géant de la santé CVS prévoit de se séparer de son activité de pharmacie, annulant de fait le rachat d'Aetna réalisé en 2018. Cette opération marque le démantèlement du conglomérat intégré créé il y a plusieurs années. Elle redéfinit la stratégie du groupe face aux défis du secteur de la santé aux Etats-Unis.",
+    "source": "CNBC",
+    "sourceURL": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
+    "publishedAt": "2026-11-04T12:35:05Z",
+    "quiz": {
+      "question": "Quel rachat majeur CVS envisage-t-il d'annuler en scindant ses activités ?",
+      "choices": [
+        "Humana",
+        "Aetna",
+        "Cigna"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le projet de scission revient sur l'acquisition d'Aetna intervenue en 2018."
+    },
+    "translations": {
+      "en": {
+        "title": "CVS Health plans to split its business operations",
+        "fact": "Healthcare giant CVS plans to spin off its pharmacy business, effectively undoing its 2018 acquisition of Aetna.",
+        "whyItMatters": "This move marks the dismantling of the integrated conglomerate created a few years ago, reshaping the group's strategy to face challenges in the US healthcare sector.",
+        "quiz": {
+          "question": "Which major acquisition does CVS plan to undo by splitting its business?",
+          "choices": [
+            "Humana",
+            "Aetna",
+            "Cigna"
+          ],
+          "explanation": "The proposed split reverses the 2018 acquisition of Aetna."
+        }
+      },
+      "es": {
+        "title": "CVS Health se prepara para escindir sus negocios",
+        "fact": "El gigante sanitario CVS planea separarse de su negocio de farmacia, anulando de hecho la compra de Aetna realizada en 2018.",
+        "whyItMatters": "Esta operación marca el desmantelamiento del conglomerado integrado creado hace varios años. Redefine la estrategia del grupo ante los retos del sector salud en Estados Unidos.",
+        "quiz": {
+          "question": "¿Qué gran adquisición planea anular CVS al escindir sus negocios?",
+          "choices": [
+            "Humana",
+            "Aetna",
+            "Cigna"
+          ],
+          "explanation": "El proyecto de escisión revierte la adquisición de Aetna realizada en 2018."
+        }
+      },
+      "hi": {
+        "title": "CVS हेल्थ अपने कारोबार को विभाजित करने की तैयारी में",
+        "fact": "हेल्थ दिग्गज CVS ने अपनी फार्मेसी यूनिट को अलग करने की योजना बनाई है, जिससे 2018 में किए गए एटना (Aetna) के अधिग्रहण का असर प्रभावी रूप से खत्म हो जाएगा।",
+        "whyItMatters": "यह कदम वर्षों पहले बनाए गए एकीकृत समूह के विघटन को दर्शाता है। यह अमेरिकी स्वास्थ्य क्षेत्र की चुनौतियों के बीच समूह की रणनीति को फिर से परिभाषित करता है।",
+        "quiz": {
+          "question": "कारोबार को विभाजित करके CVS किस बड़े अधिग्रहण को रद्द करने की योजना बना रहा है?",
+          "choices": [
+            "Humana",
+            "Aetna",
+            "Cigna"
+          ],
+          "explanation": "विभाजन की इस योजना में 2018 में हुए एटना के अधिग्रहण को पलटा जा रहा है।"
+        }
+      },
+      "zh": {
+        "title": "CVS Health准备拆分业务",
+        "fact": "医疗健康巨头CVS计划剥离其药店业务，实际上取消了2018年对Aetna的收购。",
+        "whyItMatters": "这一行动标志着多年前建立的综合企业集团正在被拆分，并重新定义了该集团应对美国医疗健康行业挑战的战略。",
+        "quiz": {
+          "question": "CVS在计划拆分业务时考虑取消哪项重大收购？",
+          "choices": [
+            "Humana",
+            "Aetna",
+            "Cigna"
+          ],
+          "explanation": "拆分计划撤销了2018年对Aetna的收购。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-4079bf925c63",
+    "title": "Bangladesh : promesse de hausse pour les ouvriers du textile",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement du Bangladesh s'engage à augmenter en janvier le salaire minimum des ouvriers du textile après de vastes manifestations.",
+    "whyItMatters": "Cette revalorisation vise à calmer la colère des salariés du secteur, dont la rémunération moyenne stagne actuellement à 90 euros par mois. Elle pourrait impacter les coûts de production pour les donneurs d'ordres internationaux.",
+    "summary": "Le gouvernement du Bangladesh s'engage à augmenter en janvier le salaire minimum des ouvriers du textile après de vastes manifestations. Cette revalorisation vise à calmer la colère des salariés du secteur, dont la rémunération moyenne stagne actuellement à 90 euros par mois. Elle pourrait impacter les coûts de production pour les donneurs d'ordres internationaux.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/international/au-bangladesh-les-ouvriers-de-pres-de-700-usines-de-textile-sont-dans-les-rues-le-gouvernement-leur-promet-une-hausse-du-salaire-minimum-en-janvier-il-est-de-seulement-90-euros_AD-202611040534.html",
+    "publishedAt": "2026-11-04T12:32:10Z",
+    "quiz": {
+      "question": "Quand le salaire minimum des ouvriers du textile augmentera-t-il au Bangladesh ?",
+      "choices": [
+        "Dès le mois prochain",
+        "En décembre",
+        "En janvier"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le gouvernement a promis une hausse effective à partir du mois de janvier."
+    },
+    "translations": {
+      "en": {
+        "title": "Bangladesh promises wage hike for garment workers",
+        "fact": "The government of Bangladesh has committed to raising the minimum wage for garment workers in January following widespread protests.",
+        "whyItMatters": "This pay increase aims to calm anger among sector employees, whose average pay currently stalls at 90 euros a month. It could impact production costs for international buyers.",
+        "quiz": {
+          "question": "When will the minimum wage for garment workers increase in Bangladesh?",
+          "choices": [
+            "Next month",
+            "In December",
+            "In January"
+          ],
+          "explanation": "The government promised an effective increase starting in January."
+        }
+      },
+      "es": {
+        "title": "Bangladés: promesa de subida para los textiles",
+        "fact": "El gobierno de Bangladés se compromete a aumentar en enero el salario mínimo de los trabajadores textiles tras amplias protestas.",
+        "whyItMatters": "Este aumento busca calmar la ira de los empleados del sector, cuya remuneración media se estanca actualmente en 90 euros al mes. Podría repercutir en los costes de producción para las marcas internacionales.",
+        "quiz": {
+          "question": "¿Cuándo aumentará el salario mínimo de los obreros textiles en Bangladés?",
+          "choices": [
+            "Desde el próximo mes",
+            "En diciembre",
+            "En enero"
+          ],
+          "explanation": "El gobierno prometió un aumento efectivo a partir del mes de enero."
+        }
+      },
+      "hi": {
+        "title": "बांग्लादेश: कपड़ा श्रमिकों के वेतन में बढ़ोतरी का वादा",
+        "fact": "व्यापक प्रदर्शनों के बाद बांग्लादेश सरकार ने जनवरी में कपड़ा श्रमिकों का न्यूनतम वेतन बढ़ाने का वादा किया है।",
+        "whyItMatters": "इस बढ़ोतरी का उद्देश्य क्षेत्र के कर्मचारियों के गुस्से को शांत करना है, जिनका औसत वेतन वर्तमान में 90 यूरो प्रति माह पर अटका हुआ है। इससे अंतरराष्ट्रीय खरीदारों के उत्पादन लागत पर असर पड़ सकता है।",
+        "quiz": {
+          "question": "बांग्लादेश में कपड़ा श्रमिकों का न्यूनतम वेतन कब बढ़ेगा?",
+          "choices": [
+            "अगले महीने से",
+            "दिसंबर में",
+            "जनवरी में"
+          ],
+          "explanation": "सरकार ने जनवरी से प्रभावी बढ़ोतरी का वादा किया है।"
+        }
+      },
+      "zh": {
+        "title": "孟加拉国承诺提高纺织工人薪资",
+        "fact": "在经历大规模抗议后，孟加拉国政府承诺于1月份提高纺织工人的最低工资。",
+        "whyItMatters": "此次薪资上调旨在平息该行业员工的愤怒，目前他们的平均月薪停留在90欧元左右。这可能会影响国际买家的生产成本。",
+        "quiz": {
+          "question": "孟加拉国的纺织工人最低工资将于何时上调？",
+          "choices": [
+            "下个月起",
+            "12月",
+            "1月"
+          ],
+          "explanation": "政府已承诺自1月起正式提高工资。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-5276edb95999",
+    "title": "Voiture de l'année 2027 : sept finalistes 100 % électriques",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Les sept finalistes de l'élection de la Voiture de l'année 2027 sont exclusivement des modèles électriques.",
+    "whyItMatters": "Cette sélection inédite illustre la domination grandissante de l'électrique sur le marché automobile. Elle interroge sur l'avenir des motorisations thermiques et hybrides dans les compétitions de référence.",
+    "summary": "Les sept finalistes de l'élection de la Voiture de l'année 2027 sont exclusivement des modèles électriques. Cette sélection inédite illustre la domination grandissante de l'électrique sur le marché automobile. Elle interroge sur l'avenir des motorisations thermiques et hybrides dans les compétitions de référence.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/automobile/voiture-de-lannee-2027-pourquoi-la-selection-des-7-finalistes-marque-un-tournant-historique_646806",
+    "publishedAt": "2026-11-04T12:30:00Z",
+    "quiz": {
+      "question": "Quelle motorisation caractérise les sept finalistes de la Voiture de l'année 2027 ?",
+      "choices": [
+        "Hybride rechargeable",
+        "Thermique essence",
+        "100 % électrique"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tous les finalistes en lice pour l'édition 2027 sont des véhicules 100 % électriques."
+    },
+    "translations": {
+      "en": {
+        "title": "2027 Car of the Year: seven all-electric finalists",
+        "fact": "The seven finalists for the 2027 Car of the Year award are exclusively electric models.",
+        "whyItMatters": "This unprecedented selection illustrates the growing dominance of electric cars in the automotive market, raising questions about the future of combustion and hybrid engines in major competitions.",
+        "quiz": {
+          "question": "What powertrain characterizes the seven finalists for the 2027 Car of the Year?",
+          "choices": [
+            "Plug-in hybrid",
+            "Gasoline combustion",
+            "100% electric"
+          ],
+          "explanation": "All finalists in the running for the 2027 edition are 100% electric vehicles."
+        }
+      },
+      "es": {
+        "title": "Coche del Año 2027: siete finalistas eléctricos",
+        "fact": "Los siete finalistas de la elección al Coche del Año 2027 son exclusivamente modelos eléctricos.",
+        "whyItMatters": "Esta selección inédita ilustra el creciente dominio de lo eléctrico en el mercado automovilístico. Cuestiona el futuro de los motores de combustión e híbridos en los concursos de referencia.",
+        "quiz": {
+          "question": "¿Qué motorización caracteriza a los siete finalistas del Coche del Año 2027?",
+          "choices": [
+            "Híbrido enchufable",
+            "Gasolina tradicional",
+            "100 % eléctrico"
+          ],
+          "explanation": "Todos los finalistas que compiten en la edición 2027 son vehículos 100 % eléctricos."
+        }
+      },
+      "hi": {
+        "title": "कार ऑफ द ईयर 2027: सात फाइनलिस्ट 100% इलेक्ट्रिक",
+        "fact": "कार ऑफ द ईयर 2027 के चुनाव के सात फाइनलिस्ट पूरी तरह से इलेक्ट्रिक मॉडल हैं।",
+        "whyItMatters": "यह अभूतपूर्व चयन ऑटोमोबाइल बाजार में इलेक्ट्रिक वाहनों के बढ़ते दबदबे को दर्शाता है। यह संदर्भ प्रतियोगिताओं में पारंपरिक और हाइब्रिड इंजन के भविष्य पर सवाल उठाता है।",
+        "quiz": {
+          "question": "कार ऑफ द ईयर 2027 के सातों फाइनलिस्टों की विशेषता कौन सा इंजन है?",
+          "choices": [
+            "प्लग-इन हाइब्रिड",
+            "पेट्रोल इंजन",
+            "100% इलेक्ट्रिक"
+          ],
+          "explanation": "2027 संस्करण के लिए दौड़ में शामिल सभी फाइनलिस्ट 100% इलेक्ट्रिक वाहन हैं।"
+        }
+      },
+      "zh": {
+        "title": "2027年度汽车：七强全为纯电动车",
+        "fact": "2027年年度汽车评选的七位入围者全部为纯电动车型。",
+        "whyItMatters": "这一空前的入围名单展示了电动汽车在汽车市场日益增长的主导地位，并引发了人们对传统燃油车和混动车在主流赛事中前景的思考。",
+        "quiz": {
+          "question": "2027年度汽车的七个入围者采用什么动力系统？",
+          "choices": [
+            "插电混动",
+            "传统汽油",
+            "100%纯电动"
+          ],
+          "explanation": "2027年评选的所有入围车型均为100%纯电动汽车。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-779978e450d1",
+    "title": "Résultats contrastés pour McDonald's aux États-Unis",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "Les résultats trimestriels de McDonald's dépassent les attentes, mais la fréquentation de ses restaurants américains recule.",
+    "whyItMatters": "Pour contrer la baisse de fréquentation, l'enseigne mise depuis deux ans sur des réductions tarifaires afin de séduire des clients de plus en plus soucieux de leur budget. Cette stratégie pèse sur les marges tout en illustrant la pression économique subie par les consommateurs.",
+    "summary": "Les résultats trimestriels de McDonald's dépassent les attentes, mais la fréquentation de ses restaurants américains recule. Pour contrer la baisse de fréquentation, l'enseigne mise depuis deux ans sur des réductions tarifaires afin de séduire des clients de plus en plus soucieux de leur budget. Cette stratégie pèse sur les marges tout en illustrant la pression économique subie par les consommateurs.",
+    "source": "CNBC",
+    "sourceURL": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+    "publishedAt": "2026-11-04T12:24:23Z",
+    "quiz": {
+      "question": "Quelle tendance la fréquentation des restaurants McDonald's aux États-Unis suit-elle ?",
+      "choices": [
+        "Elle explose",
+        "Elle est en baisse",
+        "Elle stagne"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'extrait mentionne explicitement que le trafic dans les restaurants américains de la chaîne a reculé."
+    },
+    "translations": {
+      "en": {
+        "title": "Mixed results for McDonald's in the US",
+        "fact": "McDonald's quarterly results beat expectations, but foot traffic at its US restaurants declined.",
+        "whyItMatters": "To counter the drop in traffic, the chain has relied on discounts for the past two years to appeal to budget-conscious customers. This strategy weighs on margins while highlighting the economic pressure consumers face.",
+        "quiz": {
+          "question": "What trend is foot traffic at McDonald's restaurants in the US following?",
+          "choices": [
+            "It is surging",
+            "It is declining",
+            "It is stagnating"
+          ],
+          "explanation": "The excerpt explicitly mentions that customer traffic at the chain's US restaurants has declined."
+        }
+      },
+      "es": {
+        "title": "Resultados dispares para McDonald's en EE. UU",
+        "fact": "Los resultados trimestrales de McDonald's superan las expectativas, pero la afluencia a sus restaurantes estadounidenses disminuye.",
+        "whyItMatters": "Para contrarrestar la caída de visitas, la cadena apuesta desde hace dos años por descuentos para atraer a clientes cada vez más ajustados de presupuesto. Esta estrategia lastra los márgenes y refleja la presión económica que sufren los consumidores.",
+        "quiz": {
+          "question": "¿Qué tendencia sigue la afluencia a los restaurantes McDonald's en Estados Unidos?",
+          "choices": [
+            "Se dispara",
+            "Está en descenso",
+            "Se estanca"
+          ],
+          "explanation": "El texto menciona explícitamente que el tráfico en los restaurantes estadounidenses de la cadena ha disminuido."
+        }
+      },
+      "hi": {
+        "title": "अमेरिका में मैकडॉनल्ड्स के लिए मिले-जुले नतीजे",
+        "fact": "मैकडॉनल्ड्स के तिमाही नतीजे उम्मीद से बेहतर रहे, लेकिन उसके अमेरिकी रेस्तरां में आने वाले ग्राहकों की संख्या में गिरावट आई है।",
+        "whyItMatters": "ग्राहकों की संख्या में गिरावट से निपटने के लिए, कंपनी पिछले दो वर्षों से अपने बजट को लेकर चिंतित ग्राहकों को आकर्षित करने के लिए छूट का सहारा ले रही है। यह रणनीति मुनाف पर दबाव डालती है और उपभोक्ताओं के आर्थिक दबाव को दर्शाती है।",
+        "quiz": {
+          "question": "अमेरिका में मैकडॉनल्ड्स के रेस्तरां में ग्राहकों की संख्या में क्या रुझान देखा गया है?",
+          "choices": [
+            "इसमें भारी वृद्धि हुई है",
+            "इसमें गिरावट आई है",
+            "यह स्थिर है"
+          ],
+          "explanation": "रिपोर्ट में स्पष्ट रूप से उल्लेख किया गया है कि श्रृंखला के अमेरिकी रेस्तरां में ट्रैफिक कम हुआ है।"
+        }
+      },
+      "zh": {
+        "title": "麦当劳在美国表现喜忧参半",
+        "fact": "麦当劳的季度财报超出预期，但其美国餐厅的客流量却有所下降。",
+        "whyItMatters": "为了应对客流量下降，该品牌两年来一直通过打折来吸引预算日益紧张的顾客。这一策略在反映消费者所承受经济压力的同时，也对利润率造成了压力。",
+        "quiz": {
+          "question": "麦当劳在美国餐厅的客流量呈现什么趋势？",
+          "choices": [
+            "暴增",
+            "下降",
+            "停滞"
+          ],
+          "explanation": "文章明确提到该连锁品牌在美国餐厅的客流量有所下降。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-1824b6c575cb",
+    "title": "Hausse du jeton CC après un avis favorable de la SEC",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Le jeton CC progresse de 4 % suite à un avis favorable du personnel de la SEC le qualifiant de marchandise numérique.",
+    "whyItMatters": "Cette position réglementaire clarifie le statut des jetons obtenus en participant à l'infrastructure. Même s'il ne s'agit pas d'une décision juridique définitive, elle rassure les acteurs du secteur quant à la conformité.",
+    "summary": "Le jeton CC progresse de 4 % suite à un avis favorable du personnel de la SEC le qualifiant de marchandise numérique. Cette position réglementaire clarifie le statut des jetons obtenus en participant à l'infrastructure. Même s'il ne s'agit pas d'une décision juridique définitive, elle rassure les acteurs du secteur quant à la conformité.",
+    "source": "Cointelegraph",
+    "sourceURL": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-04T12:12:15Z",
+    "quiz": {
+      "question": "Comment le personnel de la SEC a-t-il qualifié le jeton CC ?",
+      "choices": [
+        "Monnaie fiat",
+        "Valeur mobilière",
+        "Marchandise numérique"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le jeton a été qualifié de 'digital commodity' par le personnel de l'autorité de régulation."
+    },
+    "translations": {
+      "en": {
+        "title": "CC token rises after favorable SEC staff review",
+        "fact": "The CC token rose 4% following a favorable review by SEC staff classifying it as a digital commodity.",
+        "whyItMatters": "This regulatory stance clarifies the status of tokens earned through network participation. While not a definitive legal ruling, it reassures industry players regarding compliance.",
+        "quiz": {
+          "question": "How did SEC staff classify the CC token?",
+          "choices": [
+            "Fiat currency",
+            "Security",
+            "Digital commodity"
+          ],
+          "explanation": "The token was classified as a 'digital commodity' by the regulatory staff."
+        }
+      },
+      "es": {
+        "title": "Sube el token CC tras un visto bueno de la SEC",
+        "fact": "El token CC sube un 4 % tras un dictamen favorable del personal de la SEC que lo califica de mercancía digital.",
+        "whyItMatters": "Esta postura regulatoria aclara el estatus de los tokens obtenidos al participar en la infraestructura. Aunque no se trata de una decisión legal definitiva, tranquiliza al sector sobre el cumplimiento normativo.",
+        "quiz": {
+          "question": "¿Cómo calificó el personal de la SEC al token CC?",
+          "choices": [
+            "Moneda fiduciaria",
+            "Valor mobiliario",
+            "Mercancía digital"
+          ],
+          "explanation": "El token fue calificado como 'digital commodity' por el personal de la autoridad reguladora."
+        }
+      },
+      "hi": {
+        "title": "एसईसी की अनुकूल राय के बाद सीसी टोकन में उछाल",
+        "fact": "एसईसी कर्मचारियों द्वारा इसे डिजिटल कमोडिटी कहे जाने के बाद सीसी (CC) टोकन में 4% की वृद्धि हुई है।",
+        "whyItMatters": "यह नियामक रुख बुनियादी ढांचे में भाग लेने से प्राप्त टोकन की स्थिति को स्पष्ट करता है। भले ही यह कोई अंतिम कानूनी निर्णय नहीं है, लेकिन यह क्षेत्र के खिलाड़ियों को अनुपालन के बारे में आश्वस्त करता है।",
+        "quiz": {
+          "question": "एसईसी के कर्मचारियों ने सीसी टोकन को किस रूप में वर्गीकृत किया?",
+          "choices": [
+            "फिएट मुद्रा",
+            "प्रतिभूति (सिक्योरिटी)",
+            "डिजिटल कमोडिटी"
+          ],
+          "explanation": "नियामक प्राधिकरण के कर्मचारियों द्वारा टोकन को 'डिजिटल कमोडिटी' के रूप में वर्गीकृत किया गया था।"
+        }
+      },
+      "zh": {
+        "title": "CC代币在SEC给出利好意见后上涨",
+        "fact": "在美国SEC工作人员发布将其定义为数字商品的有利意见后，CC代币上涨了4%。",
+        "whyItMatters": "这一监管立场澄清了参与基础设施获得的代币的地位。尽管这不是一项最终的法律决定，但它增强了业内参与者对合规性的信心。",
+        "quiz": {
+          "question": "美国SEC工作人员如何定义CC代币？",
+          "choices": [
+            "法定货币",
+            "证券",
+            "数字商品"
+          ],
+          "explanation": "该代币被监管机构工作人员定义为“数字商品”（digital commodity）。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-278356e05c29",
+    "title": "Maintien des objectifs de croissance et de déficit pour 2026",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement maintient ses prévisions de 0,5 % de croissance et de 5,4 % de déficit pour l'année en cours.",
+    "whyItMatters": "Cette décision est prise malgré une activité économique nationale qui continue de patiner. Elle illustre la difficulté à redresser les comptes publics dans un contexte de ralentissement.",
+    "summary": "Le gouvernement maintient ses prévisions de 0,5 % de croissance et de 5,4 % de déficit pour l'année en cours. Cette décision est prise malgré une activité économique nationale qui continue de patiner. Elle illustre la difficulté à redresser les comptes publics dans un contexte de ralentissement.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/economie-social/finances-publiques/malgre-une-activite-qui-patine-le-gouvernement-maintient-ses-previsions-pour-2026-a-0-5-de-croissance-et-5-4-de-deficit_AD-202611040520.html",
+    "publishedAt": "2026-11-04T12:10:16Z",
+    "quiz": {
+      "question": "Quel niveau de déficit public le gouvernement vise-t-il pour 2026 ?",
+      "choices": [
+        "6,1 %",
+        "5,4 %",
+        "4,5 %"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le déficit est maintenu à la prévision de 5,4 % du PIB malgré une économie atone."
+    },
+    "translations": {
+      "en": {
+        "title": "Growth and deficit targets maintained for 2026",
+        "fact": "The government is maintaining its forecasts of 0.5% growth and a 5.4% deficit for the current year.",
+        "whyItMatters": "This decision comes despite domestic economic activity continuing to crawl, illustrating the difficulty of fixing public finances amid a slowdown.",
+        "quiz": {
+          "question": "What public deficit level is the government targeting for 2026?",
+          "choices": [
+            "6.1%",
+            "5.4%",
+            "4.5%"
+          ],
+          "explanation": "The deficit forecast is maintained at 5.4% of GDP despite a sluggish economy."
+        }
+      },
+      "es": {
+        "title": "Mantenimiento de objetivos de crecimiento y déficit",
+        "fact": "El gobierno mantiene sus previsiones de un 0,5 % de crecimiento y un 5,4 % de déficit para el año en curso.",
+        "whyItMatters": "Esta decisión se toma a pesar de que la actividad económica nacional sigue renqueante. Ilustra la dificultad para sanear las cuentas públicas en un contexto de desaceleración.",
+        "quiz": {
+          "question": "¿Qué nivel de déficit público apunta el gobierno para 2026?",
+          "choices": [
+            "6,1 %",
+            "5,4 %",
+            "4,5 %"
+          ],
+          "explanation": "El déficit se mantiene en la previsión del 5,4 % del PIB a pesar de una economía débil."
+        }
+      },
+      "hi": {
+        "title": "वर्ष 2026 के लिए विकास और घाटे के लक्ष्य बरकरार",
+        "fact": "सरकार ने चालू वर्ष के लिए 0.5% विकास और 5.4% घाटे के अपने पूर्वानुमान को बनाए रखा है।",
+        "whyItMatters": "यह निर्णय राष्ट्रीय आर्थिक गतिविधि के सुस्त बने रहने के बावजूद लिया गया है। यह मंदी के माहौल में सार्वजनिक खातों को सुधारने में आने वाली कठिनाई को दर्शाता है।",
+        "quiz": {
+          "question": "सरकार ने 2026 के लिए सार्वजनिक घाटे का क्या स्तर तय किया है?",
+          "choices": [
+            "6.1%",
+            "5.4%",
+            "4.5%"
+          ],
+          "explanation": "सुस्त अर्थव्यवस्था के बावजूद घाटे का पूर्वानुमान 5.4% पर बरकरार रखा गया है।"
+        }
+      },
+      "zh": {
+        "title": "2026年经济增长与赤字目标维持不变",
+        "fact": "政府维持了对当年0.5%的经济增长和5.4%的赤字预测。",
+        "whyItMatters": "尽管国内经济活动持续低迷，政府仍做出了这一决定。这说明在经济放缓的背景下，修复公共财政面临着很大困难。",
+        "quiz": {
+          "question": "政府设定的2026年公共赤字目标是多少？",
+          "choices": [
+            "6.1%",
+            "5.4%",
+            "4.5%"
+          ],
+          "explanation": "尽管经济疲软，赤字预测仍维持在占GDP的5.4%。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-df8c80f2dfa0",
+    "title": "L'Italie envisage une taxe de départ pour les millionnaires",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement de Giorgia Meloni prépare une taxe de 26 % sur les plus-values latentes des contribuables fortunés quittant le pays.",
+    "whyItMatters": "Cette mesure rompt avec la politique d'attractivité menée depuis 2017 pour attirer les grandes fortunes. Elle risque de décourager l'installation de nouveaux expatriés fortunés tout en rapportant des recettes fiscales limitées à l'État.",
+    "summary": "Le gouvernement de Giorgia Meloni prépare une taxe de 26 % sur les plus-values latentes des contribuables fortunés quittant le pays. Cette mesure rompt avec la politique d'attractivité menée depuis 2017 pour attirer les grandes fortunes. Elle risque de décourager l'installation de nouveaux expatriés fortunés tout en rapportant des recettes fiscales limitées à l'État.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/l-italie-voulait-attirer-les-riches-maintenant-elle-veut-les-taxer-en-toute-discretion-et-sans-en-parler-giorgia-meloni-prepare-une-taxe-qui-ne-rapporterait-presque-rien-mais-pourrait-faire-fuir-les-millionnaires_AV-202611040511.html",
+    "publishedAt": "2026-11-04T12:00:56Z",
+    "quiz": {
+      "question": "Quel taux de taxation des plus-values latentes est envisagé pour les millionnaires quittant l'Italie ?",
+      "choices": [
+        "33 pour cent",
+        "26 pour cent",
+        "15 pour cent"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le gouvernement italien prépare une taxe fixée à 26 % sur les plus-values latentes des expatriés fortunés."
+    },
+    "translations": {
+      "en": {
+        "title": "Italy considers departure tax for millionaires",
+        "fact": "Giorgia Meloni's government is preparing a 26% tax on the unrealized capital gains of wealthy taxpayers leaving the country.",
+        "whyItMatters": "This measure breaks with the pro-business policies pursued since 2017 to attract the super-rich, risking the deterrence of new wealthy expats while bringing in limited tax revenue for the state.",
+        "quiz": {
+          "question": "What unrealized capital gains tax rate is being considered for millionaires leaving Italy?",
+          "choices": [
+            "33 percent",
+            "26 percent",
+            "15 percent"
+          ],
+          "explanation": "The Italian government is preparing a tax set at 26% on the unrealized capital gains of wealthy expats."
+        }
+      },
+      "es": {
+        "title": "Italia sopesa un impuesto de salida para millonarios",
+        "fact": "El gobierno de Giorgia Meloni prepara un impuesto del 26 % sobre las plusvalías latentes de los contribuyentes ricos que abandonen el país.",
+        "whyItMatters": "Esta medida rompe con la política de atracción impulsada desde 2017 para captar grandes fortunas. Riesga desalentar la llegada de nuevos expatriados ricos y a la vez reportará ingresos fiscales limitados al Estado.",
+        "quiz": {
+          "question": "¿Qué tipo impositivo a las plusvalías latentes se prevé para los millonarios que salgan de Italia?",
+          "choices": [
+            "33 por ciento",
+            "26 por ciento",
+            "15 por ciento"
+          ],
+          "explanation": "El gobierno italiano prepara un impuesto fijado en el 26 % sobre las plusvalías latentes de los expatriados adinerados."
+        }
+      },
+      "hi": {
+        "title": "इटली करोड़पति लोगों के लिए प्रस्थान कर पर विचार कर रहा",
+        "fact": "जार्जिया मेलोनी की सरकार देश छोड़ने वाले अमीर करदाताओं के अवास्तविक पूंजीगत लाभ पर 26% कर लगाने की तैयारी कर रही है।",
+        "whyItMatters": "यह उपाय 2017 से अमीर लोगों को आकर्षित करने के लिए चलाई गई आकर्षक नीतियों को तोड़ता है। इससे नए अमीर प्रवासियों के यहाँ बसने में हतोत्साहित होने का जोखिम है, जबकि राज्य को सीमित कर राजस्व ही प्राप्त होगा।",
+        "quiz": {
+          "question": "इटली छोड़ने वाले करोड़पति लोगों के लिए अवास्तविक पूंजीगत लाभ पर कितने कर की दर का प्रस्ताव है?",
+          "choices": [
+            "33 प्रतिशत",
+            "26 प्रतिशत",
+            "15 प्रतिशत"
+          ],
+          "explanation": "इटली सरकार अमीर प्रवासियों के अवास्तविक पूंजीगत लाभ पर 26% कर लगाने की तैयारी कर रही है।"
+        }
+      },
+      "zh": {
+        "title": "意大利考虑对百万富翁征收离境税",
+        "fact": "乔治亚·梅洛尼政府正准备对离开该国的高净值纳税人的未实现资本利得征收26%的税。",
+        "whyItMatters": "这一举措打破了自2017年以来为吸引大富豪而实行的吸引力政策。它可能会阻碍新的富裕外籍人士定居，同时为国家带来的税收收入也有限。",
+        "quiz": {
+          "question": "离开意大利的百万富翁的未实现资本利得拟议税率是多少？",
+          "choices": [
+            "33%",
+            "26%",
+            "15%"
+          ],
+          "explanation": "意大利政府正准备对富裕外籍人士的未实现资本利得征收26%的税。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-aa065bb94648",
+    "title": "Cyberattaque et transactions frauduleuses au Crédit Mutuel",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "Le Crédit Mutuel Arkéa a subi une cyberattaque ayant entraîné des transactions frauduleuses estimées à plusieurs millions d'euros.",
+    "whyItMatters": "Cet incident souligne les risques croissants pesant sur la sécurité des institutions financières face aux cybercriminels. Il met en lumière la nécessité de renforcer continuellement les systèmes de protection des banques.",
+    "summary": "Le Crédit Mutuel Arkéa a subi une cyberattaque ayant entraîné des transactions frauduleuses estimées à plusieurs millions d'euros. Cet incident souligne les risques croissants pesant sur la sécurité des institutions financières face aux cybercriminels. Il met en lumière la nécessité de renforcer continuellement les systèmes de protection des banques.",
+    "source": "Tech Xplore",
+    "sourceURL": "https://techxplore.com/news/2026-11-french-regional-bank-cyberattack-fraudulent.html",
+    "publishedAt": "2026-11-04T12:00:09Z",
+    "quiz": {
+      "question": "Quelle institution a été victime d'une cyberattaque selon l'article ?",
+      "choices": [
+        "Le Crédit Mutuel Arkéa",
+        "La Banque Centrale Européenne",
+        "La Banque de France"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article indique explicitement que la banque régionale Crédit Mutuel Arkéa a été ciblée."
+    },
+    "translations": {
+      "en": {
+        "title": "Cyberattack and fraud hit Crédit Mutuel",
+        "fact": "Crédit Mutuel Arkéa suffered a cyberattack resulting in fraudulent transactions estimated at several million euros.",
+        "whyItMatters": "This incident highlights the growing risks facing the security of financial institutions against cybercriminals, emphasizing the need to continuously strengthen banks' protection systems.",
+        "quiz": {
+          "question": "Which institution was the victim of a cyberattack according to the article?",
+          "choices": [
+            "Crédit Mutuel Arkéa",
+            "European Central Bank",
+            "Bank of France"
+          ],
+          "explanation": "The article explicitly states that regional bank Crédit Mutuel Arkéa was targeted."
+        }
+      },
+      "es": {
+        "title": "Ciberataque y fraude en el Crédit Mutuel",
+        "fact": "Crédit Mutuel Arkéa sufrió un ciberataque que provocó transacciones fraudulentas estimadas en varios millones de euros.",
+        "whyItMatters": "Este incidente subraya los crecientes riesgos para la seguridad de las instituciones financieras frente a los ciberdelincuentes. Pone de relieve la necesidad de reforzar continuamente los sistemas de protección bancaria.",
+        "quiz": {
+          "question": "¿Qué institución fue víctima de un ciberataque según el artículo?",
+          "choices": [
+            "Crédit Mutuel Arkéa",
+            "El Banco Central Europeo",
+            "El Banco de Francia"
+          ],
+          "explanation": "El artículo indica explícitamente que el banco regional Crédit Mutuel Arkéa fue el blanco."
+        }
+      },
+      "hi": {
+        "title": "क्रेडिट म्युचुअल में साइबर हमला और धोखाधड़ी वाले लेनदेन",
+        "fact": "क्रेडिट म्युचुअल आर्केआ (Crédit Mutuel Arkéa) को एक साइबर हमले का सामना करना पड़ा, जिसके कारण कई मिलियन यूरो के धोखाधड़ी वाले लेनदेन हुए।",
+        "whyItMatters": "यह घटना साइबर अपराधियों के खिलाफ वित्तीय संस्थानों की सुरक्षा के सामने बढ़ते जोखिमों को रेखांकित करती है। यह बैंकों की सुरक्षा प्रणालियों को लगातार मजबूत करने की आवश्यकता पर प्रकाश डालती है।",
+        "quiz": {
+          "question": "लेख के अनुसार कौन सा संस्थान साइबर हमले का शिकार हुआ?",
+          "choices": [
+            "क्रेडिट म्युचुअल आर्केआ",
+            "यूरोपीय केंद्रीय बैंक",
+            "बैंक ऑफ फ्रांस"
+          ],
+          "explanation": "लेख में स्पष्ट रूप से बताया गया है कि क्षेत्रीय बैंक क्रेडिट म्युचुअल आर्केआ को निशाना बनाया गया था।"
+        }
+      },
+      "zh": {
+        "title": "信贷互助银行遭遇网络攻击与欺诈",
+        "fact": "法国信贷互助银行阿克西亚（Crédit Mutuel Arkéa）遭遇网络攻击，导致估计达数百万欧元的欺诈性交易。",
+        "whyItMatters": "这一事件突显了金融机构在面对网络罪犯时日益增长的安全风险，并强调了不断加强银行保护系统的必要性。",
+        "quiz": {
+          "question": "根据文章，哪家机构成为了网络攻击的受害者？",
+          "choices": [
+            "信贷互助银行阿克西亚",
+            "欧洲中央银行",
+            "法兰西银行"
+          ],
+          "explanation": "文章明确指出区域银行信贷互助银行阿克西亚成为攻击目标。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-f11d9a22fb66",
+    "title": "Ralentissement des revenus publicitaires pour le moteur Google",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "La croissance des revenus publicitaires de la recherche Google a ralenti au troisième trimestre malgré une hausse des requêtes.",
+    "whyItMatters": "Cette situation montre que Google peine encore à monétiser efficacement ses recherches dopées à l'intelligence artificielle de la même manière que son moteur classique. C'est un défi économique majeur pour le géant technologique face à ses nouveaux concurrents.",
+    "summary": "La croissance des revenus publicitaires de la recherche Google a ralenti au troisième trimestre malgré une hausse des requêtes. Cette situation montre que Google peine encore à monétiser efficacement ses recherches dopées à l'intelligence artificielle de la même manière que son moteur classique. C'est un défi économique majeur pour le géant technologique face à ses nouveaux concurrents.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+    "publishedAt": "2026-11-04T12:00:00Z",
+    "quiz": {
+      "question": "Quel taux de croissance les revenus publicitaires de la recherche Google ont-ils atteint au troisième trimestre ?",
+      "choices": [
+        "20 pour cent",
+        "12 pour cent",
+        "17 pour cent"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article précise que la croissance des revenus publicitaires est tombée à 12 pour cent au troisième trimestre."
+    },
+    "translations": {
+      "en": {
+        "title": "Ad revenue growth slows for Google search",
+        "fact": "Growth in Google search ad revenue slowed in the third quarter despite an increase in queries.",
+        "whyItMatters": "This situation shows that Google still struggles to monetize AI-powered searches as effectively as its traditional engine, presenting a major economic challenge against new competitors.",
+        "quiz": {
+          "question": "What growth rate did Google search advertising revenue reach in the third quarter?",
+          "choices": [
+            "20 percent",
+            "12 percent",
+            "17 percent"
+          ],
+          "explanation": "The article notes that ad revenue growth dropped to 12 percent in the third quarter."
+        }
+      },
+      "es": {
+        "title": "Frenazo en los ingresos publicitarios de Google",
+        "fact": "El crecimiento de los ingresos publicitarios de las búsquedas de Google se desaceleró en el tercer trimestre a pesar de un aumento en las consultas.",
+        "whyItMatters": "Esto demuestra que Google aún lucha por monetizar eficazmente sus búsquedas impulsadas por inteligencia artificial al mismo nivel que su motor clásico. Es un gran reto económico para el gigante tecnológico frente a sus nuevos rivales.",
+        "quiz": {
+          "question": "¿Qué tasa de crecimiento alcanzaron los ingresos publicitarios de Google en el tercer trimestre?",
+          "choices": [
+            "20 por ciento",
+            "12 por ciento",
+            "17 por ciento"
+          ],
+          "explanation": "El artículo especifica que el crecimiento de los ingresos publicitarios cayó al 12 por ciento en el tercer trimestre."
+        }
+      },
+      "hi": {
+        "title": "गूगल सर्च के लिए विज्ञापन राजस्व में मंदी",
+        "fact": "खोज (सर्च) अनुरोधों में वृद्धि के बावजूद तीसरी तिमाही में गूगल सर्च के विज्ञापन राजस्व की वृद्धि धीमी हो गई है।",
+        "whyItMatters": "यह स्थिति दिखाती है कि गूगल अभी भी अपने पारंपरिक इंजन की तरह आर्टिफिशियल इंटेलिजेंस से लैस अपनी खोजों से प्रभावी ढंग से कमाई करने में संघर्ष कर रहा है। नए प्रतिस्पर्धियों के सामने यह इस तकनीकी दिग्गज के लिए एक बड़ी आर्थिक चुनौती है।",
+        "quiz": {
+          "question": "तीसरी तिमाही में गूगल सर्च के विज्ञापन राजस्व ने किस वृद्धि दर को छुआ?",
+          "choices": [
+            "20 प्रतिशत",
+            "12 प्रतिशत",
+            "17 प्रतिशत"
+          ],
+          "explanation": "लेख में निर्दिष्ट किया गया है कि तीसरी तिमाही में विज्ञापन राजस्व की वृद्धि गिरकर 12 प्रतिशत हो गई।"
+        }
+      },
+      "zh": {
+        "title": "谷歌搜索广告收入增长放缓",
+        "fact": "尽管搜索量有所增加，但第三季度谷歌搜索广告收入的增长速度有所放缓。",
+        "whyItMatters": "这种情况表明，谷歌在将人工智能赋能的搜索有效变现方面，仍然难以达到其传统搜索引擎的水平。对于这家科技巨头来说，面对新竞争对手时这是一个重大的经济挑战。",
+        "quiz": {
+          "question": "谷歌第三季度的搜索广告收入增长率达到了多少？",
+          "choices": [
+            "20%",
+            "12%",
+            "17%"
+          ],
+          "explanation": "文章指出，第三季度广告收入增长率降至12%。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-674c4c89e694",
+    "title": "Boom des cliniques de longévité et des thérapies anti-âge",
+    "topic": "finance",
+    "subject": "Startups",
+    "fact": "Le secteur de la longévité a levé 18,4 milliards de dollars l'an dernier, porté par la multiplication des cliniques privées et des investissements pharmaceutiques.",
+    "whyItMatters": "Ce marché en plein essor capitalise sur la prévention et le vieillissement malgré des bases scientifiques parfois fragiles. Il attire désormais des capitaux colossaux de la part des géants de la santé et des fonds technologiques.",
+    "summary": "Le secteur de la longévité a levé 18,4 milliards de dollars l'an dernier, porté par la multiplication des cliniques privées et des investissements pharmaceutiques. Ce marché en plein essor capitalise sur la prévention et le vieillissement malgré des bases scientifiques parfois fragiles. Il attire désormais des capitaux colossaux de la part des géants de la santé et des fonds technologiques.",
+    "source": "Challenges",
+    "sourceURL": "https://www.challenges.fr/entreprise/sante/184-milliards-de-dollars-leves-lan-dernier-lincroyable-business-de-la-course-a-limmortalite-repose-t-il-sur-une-illusion_646805",
+    "publishedAt": "2026-11-04T12:00:00Z",
+    "quiz": {
+      "question": "Quel montant a été levé l'an dernier par le secteur de la longévité ?",
+      "choices": [
+        "18,4 milliards de dollars",
+        "42,1 milliards de dollars",
+        "5,2 milliards de dollars"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article indique que le secteur a attiré 18,4 milliards de dollars sur la période."
+    },
+    "translations": {
+      "en": {
+        "title": "Longevity clinics and anti-aging therapies boom",
+        "fact": "The longevity sector raised $18.4 billion last year, driven by a surge in private clinics and pharmaceutical investments.",
+        "whyItMatters": "This booming market capitalizes on prevention and aging despite sometimes fragile scientific foundations, now attracting massive capital from healthcare giants and tech funds.",
+        "quiz": {
+          "question": "How much was raised last year by the longevity sector?",
+          "choices": [
+            "$18.4 billion",
+            "$42.1 billion",
+            "$5.2 billion"
+          ],
+          "explanation": "The article indicates that the sector attracted $18.4 billion over the period."
+        }
+      },
+      "es": {
+        "title": "Auge de las clínicas de longevidad y la antiedad",
+        "fact": "El sector de la longevidad recaudó 18.400 millones de dólares el año pasado, impulsado por el auge de clínicas privadas e inversión farmacéutica.",
+        "whyItMatters": "Este mercado en plena expansión capitaliza la prevención y el envejecimiento pese a bases científicas a veces frágiles. Atrae ahora ingentes capitales de gigantes de la salud y fondos tecnológicos.",
+        "quiz": {
+          "question": "¿Qué cantidad recaudó el año pasado el sector de la longevidad?",
+          "choices": [
+            "18.400 millones de dólares",
+            "42.100 millones de dólares",
+            "5.200 millones de dólares"
+          ],
+          "explanation": "El artículo señala que el sector atrajo 18.400 millones de dólares en dicho periodo."
+        }
+      },
+      "hi": {
+        "title": "लंबी उम्र के क्लीनिक और एंटी-एजिंग थेरेपी में भारी उछाल",
+        "fact": "निजी क्लीनिकों और फार्मास्युटिकल निवेशों की संख्या में वृद्धि के कारण लंबी उम्र (लॉन्गेविटी) के क्षेत्र ने पिछले साल 18.4 बिलियन डॉलर जुटाए।",
+        "whyItMatters": "यह तेजी से बढ़ता बाजार कभी-कभी कमजोर वैज्ञानिक आधार के बावजूद रोकथाम और उम्र बढ़ने की प्रक्रिया का लाभ उठाता है। यह अब स्वास्थ्य दिग्गजों और तकनीकी फंडों से भारी पूंजी आकर्षित कर रहा है।",
+        "quiz": {
+          "question": "लंबी उम्र के क्षेत्र द्वारा पिछले वर्ष कितनी राशि जुटाई गई थी?",
+          "choices": [
+            "18.4 बिलियन डॉलर",
+            "42.1 बिलियन डॉलर",
+            "5.2 बिलियन डॉलर"
+          ],
+          "explanation": "लेख से पता चलता है कि इस अवधि के दौरान इस क्षेत्र ने 18.4 बिलियन डॉलर आकर्षित किए।"
+        }
+      },
+      "zh": {
+        "title": "长寿诊所与抗衰老疗法迎来热潮",
+        "fact": "在私立诊所激增和制药投资的推动下，长寿行业去年筹集了184亿美元。",
+        "whyItMatters": "尽管科学基础有时较为薄弱，但这一蓬勃发展的市场仍以预防和抗衰老为核心。它现在吸引了来自医疗健康巨头和科技基金的大量资本。",
+        "quiz": {
+          "question": "长寿行业去年筹集了多少资金？",
+          "choices": [
+            "184亿美元",
+            "421亿美元",
+            "52亿美元"
+          ],
+          "explanation": "文章指出该行业在此期间吸引了184亿美元。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-6a1753b2cbaa",
+    "title": "Impact politique sur les centres de données aux États-Unis",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Les victoires électorales démocrates menacent les projets de construction de centres de données énergivores dans plusieurs États américains clés.",
+    "whyItMatters": "Ce ralentissement politique pourrait freiner le déploiement massif de l'intelligence artificielle qui soutient les marchés financiers depuis quatre ans. La transition énergétique des infrastructures numériques se retrouve ainsi au cœur des tensions politiques.",
+    "summary": "Les victoires électorales démocrates menacent les projets de construction de centres de données énergivores dans plusieurs États américains clés. Ce ralentissement politique pourrait freiner le déploiement massif de l'intelligence artificielle qui soutient les marchés financiers depuis quatre ans. La transition énergétique des infrastructures numériques se retrouve ainsi au cœur des tensions politiques.",
+    "source": "Tech Xplore",
+    "sourceURL": "https://techxplore.com/news/2026-11-democratic-victories-cloud-outlook-ai.html",
+    "publishedAt": "2026-11-04T11:50:01Z",
+    "quiz": {
+      "question": "Quel secteur est menacé par les victoires démocrates selon l'article ?",
+      "choices": [
+        "Les centres de données énergivores",
+        "Les réseaux de téléphonie mobile",
+        "Les usines de fabrication de puces"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les victoires démocrates menacent les projets de centres de données en raison de leur forte consommation énergétique."
+    },
+    "translations": {
+      "en": {
+        "title": "US data centers face political impact",
+        "fact": "Democratic electoral victories are threatening energy-hungry data center construction projects in several key US states.",
+        "whyItMatters": "This political slowdown could hamper the massive rollout of artificial intelligence that has supported financial markets for four years. The energy transition of digital infrastructure thus finds itself at the heart of political tensions.",
+        "quiz": {
+          "question": "Which sector is threatened by the Democratic victories according to the article?",
+          "choices": [
+            "Energy-hungry data centers",
+            "Mobile phone networks",
+            "Chip manufacturing plants"
+          ],
+          "explanation": "Democratic victories threaten data center projects due to their high energy consumption."
+        }
+      },
+      "es": {
+        "title": "Impacto político en centros de datos de EE. UU",
+        "fact": "Las victorias electorales demócratas amenazan los proyectos de construcción de centros de datos de alto consumo energético en varios estados clave de EE. UU.",
+        "whyItMatters": "Esta desaceleración política podría frenar el despliegue masivo de inteligencia artificial que sostiene los mercados financieros desde hace cuatro años. Así, la transición energética de las infraestructuras digitales se sitúa en el centro de las tensiones políticas.",
+        "quiz": {
+          "question": "¿Qué sector se ve amenazado por las victorias demócratas según el artículo?",
+          "choices": [
+            "Los centros de datos de alto consumo energético",
+            "Las redes de telefonía móvil",
+            "Las fábricas de chips"
+          ],
+          "explanation": "Las victorias demócratas amenazan los proyectos de centros de datos debido a su fuerte consumo energético."
+        }
+      },
+      "hi": {
+        "title": "US में डेटा केंद्रों पर राजनीतिक प्रभाव",
+        "fact": "डेमोक्रेटिक चुनावी जीत से अमेरिका के कई प्रमुख राज्यों में ऊर्जा की अधिक खपत करने वाले डेटा सेंटर परियोजनाओं पर संकट मंडरा रहा है।",
+        "whyItMatters": "यह राजनीतिक सुस्ती उस बड़े पैमाने पर आर्टिफिशियल इंटेलिजेंस के प्रसार को धीमा कर सकती है जो पिछले चार वर्षों से वित्तीय बाजारों को सहारा दे रहा है। इस प्रकार डिजिटल बुनियादी ढाँचे का ऊर्जा परिवर्तन राजनीतिक तनाव के केंद्र में आ गया है।",
+        "quiz": {
+          "question": "लेख के अनुसार डेमोक्रेटिक जीत से कौन सा क्षेत्र खतरे में है?",
+          "choices": [
+            "ऊर्जा की अधिक खपत करने वाले डेटा सेंटर",
+            "मोबाइल टेलीफोन नेटवर्क",
+            "चिप निर्माण कारखाने"
+          ],
+          "explanation": "अपनी उच्च ऊर्जा खपत के कारण डेमोक्रेटिक जीत से डेटा सेंटर परियोजनाओं पर खतरा मंडरा रहा है।"
+        }
+      },
+      "zh": {
+        "title": "美国数据中心面临政治冲击",
+        "fact": "民主党人在多州选举中的胜利，对美国几个关键州的高能耗数据中心建设计划构成了威胁。",
+        "whyItMatters": "这种政策上的放缓可能会阻碍四年来支撑金融市场的大规模人工智能部署。数字基础设施的能源转型因此被推到了政治紧张局势的核心。",
+        "quiz": {
+          "question": "根据文章，民主党人的胜利威胁到了哪个行业？",
+          "choices": [
+            "高能耗数据中心",
+            "移动通信网络",
+            "芯片制造工厂"
+          ],
+          "explanation": "由于数据中心消耗大量能源，民主党人的胜利对其建设计划构成了威胁。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-b77b645617d4",
+    "title": "Inflation record dans la zone euro en octobre",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'inflation dans la zone euro a atteint 4 % en octobre, portée par un bond des prix de l'énergie de plus de 20 %.",
+    "whyItMatters": "Cette accélération des prix pèse sur le pouvoir d'achat des ménages et complique les décisions des banques centrales. Elle témoigne de la persistance des tensions énergétiques au sein de l'économie européenne.",
+    "summary": "L'inflation dans la zone euro a atteint 4 % en octobre, portée par un bond des prix de l'énergie de plus de 20 %. Cette accélération des prix pèse sur le pouvoir d'achat des ménages et complique les décisions des banques centrales. Elle témoigne de la persistance des tensions énergétiques au sein de l'économie européenne.",
+    "source": "BFM Business",
+    "sourceURL": "https://www.bfmtv.com/economie/economie-social/union-europeenne/a-cause-des-prix-de-l-energie-qui-ont-bondi-de-plus-de-20-l-inflation-en-zone-euro-franchit-la-barre-des-4-en-octobre-et-atteint-un-nouveau-sommet-en-trois-ans_AD-202611040489.html",
+    "publishedAt": "2026-11-04T11:39:05Z",
+    "quiz": {
+      "question": "Quel a été le taux d'inflation en zone euro en octobre ?",
+      "choices": [
+        "3,8 %",
+        "4 %",
+        "5 %"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'inflation a atteint 4 % en octobre, après 3,8 % en septembre."
+    },
+    "translations": {
+      "en": {
+        "title": "Eurozone inflation hits record in October",
+        "fact": "Eurozone inflation reached 4% in October, driven by a surge in energy prices of over 20%.",
+        "whyItMatters": "This price acceleration weighs on household purchasing power and complicates central bank decisions. It highlights the persistence of energy tensions within the European economy.",
+        "quiz": {
+          "question": "What was the inflation rate in the eurozone in October?",
+          "choices": [
+            "3.8%",
+            "4%",
+            "5%"
+          ],
+          "explanation": "Inflation reached 4% in October, following 3.8% in September."
+        }
+      },
+      "es": {
+        "title": "Inflación récord en la eurozona en octubre",
+        "fact": "La inflación en la eurozona alcanzó el 4 % en octubre, impulsada por un repunte de los precios de la energía de más del 20 %.",
+        "whyItMatters": "Esta aceleración de los precios presiona el poder adquisitivo de los hogares y complica las decisiones de los bancos centrales. Demuestra la persistencia de las tensiones energéticas en la economía europea.",
+        "quiz": {
+          "question": "¿Cuál fue la tasa de inflación en la eurozona en octubre?",
+          "choices": [
+            "3,8 %",
+            "4 %",
+            "5 %"
+          ],
+          "explanation": "La inflación alcanzó el 4 % en octubre, tras el 3,8 % de septiembre."
+        }
+      },
+      "hi": {
+        "title": "अक्टूबर में यूरो क्षेत्र में रिकॉर्ड महंगाई",
+        "fact": "ऊर्जा की कीमतों में 20% से अधिक की छलांग के कारण अक्टूबर में यूरो क्षेत्र में मुद्रास्फीति 4% तक पहुँच गई।",
+        "whyItMatters": "कीमतों में यह तेजी परिवारों की क्रय शक्ति पर भारी पड़ रही है और केंद्रीय बैंकों के फैसलों को जटिल बना रही है। यह यूरोपीय अर्थव्यवस्था के भीतर ऊर्जा तनाव की निरंतरता को दर्शाता है।",
+        "quiz": {
+          "question": "अक्टूबर में यूरो क्षेत्र में मुद्रास्फीति की दर क्या थी?",
+          "choices": [
+            "3.8%",
+            "4%",
+            "5%"
+          ],
+          "explanation": "सितंबर में 3.8% के बाद अक्टूबर में मुद्रास्फीति 4% तक पहुँच गई।"
+        }
+      },
+      "zh": {
+        "title": "欧元区10月通胀率创新高",
+        "fact": "受能源价格飙升逾20%的推动，欧元区10月份通胀率达到了4%。",
+        "whyItMatters": "价格的快速上涨给家庭购买力带来了压力，并使央行的决策变得复杂。这也凸显了欧洲经济内部能源紧张局势的持续性。",
+        "quiz": {
+          "question": "欧元区10月份的通货膨胀率是多少？",
+          "choices": [
+            "3,8 %",
+            "4 %",
+            "5 %"
+          ],
+          "explanation": "10月份通胀率达到4%，而9月份为3.8%。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-5fe19e4d213e",
+    "title": "Tesla détaille la conception de son futur véhicule autonome",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Tesla a dévoilé les innovations de production de son Cybercab, qui pourraient inspirer ses futurs modèles de grande série.",
+    "whyItMatters": "Les choix de fabrication, comme une batterie en modules réparables et une carrosserie sans peinture, visent à réduire drastiquement les coûts. Cela préfigure les méthodes de construction des prochaines générations de voitures électriques abordables.",
+    "summary": "Tesla a dévoilé les innovations de production de son Cybercab, qui pourraient inspirer ses futurs modèles de grande série. Les choix de fabrication, comme une batterie en modules réparables et une carrosserie sans peinture, visent à réduire drastiquement les coûts. Cela préfigure les méthodes de construction des prochaines générations de voitures électriques abordables.",
+    "source": "Frandroid",
+    "sourceURL": "https://www.frandroid.com/marques/tesla/3310207_onduleur-et-moteur-ce-que-le-cybercab-prepare-en-douce-pour-le-futur-model-y",
+    "publishedAt": "2026-11-04T11:31:10Z",
+    "quiz": {
+      "question": "Sur quelle ligne de production Tesla a-t-il filmé la conception de son Cybercab ?",
+      "choices": [
+        "La Gigafactory du Texas",
+        "L'usine de Shanghai",
+        "L'usine de Berlin"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article mentionne une visite de la ligne de production à la Gigafactory du Texas."
+    },
+    "translations": {
+      "en": {
+        "title": "Tesla details autonomous vehicle design",
+        "fact": "Tesla has unveiled the production innovations of its Cybercab, which could inspire its future mass-market models.",
+        "whyItMatters": "Manufacturing choices, such as a modular repairable battery and a paintless body, aim to drastically reduce costs. This foreshadows construction methods for the next generations of affordable electric cars.",
+        "quiz": {
+          "question": "On which production line did Tesla film the design of its Cybercab?",
+          "choices": [
+            "Texas Gigafactory",
+            "Shanghai plant",
+            "Berlin plant"
+          ],
+          "explanation": "The article mentions a visit to the production line at the Texas Gigafactory."
+        }
+      },
+      "es": {
+        "title": "Tesla detalla el diseño de su próximo autónomo",
+        "fact": "Tesla reveló las innovaciones de producción de su Cybercab, que podrían inspirar sus futuros modelos de gran serie.",
+        "whyItMatters": "Las opciones de fabricación, como una batería de módulos reparables y una carrocería sin pintura, buscan reducir drásticamente los costes. Esto anticipa los métodos de construcción de la próxima generación de coches eléctricos asequibles.",
+        "quiz": {
+          "question": "¿En qué línea de producción filmó Tesla el diseño de su Cybercab?",
+          "choices": [
+            "La Gigafactory de Texas",
+            "La planta de Shanghái",
+            "La planta de Berlín"
+          ],
+          "explanation": "El artículo menciona una visita a la línea de producción en la Gigafactory de Texas."
+        }
+      },
+      "hi": {
+        "title": "Tesla ने अपनी भविष्य की स्वायत्त कार की डिज़ाइन बताई",
+        "fact": "Tesla ने अपने Cybercab के उत्पादन नवाचारों का अनावरण किया, जो इसके भविष्य के बड़े पैमाने के मॉडलों को प्रेरित कर सकते हैं।",
+        "whyItMatters": "मरम्मत योग्य मॉड्यूल बैटरी और बिना पेंट वाले बॉडीवर्क जैसे विनिर्माण विकल्प, लागत को भारी रूप से कम करने के उद्देश्य से हैं। यह किफायती इलेक्ट्रिक कारों की अगली पीढ़ियों के निर्माण के तरीकों का पूर्वाभास कराता है।",
+        "quiz": {
+          "question": "Tesla ने किस उत्पादन लाइन पर अपने Cybercab के डिज़ाइन को फिल्माया?",
+          "choices": [
+            "टेक्सास गिगाफैक्ट्री",
+            "शंघाई का कारखाना",
+            "बर्लिन का कारखाना"
+          ],
+          "explanation": "लेख में टेक्सास गिगाफैक्ट्री की उत्पादन लाइन के दौरे का उल्लेख है।"
+        }
+      },
+      "zh": {
+        "title": "特斯拉详述其未来自动驾驶汽车设计",
+        "fact": "特斯拉公布了其Cybercab的生产创新技术，这些技术可能会为其未来的量产车型提供灵感。",
+        "whyItMatters": "诸如可更换模块电池和无喷漆车身等制造选择，旨在大幅降低成本。这预示着下一代价格亲民的电动汽车的制造方法。",
+        "quiz": {
+          "question": "特斯拉是在哪个生产线上拍摄其Cybercab设计过程的？",
+          "choices": [
+            "得克萨斯超级工厂",
+            "上海工厂",
+            "柏林工厂"
+          ],
+          "explanation": "文章提到参观了得克萨斯超级工厂的生产线。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a6487968db0c",
+    "title": "Naval Group dévoile le SCX 26 avec canon électromagnétique",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Naval Group a présenté le SCX 26, un concept de navire de combat armé d'un canon électromagnétique.",
+    "whyItMatters": "Ce projet relance l'intérêt pour une technologie d'armement avancée que la marine américaine avait abandonnée après des investissements massifs. Il illustre l'innovation continue dans les équipements navaux militaires.",
+    "summary": "Naval Group a présenté le SCX 26, un concept de navire de combat armé d'un canon électromagnétique. Ce projet relance l'intérêt pour une technologie d'armement avancée que la marine américaine avait abandonnée après des investissements massifs. Il illustre l'innovation continue dans les équipements navaux militaires.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/tech/2367481-naval-group-presente-le-scx-26-un-concept-de-navire-arme-dun-canon-electromagnetique-larme-que-lus-navy-a-abandonnee.html",
+    "publishedAt": "2026-11-04T11:31:00Z",
+    "quiz": {
+      "question": "Quelle marine avait abandonné le canon électromagnétique avant ce nouveau projet ?",
+      "choices": [
+        "La marine américaine",
+        "La marine britannique",
+        "La marine française"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'article rappelle que l'US Navy avait abandonné cette arme en 2021."
+    },
+    "translations": {
+      "en": {
+        "title": "Naval Group unveils SCX 26 with railgun",
+        "fact": "Naval Group has presented the SCX 26, a combat ship concept armed with an electromagnetic railgun.",
+        "whyItMatters": "This project revives interest in an advanced weapon technology that the US Navy had abandoned after massive investments. It illustrates continuous innovation in military naval equipment.",
+        "quiz": {
+          "question": "Which navy had abandoned the electromagnetic railgun before this new project?",
+          "choices": [
+            "US Navy",
+            "British Royal Navy",
+            "French Navy"
+          ],
+          "explanation": "The article recalls that the US Navy abandoned this weapon in 2021."
+        }
+      },
+      "es": {
+        "title": "Naval Group presenta el SCX 26 con cañón railgun",
+        "fact": "Naval Group presentó el SCX 26, un concepto de buque de combate armado con un cañón electromagnético.",
+        "whyItMatters": "Este proyecto revive el interés por una tecnología de armamento avanzada que la Marina estadounidense había abandonado tras inversiones masivas. Ilustra la innovación continua en equipos navales militares.",
+        "quiz": {
+          "question": "¿Qué armada había abandonado el cañón electromagnético antes de este nuevo proyecto?",
+          "choices": [
+            "La marina estadounidense",
+            "La marina británica",
+            "La marina francesa"
+          ],
+          "explanation": "El artículo recuerda que la US Navy había abandonado esta arma en 2021."
+        }
+      },
+      "hi": {
+        "title": "Naval Group ने इलेक्ट्रोमैग्नेटिक तोप के साथ SCX 26 पेश किया",
+        "fact": "Naval Group ने SCX 26 का अनावरण किया, जो एक इलेक्ट्रोमैग्नेटिक तोप से लैस युद्धपोत की अवधारणा है।",
+        "whyItMatters": "यह परियोजना एक उन्नत हथियार तकनीक में रुचि को पुनर्जीवित करती है जिसे भारी निवेश के बाद अमेरिकी नौसेना ने छोड़ दिया था। यह सैन्य नौसेना उपकरणों में निरंतर नवाचार को दर्शाता है।",
+        "quiz": {
+          "question": "इस नई परियोजना से पहले किस नौसेना ने इलेक्ट्रोमैग्नेटिक तोप को छोड़ दिया था?",
+          "choices": [
+            "अमेरिकी नौसेना",
+            "ब्रिटिश नौसेना",
+            "फ्रांसीसी नौसेना"
+          ],
+          "explanation": "लेख याद दिलाता है कि अमेरिकी नौसेना ने 2021 में इस हथियार को छोड़ दिया था।"
+        }
+      },
+      "zh": {
+        "title": "海军集团推出配备电磁炮的SCX 26",
+        "fact": "法国海军集团推出了SCX 26概念战舰，该舰装备了一门电磁炮。",
+        "whyItMatters": "该项目重新激发了人们对先进武器技术的兴趣，此前美国海军在投入巨资后曾放弃了该技术。这体现了军事海军装备的不断创新。",
+        "quiz": {
+          "question": "在这一新项目之前，哪国海军曾放弃过电磁炮？",
+          "choices": [
+            "美国海军",
+            "英国海军",
+            "法国海军"
+          ],
+          "explanation": "文章回顾了美国海军已于2021年放弃了这种武器。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-baa434f353fb",
+    "title": "Succès commercial immédiat pour la future Ferrari électrique",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Ferrari a déjà attribué l'intégralité des modèles de sa future voiture électrique Luce prévus pour la production de l'année 2027.",
+    "whyItMatters": "Ce succès illustre l'attrait intact de la marque de luxe pour son virage électrique, alors qu'aucun exemplaire n'a encore été livré. Affichée à un tarif élevé, cette demande confirme la viabilité du marché haut de gamme dans l'électrification.",
+    "summary": "Ferrari a déjà attribué l'intégralité des modèles de sa future voiture électrique Luce prévus pour la production de l'année 2027. Ce succès illustre l'attrait intact de la marque de luxe pour son virage électrique, alors qu'aucun exemplaire n'a encore été livré. Affichée à un tarif élevé, cette demande confirme la viabilité du marché haut de gamme dans l'électrification.",
+    "source": "Numerama",
+    "sourceURL": "https://www.numerama.com/vroom/2367495-meme-a-550-000-e-la-premiere-ferrari-electrique-affiche-deja-complet-pour-2027.html",
+    "publishedAt": "2026-11-04T11:15:00Z",
+    "quiz": {
+      "question": "Que s'est-il passé pour la future Ferrari électrique Luce ?",
+      "choices": [
+        "Toutes les ventes prévues pour 2027 sont déjà attribuées",
+        "Le prix de vente a été divisé par deux",
+        "La production a été totalement annulée"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le constructeur a annoncé que tous les modèles prévus pour 2027 ont déjà trouvé preneurs."
+    },
+    "translations": {
+      "en": {
+        "title": "Instant success for future electric Ferrari",
+        "fact": "Ferrari has already allocated all models of its upcoming Luce electric car planned for 2027 production.",
+        "whyItMatters": "This success illustrates the luxury brand's intact appeal for its electric shift, even though no units have been delivered yet. Priced high, this demand confirms the viability of the high-end market in electrification.",
+        "quiz": {
+          "question": "What happened to the future electric Ferrari Luce?",
+          "choices": [
+            "All planned sales for 2027 are already allocated",
+            "The selling price was cut in half",
+            "Production was completely canceled"
+          ],
+          "explanation": "The manufacturer announced that all models planned for 2027 have already found buyers."
+        }
+      },
+      "es": {
+        "title": "Éxito comercial inmediato del futuro Ferrari eléctrico",
+        "fact": "Ferrari ya ha asignado la totalidad de los modelos de su futuro coche eléctrico Luce previstos para la producción del año 2027.",
+        "whyItMatters": "Este éxito ilustra el atractivo intacto de la marca de lujo en su giro eléctrico, aun sin haberse entregado ningún ejemplar. Con un precio elevado, esta demanda confirma la viabilidad del mercado prémium en la electrificación.",
+        "quiz": {
+          "question": "¿Qué ha ocurrido con el futuro Ferrari eléctrico Luce?",
+          "choices": [
+            "Todas las ventas previstas para 2027 ya están asignadas",
+            "El precio de venta se ha reducido a la mitad",
+            "La producción se ha cancelado por completo"
+          ],
+          "explanation": "El fabricante anunció que todos los modelos previstos para 2027 ya tienen comprador."
+        }
+      },
+      "hi": {
+        "title": "भविष्य की इलेक्ट्रिक Ferrari के लिए तत्काल व्यावसायिक सफलता",
+        "fact": "Ferrari ने पहले ही अपनी भविष्य की इलेक्ट्रिक कार Luce के 2027 के उत्पादन के लिए योजनाबद्ध सभी मॉडलों को आवंटित कर दिया है।",
+        "whyItMatters": "यह सफलता इलेक्ट्रिक मोर्चे की ओर बढ़ने के लिए लक्जरी ब्रांड के बरकरार आकर्षण को दर्शाती है, जबकि अभी तक एक भी प्रति वितरित नहीं की गई है। उच्च कीमत पर प्रदर्शित, यह मांग विद्युतीकरण में उच्च-स्तरीय बाजार की व्यवहार्यता की पुष्टि करती है.",
+        "quiz": {
+          "question": "भविष्य की इलेक्ट्रिक Ferrari Luce के साथ क्या हुआ?",
+          "choices": [
+            "2027 के लिए योजनाबद्ध सभी बिक्री पहले ही आवंटित की जा चुकी हैं",
+            "बिक्री मूल्य आधा हो गया है",
+            "उत्पादन पूरी तरह से रद्द कर दिया गया है"
+          ],
+          "explanation": "निर्माता ने घोषणा की है कि 2027 के लिए योजनाबद्ध सभी मॉडल पहले ही खरीदार पा चुके हैं।"
+        }
+      },
+      "zh": {
+        "title": "法拉利首款电动车商业大获成功",
+        "fact": "法拉利未来电动车Luce计划于2027年生产的全部车型已被预订一空。",
+        "whyItMatters": "尽管尚未交付任何实体车，但这成功表明了该奢侈品牌在向电动化转型时依然保持着强大的吸引力。鉴于其高昂的定价，这一强劲需求证实高端市场在电气化转型中具有可行性。",
+        "quiz": {
+          "question": "关于法拉利未来的电动车Luce，目前情况如何？",
+          "choices": [
+            "所有计划于2027年销售的车辆已全部售罄",
+            "销售价格减半",
+            "生产已完全取消"
+          ],
+          "explanation": "制造商宣布，所有计划于2027年生产的车型都已找到买家。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-db33cfdd25a5",
+    "title": "Orange lance Branded Call pour identifier les appels pro",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Orange déploie un service affichant le nom des entreprises appelantes sans nécessiter d'enregistrement préalable.",
+    "whyItMatters": "Cette fonctionnalité aide les utilisateurs à identifier immédiatement les appels légitimes et à se prémunir contre les arnaques téléphoniques. Elle améliore ainsi la sécurité et la transparence des communications mobiles au quotidien.",
+    "summary": "Orange déploie un service affichant le nom des entreprises appelantes sans nécessiter d'enregistrement préalable. Cette fonctionnalité aide les utilisateurs à identifier immédiatement les appels légitimes et à se prémunir contre les arnaques téléphoniques. Elle améliore ainsi la sécurité et la transparence des communications mobiles au quotidien.",
+    "source": "01net",
+    "sourceURL": "https://www.01net.com/actualites/livreur-banque-ou-arnaque-orange-va-vous-dire-qui-vous-appelle-avant-meme-de-decrocher.html",
+    "publishedAt": "2026-11-04T10:43:43Z",
+    "quiz": {
+      "question": "Quel est le nom du nouveau service d'identification lancé par Orange ?",
+      "choices": [
+        "Orange Secure",
+        "Anti-Arnaque Mobile",
+        "Branded Call"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le service lancé par l'opérateur se nomme Branded Call."
+    },
+    "translations": {
+      "en": {
+        "title": "Orange launches Branded Call for pro calls",
+        "fact": "Orange is deploying a service displaying the names of calling businesses without requiring prior registration.",
+        "whyItMatters": "This feature helps users immediately identify legitimate calls and guard against phone scams. It thus improves the security and transparency of daily mobile communications.",
+        "quiz": {
+          "question": "What is the name of the new identification service launched by Orange?",
+          "choices": [
+            "Orange Secure",
+            "Anti-Arnaque Mobile",
+            "Branded Call"
+          ],
+          "explanation": "The service launched by the operator is named Branded Call."
+        }
+      },
+      "es": {
+        "title": "Orange lanza Branded Call para llamadas pro",
+        "fact": "Orange despliega un servicio que muestra el nombre de las empresas que llaman sin requerir un registro previo.",
+        "whyItMatters": "Esta función ayuda a los usuarios a identificar llamadas legítimas de inmediato y a protegerse de estafas telefónicas. Así, mejora la seguridad y la transparencia de las comunicaciones móviles cotidianas.",
+        "quiz": {
+          "question": "¿Cómo se llama el nuevo servicio de identificación lanzado por Orange?",
+          "choices": [
+            "Orange Secure",
+            "Anti-Arnaque Mobile",
+            "Branded Call"
+          ],
+          "explanation": "El servicio lanzado por el operador se llama Branded Call."
+        }
+      },
+      "hi": {
+        "title": "Orange ने प्रो कॉल की पहचान के लिए Branded Call लॉन्च किया",
+        "fact": "Orange एक ऐसी सेवा शुरू कर रहा है जो पूर्व पंजीकरण की आवश्यकता के बिना कॉल करने वाली कंपनियों के नाम प्रदर्शित करती है।",
+        "whyItMatters": "यह सुविधा उपयोगकर्ताओं को वैध कॉलों की तुरंत पहचान करने और फोन घोटालों से खुद को बचाने में मदद करती है। इस प्रकार यह दैनिक आधार पर मोबाइल संचार की सुरक्षा और पारदर्शिता में सुधार करता है।",
+        "quiz": {
+          "question": "Orange द्वारा लॉन्च की गई नई पहचान सेवा का नाम क्या है?",
+          "choices": [
+            "Orange Secure",
+            "Anti-Arnaque Mobile",
+            "Branded Call"
+          ],
+          "explanation": "ऑपरेटर द्वारा शुरू की गई सेवा का नाम Branded Call है।"
+        }
+      },
+      "zh": {
+        "title": "Orange推出Branded Call服务",
+        "fact": "法国电信运营商Orange推出了一项无需预先注册即可显示来电企业名称的服务。",
+        "whyItMatters": "该功能可帮助用户立即识别合法的来电，并防范电话诈骗。它从而提升了日常移动通信的安全性和透明度。",
+        "quiz": {
+          "question": "Orange推出的全新识别服务叫什么名字？",
+          "choices": [
+            "Orange Secure",
+            "Anti-Arnaque Mobile",
+            "Branded Call"
+          ],
+          "explanation": "该运营商推出的服务名为Branded Call。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-9fe3db5b0791",
+    "title": "Vers un relèvement du plafond du Livret A d'ici 2027",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement prévoit d'augmenter le plafond du Livret A entre 25 000 et 30 000 euros en février 2027.",
+    "whyItMatters": "Cette revalorisation vise à répondre à des besoins de financement immédiats de l'État mais pourrait accentuer l'endettement public. Elle s'éloigne également de l'objectif initial d'orienter durablement l'épargne vers des investissements à long terme.",
+    "summary": "Le gouvernement prévoit d'augmenter le plafond du Livret A entre 25 000 et 30 000 euros en février 2027. Cette revalorisation vise à répondre à des besoins de financement immédiats de l'État mais pourrait accentuer l'endettement public. Elle s'éloigne également de l'objectif initial d'orienter durablement l'épargne vers des investissements à long terme.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/economie/article/2026/11/04/relevement-du-plafond-du-livret-a-on-est-loin-de-la-volonte-affichee-par-emmanuel-macron-d-orienter-l-epargne-des-francais-vers-des-placements-a-long-terme_6806139_3234.html",
+    "publishedAt": "2026-11-04T10:00:06Z",
+    "quiz": {
+      "question": "Quel est le futur plafond envisagé pour le Livret A en février 2027 ?",
+      "choices": [
+        "Entre 25 000 et 30 000 euros",
+        "Exactement 22 950 euros",
+        "Entre 35 000 et 40 000 euros"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le gouvernement prévoit de porter le plafond entre 25 000 et 30 000 euros au lieu de 22 950 euros actuellement."
+    },
+    "translations": {
+      "en": {
+        "title": "Livret A savings cap hike eyed by 2027",
+        "fact": "The government plans to raise the Livret A savings cap to between 25,000 and 30,000 euros in February 2027.",
+        "whyItMatters": "This revaluation aims to meet the state's immediate financing needs but could increase public debt. It also moves away from the initial goal of permanently directing savings toward long-term investments.",
+        "quiz": {
+          "question": "What is the future cap considered for the Livret A in February 2027?",
+          "choices": [
+            "Between 25,000 and 30,000 euros",
+            "Exactly 22,950 euros",
+            "Between 35,000 and 40,000 euros"
+          ],
+          "explanation": "The government plans to raise the cap to between 25,000 and 30,000 euros instead of the current 22,950 euros."
+        }
+      },
+      "es": {
+        "title": "Hacia una subida del tope del Livret A para 2027",
+        "fact": "El gobierno planea aumentar el límite del Livret A entre 25 000 y 30 000 euros en febrero de 2027.",
+        "whyItMatters": "Esta revalorización busca responder a necesidades de financiación inmediata del Estado, pero podría acentuar la deuda pública. También se aleja del objetivo inicial de orientar de forma duradera el ahorro hacia inversiones a largo plazo.",
+        "quiz": {
+          "question": "¿Cuál es el futuro tope previsto para el Livret A en febrero de 2027?",
+          "choices": [
+            "Entre 25 000 y 30 000 euros",
+            "Exactamente 22 950 euros",
+            "Entre 35 000 y 40 000 euros"
+          ],
+          "explanation": "El gobierno planea elevar el tope entre 25 000 y 30 000 euros frente a los 22 950 euros actuales."
+        }
+      },
+      "hi": {
+        "title": "2027 तक Livret A की सीमा बढ़ाने की दिशा में",
+        "fact": "सरकार फरवरी 2027 में Livret A की सीमा को 25,000 और 30,000 यूरो के बीच बढ़ाने की योजना बना रही है।",
+        "whyItMatters": "इस पुनर्मूल्यांकन का उद्देश्य राज्य की तत्काल वित्तपोषण आवश्यकताओं को पूरा करना है लेकिन इससे सार्वजनिक ऋण बढ़ सकता है। यह लंबी अवधि के निवेश की ओर बचत को स्थायी रूप से निर्देशित करने के प्रारंभिक लक्ष्य से भी दूर जाता है।",
+        "quiz": {
+          "question": "फरवरी 2027 के लिए Livret A की संभावित भविष्य की सीमा क्या है?",
+          "choices": [
+            "25,000 और 30,000 यूरो के बीच",
+            "ठीक 22,950 यूरो",
+            "35,000 और 40,000 यूरो के बीच"
+          ],
+          "explanation": "सरकार वर्तमान 22,950 यूरो के बजाय सीमा को 25,000 और 30,000 यूरो के बीच ले जाने की योजना बना रही है।"
+        }
+      },
+      "zh": {
+        "title": "储蓄账户Livret A或于2027年前上调限额",
+        "fact": "法国政府计划在2027年2月将Livret A储蓄账户的上限提高到2.5万至3万欧元之间。",
+        "whyItMatters": "此次调高旨在满足国家紧迫的融资需求，但可能会加剧公共债务。这也背离了最初将储蓄持久引导至长期投资的目标。",
+        "quiz": {
+          "question": "预计2027年2月Livret A的新上限是多少？",
+          "choices": [
+            "2.5万至3万欧元之间",
+            "正好22,950欧元",
+            "3.5万至4万欧元之间"
+          ],
+          "explanation": "政府计划将上限从目前的22,950欧元提高到2.5万至3万欧元之间。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-ae71ef437765",
+    "title": "Négociations sur l'emploi des jeunes en France",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Syndicats et patronat ont entamé des discussions sur l'emploi des jeunes, alors que le chômage des 15-24 ans s'établit à 21,6 %.",
+    "whyItMatters": "Ce taux élevé met en lumière le retard persistant de la France par rapport à ses voisins européens. Les négociations visent à trouver de nouveaux leviers pour insérer durablement cette tranche d'âge sur le marché du travail.",
+    "summary": "Syndicats et patronat ont entamé des discussions sur l'emploi des jeunes, alors que le chômage des 15-24 ans s'établit à 21,6 %. Ce taux élevé met en lumière le retard persistant de la France par rapport à ses voisins européens. Les négociations visent à trouver de nouveaux leviers pour insérer durablement cette tranche d'âge sur le marché du travail.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/politique/article/2026/11/04/au-c-ur-d-un-automne-social-syndicats-et-patronat-entament-des-negociations-sur-l-emploi-des-jeunes_6806134_823448.html",
+    "publishedAt": "2026-11-04T09:00:08Z",
+    "quiz": {
+      "question": "Quel était le taux de chômage des 15-24 ans au deuxième trimestre ?",
+      "choices": [
+        "24,1 %",
+        "18,4 %",
+        "21,6 %"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le taux de chômage des 15-24 ans atteint 21,6 % au deuxième trimestre, en hausse sur un an."
+    },
+    "translations": {
+      "en": {
+        "title": "Youth employment negotiations in France",
+        "fact": "Unions and employers have started discussions on youth employment, as unemployment among 15-24 year-olds stands at 21.6%.",
+        "whyItMatters": "This high rate highlights France's persistent lag behind its European neighbors. The negotiations aim to find new levers to sustainably integrate this age group into the job market.",
+        "quiz": {
+          "question": "What was the unemployment rate for 15-24 year-olds in the second quarter?",
+          "choices": [
+            "24.1%",
+            "18.4%",
+            "21.6%"
+          ],
+          "explanation": "The unemployment rate for 15-24 year-olds reached 21.6% in the second quarter, up over one year."
+        }
+      },
+      "es": {
+        "title": "Negociaciones sobre el empleo juvenil en Francia",
+        "fact": "Sindicatos y patronal han iniciado conversaciones sobre el empleo juvenil, mientras el paro de los jóvenes de 15 a 24 años se sitúa en el 21,6 %.",
+        "whyItMatters": "Esta alta tasa evidencia el retraso persistente de Francia respecto a sus vecinos europeos. Las negociaciones buscan nuevas vías para integrar de forma duradera a este grupo de edad en el mercado laboral.",
+        "quiz": {
+          "question": "¿Cuál era la tasa de desempleo de los jóvenes de 15 a 24 años en el segundo trimestre?",
+          "choices": [
+            "24,1 %",
+            "18,4 %",
+            "21,6 %"
+          ],
+          "explanation": "La tasa de desempleo de los de 15-24 años alcanza el 21,6 % en el segundo trimestre, al alza interanual."
+        }
+      },
+      "hi": {
+        "title": "फ्रांस में युवाओं के रोजगार पर बातचीत",
+        "fact": "यूनियन और नियोक्ताओं ने युवाओं के रोजगार पर चर्चा शुरू कर दी है, जबकि 15-24 वर्ष के आयु वर्ग की बेरोजगारी 21.6% है।",
+        "whyItMatters": "यह उच्च दर अपने यूरोपीय पड़ोसियों की तुलना में फ्रांस की लगातार पिछड़ी स्थिति को उजागर करती है। बातचीत का उद्देश्य श्रम बाजार में इस आयु वर्ग को स्थायी रूप से शामिल करने के लिए नए उपाय खोजना है।",
+        "quiz": {
+          "question": "दूसरी तिमाही में 15-24 वर्ष के युवाओं की बेरोजगारी दर क्या थी?",
+          "choices": [
+            "24.1%",
+            "18.4%",
+            "21.6%"
+          ],
+          "explanation": "दूसरी तिमाही में 15-24 वर्ष के युवाओं की बेरोजगारी दर एक साल में बढ़कर 21.6% हो गई है।"
+        }
+      },
+      "zh": {
+        "title": "法国启动青年就业问题谈判",
+        "fact": "在15至24岁年轻人失业率达到21.6%的背景下，工会和雇主代表已就青年就业问题展开讨论。",
+        "whyItMatters": "这一高失业率凸显了法国在这一指标上依然落后于欧洲邻国。谈判旨在寻找新的切入点，以实现该年龄段群体在劳动力市场上的持久融入。",
+        "quiz": {
+          "question": "第二季度15-24岁年轻人的失业率是多少？",
+          "choices": [
+            "24,1 %",
+            "18,4 %",
+            "21,6 %"
+          ],
+          "explanation": "第二季度15-24岁年轻人的失业率达到21.6%，同比有所上升。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-5a8069fad396",
+    "title": "Le salariat actionnaire renforce l'engagement au travail",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Posséder des parts de son entreprise modifie l'engagement et le sens donné au travail, de la start-up au CAC 40.",
+    "whyItMatters": "Cette pratique favorise le sentiment d'appartenance des salariés au sein de leur structure. Toutefois, le pouvoir de décision de ces actionnaires salariés sur les orientations stratégiques reste limité.",
+    "summary": "Posséder des parts de son entreprise modifie l'engagement et le sens donné au travail, de la start-up au CAC 40. Cette pratique favorise le sentiment d'appartenance des salariés au sein de leur structure. Toutefois, le pouvoir de décision de ces actionnaires salariés sur les orientations stratégiques reste limité.",
+    "source": "Le Monde",
+    "sourceURL": "https://www.lemonde.fr/vie-au-travail/article/2026/11/04/ca-cree-un-sentiment-d-appartenance-etre-salarie-actionnaire-permet-il-d-ameliorer-le-rapport-au-travail_6806073_6768900.html",
+    "publishedAt": "2026-11-04T05:00:25Z",
+    "quiz": {
+      "question": "Quel est l'effet principal du salariat actionnaire selon l'article ?",
+      "choices": [
+        "Il supprime les risques de perte financière",
+        "Il garantit un pouvoir total de décision",
+        "Il améliore l'engagement et le sens du travail"
+      ],
+      "answerIndex": 2,
+      "explanation": "La détention de parts modifie positivement le rapport au travail des salariés."
+    },
+    "translations": {
+      "en": {
+        "title": "Employee shareholding boosts work engagement",
+        "fact": "Owning shares in one's company changes engagement and meaning given to work, from start-ups to CAC 40 firms.",
+        "whyItMatters": "This practice fosters employees' sense of belonging within their organization. However, these employee shareholders' decision-making power regarding strategic directions remains limited.",
+        "quiz": {
+          "question": "What is the main effect of employee shareholding according to the article?",
+          "choices": [
+            "It eliminates financial loss risks",
+            "It guarantees total decision-making power",
+            "It improves work engagement and meaning"
+          ],
+          "explanation": "Holding shares positively alters employees' relationship with work."
+        }
+      },
+      "es": {
+        "title": "El accionariado empleado refuerza el compromiso",
+        "fact": "Poseer acciones de la propia empresa transforma el compromiso y el sentido del trabajo, desde una start-up hasta el CAC 40.",
+        "whyItMatters": "Esta práctica fomenta el sentimiento de pertenencia de los empleados a su estructura. Sin embargo, el poder de decisión de estos empleados accionistas sobre las orientaciones estratégicas sigue siendo limitado.",
+        "quiz": {
+          "question": "¿Cuál es el principal efecto del accionariado empleado según el artículo?",
+          "choices": [
+            "Elimina el riesgo de pérdida financiera",
+            "Garantiza un poder total de decisión",
+            "Mejora el compromiso y el sentido del trabajo"
+          ],
+          "explanation": "La posesión de acciones modifica positivamente la relación de los empleados con su trabajo."
+        }
+      },
+      "hi": {
+        "title": "कर्मचारी शेयरधारिता कार्य के प्रति प्रतिबद्धता को मजबूत करती है",
+        "fact": "अपनी कंपनी के शेयर रखना स्टार्टअप से लेकर CAC 40 तक कार्य के प्रति प्रतिबद्धता और अर्थ को बदल देता है।",
+        "whyItMatters": "यह प्रथा कर्मचारियों के बीच अपनी संरचना से अपनेपन की भावना को बढ़ावा देती है। हालांकि, रणनीतिक दिशाओं पर इन शेयरधारक कर्मचारियों की निर्णय लेने की शक्ति सीमित रहती है।",
+        "quiz": {
+          "question": "लेख के अनुसार कर्मचारी शेयरधारिता का मुख्य प्रभाव क्या है?",
+          "choices": [
+            "यह वित्तीय नुकसान के जोखिम को समाप्त करता है",
+            "यह निर्णय लेने की कुल शक्ति की गारंटी देता है",
+            "यह कार्य के प्रति प्रतिबद्धता और अर्थ में सुधार करता है"
+          ],
+          "explanation": "शेयर रखना कर्मचारियों के काम के साथ संबंध को सकारात्मक रूप से बदलता है।"
+        }
+      },
+      "zh": {
+        "title": "员工持股增强工作投入度",
+        "fact": "从初创企业到法国CAC 40指数公司，拥有公司股份改变了员工的工作投入度和对工作的意义认知。",
+        "whyItMatters": "这种做法有助于增强员工对其所在组织的归属感。不过，这些员工股东在战略方向上的决策权仍然有限。",
+        "quiz": {
+          "question": "根据文章，员工持股的主要效果是什么？",
+          "choices": [
+            "它消除了财务亏损的风险",
+            "它保证了完全的决策权",
+            "它提高了员工的工作投入感和意义感"
+          ],
+          "explanation": "拥有股份积极地改变了员工对工作的态度。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-1965c7f85c2d",
+    "title": "Trimestre record pour AMD grâce au marché des data centers",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "AMD a réalisé le trimestre le plus important et le plus rentable de son histoire au troisième trimestre 2026.",
+    "whyItMatters": "Cette performance historique illustre la forte demande pour les technologies destinées aux centres de données, un secteur en plein essor. Elle confirme également la position d'AMD comme un acteur incontournable face à ses principaux concurrents sur ce marché.",
+    "summary": "AMD a réalisé le trimestre le plus important et le plus rentable de son histoire au troisième trimestre 2026. Cette performance historique illustre la forte demande pour les technologies destinées aux centres de données, un secteur en plein essor. Elle confirme également la position d'AMD comme un acteur incontournable face à ses principaux concurrents sur ce marché.",
+    "source": "The Verge",
+    "sourceURL": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+    "publishedAt": "2026-11-04T01:15:34Z",
+    "quiz": {
+      "question": "Quel secteur a principalement porté le trimestre record d'AMD ?",
+      "choices": [
+        "Les objets connectés",
+        "La téléphonie mobile",
+        "Les data centers"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'activité liée aux centres de données est explicitement mentionnée comme le moteur de cette performance historique."
+    },
+    "translations": {
+      "en": {
+        "title": "Record quarter for AMD driven by data centers",
+        "fact": "AMD achieved the largest and most profitable quarter in its history in the third quarter of 2026.",
+        "whyItMatters": "This historic performance illustrates strong demand for data center technologies, a booming sector. It also confirms AMD's position as a key player against its main competitors in this market.",
+        "quiz": {
+          "question": "Which sector mainly drove AMD's record quarter?",
+          "choices": [
+            "Connected objects",
+            "Mobile telephony",
+            "Data centers"
+          ],
+          "explanation": "Data center-related activity is explicitly mentioned as the driver of this historic performance."
+        }
+      },
+      "es": {
+        "title": "Trimestre récord para AMD gracias a los data centers",
+        "fact": "AMD registró el trimestre más importante y rentable de su historia durante el tercer trimestre de 2026.",
+        "whyItMatters": "Este rendimiento histórico ilustra la fuerte demanda de tecnologías para centros de datos, un sector en pleno auge. También confirma la posición de AMD como actor clave frente a sus principales competidores en este mercado.",
+        "quiz": {
+          "question": "¿Qué sector impulsó principalmente el trimestre récord de AMD?",
+          "choices": [
+            "Los objetos conectados",
+            "La telefonía móvil",
+            "Los data centers"
+          ],
+          "explanation": "La actividad vinculada a los centros de datos se menciona explícitamente como el motor de este histórico resultado."
+        }
+      },
+      "hi": {
+        "title": "डेटा सेंटर बाजार के कारण AMD के लिए रिकॉर्ड तिमाही",
+        "fact": "AMD ने 2026 की तीसरी तिमाही में अपने इतिहास की सबसे महत्वपूर्ण और सबसे लाभदायक तिमाही हासिल की।",
+        "whyItMatters": "यह ऐतिहासिक प्रदर्शन डेटा केंद्रों के लिए तकनीकों की भारी मांग को दर्शाता है, जो एक तेजी से बढ़ता क्षेत्र है। यह इस बाजार में अपने मुख्य प्रतिस्पर्धियों के सामने AMD की स्थिति को एक अनिवार्य खिलाड़ी के रूप में पुष्टि करता है।",
+        "quiz": {
+          "question": "किस क्षेत्र ने मुख्य रूप से AMD की रिकॉर्ड तिमाही को आगे बढ़ाया?",
+          "choices": [
+            "कनेक्टेड वस्तुएं",
+            "मोबाइल टेलीफोनी",
+            "डेटा सेंटर"
+          ],
+          "explanation": "डेटा केंद्रों से जुड़ी गतिविधि को इस ऐतिहासिक प्रदर्शन के चालक के रूप में स्पष्ट रूप से उल्लेख किया गया है।"
+        }
+      },
+      "zh": {
+        "title": "得益于数据中心市场，AMD创下营收纪录",
+        "fact": "AMD在2026年第三季度迎来了其历史上规模最大、盈利最多的一季。",
+        "whyItMatters": "这一历史性表现彰显了市场对数据中心技术的高涨需求，该领域正处于蓬勃发展期。这也巩固了AMD在该市场上面对主要竞争对手时不可或缺的地位。",
+        "quiz": {
+          "question": "哪个行业主要推动了AMD创纪录的季度表现？",
+          "choices": [
+            "物联网",
+            "移动通信",
+            "数据中心"
+          ],
+          "explanation": "与数据中心相关的业务被明确指出是这一历史性业绩的驱动力。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-4b14c1a647b6",
+    "title": "JetBlue augmente ses frais de bagages",
+    "topic": "finance",
+    "subject": "Marchés",
+    "fact": "La compagnie aérienne JetBlue a relevé ses frais de bagages pour la troisième fois en un an en raison de la hausse du carburant.",
+    "whyItMatters": "Cette décision illustre l'impact direct de la cherté de l'énergie sur les coûts opérationnels du secteur aérien. Elle se traduit par une facture alourdie pour les passagers.",
+    "summary": "La compagnie aérienne JetBlue a relevé ses frais de bagages pour la troisième fois en un an en raison de la hausse du carburant. Cette décision illustre l'impact direct de la cherté de l'énergie sur les coûts opérationnels du secteur aérien. Elle se traduit par une facture alourdie pour les passagers.",
+    "source": "CNBC",
+    "sourceURL": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+    "publishedAt": "2026-11-03T22:26:20Z",
+    "quiz": {
+      "question": "Combien de fois JetBlue a-t-elle augmenté ses frais de bagages en un an ?",
+      "choices": [
+        "Deux fois",
+        "Une fois",
+        "Trois fois"
+      ],
+      "answerIndex": 2,
+      "explanation": "JetBlue a relevé ses frais de bagages pour la troisième fois en un an à cause de la hausse du carburant."
+    },
+    "translations": {
+      "en": {
+        "title": "JetBlue raises baggage fees again",
+        "fact": "Airline JetBlue has raised its baggage fees for the third time in a year due to rising fuel costs.",
+        "whyItMatters": "This move shows the direct impact of high energy prices on airline operating costs, resulting in a heavier bill for passengers.",
+        "quiz": {
+          "question": "How many times did JetBlue raise its baggage fees in a year?",
+          "choices": [
+            "Twice",
+            "Once",
+            "Three times"
+          ],
+          "explanation": "JetBlue raised its baggage fees for the third time in a year due to rising fuel costs."
+        }
+      },
+      "es": {
+        "title": "JetBlue sube sus tarifas de equipaje",
+        "fact": "La aerolínea JetBlue ha aumentado sus tarifas de equipaje por tercera vez en un año debido al encarecimiento del combustible.",
+        "whyItMatters": "Esta decisión refleja el impacto directo del coste de la energía en las aerolíneas, lo que se traduce en facturas más altas para los pasajeros.",
+        "quiz": {
+          "question": "¿Cuántas veces ha subido JetBlue sus tarifas de equipaje en un año?",
+          "choices": [
+            "Dos veces",
+            "Una vez",
+            "Tres veces"
+          ],
+          "explanation": "JetBlue aumentó sus tarifas de equipaje por tercera vez en un año debido al encarecimiento del combustible."
+        }
+      },
+      "hi": {
+        "title": "जेटब्लू ने बढ़ाई बैगेज फीस",
+        "fact": "ईंधन की कीमतों में बढ़ोतरी के कारण एयरलाइन जेटब्लू ने एक साल में तीसरी बार बैगेज फीस बढ़ा दी है।",
+        "whyItMatters": "यह फैसला विमानन क्षेत्र पर ऊर्जा की बढ़ती लागत के सीधे असर को दिखाता है। इससे यात्रियों पर आर्थिक बोझ बढ़ जाता है।",
+        "quiz": {
+          "question": "जेटब्लू ने एक साल में कितनी बार बैगेज फीस बढ़ाई है?",
+          "choices": [
+            "दो बार",
+            "एक बार",
+            "तीन बार"
+          ],
+          "explanation": "ईंधन की कीमतों में बढ़ोतरी के कारण जेटब्लू ने एक साल में तीसरी बार बैगेज फीस बढ़ाई है।"
+        }
+      },
+      "zh": {
+        "title": "JetBlue提高行李托运费",
+        "fact": "受燃油价格上涨影响，捷蓝航空（JetBlue）一年内第三次提高行李托运费。",
+        "whyItMatters": "此举凸显了能源价格高企对航空业运营成本的直接影响，也意味着乘客的出行负担进一步加重。",
+        "quiz": {
+          "question": "捷蓝航空在一年内将行李托运费提高了多少次？",
+          "choices": [
+            "两次",
+            "一次",
+            "三次"
+          ],
+          "explanation": "由于燃油价格上涨，捷蓝航空在一年内第三次提高了行李托运费。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-2f70d6c369eb",
+    "title": "La Russie veut des data centers souterrains face aux drones",
+    "topic": "tech",
+    "subject": "Cybersécurité",
+    "fact": "La Russie envisage de construire des centres de données souterrains pour protéger ses infrastructures numériques face aux attaques de drones ukrainiens.",
+    "whyItMatters": "Cette adaptation d'urgence illustre la vulnérabilité croissante des installations informatiques physiques en temps de conflit. Les opérateurs cherchent ainsi à sécuriser des équipements essentiels menacés par les frappes aériennes.",
+    "summary": "La Russie envisage de construire des centres de données souterrains pour protéger ses infrastructures numériques face aux attaques de drones ukrainiens. Cette adaptation d'urgence illustre la vulnérabilité croissante des installations informatiques physiques en temps de conflit. Les opérateurs cherchent ainsi à sécuriser des équipements essentiels menacés par les frappes aériennes.",
+    "source": "Ars Technica",
+    "sourceURL": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+    "publishedAt": "2026-11-03T20:39:55Z",
+    "quiz": {
+      "question": "Pourquoi la Russie envisage-t-elle des centres de données souterrains ?",
+      "choices": [
+        "Pour se protéger contre les frappes de drones ukrainiens",
+        "Pour réduire sa facture d'électricité",
+        "Pour stocker du matériel obsolète"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les attaques de drones poussent le pays à blinder son infrastructure numérique vulnérable."
+    },
+    "translations": {
+      "en": {
+        "title": "Russia plans underground data centers",
+        "fact": "Russia is considering building underground data centers to protect its digital infrastructure from Ukrainian drone attacks.",
+        "whyItMatters": "This emergency adaptation highlights the growing vulnerability of physical IT facilities during wartime, as operators seek to secure essential equipment threatened by airstrikes.",
+        "quiz": {
+          "question": "Why is Russia considering underground data centers?",
+          "choices": [
+            "To protect against Ukrainian drone strikes",
+            "To reduce its electricity bill",
+            "To store obsolete equipment"
+          ],
+          "explanation": "Drone attacks are pushing the country to armor its vulnerable digital infrastructure."
+        }
+      },
+      "es": {
+        "title": "Rusia planea centros de datos subterráneos",
+        "fact": "Rusia planea construir centros de datos subterráneos para proteger sus infraestructuras digitales ante los ataques de drones ucranianos.",
+        "whyItMatters": "Esta medida refleja la creciente vulnerabilidad de los equipos informáticos en tiempos de conflicto. Los operadores buscan asegurar instalaciones clave amenazadas por ataques aéreos.",
+        "quiz": {
+          "question": "¿Por qué Rusia planea centros de datos subterráneos?",
+          "choices": [
+            "Para protegerse de los ataques de drones ucranianos",
+            "Para reducir su factura de electricidad",
+            "Para almacenar equipos obsoletos"
+          ],
+          "explanation": "Los ataques de drones obligan al país a proteger su vulnerable infraestructura digital."
+        }
+      },
+      "hi": {
+        "title": "रूस बनाना चाहता है अंडरग्राउंड डेटा सेंटर",
+        "fact": "यूक्रेनी ड्रोन हमलों से अपने डिजिटल बुनियादी ढांचे को बचाने के लिए रूस भूमिगत डेटा सेंटर बनाने की योजना बना रहा है।",
+        "whyItMatters": "यह आपातकालीन कदम संघर्ष के समय भौतिक आईटी प्रतिष्ठानों की बढ़ती कमजोरी को दर्शाता है। ऑपरेटर हवाई हमलों के खतरे से निपटने की कोशिश कर रहे हैं।",
+        "quiz": {
+          "question": "रूस भूमिगत डेटा सेंटर बनाने पर क्यों विचार कर रहा है?",
+          "choices": [
+            "यूक्रेनी ड्रोन हमलों से बचाव के लिए",
+            "बिजली का बिल कम करने के लिए",
+            "पुराने उपकरण स्टोर करने के लिए"
+          ],
+          "explanation": "ड्रोन हमलों के कारण देश अपने संवेदनशील डिजिटल बुनियादी ढांचे को सुरक्षित करने में जुटा है।"
+        }
+      },
+      "zh": {
+        "title": "俄罗斯计划建地下数据中心防无人机",
+        "fact": "俄罗斯正计划建设地下数据中心，以保护其数字基础设施免受乌克兰无人机袭击。",
+        "whyItMatters": "这种应急改造反映出在冲突时期，实体计算设施的脆弱性日益增加。运营商正试图以此保护面临空袭威胁的关键设备。",
+        "quiz": {
+          "question": "为什么俄罗斯考虑建设地下数据中心？",
+          "choices": [
+            "为了防范乌克兰无人机空袭",
+            "为了降低电费开支",
+            "为了存放过时设备"
+          ],
+          "explanation": "无人机袭击促使该国对其脆弱的数字基础设施进行加固保护。"
+        }
+      }
+    }
+  },
+  {
     "id": "rss-fd8ac213e2a6",
     "title": "Le patrimoine des jeunes progresse plus vite",
     "topic": "finance",
