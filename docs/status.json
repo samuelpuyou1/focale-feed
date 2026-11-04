@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-04T20:37:34Z",
+  "ranAt": "2026-11-04T21:27:39Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
@@ -8,42 +8,47 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 15,
-    "finance": 15
+    "tech": 16,
+    "finance": 14
   },
   "byRegion": {
-    "fr": 9,
-    "en": 6,
-    "es": 5,
-    "in": 5,
-    "cn": 5
+    "fr": 10,
+    "en": 7,
+    "es": 7,
+    "in": 3,
+    "cn": 3
   },
   "quality": {
-    "fixed": 3,
-    "rejected": 2
+    "fixed": 0,
+    "rejected": 0
   },
-  "calls": 10,
+  "calls": 16,
   "totalCards": 200,
   "translated": {
     "en": 30,
     "es": 30,
     "hi": 30,
-    "zh": 30
+    "zh": 20
   },
   "untranslated": {
     "en": 0,
     "es": 0,
     "hi": 0,
-    "zh": 0
+    "zh": 10
   },
   "candidates": {
-    "tech": 366,
-    "finance": 242
+    "tech": 324,
+    "finance": 220
   },
   "errors": [
-    "réponse invalide (IT之家) : {\"i\": 1, \"title\": \"Huawei integre le nouveau modele openPangu-2.1-Pro\", \"fact\": \"Huawei a dote son assistant Xiaoyi Work du modele d'intelligence artificielle o",
-    "réponse invalide (cnBeta) : {\"i\": 2, \"title\": \"Voyager 1 bientot a une distance d'un jour-lumiere\", \"fact\": \"La sonde spatiale Voyager 1 s'apprete a atteindre une distance d'une journee de",
-    "réponse invalide (Tech Xplore) : {\"i\": 3, \"title\": \"Une methode inedite pour analyser les batteries solides\", \"fact\": \"Des chercheurs ont mis au point une technique de diffusion de neutrons pou",
-    "réponse invalide (Genbeta) : {\"i\": 6, \"title\": \"Anthropic attaque en justice pour les chansons d'Elvis\", \"fact\": \"Les detenteurs des droits de chansons d'Elvis Presley poursuivent Anthropic"
+    "réponse invalide (BFM Business) : {\"i\": 1, \"title\": \"Redductions d'effectifs dans la tech\", \"fact\": \"Meta et Google reduisent leurs effectifs tandis qu'Oracle et Tencent annulent un contrat de s",
+    "réponse invalide (Challenges) : {\"i\": 3, \"title\": \"Renault se lance dans les drones terrestres\", \"fact\": \"Renault s'associe au groupe belge John Cockerill pour produire le drone terrestre Fore",
+    "réponse invalide (CNBC) : {\"i\": 4, \"title\": \"Forte hausse des ventes pour E.l.f. Beauty\", \"fact\": \"E.l.f. Beauty a enregistre une augmentation de cinquante et un pour cent de ses ventes ",
+    "réponse invalide (Tech Xplore Business) : {\"i\": 7, \"title\": \"La publicite sur ChatGPT moins rentable\", \"fact\": \"Une etude montre que la publicite sur ChatGPT offre un rendement nettement inferieur a cel",
+    "réponse invalide (Expansión) : {\"i\": 8, \"title\": \"Elargissement du congres mondial de la mobile\", \"fact\": \"Le congres de telephonie mobile integre de nouvelles grandes entreprises issues de l",
+    "réponse invalide (BFM Business) : {\"i\": 1, \"title\": \"Station F devoile sa selection de 40 jeunes pousses\", \"fact\": \"L'incubateur Station F a presente sa liste des quarante startups les plus prom",
+    "réponse invalide (RBI) : {\"i\": 2, \"title\": \"La banque centrale indienne cree un comite financier\", \"fact\": \"La Reserve Bank of India a mis en place un comite consultatif technique dedie",
+    "réponse invalide (Le Figaro) : {\"i\": 1, \"title\": \"Mobiliser l'epargne africaine au Davos africain\", \"fact\": \"Des investisseurs et banquiers reunis en Angola cherchent a mobiliser l'epargne do",
+    "traduction zh — gemini-flash-lite-latest: Expecting ',' delimiter: line 18 column 15 (char 461)"
   ]
 }
