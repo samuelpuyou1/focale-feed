@@ -185,3 +185,28 @@ class RegionAndQualityTests(unittest.TestCase):
             self.assertEqual(bf.review_quality([card], {}, "k")[0], [card])
         finally:
             bf.call_gemini = original
+
+
+class GlossaryTests(unittest.TestCase):
+    def test_terms_must_appear_in_text(self):
+        raw = [{"term": "taux directeur", "definition": "Taux auquel la banque centrale prête aux banques."},
+               {"term": "inventé", "definition": "Ce terme n'est pas dans le texte de la carte."},
+               {"term": "BCE", "definition": "x"}]
+        terms = bf.clean_terms(raw, "La BCE baisse son taux directeur.", "Le crédit devient moins cher.")
+        self.assertEqual([t["term"] for t in terms], ["taux directeur"])
+
+    def test_at_most_two_terms_and_bad_input(self):
+        raw = [{"term": w, "definition": "Une définition assez longue."} for w in ("alpha", "beta", "gamma")]
+        self.assertEqual(len(bf.clean_terms(raw, "alpha beta gamma")), 2)
+        self.assertEqual(bf.clean_terms("pas une liste", "texte"), [])
+
+    def test_translation_drops_missing_terms_but_stays_valid(self):
+        card = {"quiz": {"choices": ["a", "b", "c"]}}
+        raw = {"title": "ECB cuts rates", "fact": "The ECB cut its key rate.", "whyItMatters": "Loans get cheaper.",
+               "quiz": {"question": "Who?", "choices": ["a", "b", "c"], "explanation": "The ECB."},
+               "terms": [{"term": "key rate", "definition": "The rate at which the central bank lends."},
+                         {"term": "taux directeur", "definition": "Non traduit, absent du texte anglais."}]}
+        out = bf.valid_translation(raw, card)
+        self.assertIsNotNone(out)
+        self.assertEqual([t["term"] for t in out["terms"]], ["key rate"])
+

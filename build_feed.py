@@ -216,13 +216,16 @@ Règles :
   les mauvais choix sont du même type que la bonne réponse et crédibles pour qui n'a pas lu la carte
   (jamais de noms inventés ni de réponse absurde) ;
   "answer" = le texte exact du bon choix ; "explanation" = une phrase.
+- "terms" : 0 à 2 termes techniques de "fact" ou "whyItMatters" qu'un lecteur non spécialiste ne connaît pas
+  forcément (sigle, notion financière ou technique), écrits EXACTEMENT comme dans le texte ; "definition" = une phrase
+  simple de 140 caractères au plus. Liste vide si aucun terme ne le mérite ; jamais de nom de personne ou d'entreprise.
 - Garde les annonces de produits, les tests et les décisions d'entreprises : ce sont de vraies actus.
 - Une seule carte par événement : mets "skip": true si l'article raconte le même événement qu'un sujet
   « déjà couvert » (même sous un autre angle ou par un autre média), ou qu'un article précédent de ce lot.
 - Mets aussi "skip": true si l'extrait est vide de faits, ou si c'est un guide d'achat, un bon plan, une promotion,
   du sport, du divertissement, un fait divers ou de la politique sans enjeu {topic_label}.
 Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters", "subject",
-"quiz": {{"question", "choices", "answer", "explanation"}}}} ou {{"i": <numéro>, "skip": true}}]}}, une entrée par article.
+"quiz": {{"question", "choices", "answer", "explanation"}}, "terms": [{{"term", "definition"}}]}} ou {{"i": <numéro>, "skip": true}}]}}, une entrée par article.
 
 Déjà couvert :
 {covered}
@@ -272,16 +275,41 @@ TRANSLATE_PROMPT = """Traduis ces cartes d'actualité du français vers le {lang
 Style naturel, clair et concis, pas de mot à mot. Garde les noms propres, les chiffres et les sigles.
 N'ajoute ni ne retire aucune information. Garde les choix du quiz dans le même ordre et au même nombre.
 Le titre reste court : 60 caractères au plus.
+"terms" : traduis chaque terme tel qu'il apparaît dans ta traduction de "fact" ou "whyItMatters", et sa définition.
 Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters",
-"quiz": {{"question", "choices", "explanation"}}}}]}}, une entrée par carte.
+"quiz": {{"question", "choices", "explanation"}}, "terms": [{{"term", "definition"}}]}}]}}, une entrée par carte.
 
 {cards}"""
 
 
 def translation_source(card: dict) -> dict:
     quiz = card["quiz"]
-    return {"title": card["title"], "fact": card["fact"], "whyItMatters": card["whyItMatters"],
-            "quiz": {"question": quiz["question"], "choices": quiz["choices"], "explanation": quiz["explanation"]}}
+    source = {"title": card["title"], "fact": card["fact"], "whyItMatters": card["whyItMatters"],
+              "quiz": {"question": quiz["question"], "choices": quiz["choices"], "explanation": quiz["explanation"]}}
+    if card.get("terms"):
+        source["terms"] = card["terms"]
+    return source
+
+
+def clean_terms(raw, *texts: str, limit: int = 2) -> list[dict]:
+    """Glossaire : termes présents tels quels dans le texte de la carte, avec une définition courte. Le reste est ignoré."""
+    if not isinstance(raw, list):
+        return []
+    body = " ".join(texts).casefold()
+    terms: list[dict] = []
+    for entry in raw:
+        if not isinstance(entry, dict):
+            continue
+        term = str(entry.get("term", "")).strip()
+        definition = str(entry.get("definition", "")).strip()
+        if not (2 <= len(term) <= 40 and 10 <= len(definition) <= 180) or term.casefold() not in body:
+            continue
+        if any(t["term"].casefold() == term.casefold() for t in terms):
+            continue
+        terms.append({"term": term, "definition": definition})
+        if len(terms) == limit:
+            break
+    return terms
 
 
 def valid_translation(raw, card: dict) -> dict | None:
@@ -301,6 +329,10 @@ def valid_translation(raw, card: dict) -> dict | None:
     choices = out["quiz"]["choices"]
     if not all(texts) or len(out["title"]) > 140 or len(choices) != len(card["quiz"]["choices"]) or not all(choices):
         return None
+    # Un terme mal traduit (absent du texte traduit) est retiré, sans invalider la traduction.
+    terms = clean_terms(raw.get("terms"), out["fact"], out["whyItMatters"])
+    if terms:
+        out["terms"] = terms
     return out
 
 
@@ -489,7 +521,7 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
         return None
 
     rng.shuffle(choices)  # la bonne réponse n'est pas toujours au même endroit
-    return {
+    card = {
         "id": item["id"],
         "title": title[:90],
         "topic": item["topic"],
@@ -508,6 +540,10 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
             "explanation": explanation,
         },
     }
+    terms = clean_terms(raw.get("terms"), fact, why)
+    if terms:
+        card["terms"] = terms
+    return card
 
 
 # ---------------------------------------------------------------- Régions
@@ -556,6 +592,12 @@ def apply_correction(card: dict, fix: dict, topic_subjects: list[str]) -> dict:
     if not valid:
         return card
     fixed["summary"] = f"{fixed['fact']} {fixed['whyItMatters']}"
+    # Le texte corrigé peut ne plus contenir un terme du glossaire.
+    terms = clean_terms(card.get("terms"), fixed["fact"], fixed["whyItMatters"])
+    if terms:
+        fixed["terms"] = terms
+    else:
+        fixed.pop("terms", None)
     return fixed
 
 
