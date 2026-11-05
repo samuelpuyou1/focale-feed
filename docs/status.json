@@ -1,34 +1,34 @@
 {
-  "ranAt": "2026-11-04T21:27:39Z",
+  "ranAt": "2026-11-05T12:54:38Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.1-flash",
     "gemini-flash-lite-latest"
   ],
-  "newCards": 30,
+  "newCards": 0,
   "byTopic": {
-    "tech": 16,
-    "finance": 14
+    "tech": 0,
+    "finance": 0
   },
   "byRegion": {
-    "fr": 10,
-    "en": 7,
-    "es": 7,
-    "in": 3,
-    "cn": 3
+    "fr": 0,
+    "en": 0,
+    "es": 0,
+    "in": 0,
+    "cn": 0
   },
   "quality": {
     "fixed": 0,
     "rejected": 0
   },
-  "calls": 16,
+  "calls": 3,
   "totalCards": 200,
   "translated": {
-    "en": 30,
-    "es": 30,
-    "hi": 30,
-    "zh": 20
+    "en": 0,
+    "es": 0,
+    "hi": 0,
+    "zh": 0
   },
   "untranslated": {
     "en": 0,
@@ -37,18 +37,14 @@
     "zh": 10
   },
   "candidates": {
-    "tech": 324,
-    "finance": 220
+    "tech": 383,
+    "finance": 215
   },
   "errors": [
-    "réponse invalide (BFM Business) : {\"i\": 1, \"title\": \"Redductions d'effectifs dans la tech\", \"fact\": \"Meta et Google reduisent leurs effectifs tandis qu'Oracle et Tencent annulent un contrat de s",
-    "réponse invalide (Challenges) : {\"i\": 3, \"title\": \"Renault se lance dans les drones terrestres\", \"fact\": \"Renault s'associe au groupe belge John Cockerill pour produire le drone terrestre Fore",
-    "réponse invalide (CNBC) : {\"i\": 4, \"title\": \"Forte hausse des ventes pour E.l.f. Beauty\", \"fact\": \"E.l.f. Beauty a enregistre une augmentation de cinquante et un pour cent de ses ventes ",
-    "réponse invalide (Tech Xplore Business) : {\"i\": 7, \"title\": \"La publicite sur ChatGPT moins rentable\", \"fact\": \"Une etude montre que la publicite sur ChatGPT offre un rendement nettement inferieur a cel",
-    "réponse invalide (Expansión) : {\"i\": 8, \"title\": \"Elargissement du congres mondial de la mobile\", \"fact\": \"Le congres de telephonie mobile integre de nouvelles grandes entreprises issues de l",
-    "réponse invalide (BFM Business) : {\"i\": 1, \"title\": \"Station F devoile sa selection de 40 jeunes pousses\", \"fact\": \"L'incubateur Station F a presente sa liste des quarante startups les plus prom",
-    "réponse invalide (RBI) : {\"i\": 2, \"title\": \"La banque centrale indienne cree un comite financier\", \"fact\": \"La Reserve Bank of India a mis en place un comite consultatif technique dedie",
-    "réponse invalide (Le Figaro) : {\"i\": 1, \"title\": \"Mobiliser l'epargne africaine au Davos africain\", \"fact\": \"Des investisseurs et banquiers reunis en Angola cherchent a mobiliser l'epargne do",
-    "traduction zh — gemini-flash-lite-latest: Expecting ',' delimiter: line 18 column 15 (char 461)"
+    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "seulement 0 cartes (objectif 24) : ajouter des sources dans sources.json",
+    "traduction zh — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
   ]
 }
