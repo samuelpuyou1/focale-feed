@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-06T20:49:41Z",
+  "ranAt": "2026-11-06T20:53:02Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
@@ -30,8 +30,8 @@
     "gemini-omni-1.1-flash": 2
   },
   "quotaErrors": {
-    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0"
+    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0"
   },
   "totalCards": 200,
   "translated": {
@@ -53,6 +53,6 @@
   "errors": [
     "arrêt : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
     "seulement 0 cartes (objectif 24) : ajouter des sources dans sources.json",
-    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0"
+    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0"
   ]
 }
