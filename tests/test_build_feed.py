@@ -221,3 +221,18 @@ class QuotaDiagnosticTests(unittest.TestCase):
         self.assertIn("GenerateRequestsPerDayPerProjectPerModel-FreeTier", text)
         self.assertIn("limite 20", text)
 
+
+class TopicAndSourceTests(unittest.TestCase):
+    def test_topic_follows_subject(self):
+        self.assertEqual(bf.topic_for("Macro", "tech"), "finance")
+        self.assertEqual(bf.topic_for("Cybersécurité", "finance"), "tech")
+        self.assertEqual(bf.topic_for("Startups", "finance"), "finance", "Sujet commun : thème de la source")
+        self.assertEqual(bf.topic_for("Startups", "tech"), "tech")
+
+    def test_chinese_sources_have_latin_display_names(self):
+        import json
+        sources = json.loads(bf.SOURCES.read_text(encoding="utf-8"))
+        for source in sources:
+            name = source.get("display", source["name"])
+            self.assertTrue(all(ord(ch) < 0x2E80 for ch in name), f"nom illisible hors de Chine : {name}")
+

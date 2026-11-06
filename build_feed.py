@@ -41,6 +41,12 @@ SUBJECTS = {
 }
 ALL_SUBJECTS = sorted({s for subjects in SUBJECTS.values() for s in subjects})
 
+
+def topic_for(subject: str, source_topic: str) -> str:
+    """Le thème suit le sujet choisi (« Macro » est toujours Finance) ; un sujet commun aux deux garde celui de la source."""
+    topics = [t for t, subjects in SUBJECTS.items() if subject in subjects]
+    return source_topic if source_topic in topics or not topics else topics[0]
+
 PER_TOPIC = 15           # objectif par thème et par jour
 DAILY_TARGET = 30        # objectif total : un thème en manque est complété par l'autre
 DAILY_MIN = 24           # en dessous, le rapport le signale
@@ -181,7 +187,8 @@ def collect(sources: list[dict], known_ids: set[str], now: datetime) -> dict[str
             cid = card_id(item["link"])
             if cid in known_ids:
                 continue
-            item.update(id=cid, source=source["name"], topic=source["topic"], region=source.get("region", "fr"),
+            # Nom lisible par tous (les médias chinois ont un nom latin) ; le nom d'origine reste dans sources.json.
+            item.update(id=cid, source=source.get("display", source["name"]), topic=source["topic"], region=source.get("region", "fr"),
                         published=item["published"] or now)
             fresh.append(item)
         fresh.sort(key=lambda i: i["published"], reverse=True)
@@ -213,10 +220,13 @@ Règles :
 - "whyItMatters" : 2 phrases qui expliquent l'enjeu pour un lecteur non spécialiste (« Pourquoi ça compte »).
 - "subject" : un seul parmi {subjects}, celui qui décrit le cœur de l'actu. « Marchés » = Bourse, actions, indices,
   taux ou matières premières ; « Macro » = économie générale, emploi, inflation, budgets ; les résultats ou difficultés
-  d'une entreprise non cotée ou d'une enseigne relèvent de « Macro » sauf si l'article parle de son cours de Bourse.
+  d'une entreprise non cotée ou d'une enseigne relèvent de « Macro » sauf si l'article parle de son cours de Bourse ;
+  « Fintech » = paiements, néobanques, cartes, crédit en ligne, services financiers numériques.
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
   les mauvais choix sont du même type que la bonne réponse et crédibles pour qui n'a pas lu la carte
-  (jamais de noms inventés ni de réponse absurde) ;
+  (jamais de noms inventés ni de réponse absurde) ; la réponse ne doit PAS se lire dans le titre (interroge plutôt
+  sur la cause, la conséquence ou un détail du « fait ») ; pas de mot qui trahit un mauvais choix (« exactement »,
+  « uniquement », « jamais », « toujours ») ;
   "answer" = le texte exact du bon choix ; "explanation" = une phrase.
 - "terms" : 0 à 2 termes techniques de "fact" ou "whyItMatters" qu'un lecteur non spécialiste ne connaît pas
   forcément (sigle, notion financière ou technique), écrits EXACTEMENT comme dans le texte ; "definition" = une phrase
@@ -275,7 +285,8 @@ def review_duplicates(new_cards: list[dict], recent: list[dict], api_key: str) -
 
 TRANSLATE_PROMPT = """Traduis ces cartes d'actualité du français vers le {language}, pour une app d'actualité grand public.
 Style naturel, clair et concis, pas de mot à mot. Garde les noms propres, les chiffres et les sigles.
-N'ajoute ni ne retire aucune information. Garde les choix du quiz dans le même ordre et au même nombre.
+N'ajoute ni ne retire aucune information, et ne crée aucun lien de cause absent du texte français.
+Garde les choix du quiz dans le même ordre et au même nombre. Relis l'orthographe de chaque mot avant de répondre.
 Le titre reste court : 60 caractères au plus.
 "terms" : traduis chaque terme tel qu'il apparaît dans ta traduction de "fact" ou "whyItMatters", et sa définition.
 Réponds uniquement en JSON : {{"cards": [{{"i": <numéro>, "title", "fact", "whyItMatters",
@@ -541,7 +552,7 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
     card = {
         "id": item["id"],
         "title": title[:90],
-        "topic": item["topic"],
+        "topic": topic_for(subject, item["topic"]),
         "subject": subject,
         "fact": fact,
         "whyItMatters": why,
@@ -681,9 +692,14 @@ def main() -> int:
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
     existing = load_existing()
     # Une source retirée de sources.json (conditions incompatibles…) disparaît aussi des cartes déjà publiées.
-    active = {s["name"] for s in sources}
+    active = {s["name"] for s in sources} | {s["display"] for s in sources if "display" in s}
     removed = [c for c in existing if c.get("source") not in active]
     existing = [c for c in existing if c.get("source") in active]
+    # Cartes déjà publiées : nom lisible et thème cohérent avec le sujet.
+    names = {s["name"]: s["display"] for s in sources if "display" in s}
+    for card in existing:
+        card["source"] = names.get(card.get("source"), card.get("source"))
+        card["topic"] = topic_for(card.get("subject", ""), card.get("topic", "tech"))
     if removed:
         print(f"  - {len(removed)} cartes retirées (sources supprimées)")
     print(f"Flux RSS ({len(sources)} sources), {len(existing)} cartes déjà publiées")
