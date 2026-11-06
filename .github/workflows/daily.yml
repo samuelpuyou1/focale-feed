@@ -2,11 +2,12 @@ name: Daily feed
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # chaque jour à 5 h UTC (6 h ou 7 h à Paris)
+    # Le quota gratuit de Gemini repart à minuit, heure du Pacifique (8 h ou 9 h UTC) : on passe juste après.
+    - cron: "15 9 * * *"
+    # Rattrapage (surcharge, quota par minute) : ne fait rien si la journée a déjà ses cartes.
+    - cron: "15 15 * * *"
   workflow_dispatch:       # bouton « Run workflow »
-  push:                    # relance quand le script ou les sources changent
-    branches: [main]
-    paths: ["build_feed.py", "sources.json", ".github/workflows/daily.yml"]
+  # Pas de relance à chaque poussée : chaque lancement consomme le quota du jour.
 
 permissions:
   contents: write
@@ -31,6 +32,8 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Lancement à la main : toujours exécuté, même si la journée a déjà ses cartes.
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python build_feed.py
       - name: Publier (cartes + rapport, même en cas d'échec)
         run: |

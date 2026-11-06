@@ -47,13 +47,13 @@ DAILY_MIN = 24           # en dessous, le rapport le signale
 # Cartes par région de source et par jour (l'app montre ~1 carte sur 3 de la région de la langue choisie).
 # fr = France, en = monde anglophone, es = Espagne, in = Inde, cn = Chine.
 REGION_QUOTA = {"fr": 8, "en": 8, "es": 5, "in": 5, "cn": 4}
-BATCH_SIZE = 8           # articles envoyés à l'IA par requête (moins d'appels, quota préservé)
-MAX_CALLS = 40           # plafond de requêtes par lancement
+BATCH_SIZE = 12          # articles envoyés à l'IA par requête (moins d'appels, quota préservé)
+MAX_CALLS = 20           # plafond de requêtes de rédaction par lancement
 DUP_THRESHOLD = 0.28     # recouvrement de mots (titre + fait) au-delà duquel deux cartes racontent la même actu
 COVERED_DAYS = 3         # sujets récents rappelés à l'IA pour éviter les redites
 TRANSLATIONS = {"en": "anglais", "es": "espagnol", "hi": "hindi", "zh": "chinois simplifié"}
-TRANSLATE_BATCH = 10     # cartes traduites par requête
-TRANSLATE_MAX_CALLS = 24 # plafond de requêtes de traduction par lancement (nouvelles cartes d'abord, puis rattrapage)
+TRANSLATE_BATCH = 15     # cartes traduites par requête
+TRANSLATE_MAX_CALLS = 12 # plafond de requêtes de traduction par lancement (nouvelles cartes d'abord, puis rattrapage)
 SPARE = 4                # cartes de réserve produites en plus, pour remplacer les doublons écartés à la relecture
 ACCENTS = set("éèêëàâäîïôöùûüçÉÈÊÀÇ")
 MAX_AGE_HOURS = 36       # fraîcheur des articles retenus
@@ -69,6 +69,8 @@ STATUS = ROOT / "docs" / "status.json"
 SEEN = ROOT / "docs" / "seen.json"   # articles déjà soumis à l'IA (gardés ou écartés) : jamais renvoyés
 MODELS: list[str] = []      # rempli par discover_models()
 ERRORS: list[str] = []      # résumé publié dans docs/status.json (sans la clé)
+API_CALLS: dict[str, int] = {}   # requêtes envoyées par modèle (toutes étapes), publiées dans le rapport
+QUOTA_ERRORS: dict[str, str] = {}  # dernier refus de quota par modèle : quota, limite
 DELAY_SECONDS = float(os.environ.get("GEMINI_DELAY", "7"))  # reste sous la limite gratuite par minute
 
 
@@ -426,6 +428,15 @@ def discover_models(api_key: str) -> list[str]:
     return ordered[:4] or PREFERRED_MODELS
 
 
+def quota_detail(detail: str) -> str:
+    """Résumé lisible d'un refus 429 : quel quota (par jour, par minute), quelle limite."""
+    metric = re.search(r"Quota exceeded for metric: ([^,\n\\]+)", detail)
+    limit = re.search(r"limit: (\d+)", detail)
+    quota_id = re.search(r'"quotaId":\s*"([^"]+)"', detail)
+    parts = [m.group(1).split("/")[-1] for m in (metric, quota_id) if m] + ([f"limite {limit.group(1)}"] if limit else [])
+    return ", ".join(parts) or detail[:160]
+
+
 def call_gemini(prompt: str, api_key: str) -> dict:
     body = json.dumps({
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -437,19 +448,25 @@ def call_gemini(prompt: str, api_key: str) -> dict:
             req = urllib.request.Request(
                 GEMINI_URL.format(model=model), data=body, method="POST",
                 headers={"Content-Type": "application/json", "x-goog-api-key": api_key})
+            API_CALLS[model] = API_CALLS.get(model, 0) + 1
             try:
                 with urllib.request.urlopen(req, timeout=150) as resp:
                     payload = json.loads(resp.read())
                 text = payload["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
             except urllib.error.HTTPError as error:
-                detail = error.read()[:400].decode("utf-8", "replace")
-                last_error = GeminiError(f"{model}: HTTP {error.code} {detail}")
+                detail = error.read()[:3000].decode("utf-8", "replace")
+                last_error = GeminiError(f"{model}: HTTP {error.code} {detail[:200]}")
                 if error.code == 429:
+                    QUOTA_ERRORS[model] = quota_detail(detail)
+                    last_error = GeminiError(f"{model}: HTTP 429 {QUOTA_ERRORS[model]}")
                     # Quota du jour épuisé ou offre gratuite indisponible : on passe au modèle suivant.
-                    if "PerDay" in detail or "limit: 0" in detail or "free_tier" in detail.lower():
+                    if "PerDay" in detail or "limit: 0" in detail:
                         break
                     time.sleep(20 * (attempt + 1))  # quota par minute : on attend puis on réessaie
+                    continue
+                if error.code in (500, 503):
+                    time.sleep(15 * (attempt + 1))  # modèle surchargé : il se libère souvent en quelques secondes
                     continue
                 if error.code in (400, 401, 403):
                     raise QuotaExhausted(str(last_error))  # clé invalide ou refusée : inutile d'insister
@@ -688,6 +705,17 @@ def main() -> int:
                                      ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         return 1
 
+    # Lancement de rattrapage : si la journée a déjà son compte de cartes, on ne consomme pas de quota.
+    if STATUS.exists():
+        try:
+            last = json.loads(STATUS.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            last = {}
+        if last.get("ranAt", "")[:10] == now.strftime("%Y-%m-%d") and last.get("newCards", 0) >= DAILY_MIN \
+                and not os.environ.get("FORCE_RUN"):
+            print(f"Déjà {last['newCards']} cartes aujourd'hui : rien à faire.")
+            return 0
+
     MODELS[:] = discover_models(api_key)
     rng = random.Random(now.strftime("%Y%m%d"))
     new_cards: list[dict] = []
@@ -767,6 +795,7 @@ def main() -> int:
     STATUS.write_text(json.dumps({
         "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "byRegion": made_region,
         "quality": {"fixed": fixed, "rejected": rejected}, "calls": calls,
+        "apiCalls": API_CALLS, "quotaErrors": QUOTA_ERRORS,
         "totalCards": len(cards), "translated": translated, "untranslated": missing, "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")

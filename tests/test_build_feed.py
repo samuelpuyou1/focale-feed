@@ -210,3 +210,14 @@ class GlossaryTests(unittest.TestCase):
         self.assertIsNotNone(out)
         self.assertEqual([t["term"] for t in out["terms"]], ["key rate"])
 
+
+class QuotaDiagnosticTests(unittest.TestCase):
+    def test_quota_detail_names_metric_and_limit(self):
+        detail = ('{"error": {"code": 429, "message": "You exceeded your current quota. \\n* Quota exceeded for metric: '
+                  'generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash", '
+                  '"details": [{"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]}}')
+        text = bf.quota_detail(detail)
+        self.assertIn("generate_content_free_tier_requests", text)
+        self.assertIn("GenerateRequestsPerDayPerProjectPerModel-FreeTier", text)
+        self.assertIn("limite 20", text)
+
