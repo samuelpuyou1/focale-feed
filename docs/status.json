@@ -1,10 +1,10 @@
 {
-  "ranAt": "2026-11-05T12:54:38Z",
+  "ranAt": "2026-11-06T12:41:27Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
-    "gemini-omni-1.1-flash",
-    "gemini-flash-lite-latest"
+    "gemini-omni-1.2-flash",
+    "gemini-omni-1.1-flash"
   ],
   "newCards": 0,
   "byTopic": {
@@ -22,7 +22,7 @@
     "fixed": 0,
     "rejected": 0
   },
-  "calls": 3,
+  "calls": 1,
   "totalCards": 200,
   "translated": {
     "en": 0,
@@ -37,14 +37,12 @@
     "zh": 10
   },
   "candidates": {
-    "tech": 383,
-    "finance": 215
+    "tech": 462,
+    "finance": 248
   },
   "errors": [
-    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-    "lot tech — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "arrêt : gemini-omni-1.1-flash: HTTP 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generat",
     "seulement 0 cartes (objectif 24) : ajouter des sources dans sources.json",
-    "traduction zh — gemini-flash-lite-latest: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapi"
   ]
 }
