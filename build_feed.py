@@ -77,6 +77,8 @@ MODELS: list[str] = []      # rempli par discover_models()
 ERRORS: list[str] = []      # résumé publié dans docs/status.json (sans la clé)
 API_CALLS: dict[str, int] = {}   # requêtes envoyées par modèle (toutes étapes), publiées dans le rapport
 QUOTA_ERRORS: dict[str, str] = {}  # dernier refus de quota par modèle : quota, limite
+MODEL_ERRORS: dict[str, str] = {}  # dernière erreur par modèle (code HTTP et message court), pour le diagnostic
+AVAILABLE_MODELS: list[str] = []   # modèles Flash que la clé peut appeler
 DELAY_SECONDS = float(os.environ.get("GEMINI_DELAY", "7"))  # reste sous la limite gratuite par minute
 
 
@@ -435,8 +437,9 @@ def discover_models(api_key: str) -> list[str]:
     flash = [m for m in available if "flash" in m and not any(x in m for x in ("image", "tts", "live", "audio", "exp", "thinking"))]
     ordered = [m for m in PREFERRED_MODELS if m in flash]
     ordered += sorted((m for m in flash if m not in ordered and "preview" not in m), reverse=True)
-    print(f"  Modèles Flash disponibles : {', '.join(ordered[:6]) or 'aucun'}")
-    return ordered[:4] or PREFERRED_MODELS
+    print(f"  Modèles Flash disponibles : {', '.join(ordered) or 'aucun'}")
+    AVAILABLE_MODELS[:] = ordered
+    return ordered[:8] or PREFERRED_MODELS
 
 
 def quota_detail(detail: str) -> str:
@@ -468,6 +471,8 @@ def call_gemini(prompt: str, api_key: str) -> dict:
             except urllib.error.HTTPError as error:
                 detail = error.read()[:3000].decode("utf-8", "replace")
                 last_error = GeminiError(f"{model}: HTTP {error.code} {detail[:200]}")
+                message = re.search(r'"message":\s*"([^"]{0,160})', detail)
+                MODEL_ERRORS[model] = f"HTTP {error.code} {message.group(1) if message else detail[:160]}"
                 if error.code == 429:
                     QUOTA_ERRORS[model] = quota_detail(detail)
                     last_error = GeminiError(f"{model}: HTTP 429 {QUOTA_ERRORS[model]}")
@@ -484,6 +489,7 @@ def call_gemini(prompt: str, api_key: str) -> dict:
                 break                          # modèle indisponible : modèle suivant
             except (KeyError, IndexError, json.JSONDecodeError, urllib.error.URLError, TimeoutError) as error:
                 last_error = GeminiError(f"{model}: {error}")
+                MODEL_ERRORS[model] = f"{type(error).__name__}: {str(error)[:160]}"
                 time.sleep(3)
     if last_error and "HTTP 429" in str(last_error):
         raise QuotaExhausted(str(last_error))
@@ -811,7 +817,7 @@ def main() -> int:
     STATUS.write_text(json.dumps({
         "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "byRegion": made_region,
         "quality": {"fixed": fixed, "rejected": rejected}, "calls": calls,
-        "apiCalls": API_CALLS, "quotaErrors": QUOTA_ERRORS,
+        "apiCalls": API_CALLS, "quotaErrors": QUOTA_ERRORS, "modelErrors": MODEL_ERRORS, "availableModels": AVAILABLE_MODELS,
         "totalCards": len(cards), "translated": translated, "untranslated": missing, "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{len(new_cards)} nouvelles cartes, {len(cards)} au total → {OUTPUT.relative_to(ROOT)}")
