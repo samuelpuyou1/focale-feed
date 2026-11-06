@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-06T12:41:27Z",
+  "ranAt": "2026-11-06T20:49:41Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
@@ -23,6 +23,16 @@
     "rejected": 0
   },
   "calls": 1,
+  "apiCalls": {
+    "gemini-2.5-flash": 2,
+    "gemini-2.5-flash-lite": 2,
+    "gemini-omni-1.2-flash": 2,
+    "gemini-omni-1.1-flash": 2
+  },
+  "quotaErrors": {
+    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0"
+  },
   "totalCards": 200,
   "translated": {
     "en": 0,
@@ -37,12 +47,12 @@
     "zh": 10
   },
   "candidates": {
-    "tech": 462,
-    "finance": 248
+    "tech": 443,
+    "finance": 247
   },
   "errors": [
-    "arrêt : gemini-omni-1.1-flash: HTTP 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generat",
+    "arrêt : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
     "seulement 0 cartes (objectif 24) : ajouter des sources dans sources.json",
-    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapi"
+    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0"
   ]
 }
