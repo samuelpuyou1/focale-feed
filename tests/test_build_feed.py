@@ -236,3 +236,44 @@ class TopicAndSourceTests(unittest.TestCase):
             name = source.get("display", source["name"])
             self.assertTrue(all(ord(ch) < 0x2E80 for ch in name), f"nom illisible hors de Chine : {name}")
 
+
+class DeadModelTests(unittest.TestCase):
+    def test_retired_model_is_skipped_for_the_rest_of_the_run(self):
+        import io, urllib.error
+        calls = []
+
+        def fake_urlopen(req, timeout=0):
+            model = req.full_url.split("/models/")[1].split(":")[0]
+            calls.append(model)
+            if model == "old":
+                raise urllib.error.HTTPError(req.full_url, 404, "gone", {}, io.BytesIO(b'{"error":{"message":"no longer available"}}'))
+            body = b'{"candidates":[{"content":{"parts":[{"text":"{\\"ok\\": true}"}]}}]}'
+            return io.BytesIO(body)
+
+        class Ctx(io.BytesIO):
+            pass
+
+        original, saved_models = bf.urllib.request.urlopen, list(bf.MODELS)
+        try:
+            bf.urllib.request.urlopen = lambda req, timeout=0: _Wrap(fake_urlopen(req, timeout))
+            bf.MODELS[:] = ["old", "new"]
+            bf.DEAD_MODELS.clear()
+            self.assertEqual(bf.call_gemini("p", "k"), {"ok": True})
+            self.assertEqual(bf.call_gemini("p", "k"), {"ok": True})
+            self.assertEqual(calls, ["old", "new", "new"], "Le modèle retiré n'est appelé qu'une fois")
+        finally:
+            bf.urllib.request.urlopen = original
+            bf.MODELS[:] = saved_models
+            bf.DEAD_MODELS.clear()
+
+
+class _Wrap:
+    def __init__(self, inner):
+        self.inner = inner
+
+    def __enter__(self):
+        return self.inner
+
+    def __exit__(self, *args):
+        return False
+

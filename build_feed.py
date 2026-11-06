@@ -68,7 +68,7 @@ MAX_CARDS = 200
 EXCERPT_CHARS = 600
 USER_AGENT = "FocaleFeed/1.0 (+https://github.com/focale-feed)"
 
-PREFERRED_MODELS = [m for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m]
+PREFERRED_MODELS = [m for m in os.environ.get("GEMINI_MODELS", "gemini-flash-latest,gemini-flash-lite-latest").split(",") if m]
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 GEMINI_URL = API_ROOT + "/models/{model}:generateContent"
 STATUS = ROOT / "docs" / "status.json"
@@ -79,6 +79,7 @@ API_CALLS: dict[str, int] = {}   # requêtes envoyées par modèle (toutes étap
 QUOTA_ERRORS: dict[str, str] = {}  # dernier refus de quota par modèle : quota, limite
 MODEL_ERRORS: dict[str, str] = {}  # dernière erreur par modèle (code HTTP et message court), pour le diagnostic
 AVAILABLE_MODELS: list[str] = []   # modèles Flash que la clé peut appeler
+DEAD_MODELS: set[str] = set()      # retirés (404) ou fermés à l'offre gratuite (limite 0) : plus essayés de ce lancement
 DELAY_SECONDS = float(os.environ.get("GEMINI_DELAY", "7"))  # reste sous la limite gratuite par minute
 
 
@@ -457,7 +458,7 @@ def call_gemini(prompt: str, api_key: str) -> dict:
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.4},
     }).encode("utf-8")
     last_error: Exception | None = None
-    for model in MODELS:
+    for model in [m for m in MODELS if m not in DEAD_MODELS]:
         for attempt in range(3):
             req = urllib.request.Request(
                 GEMINI_URL.format(model=model), data=body, method="POST",
@@ -476,14 +477,20 @@ def call_gemini(prompt: str, api_key: str) -> dict:
                 if error.code == 429:
                     QUOTA_ERRORS[model] = quota_detail(detail)
                     last_error = GeminiError(f"{model}: HTTP 429 {QUOTA_ERRORS[model]}")
-                    # Quota du jour épuisé ou offre gratuite indisponible : on passe au modèle suivant.
-                    if "PerDay" in detail or "limit: 0" in detail:
+                    # Offre gratuite fermée pour ce modèle : on ne le réessaie plus de ce lancement.
+                    if "limit: 0" in detail:
+                        DEAD_MODELS.add(model)
+                        break
+                    if "PerDay" in detail:  # quota du jour épuisé : modèle suivant
                         break
                     time.sleep(20 * (attempt + 1))  # quota par minute : on attend puis on réessaie
                     continue
                 if error.code in (500, 503):
                     time.sleep(15 * (attempt + 1))  # modèle surchargé : il se libère souvent en quelques secondes
                     continue
+                if error.code == 404:
+                    DEAD_MODELS.add(model)  # modèle retiré (« no longer available ») : modèle suivant
+                    break
                 if error.code in (400, 401, 403):
                     raise QuotaExhausted(str(last_error))  # clé invalide ou refusée : inutile d'insister
                 break                          # modèle indisponible : modèle suivant
