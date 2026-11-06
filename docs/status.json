@@ -1,58 +1,82 @@
 {
-  "ranAt": "2026-11-06T20:53:02Z",
+  "ranAt": "2026-11-06T20:55:23Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-flash-lite",
     "gemini-omni-1.2-flash",
-    "gemini-omni-1.1-flash"
+    "gemini-omni-1.1-flash",
+    "gemini-flash-lite-latest",
+    "gemini-flash-latest",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash"
   ],
-  "newCards": 0,
+  "newCards": 27,
   "byTopic": {
-    "tech": 0,
-    "finance": 0
+    "tech": 12,
+    "finance": 15
   },
   "byRegion": {
-    "fr": 0,
-    "en": 0,
-    "es": 0,
-    "in": 0,
-    "cn": 0
+    "fr": 8,
+    "en": 8,
+    "es": 5,
+    "in": 2,
+    "cn": 4
   },
   "quality": {
     "fixed": 0,
     "rejected": 0
   },
-  "calls": 1,
+  "calls": 7,
   "apiCalls": {
-    "gemini-2.5-flash": 2,
-    "gemini-2.5-flash-lite": 2,
-    "gemini-omni-1.2-flash": 2,
-    "gemini-omni-1.1-flash": 2
+    "gemini-2.5-flash": 18,
+    "gemini-2.5-flash-lite": 18,
+    "gemini-omni-1.2-flash": 18,
+    "gemini-omni-1.1-flash": 18,
+    "gemini-flash-lite-latest": 19
   },
   "quotaErrors": {
-    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
     "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0"
   },
+  "modelErrors": {
+    "gemini-2.5-flash": "HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and impro",
+    "gemini-2.5-flash-lite": "HTTP 404 This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features",
+    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-flash-lite-latest": "JSONDecodeError: Invalid \\uXXXX escape: line 1 column 2649 (char 2648)"
+  },
+  "availableModels": [
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+    "gemini-omni-1.2-flash",
+    "gemini-omni-1.1-flash",
+    "gemini-flash-lite-latest",
+    "gemini-flash-latest",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite"
+  ],
   "totalCards": 200,
   "translated": {
-    "en": 0,
-    "es": 0,
-    "hi": 0,
-    "zh": 0
+    "en": 27,
+    "es": 27,
+    "hi": 27,
+    "zh": 37
   },
   "untranslated": {
     "en": 0,
     "es": 0,
     "hi": 0,
-    "zh": 10
+    "zh": 0
   },
   "candidates": {
     "tech": 443,
     "finance": 247
   },
   "errors": [
-    "arrêt : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "seulement 0 cartes (objectif 24) : ajouter des sources dans sources.json",
-    "traduction arrêtée : gemini-omni-1.1-flash: HTTP 429 generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0"
+    "réponse invalide (Xataka) : {\"i\": 11, \"title\": \"L'Inde veut concevoir ses propres puces spécialisées\", \"fact\": \"L'Inde a annoncé un plan sur deux ans pour développer des processeurs graphi"
   ]
 }
