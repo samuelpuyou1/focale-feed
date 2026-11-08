@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-07T15:40:01Z",
+  "ranAt": "2026-11-08T19:43:01Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,24 +12,24 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 13,
-    "finance": 17
+    "tech": 12,
+    "finance": 18
   },
   "byRegion": {
-    "fr": 8,
+    "fr": 12,
     "en": 8,
     "es": 5,
-    "in": 5,
+    "in": 1,
     "cn": 4
   },
   "quality": {
-    "fixed": 0,
-    "rejected": 1
+    "fixed": 1,
+    "rejected": 0
   },
-  "calls": 20,
+  "calls": 13,
   "apiCalls": {
-    "gemini-flash-latest": 44,
-    "gemini-flash-lite-latest": 31,
+    "gemini-flash-latest": 27,
+    "gemini-flash-lite-latest": 26,
     "gemini-omni-1.2-flash": 1,
     "gemini-omni-1.1-flash": 1,
     "gemini-3.8-flash": 1,
@@ -38,14 +38,14 @@
   },
   "quotaErrors": {
     "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
     "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
     "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
     "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "gemini-flash-lite-latest": "JSONDecodeError: Expecting ',' delimiter: line 1 column 3996 (char 3995)",
     "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
     "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
     "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
@@ -69,25 +69,20 @@
   "translated": {
     "en": 30,
     "es": 30,
-    "hi": 30,
+    "hi": 29,
     "zh": 30
   },
   "untranslated": {
     "en": 0,
     "es": 0,
-    "hi": 0,
+    "hi": 1,
     "zh": 0
   },
   "candidates": {
-    "tech": 353,
-    "finance": 210
+    "tech": 257,
+    "finance": 91
   },
   "errors": [
-    "réponse invalide (Wallstreetcn) : {\"i\": 6, \"title\": \"Berkshire Hathaway : profits en baisse et liquidités records\", \"fact\": \"Le conglomérat de Warren Buffett a vu son bénéfice net chuter de 28 %",
-    "réponse invalide (The Verge) : {\"i\": 4, \"title\": \"Anthropic accelere avec l'intelligence artificielle\", \"fact\": \"Des recherches revelent que les modeles de l'entreprise progressent deux fois ",
-    "réponse invalide (IT Home) : {\"i\": 5, \"title\": \"Poursuite judiciaire maintenue contre Anthropic\", \"fact\": \"Un juge federal a rejete la demande de l'entreprise visant a abandonner les accusa",
-    "réponse invalide (cnBeta) : {\"i\": 5, \"title\": \"TCL lance l'installation de son usine OLED T8\", \"fact\": \"TCL CSOT a commence l'installation des equipements dans son usine T8 a Guangzhou en ",
-    "réponse invalide (Tech Xplore) : {\"i\": 1, \"title\": \"Manipuler les atomes pour stocker plus de donnees\", \"fact\": \"Des chercheurs de l'universite Washington a Saint-Louis manipulent les caracteri",
-    "réponse invalide (Ars Technica) : {\"i\": 1, \"skip\": false, \"title\": \"Chainalysis victime d'un vol massif de donnees\", \"fact\": \"La societe Chainalysis a subi une cyberattaque impliquant des agents"
+    "réponse invalide (Genbeta) : {\"i\": 6, \"title\": \"OpenAI resout des defis de mathematiques\", \"fact\": \"Un modele d'intelligence artificielle avance d'OpenAI a resolu des centaines de problemes"
   ]
 }
