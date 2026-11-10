@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-09T23:47:10Z",
+  "ranAt": "2026-11-10T21:19:17Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,32 +10,48 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 25,
+  "newCards": 30,
   "byTopic": {
-    "tech": 10,
-    "finance": 15
+    "tech": 11,
+    "finance": 19
   },
   "byRegion": {
-    "fr": 7,
-    "en": 7,
-    "es": 3,
+    "fr": 10,
+    "en": 8,
+    "es": 4,
     "in": 4,
     "cn": 4
   },
   "quality": {
-    "fixed": 0,
+    "fixed": 1,
     "rejected": 1
   },
-  "calls": 20,
+  "calls": 12,
   "apiCalls": {
-    "gemini-flash-latest": 35,
-    "gemini-flash-lite-latest": 29
+    "gemini-flash-latest": 30,
+    "gemini-flash-lite-latest": 29,
+    "gemini-omni-1.2-flash": 1,
+    "gemini-omni-1.1-flash": 1,
+    "gemini-3.8-flash": 2,
+    "gemini-3.7-flash": 2,
+    "gemini-3.6-flash": 4,
+    "gemini-3.5-flash-lite": 1
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
-    "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+    "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.6-flash": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -53,10 +69,10 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 25,
-    "es": 25,
-    "hi": 26,
-    "zh": 25
+    "en": 30,
+    "es": 30,
+    "hi": 30,
+    "zh": 30
   },
   "untranslated": {
     "en": 0,
@@ -65,21 +81,18 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 369,
-    "finance": 188
+    "tech": 432,
+    "finance": 216
   },
   "errors": [
-    "réponse invalide (YourStory) : {\"i\": 3, \"title\": \"SplashBI installe un centre mondial a Hyderabad\", \"fact\": \"La plateforme d'intelligence de donnees SplashBI a ouvert un centre de capacite gl",
-    "réponse invalide (IT Home) : {\"i\": 5, \"title\": \"Apple met en scene Apple Pay dans une video d'action\", \"fact\": \"Apple a diffuse un nouveau clip publicitaire pour Apple Pay realise par Edgar",
-    "réponse invalide (cnBeta) : {\"i\": 6, \"title\": \"GTA 6 : des conges en masse en perspective au Royaume-Uni\", \"fact\": \"Les demandes de conges posees par des salaries britanniques pour jouer a",
-    "réponse invalide (Tech Xplore) : {\"i\": 8, \"title\": \"Une avancee coreenne pour la charge rapide des batteries\", \"fact\": \"Des chercheurs en Coree du Sud ont mis au point une technologie de separa",
-    "réponse invalide (The Verge) : {\"i\": 9, \"title\": \"Un moniteur gaming OLED reconditionne brade chez MSI\", \"fact\": \"Le fabricant MSI propose un ecran de jeu incurve reconditionne a prix reduit ",
-    "réponse invalide (Presse-citron) : {\"i\": 10, \"title\": \"Anthropic presente des modeles d'IA aux capacites physiques\", \"fact\": \"Anthropic a lance de nouveaux modeles d'intelligence artificielle dot",
-    "réponse invalide (Numerama) : {\"i\": 1, \"title\": \"Un vol d'Airbus bat un record de distance vieux de 21 ans\", \"fact\": \"Un avion Airbus A350-1000ULR a relie Melbourne a Toulouse sur une distan",
-    "réponse invalide (YourStory) : {\"i\": 4, \"title\": \"Nomination d'un dirigeant de Google Cloud chez Sarvam\", \"fact\": \"Le directeur general de Google Cloud India a rejoint la start-up Sarvam en t",
-    "réponse invalide (ET Tech) : {\"i\": 5, \"title\": \"Apple enregistre son service d'IA aupres de regulators\", \"fact\": \"La reglementation chinoise a valide l'enregistrement du service d'intellige",
-    "réponse invalide (IT Home) : {\"i\": 6, \"title\": \"Leica met en garde contre l'usage de ses menus secrets\", \"fact\": \"Le fabricant d'appareils photo Leica a confirme que les menus caches de cer",
-    "réponse invalide (cnBeta) : {\"i\": 7, \"title\": \"Forte demande anticipee pour les precommandes de GTA 6\", \"fact\": \"L'editeur Take-Two annonce que les precommandes du jeu depassent les previs",
-    "réponse invalide (YourStory) : {\"i\": 9, \"title\": \"Feu vert pour l'introduction en bourse de MakeMyTrip India\", \"fact\": \"La filiale indienne de la plateforme de reservation MakeMyTrip a recu l"
+    "réponse invalide (Presse-citron) : {\"i\": 3, \"fact\": \"Microsoft deploie une mise a jour de Windows 11 afin d'ameliorer la fluidite sur les ordinateurs equipes de 8 Go de RAM.\", \"whyItMatters\": \"Ce",
+    "réponse invalide (Numerama) : {\"i\": 4, \"fact\": \"L'Assemblee nationale a retire du projet de loi Resilience l'article qui aurait permis d'imposer des portes derobees aux messageries.\", \"whyIt",
+    "réponse invalide (Frandroid) : {\"i\": 5, \"fact\": \"SpaceX dote son antenne Internet par satellite portable Starlink Mini d'une batterie amovible offrant une autonomie de quatre heures et demie.",
+    "réponse invalide (Ars Technica) : {\"i\": 7, \"fact\": \"Google Fi integre le support d'un second reseau mobile 5G sans reveler l'identite de l'operateur partenaire.\", \"whyItMatters\": \"Cette mise a j",
+    "réponse invalide (Xataka) : {\"i\": 11, \"fact\": \"Le gouvernement espagnol a approuve un decret pour accelerer le deploiement de la norme de radio numerique terrestre DAB+.\", \"whyItMatters\": ",
+    "réponse invalide (Genbeta) : {\"i\": 12, \"fact\": \"Mondelēz assigne en justice une petite entreprise britannique pour la forme de sa barrette de chocolat vegan similaire au Toblerone.\", \"whyIt",
+    "réponse invalide (01net) : {\"i\": 2, \"title\": \"Google devoile le modele d'IA Gemini 4 Carbon\", \"fact\": \"Google a presente Gemini 4 Carbon, son modele d'intelligence artificielle le plus pu",
+    "réponse invalide (Genbeta) : {\"i\": 5, \"title\": \"Des fausses reserves sur Booking a Venise\", \"fact\": \"Des pirates informatiques ont publie des milliers de fausses reservations a bas prix pou",
+    "réponse invalide (ET Tech) : {\"i\": 9, \"title\": \"Anthropic integre Claude a Google Meet\", \"fact\": \"Anthropic a annonce l'integration de son assistant Claude dans la plateforme de visioconfer"
   ]
 }
