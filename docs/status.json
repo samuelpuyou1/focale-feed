@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-10T21:19:17Z",
+  "ranAt": "2026-11-11T21:59:02Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,46 +12,31 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 11,
-    "finance": 19
+    "tech": 12,
+    "finance": 18
   },
   "byRegion": {
-    "fr": 10,
-    "en": 8,
-    "es": 4,
-    "in": 4,
-    "cn": 4
+    "fr": 8,
+    "en": 9,
+    "es": 5,
+    "in": 5,
+    "cn": 3
   },
   "quality": {
     "fixed": 1,
-    "rejected": 1
+    "rejected": 0
   },
-  "calls": 12,
+  "calls": 8,
   "apiCalls": {
-    "gemini-flash-latest": 30,
-    "gemini-flash-lite-latest": 29,
-    "gemini-omni-1.2-flash": 1,
-    "gemini-omni-1.1-flash": 1,
-    "gemini-3.8-flash": 2,
-    "gemini-3.7-flash": 2,
-    "gemini-3.6-flash": 4,
-    "gemini-3.5-flash-lite": 1
+    "gemini-flash-latest": 20,
+    "gemini-flash-lite-latest": 20
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.6-flash": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -67,7 +52,7 @@
     "gemini-2.5-flash-lite",
     "gemini-2.5-flash"
   ],
-  "totalCards": 200,
+  "totalCards": 172,
   "translated": {
     "en": 30,
     "es": 30,
@@ -81,18 +66,8 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 432,
-    "finance": 216
+    "tech": 419,
+    "finance": 195
   },
-  "errors": [
-    "réponse invalide (Presse-citron) : {\"i\": 3, \"fact\": \"Microsoft deploie une mise a jour de Windows 11 afin d'ameliorer la fluidite sur les ordinateurs equipes de 8 Go de RAM.\", \"whyItMatters\": \"Ce",
-    "réponse invalide (Numerama) : {\"i\": 4, \"fact\": \"L'Assemblee nationale a retire du projet de loi Resilience l'article qui aurait permis d'imposer des portes derobees aux messageries.\", \"whyIt",
-    "réponse invalide (Frandroid) : {\"i\": 5, \"fact\": \"SpaceX dote son antenne Internet par satellite portable Starlink Mini d'une batterie amovible offrant une autonomie de quatre heures et demie.",
-    "réponse invalide (Ars Technica) : {\"i\": 7, \"fact\": \"Google Fi integre le support d'un second reseau mobile 5G sans reveler l'identite de l'operateur partenaire.\", \"whyItMatters\": \"Cette mise a j",
-    "réponse invalide (Xataka) : {\"i\": 11, \"fact\": \"Le gouvernement espagnol a approuve un decret pour accelerer le deploiement de la norme de radio numerique terrestre DAB+.\", \"whyItMatters\": ",
-    "réponse invalide (Genbeta) : {\"i\": 12, \"fact\": \"Mondelēz assigne en justice une petite entreprise britannique pour la forme de sa barrette de chocolat vegan similaire au Toblerone.\", \"whyIt",
-    "réponse invalide (01net) : {\"i\": 2, \"title\": \"Google devoile le modele d'IA Gemini 4 Carbon\", \"fact\": \"Google a presente Gemini 4 Carbon, son modele d'intelligence artificielle le plus pu",
-    "réponse invalide (Genbeta) : {\"i\": 5, \"title\": \"Des fausses reserves sur Booking a Venise\", \"fact\": \"Des pirates informatiques ont publie des milliers de fausses reservations a bas prix pou",
-    "réponse invalide (ET Tech) : {\"i\": 9, \"title\": \"Anthropic integre Claude a Google Meet\", \"fact\": \"Anthropic a annonce l'integration de son assistant Claude dans la plateforme de visioconfer"
-  ]
+  "errors": []
 }
