@@ -1,5 +1,2531 @@
 [
   {
+    "id": "rss-3167fec7a853",
+    "title": "Eqolux intègre l'IA dans la restauration française",
+    "topic": "finance",
+    "subject": "Startups",
+    "fact": "La plateforme française Eqolux utilise l'intelligence artificielle pour optimiser la rentabilité des établissements de restauration.",
+    "whyItMatters": "L'outil aide les restaurateurs à faire face à l'envolée de leurs coûts en exploitant des données financières souvent négligées. Il permet ainsi de concilier la préservation des savoir-faire artisanaux avec la viabilité économique des entreprises.",
+    "summary": "La plateforme française Eqolux utilise l'intelligence artificielle pour optimiser la rentabilité des établissements de restauration. L'outil aide les restaurateurs à faire face à l'envolée de leurs coûts en exploitant des données financières souvent négligées. Il permet ainsi de concilier la préservation des savoir-faire artisanaux avec la viabilité économique des entreprises.",
+    "source": "Challenges",
+    "region": "fr",
+    "sourceURL": "https://www.challenges.fr/partenaires/eqolux-lia-qui-protege-les-marges-et-transforme-leconomie-de-la-gastronomie-francaise_646951",
+    "publishedAt": "2026-11-16T09:00:00Z",
+    "quiz": {
+      "question": "Quel secteur d'activité est principalement concerné par la solution d'Eqolux ?",
+      "choices": [
+        "La grande distribution",
+        "L'industrie automobile",
+        "La restauration et la gastronomie"
+      ],
+      "answerIndex": 2,
+      "explanation": "Eqolux met l'intelligence artificielle au cœur des cuisines et des directions financières de la gastronomie française."
+    },
+    "translations": {
+      "en": {
+        "title": "Eqolux brings AI to French restaurants",
+        "fact": "The French platform Eqolux uses artificial intelligence to optimize the profitability of restaurant businesses.",
+        "whyItMatters": "The tool helps restaurateurs cope with surging costs by leveraging financial data that is often overlooked. It thus helps reconcile the preservation of traditional culinary skills with the economic viability of businesses.",
+        "quiz": {
+          "question": "Which business sector is primarily targeted by Eqolux's solution?",
+          "choices": [
+            "Mass retail",
+            "The automotive industry",
+            "Catering and gastronomy"
+          ],
+          "explanation": "Eqolux puts artificial intelligence at the heart of kitchens and financial management in French gastronomy."
+        }
+      },
+      "es": {
+        "title": "Eqolux integra la IA en la restauración francesa",
+        "fact": "La plataforma francesa Eqolux utiliza la inteligencia artificial para optimizar la rentabilidad de los establecimientos de restauración.",
+        "whyItMatters": "La herramienta ayuda a los restauradores a hacer frente al encarecimiento de sus costes aprovechando datos financieros que a menudo se pasan por alto. Permite así conciliar la preservación del saber hacer artesanal con la viabilidad económica de las empresas.",
+        "quiz": {
+          "question": "¿Qué sector de actividad está principalmente afectado por la solución de Eqolux?",
+          "choices": [
+            "La gran distribución",
+            "La industria del automóvil",
+            "La restauración y la gastronomía"
+          ],
+          "explanation": "Eqolux sitúa la inteligencia artificial en el centro de las cocinas y las direcciones financieras de la gastronomía francesa."
+        }
+      },
+      "hi": {
+        "title": "Eqolux फ़्रेंची रेस्टोरेंट में AI ला रहा है",
+        "fact": "फ़्रेंची प्लेटफ़ॉर्म Eqolux रेस्टोरेंट की लाभप्रदता को बेहतर बनाने के लिए कृत्रिम बुद्धिमत्ता का उपयोग करता है।",
+        "whyItMatters": "यह टूल अक्सर अनदेखे किए जाने वाले वित्तीय डेटा का उपयोग करके रेस्टोरेंट संचालकों को बढ़ती लागत से निपटने में मदद करता है। इस तरह यह व्यवसायों की आर्थिक स्थिरता के साथ पारंपरिक कौशल के संरक्षण में संतुलन बनाता है।",
+        "quiz": {
+          "question": "Eqolux के समाधान से मुख्य रूप से कौन सा क्षेत्र संबंधित है?",
+          "choices": [
+            "थोक व्यापार",
+            "ऑटोमोटिव उद्योग",
+            "रेस्टोरेंट और गैस्ट्रोनॉमी"
+          ],
+          "explanation": "Eqolux फ़्रेंची गैस्ट्रोनॉमी की रसोई और वित्तीय विभागों के केंद्र में कृत्रिम बुद्धिमत्ता रखता है।"
+        }
+      },
+      "zh": {
+        "title": "Eqolux将人工智能融入法国餐饮业",
+        "fact": "法国平台Eqolux利用人工智能来优化餐饮企业的盈利能力。",
+        "whyItMatters": "该工具通过利用往往被忽视的财务数据，帮助餐馆老板应对成本飙升的问题。它从而能够在保持传统手艺与企业经济生存能力之间实现平衡。",
+        "quiz": {
+          "question": "Eqolux的解决方案主要涉及哪个行业？",
+          "choices": [
+            "大型零售",
+            "汽车工业",
+            "餐饮与美食"
+          ],
+          "explanation": "Eqolux将人工智能置于法国美食的厨房和财务管理部门的核心。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a0807f085769",
+    "title": "La SCPI pour préparer sa retraite",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La SCPI est présentée comme une alternative à l'investissement locatif direct pour compléter ses revenus à la retraite.",
+    "whyItMatters": "Cette option permet d'investir dans l'immobilier sans avoir à gérer les contraintes locatives au quotidien. Un choix avisé nécessite toutefois une sélection rigoureuse et un mode de détention adapté.",
+    "summary": "La SCPI est présentée comme une alternative à l'investissement locatif direct pour compléter ses revenus à la retraite. Cette option permet d'investir dans l'immobilier sans avoir à gérer les contraintes locatives au quotidien. Un choix avisé nécessite toutefois une sélection rigoureuse et un mode de détention adapté.",
+    "source": "Challenges",
+    "region": "fr",
+    "sourceURL": "https://www.challenges.fr/argent-et-placements/completer-ses-revenus-a-la-retraite-pourquoil-miser-sur-la-scpi_646937",
+    "publishedAt": "2026-11-16T09:00:00Z",
+    "quiz": {
+      "question": "Quel est le principal avantage de la SCPI par rapport à l'immobilier en direct mentionné ?",
+      "choices": [
+        "L'absence totale de frais de gestion",
+        "La garantie d'un rendement fixe sans risque",
+        "L'évitement de la gestion locative quotidienne"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'investissement en SCPI libère l'épargnant des contraintes de gestion propres à l'immobilier locatif direct."
+    },
+    "terms": [
+      {
+        "term": "SCPI",
+        "definition": "Société civile de placement immobilier permettant d'investir dans la pierre sans gérer les biens."
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "SCPIs as a tool for retirement planning",
+        "fact": "The SCPI is presented as an alternative to direct rental investment to supplement retirement income.",
+        "whyItMatters": "This option allows investment in real estate without having to manage day-to-day rental constraints. However, a wise choice requires rigorous selection and a suitable holding method.",
+        "quiz": {
+          "question": "What is the main advantage of an SCPI compared to direct real estate mentioned in the text?",
+          "choices": [
+            "The complete absence of management fees",
+            "The guarantee of a fixed, risk-free return",
+            "The avoidance of daily rental management"
+          ],
+          "explanation": "Investing in an SCPI frees savers from the management constraints typical of direct rental real estate."
+        },
+        "terms": [
+          {
+            "term": "SCPI",
+            "definition": "A real estate investment company allowing individuals to invest in property without managing the assets themselves."
+          }
+        ]
+      },
+      "es": {
+        "title": "La SCPI para preparar la jubilación",
+        "fact": "La SCPI se presenta como una alternativa a la inversión inmobiliaria directa para completar los ingresos durante la jubilación.",
+        "whyItMatters": "Esta opción permite invertir en el sector inmobiliario sin tener que gestionar las limitaciones de los alquileres en el día a día. Sin embargo, una elección acertada requiere una selección rigurosa y un modo de tenencia adecuado.",
+        "quiz": {
+          "question": "¿Cuál es la principal ventaja de la SCPI frente al sector inmobiliario directo mencionada?",
+          "choices": [
+            "La ausencia total de gastos de gestión",
+            "La garantía de una rentabilidad fija sin riesgo",
+            "La evitación de la gestión diaria del alquiler"
+          ],
+          "explanation": "La inversión en SCPI libera al ahorrador de las limitaciones de gestión propias del sector inmobiliario directo."
+        },
+        "terms": [
+          {
+            "term": "SCPI",
+            "definition": "Sociedad civil de inversión inmobiliaria que permite invertir en ladrillo sin gestionar los bienes."
+          }
+        ]
+      },
+      "hi": {
+        "title": "रिटायरमेंट के लिए SCPI एक विकल्प",
+        "fact": "रिटायरमेंट के बाद अपनी आय पूरी करने के लिए SCPI को प्रत्यक्ष किराये के निवेश के विकल्प के रूप में प्रस्तुत किया जाता है।",
+        "whyItMatters": "यह विकल्प दैनिक किराये की चिंताओं को प्रबंधित किए बिना रियल एस्टेट में निवेश करने की अनुमति देता है। हालांकि, समझदारी भरा चुनाव करने के लिए कठोर चयन और उचित होल्डिंग विधि की आवश्यकता होती है।",
+        "quiz": {
+          "question": "प्रत्यक्ष रियल एस्टेट की तुलना में SCPI का मुख्य लाभ क्या बताया गया है?",
+          "choices": [
+            "प्रबंधन शुल्क की पूरी तरह से अनुपस्थिति",
+            "बिना किसी जोखिम के निश्चित रिटर्न की गारंटी",
+            "दैनिक किराये के प्रबंधन से बचना"
+          ],
+          "explanation": "SCPI में निवेश करने से निवेशक प्रत्यक्ष किराये के रियल एस्टेट से जुड़ी प्रबंधन परेशानियों से मुक्त हो जाते हैं।"
+        }
+      },
+      "zh": {
+        "title": "SCPI：筹备退休金的新选择",
+        "fact": "SCPI被视为直接租赁投资的替代方案，用于补充退休收入。",
+        "whyItMatters": "这一选择允许投资房地产，而无需处理日常租赁事务。然而，明智的选择需要严格筛选和适合的持有方式。",
+        "quiz": {
+          "question": "文中提到SCPI相比直接房地产投资的主要优势是什么？",
+          "choices": [
+            "完全免除管理费用",
+            "无风险固定收益保证",
+            "避免日常租赁管理"
+          ],
+          "explanation": "投资SCPI将储户从直接租赁房地产特有的管理麻烦中解放出来。"
+        },
+        "terms": [
+          {
+            "term": "SCPI",
+            "definition": "房地产投资公司，允许在不管理物业的情况下投资房地产。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rss-b2c93b62f883",
+    "title": "KissKiss implante sa logistique en France",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'entreprise suisse KissKiss installe un entrepôt en France pour étendre sa présence sur le marché européen.",
+    "whyItMatters": "Cette implantation logistique marque une étape clé pour conquérir de nouveaux consommateurs à l'échelle du continent. Elle illustre la stratégie d'expansion transfrontalière d'une marque positionnée sur un secteur en croissance.",
+    "summary": "L'entreprise suisse KissKiss installe un entrepôt en France pour étendre sa présence sur le marché européen. Cette implantation logistique marque une étape clé pour conquérir de nouveaux consommateurs à l'échelle du continent. Elle illustre la stratégie d'expansion transfrontalière d'une marque positionnée sur un secteur en croissance.",
+    "source": "Challenges",
+    "region": "fr",
+    "sourceURL": "https://www.challenges.fr/partenaires/vision-dexperts/kisskiss-le-bien-etre-intime-suisse-sinvite-en-france_646931",
+    "publishedAt": "2026-11-16T08:30:00Z",
+    "quiz": {
+      "question": "Quel est l'objectif principal de l'ouverture de cet entrepôt en France ?",
+      "choices": [
+        "Changer totalement de secteur d'activité",
+        "Réduire les coûts de production en Suisse",
+        "Viser le marché européen et faciliter l'expansion"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'ouverture de cet entrepôt en France vise à soutenir la stratégie d'expansion de l'entreprise sur le marché européen."
+    },
+    "translations": {
+      "en": {
+        "title": "KissKiss sets up logistics operations in France",
+        "fact": "The Swiss company KissKiss is setting up a warehouse in France to expand its presence on the European market.",
+        "whyItMatters": "This logistics setup marks a key step in conquering new consumers across the continent. It illustrates the cross-border expansion strategy of a brand positioned in a growing sector.",
+        "quiz": {
+          "question": "What is the main objective behind opening this warehouse in France?",
+          "choices": [
+            "To completely change its business sector",
+            "To reduce production costs in Switzerland",
+            "To target the European market and facilitate expansion"
+          ],
+          "explanation": "Opening this warehouse in France aims to support the company's expansion strategy in the European market."
+        }
+      },
+      "es": {
+        "title": "KissKiss instala su logística en Francia",
+        "fact": "La empresa suiza KissKiss instala un almacén en Francia para ampliar su presencia en el mercado europeo.",
+        "whyItMatters": "Esta implantación logística marca una etapa clave para conquistar a nuevos consumidores a escala continental. Ilustra la estrategia de expansión transfronteriza de una marca posicionada en un sector en crecimiento.",
+        "quiz": {
+          "question": "¿Cuál es el objetivo principal de la apertura de este almacén en Francia?",
+          "choices": [
+            "Cambiar totalmente de sector de actividad",
+            "Reducir los costes de producción en Suiza",
+            "Apuntar al mercado europeo y facilitar la expansión"
+          ],
+          "explanation": "La apertura de este almacén en Francia tiene como objetivo respaldar la estrategia de expansión de la empresa en el mercado europeo."
+        }
+      },
+      "hi": {
+        "title": "KissKiss ने फ्रांस में लॉजिस्टिक्स बढ़ाई",
+        "fact": "स्विस कंपनी KissKiss यूरोपीय बाज़ार में अपनी उपस्थिति बढ़ाने के लिए फ्रांस में एक गोदाम स्थापित कर रही है।",
+        "whyItMatters": "यह लॉजिस्टिक स्थापना महाद्वीप स्तर पर नए उपभोक्ताओं को जीतने के लिए एक महत्वपूर्ण कदम है। यह एक बढ़ते क्षेत्र में स्थित ब्रांड की सीमा पार विस्तार रणनीति को दर्शाता है।",
+        "quiz": {
+          "question": "फ्रांस में इस गोदाम को खोलने का मुख्य उद्देश्य क्या है?",
+          "choices": [
+            "व्यापार के क्षेत्र को पूरी तरह से बदलना",
+            "स्विट्जरलैंड में उत्पादन लागत कम करना",
+            "यूरोपीय बाज़ार को लक्षित करना और विस्तार आसान बनाना"
+          ],
+          "explanation": "फ्रांस में इस गोदाम को खोलने का उद्देश्य यूरोपीय बाज़ार में कंपनी की विस्तार रणनीति का समर्थन करना है।"
+        }
+      },
+      "zh": {
+        "title": "KissKiss在法国部署物流业务",
+        "fact": "瑞士公司KissKiss正在法国建立仓库，以扩大其在欧洲市场的份额。",
+        "whyItMatters": "这一物流布局标志着征服欧洲大陆新消费者关键的一步。它体现了定位在增长行业的品牌跨国扩张战略。",
+        "quiz": {
+          "question": "在法国开设这个仓库的主要目标是什么？",
+          "choices": [
+            "彻底改变业务领域",
+            "降低瑞士的生产成本",
+            "瞄准欧洲市场并促进扩张"
+          ],
+          "explanation": "在法国开设仓库旨在支持公司在欧洲市场的扩张战略。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-9238e6bd416e",
+    "title": "Baisse de prix marquee pour la bague connectee Oura Ring 4",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "La bague connectee Oura Ring 4 fait l'objet d'une reduction de prix notable chez plusieurs grands distributeurs en ligne.",
+    "whyItMatters": "Cette promotion rend la technologie de suivi de santé plus accessible face aux modèles concurrents plus récents. Elle permet à la marque d'écouler ses stocks sur un marché des objets connectés de plus en plus concurrentiel.",
+    "summary": "La bague connectee Oura Ring 4 fait l'objet d'une reduction de prix notable chez plusieurs grands distributeurs en ligne. Cette promotion rend la technologie de suivi de santé plus accessible face aux modèles concurrents plus récents. Elle permet à la marque d'écouler ses stocks sur un marché des objets connectés de plus en plus concurrentiel.",
+    "source": "The Verge",
+    "region": "en",
+    "sourceURL": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+    "publishedAt": "2026-11-12T21:28:53Z",
+    "quiz": {
+      "question": "Quel appareil fait l'objet d'une baisse de prix notable ?",
+      "choices": [
+        "Une montre connectee de derniere generation",
+        "La bague connectee Oura Ring 4",
+        "Un casque de realite virtuelle"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article mentionne la baisse de prix de la bague connectee Oura Ring 4."
+    },
+    "translations": {
+      "en": {
+        "title": "Notable price cut for the Oura Ring 4",
+        "fact": "The Oura Ring 4 smart ring is subject to a notable price reduction across several major online retailers.",
+        "whyItMatters": "This promotion makes health-tracking technology more accessible in the face of newer competing models. It allows the brand to clear its stock in an increasingly competitive smart device market.",
+        "quiz": {
+          "question": "Which device is subject to a notable price drop?",
+          "choices": [
+            "A latest-generation smartwatch",
+            "The Oura Ring 4 smart ring",
+            "A virtual reality headset"
+          ],
+          "explanation": "The article mentions the price drop of the Oura Ring 4 smart ring."
+        }
+      },
+      "es": {
+        "title": "Fuerte bajada de precio para el anillo Oura Ring 4",
+        "fact": "El anillo inteligente Oura Ring 4 es objeto de una reducción de precio notable en varios grandes distribuidores en línea.",
+        "whyItMatters": "Esta promoción hace que la tecnología de seguimiento de salud sea más accesible frente a los modelos competidores más recientes. Permite a la marca dar salida a sus existencias en un mercado de objetos conectados cada vez más competitivo.",
+        "quiz": {
+          "question": "¿Qué dispositivo es objeto de una bajada de precio notable?",
+          "choices": [
+            "Un reloj inteligente de última generación",
+            "El anillo inteligente Oura Ring 4",
+            "Un casco de realidad virtual"
+          ],
+          "explanation": "El artículo menciona la bajada de precio del anillo inteligente Oura Ring 4."
+        }
+      },
+      "hi": {
+        "title": "Oura Ring 4 स्मार्ट रिंग की कीमत घटी",
+        "fact": "कई बड़े ऑनलाइन वितरकों के यहाँ Oura Ring 4 स्मार्ट रिंग की कीमत में उल्लेखनीय कमी की गई है।",
+        "whyItMatters": "यह प्रमोशन नए प्रतिस्पर्धी मॉडलों के मुकाबले स्वास्थ्य ट्रैकिंग तकनीक को अधिक सुलभ बनाता है। यह ब्रांड को लगातार प्रतिस्पर्धी होते कनेक्टेड ऑब्जेक्ट्स बाज़ार में अपना स्टॉक साफ़ करने की अनुमति देता है।",
+        "quiz": {
+          "question": "किस डिवाइस की कीमत में उल्लेखनीय कमी की गई है?",
+          "choices": [
+            "नवीनतम पीढ़ी की स्मार्टवॉच",
+            "Oura Ring 4 स्मार्ट रिंग",
+            "एक वर्चुअल रियलिटी हेडसेट"
+          ],
+          "explanation": "लेख में Oura Ring 4 स्मार्ट रिंग की कीमत में कमी का उल्लेख है।"
+        }
+      },
+      "zh": {
+        "title": "Oura Ring 4智能戒指显著降价",
+        "fact": "智能戒指Oura Ring 4在几家大型在线分销商处迎来了显着的降价。",
+        "whyItMatters": "面对较新的竞争机型，这次促销使健康监测技术更加普及。它允许该品牌在竞争日益激烈的联网设备市场上清理库存。",
+        "quiz": {
+          "question": "哪款设备迎来了显著降价？",
+          "choices": [
+            "新一代智能手表",
+            "Oura Ring 4智能戒指",
+            "虚拟现实头显"
+          ],
+          "explanation": "文章提到了Oura Ring 4智能戒指的降价。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-29c3ab1b736e",
+    "title": "Discussions avancees entre SpaceX et Tesla en vue d'une fusion",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Des pourparlers sont en cours entre SpaceX et Tesla pour envisager une fusion qui pourrait etre annoncee des le mois de decembre.",
+    "whyItMatters": "Ce rapprochement potentiel entre les entreprises d'Elon Musk pourrait constituer l'une des opérations de regroupement les plus importantes de l'histoire industrielle. Une telle transaction redéfinirait le paysage des technologies spatiales et de l'automobile électrique.",
+    "summary": "Des pourparlers sont en cours entre SpaceX et Tesla pour envisager une fusion qui pourrait etre annoncee des le mois de decembre. Ce rapprochement potentiel entre les entreprises d'Elon Musk pourrait constituer l'une des opérations de regroupement les plus importantes de l'histoire industrielle. Une telle transaction redéfinirait le paysage des technologies spatiales et de l'automobile électrique.",
+    "source": "cnBeta",
+    "region": "cn",
+    "sourceURL": "https://www.cnbeta.com.tw/articles/tech/1586148.htm",
+    "publishedAt": "2026-11-12T21:17:05Z",
+    "quiz": {
+      "question": "A quelle periode l'annonce potentielle de l'operation pourrait-elle intervenir ?",
+      "choices": [
+        "Au cours de l'ete prochain",
+        "Des le mois de decembre",
+        "A la fin de la decennie"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les negociations progressent et une annonce pourrait avoir lieu des le mois de decembre."
+    },
+    "translations": {
+      "en": {
+        "title": "Advanced merger talks between SpaceX and Tesla",
+        "fact": "Discussions are underway between SpaceX and Tesla regarding a potential merger that could be announced as early as December.",
+        "whyItMatters": "This potential rapprochement between Elon Musk's companies could constitute one of the largest consolidation deals in industrial history. Such a transaction would redefine the landscape of space technologies and electric vehicles.",
+        "quiz": {
+          "question": "When might the potential announcement of the deal take place?",
+          "choices": [
+            "During next summer",
+            "As early as December",
+            "At the end of the decade"
+          ],
+          "explanation": "Negotiations are progressing and an announcement could take place as early as December."
+        }
+      },
+      "es": {
+        "title": "Conversaciones avanzadas entre SpaceX y Tesla",
+        "fact": "Se están manteniendo conversaciones entre SpaceX y Tesla para estudiar una fusión que podría anunciarse tan pronto como en diciembre.",
+        "whyItMatters": "Este posible acercamiento entre las empresas de Elon Musk podría constituir una de las operaciones de concentración más importantes de la historia industrial. Tal transacción redefiniría el panorama de las tecnologías espaciales y del automóvil eléctrico.",
+        "quiz": {
+          "question": "¿En qué periodo podría producirse el anuncio potencial de la operación?",
+          "choices": [
+            "Durante el próximo verano",
+            "Tan pronto como en diciembre",
+            "A finales de la década"
+          ],
+          "explanation": "Las negociaciones avanzan y podría producirse un anuncio tan pronto como en diciembre."
+        }
+      },
+      "hi": {
+        "title": "SpaceX और Tesla में विलय पर चर्चा",
+        "fact": "दिसंबर की शुरुआत में घोषित किए जा सकने वाले विलय पर विचार करने के लिए SpaceX और Tesla के बीच बातचीत चल रही है।",
+        "whyItMatters": "एलन मस्क की कंपनियों के बीच यह संभावित नज़दीकी औद्योगिक इतिहास के सबसे महत्वपूर्ण समेकन संचालन में से एक हो सकती है। इस तरह का सौदा अंतरिक्ष तकनीक और इलेक्ट्रिक कार बाज़ार के परिदृश्य को फिर से परिभाषित करेगा।",
+        "quiz": {
+          "question": "इस सौदे की संभावित घोषणा किस अवधि में हो सकती है?",
+          "choices": [
+            "अगली गर्मियों के दौरान",
+            "दिसंबर की शुरुआत में ही",
+            "दशक के अंत में"
+          ],
+          "explanation": "बातचीत आगे बढ़ रही है और दिसंबर की शुरुआत में ही घोषणा हो सकती है।"
+        }
+      },
+      "zh": {
+        "title": "SpaceX与特斯拉就合并展开深入讨论",
+        "fact": "SpaceX和特斯拉正在进行会谈，考虑可能最早于12月宣布合并。",
+        "whyItMatters": "埃隆·马斯克旗下公司之间的这种潜在合并，可能构成工业史上规模最大的重组交易之一。这样的交易将重新定义太空技术和电动汽车的市场格局。",
+        "quiz": {
+          "question": "潜在的交易公告可能在什么时期公布？",
+          "choices": [
+            "明年夏天期间",
+            "早在12月份",
+            "本十年末"
+          ],
+          "explanation": "谈判正在推进，公告最早可能在12月份发布。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-3bbf9115abb5",
+    "title": "Le patron de Palantir prend ses distances avec Trump",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Alex Karp, le dirigeant de Palantir, a publiquement pris ses distances avec l'administration américaine de Donald Trump.",
+    "whyItMatters": "Ce revirement marque une rupture notable après une période de rapprochement marquée avec les cercles politiques républicains. Il illustre la volatilité des relations entre les géants technologiques et le pouvoir politique aux Etats-Unis.",
+    "summary": "Alex Karp, le dirigeant de Palantir, a publiquement pris ses distances avec l'administration américaine de Donald Trump. Ce revirement marque une rupture notable après une période de rapprochement marquée avec les cercles politiques républicains. Il illustre la volatilité des relations entre les géants technologiques et le pouvoir politique aux Etats-Unis.",
+    "source": "Le Figaro",
+    "region": "fr",
+    "sourceURL": "https://www.lefigaro.fr/secteur/high-tech/j-ai-toujours-ete-democrate-le-pdg-de-palantir-longtemps-allie-de-trump-prend-ses-distances-avec-le-president-americain-20261112",
+    "publishedAt": "2026-11-12T21:15:17Z",
+    "quiz": {
+      "question": "Quelle ancienne sensibilité politique Alex Karp a-t-il affirmé retrouver ?",
+      "choices": [
+        "Républicain",
+        "Démocrate",
+        "Libertarien"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alex Karp renoue avec ses sensibilités démocrates d'antan selon ses déclarations."
+    },
+    "translations": {
+      "en": {
+        "title": "Palantir CEO distances himself from Trump",
+        "fact": "Alex Karp, the head of Palantir, has publicly distanced himself from Donald Trump's US administration.",
+        "whyItMatters": "This turnaround marks a notable break after a period of close ties with Republican political circles. It illustrates the volatility of relations between tech giants and political power in the United States.",
+        "quiz": {
+          "question": "Which former political alignment did Alex Karp claim to reconnect with?",
+          "choices": [
+            "Republican",
+            "Democrat",
+            "Libertarian"
+          ],
+          "explanation": "Alex Karp is returning to his former Democratic sympathies according to his statements."
+        }
+      },
+      "es": {
+        "title": "El jefe de Palantir toma distancias con Trump",
+        "fact": "Alex Karp, el dirigente de Palantir, ha tomado públicamente distancias con la administración estadounidense de Donald Trump.",
+        "whyItMatters": "Este giro marca una ruptura notable tras un periodo de acercamiento marcado con los círculos políticos republicanos. Ilustra la volatilidad de las relaciones entre los gigantes tecnológicos y el poder político en Estados Unidos.",
+        "quiz": {
+          "question": "¿Qué antigua sensibilidad política afirmó Alex Karp recuperar?",
+          "choices": [
+            "Republicana",
+            "Demócrata",
+            "Libertaria"
+          ],
+          "explanation": "Alex Karp retoma sus sensibilidades demócratas de antaño según sus declaraciones."
+        }
+      },
+      "hi": {
+        "title": "Palantir के प्रमुख ने Trump से बनाई दूरी",
+        "fact": "Palantir के प्रमुख एलेक्स कार्प ने सार्वजनिक रूप से अमेरिकी डोनाल्ड ट्रम्प प्रशासन से दूरी बना ली है।",
+        "whyItMatters": "यह बदलाव रिपब्लिकन राजनीतिक हलकों के साथ मेल-मिलाप की अवधि के बाद एक उल्लेखनीय अलगाव को दर्शाता है। यह अमेरिका में तकनीकी दिग्गजों और राजनीतिक सत्ता के बीच संबंधों की अस्थिरता को दर्शाता है।",
+        "quiz": {
+          "question": "एलेक्स कार्प ने किस पुरानी राजनीतिक भावना को फिर से पाने का दावा किया?",
+          "choices": [
+            "रिपब्लिकन",
+            "डेमोक्रेट",
+            "लिबर्टेरियन"
+          ],
+          "explanation": "अपने बयानों के अनुसार एलेक्स कार्प ने अपनी पुरानी डेमोक्रेटिक भावनाओं को फिर से अपनाया है।"
+        }
+      },
+      "zh": {
+        "title": "Palantir老板与特朗普拉开距离",
+        "fact": "Palantir负责人亚历克斯·卡普（Alex Karp）公开与美国唐纳德·特朗普政府保持距离。",
+        "whyItMatters": "这一转向标志着在与共和党政治圈经历了一段靠拢期后的一次显著决裂。它说明了美国科技巨头与政治权力之间关系的动荡性。",
+        "quiz": {
+          "question": "亚历克斯·卡普声称找回了哪种过去的政治倾向？",
+          "choices": [
+            "共和党",
+            "民主党",
+            "自由意志主义"
+          ],
+          "explanation": "根据亚历克斯·卡普的声明，他重新回归了昔日的民主党倾向。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-68304512511d",
+    "title": "Cisco enregistre une forte hausse de son chiffre d'affaires",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Cisco a publie des resultats trimestriels superieurs aux attentes, affichant un chiffre d'affaires de 18,51 milliards de dollars et une hausse de son profit.",
+    "whyItMatters": "Cette progression démontre la forte demande en équipements réseaux et en solutions de cybersécurité portées par la transition numérique. L'entreprise profite directement de la modernisation des infrastructures technologiques mondiales.",
+    "summary": "Cisco a publie des resultats trimestriels superieurs aux attentes, affichant un chiffre d'affaires de 18,51 milliards de dollars et une hausse de son profit. Cette progression démontre la forte demande en équipements réseaux et en solutions de cybersécurité portées par la transition numérique. L'entreprise profite directement de la modernisation des infrastructures technologiques mondiales.",
+    "source": "IT Home",
+    "region": "cn",
+    "sourceURL": "https://www.ithome.com/1/026/450.htm",
+    "publishedAt": "2026-11-12T21:11:36Z",
+    "quiz": {
+      "question": "Quel a ete le principal moteur des bons resultats trimestriels de Cisco ?",
+      "choices": [
+        "L'arret de ses activites de securite",
+        "La forte demande en equipements reseaux",
+        "La vente de sa division grand public"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cisco beneficie de la modernisation des infrastructures reseaux et des investissements technologiques."
+    },
+    "translations": {
+      "en": {
+        "title": "Cisco reports a sharp increase in revenue",
+        "fact": "Cisco published quarterly results that exceeded expectations, posting a revenue of $18.51 billion and an increase in profit.",
+        "whyItMatters": "This growth demonstrates the strong demand for networking equipment and cybersecurity solutions driven by the digital transition. The company directly benefits from the modernization of global technological infrastructures.",
+        "quiz": {
+          "question": "What was the main driver of Cisco's strong quarterly results?",
+          "choices": [
+            "The shutdown of its security operations",
+            "The high demand for networking equipment",
+            "The sale of its consumer division"
+          ],
+          "explanation": "Cisco is benefiting from the modernization of network infrastructures and technology investments."
+        }
+      },
+      "es": {
+        "title": "Cisco registra un fuerte aumento de su facturación",
+        "fact": "Cisco ha publicado unos resultados trimestrales superiores a las expectativas, registrando una facturación de 18.510 millones de dólares y un aumento de su beneficio.",
+        "whyItMatters": "Esta progresión demuestra la fuerte demanda de equipos de red y soluciones de ciberseguridad impulsadas por la transición digital. La empresa se beneficia directamente de la modernización de las infraestructuras tecnológicas mundiales.",
+        "quiz": {
+          "question": "¿Cuál fue el principal motor de los buenos resultados trimestrales de Cisco?",
+          "choices": [
+            "El cese de sus actividades de seguridad",
+            "La fuerte demanda de equipos de red",
+            "La venta de su división de consumo"
+          ],
+          "explanation": "Cisco se beneficia de la modernización de las infraestructuras de red y de las inversiones tecnológicas."
+        }
+      },
+      "hi": {
+        "title": "Cisco के राजस्व में भारी उछाल दर्ज",
+        "fact": "Cisco ने उम्मीद से बेहतर तिमाही नतीजे जारी किए, जिसमें 18.51 बिलियन डॉलर का राजस्व और मुनाफे में बढ़ोतरी दर्ज की गई।",
+        "whyItMatters": "यह प्रगति डिजिटल परिवर्तन द्वारा संचालित नेटवर्क उपकरणों और साइबर सुरक्षा समाधानों की मजबूत मांग को प्रदर्शित करती है। कंपनी को सीधे तौर पर वैश्विक तकनीकी बुनियादी ढांचे के आधुनिकीकरण का लाभ मिल रहा है।",
+        "quiz": {
+          "question": "Cisco के अच्छे तिमाही परिणामों का मुख्य चालक क्या था?",
+          "choices": [
+            "इसकी सुरक्षा गतिविधियों को बंद करना",
+            "नेटवर्क उपकरणों की भारी मांग",
+            "इसके उपभोक्ता डिवीजन की बिक्री"
+          ],
+          "explanation": "Cisco को नेटवर्क बुनियादी ढांचे के आधुनिकीकरण और तकनीकी निवेश से लाभ मिल रहा है।"
+        }
+      },
+      "zh": {
+        "title": "思科（Cisco）营业额大幅增长",
+        "fact": "思科公布的季度业绩超出预期，营业额达到185.1亿美元，利润实现增长。",
+        "whyItMatters": "这一增长证明了数字化转型所推动的网络设备和网络安全解决方案的强劲需求。该公司直接受益于全球技术基础设施的现代化。",
+        "quiz": {
+          "question": "思科良好季度业绩的主要推动力是什么？",
+          "choices": [
+            "停止安全业务",
+            "对网络设备的强劲需求",
+            "出售其消费业务部门"
+          ],
+          "explanation": "思科受益于网络基础设施的现代化和技术投资。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-66fad4eb828d",
+    "title": "Un plan pour la souveraineté alimentaire en France",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le gouvernement a dévoilé un plan décennal destiné à relancer la souveraineté alimentaire du pays.",
+    "whyItMatters": "Cette stratégie cherche à sécuriser la production agricole nationale face aux défis économiques et géopolitiques actuels. Elle suscite toutefois des interrogations quant à sa prise en compte insuffisante de la transition écologique.",
+    "summary": "Le gouvernement a dévoilé un plan décennal destiné à relancer la souveraineté alimentaire du pays. Cette stratégie cherche à sécuriser la production agricole nationale face aux défis économiques et géopolitiques actuels. Elle suscite toutefois des interrogations quant à sa prise en compte insuffisante de la transition écologique.",
+    "source": "Le Monde",
+    "region": "fr",
+    "sourceURL": "https://www.lemonde.fr/planete/article/2026/11/12/agriculture-un-plan-de-relance-tiraille-entre-souverainete-alimentaire-et-urgence-climatique_6809161_3244.html",
+    "publishedAt": "2026-11-12T21:10:52Z",
+    "quiz": {
+      "question": "Quelle est la durée prévue pour le plan de relance de l'agriculture présenté ?",
+      "choices": [
+        "Cinq ans",
+        "Vingt ans",
+        "Dix ans"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le plan vise à porter la reconquête de la souveraineté alimentaire sur une période de dix ans."
+    },
+    "translations": {
+      "en": {
+        "title": "A food sovereignty plan for France",
+        "fact": "The government has unveiled a ten-year plan intended to revive the country's food sovereignty.",
+        "whyItMatters": "This strategy seeks to secure national agricultural production in the face of current economic and geopolitical challenges. However, it raises questions regarding its insufficient consideration of the ecological transition.",
+        "quiz": {
+          "question": "What is the planned duration for the presented agricultural recovery plan?",
+          "choices": [
+            "Five years",
+            "Twenty years",
+            "Ten years"
+          ],
+          "explanation": "The plan aims to drive the reconquest of food sovereignty over a ten-year period."
+        }
+      },
+      "es": {
+        "title": "Un plan para la soberanía alimentaria en Francia",
+        "fact": "El gobierno ha presentado un plan decenal destinado a relanzar la soberanía alimentaria del país.",
+        "whyItMatters": "Esta estrategia busca asegurar la producción agrícola nacional frente a los retos económicos y geopolíticos actuales. Sin embargo, suscita dudas en cuanto a su consideración insuficiente de la transición ecológica.",
+        "quiz": {
+          "question": "¿Cuál es la duración prevista para el plan de reactivación agrícola presentado?",
+          "choices": [
+            "Cinco años",
+            "Veinte años",
+            "Diez años"
+          ],
+          "explanation": "El plan pretende llevar a cabo la reconquista de la soberanía alimentaria durante un periodo de diez años."
+        }
+      },
+      "hi": {
+        "title": "फ्रांस में खाद्य संप्रभुता के लिए योजना",
+        "fact": "सरकार ने देश की खाद्य संप्रभुता को पुनर्जीवित करने के उद्देश्य से एक दशक लंबी योजना का अनावरण किया है।",
+        "whyItMatters": "यह रणनीति वर्तमान आर्थिक और भू-राजनीतिक चुनौतियों के सामने राष्ट्रीय कृषि उत्पादन को सुरक्षित करना चाहती है। हालांकि, पारिस्थितिक परिवर्तन को अपर्याप्त रूप से ध्यान में रखने को लेकर इस पर सवाल उठ रहे हैं।",
+        "quiz": {
+          "question": "प्रस्तुत कृषि पुनरुद्धार योजना की नियोजित अवधि क्या है?",
+          "choices": [
+            "पाँच वर्ष",
+            "बीस वर्ष",
+            "दस वर्ष"
+          ],
+          "explanation": "इस योजना का उद्देश्य दस वर्षों की अवधि में खाद्य संप्रभुता को पुनः प्राप्त करना है।"
+        }
+      },
+      "zh": {
+        "title": "法国出台粮食主权计划",
+        "fact": "政府公布了一项旨在重振国家粮食主权的十年计划。",
+        "whyItMatters": "该战略旨在面对当前的经济和地缘政治挑战，保障国家农业生产的安全。然而，由于对生态转型考虑不足，它也引发了一些质疑。",
+        "quiz": {
+          "question": "提出的农业复苏计划预计持续多长时间？",
+          "choices": [
+            "五年",
+            "二十年",
+            "十年"
+          ],
+          "explanation": "该计划旨在通过十年的时间来重新夺回粮食主权。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-d414c4069afc",
+    "title": "Résultats annuels solides pour le fournisseur Applied Materials",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Applied Materials a dévoilé son bilan pour l'exercice 2026, affichant un chiffre d'affaires de 34,46 milliards de dollars et un bénéfice net en hausse.",
+    "whyItMatters": "Ces performances illustrent la santé robuste de l'écosystème des semi-conducteurs et des équipements industriels. La demande reste soutenue, portée par les investissements continus dans les infrastructures technologiques.",
+    "summary": "Applied Materials a dévoilé son bilan pour l'exercice 2026, affichant un chiffre d'affaires de 34,46 milliards de dollars et un bénéfice net en hausse. Ces performances illustrent la santé robuste de l'écosystème des semi-conducteurs et des équipements industriels. La demande reste soutenue, portée par les investissements continus dans les infrastructures technologiques.",
+    "source": "IT Home",
+    "region": "cn",
+    "sourceURL": "https://www.ithome.com/1/026/449.htm",
+    "publishedAt": "2026-11-12T21:05:40Z",
+    "quiz": {
+      "question": "À combien s'élève le chiffre d'affaires annuel de l'entreprise pour l'exercice 2026 ?",
+      "choices": [
+        "Environ 100 milliards de dollars",
+        "Près de 10 milliards de dollars",
+        "Plus de 34 milliards de dollars"
+      ],
+      "answerIndex": 2,
+      "explanation": "Le rapport indique un chiffre d'affaires total de 34,46 milliards de dollars pour l'année."
+    },
+    "translations": {
+      "en": {
+        "title": "Solid annual results for Applied Materials",
+        "fact": "Applied Materials unveiled its financial report for fiscal year 2026, posting a revenue of $34.46 billion and an increase in net income.",
+        "whyItMatters": "These performances illustrate the robust health of the semiconductor ecosystem and industrial equipment sector. Demand remains supported, driven by continuous investments in technological infrastructures.",
+        "quiz": {
+          "question": "What is the company's annual revenue for fiscal year 2026?",
+          "choices": [
+            "Around $100 billion",
+            "Nearly $10 billion",
+            "Over $34 billion"
+          ],
+          "explanation": "The report indicates a total revenue of $34.46 billion for the year."
+        }
+      },
+      "es": {
+        "title": "Resultados anuales sólidos para Applied Materials",
+        "fact": "Applied Materials ha presentado su balance para el ejercicio 2026, con una facturación de 34.460 millones de dólares y un beneficio neto al alza.",
+        "whyItMatters": "Estos resultados ilustran la sólida salud del ecosistema de los semiconductores y de los equipos industriales. La demanda se mantiene firme, impulsada por las inversiones continuas en infraestructuras tecnológicas.",
+        "quiz": {
+          "question": "¿A cuánto asciende la facturación anual de la empresa para el ejercicio 2026?",
+          "choices": [
+            "Alrededor de 100.000 millones de dólares",
+            "Cerca de 10.000 millones de dólares",
+            "Más de 34.000 millones de dólares"
+          ],
+          "explanation": "El informe indica una facturación total de 34.460 millones de dólares para el año."
+        }
+      },
+      "hi": {
+        "title": "आपूर्तिकर्ता Applied Materials के ठोस नतीजे",
+        "fact": "Applied Materials ने वित्तीय वर्ष 2026 के लिए अपने वित्तीय विवरण का अनावरण किया, जिसमें 34.46 बिलियन डॉलर का राजस्व और बढ़ता शुद्ध लाभ दर्ज किया गया।",
+        "whyItMatters": "ये प्रदर्शन सेमीकंडक्टर और औद्योगिक उपकरण पारिस्थितिकी तंत्र के मजबूत स्वास्थ्य को दर्शाते हैं। तकनीकी बुनियादी ढांचे में निरंतर निवेश के कारण मांग मजबूत बनी हुई है।",
+        "quiz": {
+          "question": "वित्तीय वर्ष 2026 के लिए कंपनी का वार्षिक राजस्व कितना है?",
+          "choices": [
+            "लगभग 100 बिलियन डॉलर",
+            "लगभग 10 बिलियन डॉलर",
+            "34 बिलियन डॉलर से अधिक"
+          ],
+          "explanation": "रिपोर्ट वर्ष के लिए कुल 34.46 बिलियन डॉलर के राजस्व का संकेत देती है।"
+        }
+      },
+      "zh": {
+        "title": "应用材料公司（Applied Materials）年度业绩稳健",
+        "fact": "应用材料公司公布了2026财年的财务报告，营业额达344.6亿美元，净利润有所增长。",
+        "whyItMatters": "这些表现表明半导体和工业设备生态系统具有强健的生命力。在对技术基础设施的持续投资推动下，需求依然保持强劲。",
+        "quiz": {
+          "question": "该公司2026财年的年营业额是多少？",
+          "choices": [
+            "约1000亿美元",
+            "近100亿美元",
+            "超过340亿美元"
+          ],
+          "explanation": "报告显示该年总营业额为344.6亿美元。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-ebff1920ee37",
+    "title": "Microsoft permet de jouer à 25 jeux Xbox d'origine sur PC",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "À l'occasion du vingt-cinquième anniversaire de la marque, Microsoft rend compatibles vingt-cinq jeux de la première console Xbox sur les ordinateurs sous Windows.",
+    "whyItMatters": "Cette initiative concrétise les engagements de l'entreprise en matière de préservation du patrimoine vidéoludique. Les joueurs possédant déjà une copie numérique ou disposant d'un accès payant peuvent ainsi redécouvrir ces titres sur PC.",
+    "summary": "À l'occasion du vingt-cinquième anniversaire de la marque, Microsoft rend compatibles vingt-cinq jeux de la première console Xbox sur les ordinateurs sous Windows. Cette initiative concrétise les engagements de l'entreprise en matière de préservation du patrimoine vidéoludique. Les joueurs possédant déjà une copie numérique ou disposant d'un accès payant peuvent ainsi redécouvrir ces titres sur PC.",
+    "source": "The Verge",
+    "region": "en",
+    "sourceURL": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+    "publishedAt": "2026-11-12T21:00:00Z",
+    "quiz": {
+      "question": "Combien de jeux de la première Xbox originelle deviennent jouables sur PC ?",
+      "choices": [
+        "25",
+        "10",
+        "50"
+      ],
+      "answerIndex": 0,
+      "explanation": "Microsoft propose une liste initiale de 25 titres originaux sur les ordinateurs Windows."
+    },
+    "translations": {
+      "en": {
+        "title": "Microsoft brings 25 original Xbox games to PC",
+        "fact": "On the occasion of the brand's twenty-fifth anniversary, Microsoft is making twenty-five games from the original Xbox console compatible with Windows computers.",
+        "whyItMatters": "This initiative fulfills the company's commitments regarding the preservation of video game heritage. Players who already own a digital copy or have paid access can thus rediscover these titles on PC.",
+        "quiz": {
+          "question": "How many games from the original first Xbox are becoming playable on PC?",
+          "choices": [
+            "25",
+            "10",
+            "50"
+          ],
+          "explanation": "Microsoft is offering an initial list of 25 original titles on Windows computers."
+        }
+      },
+      "es": {
+        "title": "Microsoft permite jugar a 25 juegos de Xbox en PC",
+        "fact": "Con motivo del 25 aniversario de la marca, Microsoft hace compatibles 25 juegos de la primera consola Xbox en los ordenadores con Windows.",
+        "whyItMatters": "Esta iniciativa materializa los compromisos de la empresa en materia de preservación del patrimonio de los videojuegos. Los jugadores que ya posean una copia digital o dispongan de un acceso de pago pueden así redescubrir estos títulos en PC.",
+        "quiz": {
+          "question": "¿Cuántos juegos de la primera Xbox original pasan a ser jugables en PC?",
+          "choices": [
+            "25",
+            "10",
+            "50"
+          ],
+          "explanation": "Microsoft ofrece una lista inicial de 25 títulos originales en los ordenadores con Windows."
+        }
+      },
+      "hi": {
+        "title": "Microsoft PC पर लाया 25 मूल Xbox गेम",
+        "fact": "ब्रांड की पच्चीसवीं वर्षगांठ के अवसर पर, Microsoft Windows कंप्यूटरों पर मूल Xbox कंसोल के पच्चीस गेम संगत बना रहा है।",
+        "whyItMatters": "यह पहल वीडियो गेम विरासत के संरक्षण के संबंध में कंपनी की प्रतिबद्धताओं को ठोस रूप देती है। जिन खिलाड़ियों के पास पहले से डिजिटल कॉपी है या जिनके पास सशुल्क एक्सेस है, वे PC पर इन शीर्षकों को फिर से खोज सकते हैं।",
+        "quiz": {
+          "question": "मूल Xbox के कितने गेम PC पर खेलने योग्य हो गए हैं?",
+          "choices": [
+            "25",
+            "10",
+            "50"
+          ],
+          "explanation": "Microsoft Windows कंप्यूटरों पर 25 मूल शीर्षकों की एक प्रारंभिक सूची प्रदान करता है।"
+        }
+      },
+      "zh": {
+        "title": "微软允许在PC上玩25款初代Xbox游戏",
+        "fact": "正值该品牌成立二十五周年之际，微软让运行Windows系统的电脑能够兼容二十五款初代Xbox游戏。",
+        "whyItMatters": "这一举措兑现了该公司在保护视频游戏遗产方面的承诺。已经拥有数字副本或付费访问权的玩家因此可以在PC上重新体验这些作品。",
+        "quiz": {
+          "question": "有多少款最初的初代Xbox游戏可以在PC上游玩？",
+          "choices": [
+            "25",
+            "10",
+            "50"
+          ],
+          "explanation": "微软在Windows电脑上推出了最初的25款作品的初始列表。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-bd99586f24fc",
+    "title": "Contestation judiciaire contre une taxe crypto dans l'Illinois",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "Plusieurs groupes professionnels et des acteurs de la finance décentralisée attaquent en justice la taxe sur les cryptomonnaies dans l'Illinois.",
+    "whyItMatters": "Les plaignants estiment que cet impôt, applicable même en l'absence de plus-value, alourdit excessivement les coûts de mise en conformité. Cette procédure pourrait créer un précédent juridique d'envergure pour la régulation des actifs numériques aux Etats-Unis.",
+    "summary": "Plusieurs groupes professionnels et des acteurs de la finance décentralisée attaquent en justice la taxe sur les cryptomonnaies dans l'Illinois. Les plaignants estiment que cet impôt, applicable même en l'absence de plus-value, alourdit excessivement les coûts de mise en conformité. Cette procédure pourrait créer un précédent juridique d'envergure pour la régulation des actifs numériques aux Etats-Unis.",
+    "source": "Cointelegraph",
+    "region": "en",
+    "sourceURL": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-12T20:58:06Z",
+    "quiz": {
+      "question": "Quel est le principal grief reproché à la taxe sur les cryptomonnaies dans l'Illinois ?",
+      "choices": [
+        "Elle est exclusivement réservée aux grandes entreprises",
+        "Elle double le taux de l'impôt sur le revenu",
+        "Elle s'applique même sans profit réalisé"
+      ],
+      "answerIndex": 2,
+      "explanation": "La taxe s'applique même lorsque la transaction ne génère aucun profit, ce qui pénalise les acteurs du secteur."
+    },
+    "translations": {
+      "en": {
+        "title": "Legal challenge against an Illinois crypto tax",
+        "fact": "Several trade groups and decentralized finance players are filing a lawsuit against the cryptocurrency tax in Illinois.",
+        "whyItMatters": "The plaintiffs argue that this tax, applicable even in the absence of a capital gain, excessively burdens compliance costs. This legal procedure could set a major legal precedent for the regulation of digital assets in the United States.",
+        "quiz": {
+          "question": "What is the main grievance against the cryptocurrency tax in Illinois?",
+          "choices": [
+            "It is exclusively reserved for large corporations",
+            "It doubles the income tax rate",
+            "It applies even without any profit made"
+          ],
+          "explanation": "The tax applies even when the transaction generates no profit, which penalizes industry participants."
+        }
+      },
+      "es": {
+        "title": "Impugnación judicial contra un impuesto cripto en Illinois",
+        "fact": "Varios grupos profesionales y actores de las finanzas descentralizadas llevan ante la justicia el impuesto sobre las criptomonedas en Illinois.",
+        "whyItMatters": "Los demandantes consideran que este impuesto, aplicable incluso en ausencia de plusvalía, encarece excesivamente los costes de cumplimiento normativo. Este procedimiento podría crear un precedente jurídico de gran calado para la regulación de los activos digitales en Estados Unidos.",
+        "quiz": {
+          "question": "¿Cuál es la principal queja reprochada al impuesto sobre las criptomonedas en Illinois?",
+          "choices": [
+            "Está reservado exclusivamente a las grandes empresas",
+            "Duplica el tipo del impuesto sobre la renta",
+            "Se aplica incluso sin obtener beneficios"
+          ],
+          "explanation": "El impuesto se aplica incluso cuando la transacción no genera ningún beneficio, lo que penaliza a los actores del sector."
+        }
+      },
+      "hi": {
+        "title": "इलिनाइस में क्रिप्टो कर के खिलाफ कानूनी चुनौती",
+        "fact": "कई व्यापारिक समूह और विकेंद्रीकृत वित्त के खिलाड़ी इलिनाइस में क्रिप्टोकरेंसी कर के खिलाफ अदालत में गए हैं।",
+        "whyItMatters": "शिकायतकर्ताओं का मानना ​​है कि यह कर, जो पूंजीगत लाभ न होने पर भी लागू होता है, अनुपालन लागत को अत्यधिक बढ़ाता है। यह प्रक्रिया संयुक्त राज्य अमेरिका में डिजिटल परिसंपत्ति विनियमन के लिए एक बड़ा कानूनी मिसाल कायम कर सकती है।",
+        "quiz": {
+          "question": "इलिनाइस में क्रिप्टोकरेंसी कर के खिलाफ मुख्य शिकायत क्या है?",
+          "choices": [
+            "यह विशेष रूप से बड़ी कंपनियों के लिए आरक्षित है",
+            "यह आयकर दर को दोगुना करता है",
+            "यह बिना लाभ कमाए भी लागू होता है"
+          ],
+          "explanation": "यह कर तब भी लागू होता है जब लेनदेन से कोई लाभ नहीं होता है, जो क्षेत्र के खिलाड़ियों को दंडित करता है।"
+        }
+      },
+      "zh": {
+        "title": "伊利诺伊州加密货币税遭遇法律诉讼",
+        "fact": "数个专业团体和去中心化金融领域的参与者就伊利诺伊州的加密货币税提起诉讼。",
+        "whyItMatters": "原告认为，即使在没有资本利得的情况下也须适用的这项税收，过重地增加了合规成本。这一诉讼程序可能为美国数字资产监管开创一个重要的法律先例。",
+        "quiz": {
+          "question": "对伊利诺伊州加密货币税的主要抱怨是什么？",
+          "choices": [
+            "它专为大型企业保留",
+            "它将所得税税率翻倍",
+            "即使没有实现利润也适用"
+          ],
+          "explanation": "即使交易没有产生任何利润，该税也适用，这惩罚了该行业的参与者。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-3dfdb6cd218f",
+    "title": "Google lance le modele d'intelligence artificielle Gemini 4 Hydrogen",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Google a lance son nouveau modele de langage nomme Gemini 4 Hydrogen et l'a integre directement a son moteur de recherche.",
+    "whyItMatters": "Cette nouveauté permet d'enrichir les réponses du moteur de recherche avec des fonctionnalités textuelles avancées. Elle complète la gamme de modèles de l'entreprise déjà introduite plus tôt dans l'automne.",
+    "summary": "Google a lance son nouveau modele de langage nomme Gemini 4 Hydrogen et l'a integre directement a son moteur de recherche. Cette nouveauté permet d'enrichir les réponses du moteur de recherche avec des fonctionnalités textuelles avancées. Elle complète la gamme de modèles de l'entreprise déjà introduite plus tôt dans l'automne.",
+    "source": "Hipertextual",
+    "region": "es",
+    "sourceURL": "https://hipertextual.com/inteligencia-artificial/google-lanza-gemini-4-hydrogen-y-lo-integra-con-su-buscador-web/",
+    "publishedAt": "2026-11-12T20:50:51Z",
+    "quiz": {
+      "question": "Quel est le nom du nouveau modele lance par Google ?",
+      "choices": [
+        "Gemini 4 Argon",
+        "Gemini 4 Hydrogen",
+        "Gemini 4 Carbon"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article annonce le lancement et l'intégration de Gemini 4 Hydrogen par Google."
+    },
+    "terms": [
+      {
+        "term": "modele de langage",
+        "definition": "Programme informatique entraine pour comprendre, generer et traduire du texte simulant le langage humain."
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Google launches the Gemini 4 Hydrogen AI model",
+        "fact": "Google has launched its new language model named Gemini 4 Hydrogen and integrated it directly into its search engine.",
+        "whyItMatters": "This new feature enhances search engine answers with advanced text capabilities. It complements the company's lineup of models already introduced earlier in the fall.",
+        "quiz": {
+          "question": "What is the name of the new model launched by Google?",
+          "choices": [
+            "Gemini 4 Argon",
+            "Gemini 4 Hydrogen",
+            "Gemini 4 Carbon"
+          ],
+          "explanation": "The article announces the launch and integration of Gemini 4 Hydrogen by Google."
+        },
+        "terms": [
+          {
+            "term": "language model",
+            "definition": "A computer program trained to understand, generate, and translate text simulating human language."
+          }
+        ]
+      },
+      "es": {
+        "title": "Google lanza el modelo de inteligencia artificial Gemini 4",
+        "fact": "Google ha lanzado su nuevo modelo de lenguaje llamado Gemini 4 Hydrogen y lo ha integrado directamente en su motor de búsqueda.",
+        "whyItMatters": "Esta novedad permite enriquecer las respuestas del motor de búsqueda con funciones de texto avanzadas. Completa la gama de modelos de la empresa introducida a principios de otoño.",
+        "quiz": {
+          "question": "¿Cómo se llama el nuevo modelo lanzado por Google?",
+          "choices": [
+            "Gemini 4 Argon",
+            "Gemini 4 Hydrogen",
+            "Gemini 4 Carbon"
+          ],
+          "explanation": "El artículo anuncia el lanzamiento y la integración de Gemini 4 Hydrogen por parte de Google."
+        },
+        "terms": [
+          {
+            "term": "modelo de lenguaje",
+            "definition": "Programa informático entrenado para comprender, generar y traducir texto imitando el lenguaje humano."
+          }
+        ]
+      },
+      "hi": {
+        "title": "Google ने Gemini 4 Hydrogen AI मॉडल लॉन्च किया",
+        "fact": "Google ने Gemini 4 Hydrogen नामक अपना नया भाषा मॉडल लॉन्च किया है और इसे सीधे अपने सर्च इंजन में एकीकृत किया है।",
+        "whyItMatters": "यह नयापन उन्नत पाठ्य सुविधाओं के साथ सर्च इंजन के जवाबों को समृद्ध करना संभव बनाता है। यह शरद ऋतु की शुरुआत में पेश किए गए कंपनी के मॉडलों की श्रृंखला को पूरा करता है।",
+        "quiz": {
+          "question": "Google द्वारा लॉन्च किए गए नए मॉडल का नाम क्या है?",
+          "choices": [
+            "Gemini 4 Argon",
+            "Gemini 4 Hydrogen",
+            "Gemini 4 Carbon"
+          ],
+          "explanation": "लेख Google द्वारा Gemini 4 Hydrogen के लॉन्च और एकीकरण की घोषणा करता है।"
+        }
+      },
+      "zh": {
+        "title": "谷歌推出Gemini 4 Hydrogen人工智能模型",
+        "fact": "谷歌推出了名为Gemini 4 Hydrogen的新语言模型，并将其直接集成到搜索引擎中。",
+        "whyItMatters": "这一新功能丰富了搜索引擎的回答，带有先进的文本功能。它完善了该公司在今年秋季初推出的模型系列。",
+        "quiz": {
+          "question": "谷歌推出的新模型叫什么名字？",
+          "choices": [
+            "Gemini 4 Argon",
+            "Gemini 4 Hydrogen",
+            "Gemini 4 Carbon"
+          ],
+          "explanation": "文章宣布谷歌推出了Gemini 4 Hydrogen并将其整合。"
+        },
+        "terms": [
+          {
+            "term": "语言模型",
+            "definition": "经过训练以理解、生成和翻译模拟人类语言的文本的计算机程序。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rss-26f1a5bb6874",
+    "title": "La DTCC vise Solana pour des actions",
+    "topic": "finance",
+    "subject": "Crypto",
+    "fact": "La chambre de compensation américaine prévoit d'intégrer des actions tokenisées sur la blockchain Solana d'ici 2027.",
+    "whyItMatters": "Ce projet ambitionne de moderniser les règlements de titres financiers grâce à la technologie des registres distribués. Des restrictions sur les portefeuilles numériques pourraient toutefois freiner l'adoption de cette innovation.",
+    "summary": "La chambre de compensation américaine prévoit d'intégrer des actions tokenisées sur la blockchain Solana d'ici 2027. Ce projet ambitionne de moderniser les règlements de titres financiers grâce à la technologie des registres distribués. Des restrictions sur les portefeuilles numériques pourraient toutefois freiner l'adoption de cette innovation.",
+    "source": "Cointelegraph",
+    "region": "en",
+    "sourceURL": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "publishedAt": "2026-11-12T20:07:41Z",
+    "quiz": {
+      "question": "Sur quelle blockchain la DTCC prévoit-elle d'introduire des actions tokenisées ?",
+      "choices": [
+        "Solana",
+        "Ethereum",
+        "Bitcoin"
+      ],
+      "answerIndex": 0,
+      "explanation": "La chambre de compensation américaine cible la blockchain Solana pour ce projet prévu en 2027."
+    },
+    "terms": [
+      {
+        "term": "tokenisées",
+        "definition": "Converties en jetons numériques sécurisés sur une blockchain."
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "DTCC targets Solana for equities",
+        "fact": "The American clearinghouse plans to integrate tokenized stocks onto the Solana blockchain by 2027.",
+        "whyItMatters": "This project aims to modernize financial securities settlements using distributed ledger technology. However, restrictions on digital wallets could slow down the adoption of this innovation.",
+        "quiz": {
+          "question": "On which blockchain does DTCC plan to introduce tokenized stocks?",
+          "choices": [
+            "Solana",
+            "Ethereum",
+            "Bitcoin"
+          ],
+          "explanation": "The American clearinghouse is targeting the Solana blockchain for this project scheduled for 2027."
+        },
+        "terms": [
+          {
+            "term": "tokenized",
+            "definition": "Converted into secure digital tokens on a blockchain."
+          }
+        ]
+      },
+      "es": {
+        "title": "La DTCC apunta a Solana para acciones",
+        "fact": "La cámara de compensación estadounidense prevé integrar acciones tokenizadas en la cadena de bloques Solana de aquí a 2027.",
+        "whyItMatters": "Este proyecto ambiciona modernizar las liquidaciones de títulos financieros gracias a la tecnología de registros distribuidos. Sin embargo, las restricciones sobre los monederos digitales podrían frenar la adopción de esta innovación.",
+        "quiz": {
+          "question": "¿En qué cadena de bloques prevé la DTCC introducir acciones tokenizadas?",
+          "choices": [
+            "Solana",
+            "Ethereum",
+            "Bitcoin"
+          ],
+          "explanation": "La cámara de compensación estadounidense apunta a la cadena de bloques Solana para este proyecto previsto en 2027."
+        },
+        "terms": [
+          {
+            "term": "tokenizadas",
+            "definition": "Convertidas en fichas digitales seguras en una cadena de bloques."
+          }
+        ]
+      },
+      "hi": {
+        "title": "DTCC ने शेयरों के लिए Solana को चुना",
+        "fact": "अमेरिकी समाशोधन गृह (क्लीयरिंग हाउस) ने 2027 तक Solana ब्लॉकचेन पर टोकनयुक्त शेयरों को एकीकृत करने की योजना बनाई है।",
+        "whyItMatters": "इस परियोजना का उद्देश्य वितरित बहीखाता तकनीक (डिस्ट्रीब्यूटेड लेज़र टेक्नोलॉजी) के माध्यम से वित्तीय प्रतिभूति निपटान को आधुनिक बनाना है। हालाँकि, डिजिटल वॉलेट पर प्रतिबंध इस नवाचार को अपनाने में बाधा बन सकते हैं।",
+        "quiz": {
+          "question": "DTCC किस ब्लॉकचेन पर टोकनयुक्त शेयर पेश करने की योजना बना रहा है?",
+          "choices": [
+            "Solana",
+            "Ethereum",
+            "Bitcoin"
+          ],
+          "explanation": "अमेरिकी समाशोधन गृह 2027 में होने वाली इस परियोजना के लिए Solana ब्लॉकचेन को लक्षित कर रहा है।"
+        }
+      },
+      "zh": {
+        "title": "DTCC瞄准Solana区块链用于股票交易",
+        "fact": "美国存管信托及清算公司计划在2027年之前将代币化股票整合到Solana区块链上。",
+        "whyItMatters": "该项目旨在借助分布式账本技术实现金融证券结算的现代化。然而，对数字钱包的限制可能会阻碍这种创新的采用。",
+        "quiz": {
+          "question": "DTCC计划在哪个区块链上引入代币化股票？",
+          "choices": [
+            "Solana",
+            "Ethereum",
+            "Bitcoin"
+          ],
+          "explanation": "美国清算所将Solana区块链作为该计划的目标，预计于2027年实施。"
+        },
+        "terms": [
+          {
+            "term": "代币化",
+            "definition": "转化为区块链上安全数字代币的形式。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rss-77b9f220943e",
+    "title": "Yatra affiche une perte nette trimestrielle",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La plateforme de voyage en ligne Yatra a enregistre une perte nette consolidee de 78,4 lakhs de roupies au cours du deuxieme trimestre.",
+    "whyItMatters": "Ce résultat met en lumière les difficultés financières rencontrées par les acteurs du secteur numérique du voyage. Il illustre la pression économique à laquelle font face ces plateformes sur leur marché.",
+    "summary": "La plateforme de voyage en ligne Yatra a enregistre une perte nette consolidee de 78,4 lakhs de roupies au cours du deuxieme trimestre. Ce résultat met en lumière les difficultés financières rencontrées par les acteurs du secteur numérique du voyage. Il illustre la pression économique à laquelle font face ces plateformes sur leur marché.",
+    "source": "Inc42",
+    "region": "in",
+    "sourceURL": "https://inc42.com/buzz/yatra-slips-into-the-red-in-q2-reports-%e2%82%b978-lakh-loss/",
+    "publishedAt": "2026-11-12T20:03:57Z",
+    "quiz": {
+      "question": "Quel a ete le resultat financier de Yatra au deuxieme trimestre ?",
+      "choices": [
+        "Un benefice record",
+        "Une perte nette",
+        "Une stabilite financiere"
+      ],
+      "answerIndex": 1,
+      "explanation": "La plateforme a bascule dans le rouge en enregistrant une perte nette au cours du trimestre."
+    },
+    "translations": {
+      "en": {
+        "title": "Yatra posts a quarterly net loss",
+        "fact": "Online travel platform Yatra recorded a consolidated net loss of 78.4 lakh rupees during the second quarter.",
+        "whyItMatters": "This result highlights the financial difficulties faced by players in the digital travel sector. It illustrates the economic pressure these platforms face in their market.",
+        "quiz": {
+          "question": "What was Yatra's financial result in the second quarter?",
+          "choices": [
+            "A record profit",
+            "A net loss",
+            "Financial stability"
+          ],
+          "explanation": "The platform slipped into the red by recording a net loss during the quarter."
+        }
+      },
+      "es": {
+        "title": "Yatra registra una pérdida neta trimestral",
+        "fact": "La plataforma de viajes en línea Yatra registró una pérdida neta consolidada de 78,4 lakhs de rupias durante el segundo trimestre.",
+        "whyItMatters": "Este resultado pone de relieve las dificultades financieras a las que se enfrentan los actores del sector digital de los viajes. Ilustra la presión económica que sufren estas plataformas en su mercado.",
+        "quiz": {
+          "question": "¿Cuál fue el resultado financiero de Yatra en el segundo trimestre?",
+          "choices": [
+            "Un beneficio récord",
+            "Una pérdida neta",
+            "Estabilidad financiera"
+          ],
+          "explanation": "La plataforma entró en números rojos al registrar una pérdida neta durante el trimestre."
+        }
+      },
+      "hi": {
+        "title": "Yatra ने तिमाही शुद्ध घाटा दर्ज किया",
+        "fact": "ऑनलाइन ट्रैवल प्लेटफॉर्म Yatra ने दूसरी तिमाही के दौरान 78.4 लाख रुपये का समेकित शुद्ध घाटा दर्ज किया।",
+        "whyItMatters": "यह परिणाम डिजिटल यात्रा क्षेत्र के खिलाड़ियों द्वारा सामना की जाने वाली वित्तीय कठिनाइयों को उजागर करता है। यह उस आर्थिक दबाव को दर्शाता है जिसका सामना ये प्लेटफॉर्म अपने बाजार में कर रहे हैं।",
+        "quiz": {
+          "question": "दूसरी तिमाही में Yatra का वित्तीय परिणाम क्या रहा?",
+          "choices": [
+            "एक रिकॉर्ड लाभ",
+            "एक शुद्ध घाटा",
+            "वित्तीय स्थिरता"
+          ],
+          "explanation": "तिमाही के दौरान शुद्ध घाटा दर्ज करके प्लेटफॉर्म घाटे में आ गया।"
+        }
+      },
+      "zh": {
+        "title": "Yatra公布季度净亏损",
+        "fact": "在线旅游平台Yatra在第二季度录得7840万卢比的综合净亏损。",
+        "whyItMatters": "这一结果突显了数字旅游行业参与者所遭遇的财务困境。它说明了这些平台在其市场上所面临的经济压力。",
+        "quiz": {
+          "question": "Yatra在第二季度的财务结果是什么？",
+          "choices": [
+            "创纪录的利润",
+            "净亏损",
+            "财务稳定"
+          ],
+          "explanation": "该平台在本季度录得净亏损，陷入了亏损状态。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-928643ec06b3",
+    "title": "Des particules cosmiques analysées par IA pour l'imagerie",
+    "topic": "tech",
+    "subject": "IA",
+    "fact": "Des chercheurs et la société GScan développent des méthodes basées sur l'intelligence artificielle pour exploiter des données de particules cosmiques.",
+    "whyItMatters": "Cette innovation permet de localiser avec une grande précision des objets cachés ou des structures internes invisibles. Elle offre des applications concrètes pour évaluer l'état de grands ouvrages d'art comme les ponts.",
+    "summary": "Des chercheurs et la société GScan développent des méthodes basées sur l'intelligence artificielle pour exploiter des données de particules cosmiques. Cette innovation permet de localiser avec une grande précision des objets cachés ou des structures internes invisibles. Elle offre des applications concrètes pour évaluer l'état de grands ouvrages d'art comme les ponts.",
+    "source": "Tech Xplore",
+    "region": "en",
+    "sourceURL": "https://techxplore.com/news/2026-11-ai-cosmic-particle-scans-hidden.html",
+    "publishedAt": "2026-11-12T20:00:24Z",
+    "quiz": {
+      "question": "Quel type de données est exploité par l'intelligence artificielle dans ce projet ?",
+      "choices": [
+        "Des particules cosmiques",
+        "Des ondes sismiques",
+        "Des signaux satellites GPS"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le texte mentionne l'utilisation de données collectées à l'aide de particules cosmiques."
+    },
+    "translations": {
+      "en": {
+        "title": "AI analyzes cosmic particles for imaging",
+        "fact": "Researchers and the company GScan are developing artificial intelligence-based methods to process cosmic particle data.",
+        "whyItMatters": "This innovation makes it possible to locate hidden objects or invisible internal structures with high precision. It offers practical applications for assessing the condition of major civil engineering structures such as bridges.",
+        "quiz": {
+          "question": "What type of data is processed by artificial intelligence in this project?",
+          "choices": [
+            "Cosmic particles",
+            "Seismic waves",
+            "GPS satellite signals"
+          ],
+          "explanation": "The text mentions the use of data collected using cosmic particles."
+        }
+      },
+      "es": {
+        "title": "Partículas cósmicas analizadas por IA para imágenes",
+        "fact": "Investigadores y la empresa GScan desarrollan métodos basados en la inteligencia artificial para explotar datos de partículas cósmicas.",
+        "whyItMatters": "Esta innovación permite localizar con gran precisión objetos ocultos o estructuras internas invisibles. Ofrece aplicaciones concretas para evaluar el estado de grandes obras de ingeniería como los puentes.",
+        "quiz": {
+          "question": "¿Qué tipo de datos explota la inteligencia artificial en este proyecto?",
+          "choices": [
+            "Partículas cósmicas",
+            "Ondas sísmicas",
+            "Señales de satélite GPS"
+          ],
+          "explanation": "El texto menciona el uso de datos recopilados mediante partículas cósmicas."
+        }
+      },
+      "hi": {
+        "title": "इमेजिंग के लिए AI द्वारा कॉस्मिक कणों का विश्लेषण",
+        "fact": "शोधकर्ता और GScan कंपनी कॉस्मिक कण डेटा का फायदा उठाने के लिए कृत्रिम बुद्धिमत्ता पर आधारित तरीके विकसित कर रहे हैं।",
+        "whyItMatters": "यह नवाचार छिपी हुई वस्तुओं या अदृश्य आंतरिक संरचनाओं को उच्च सटीकता के साथ पता लगाने की अनुमति देता है। यह पुलों जैसी बड़ी संरचनाओं की स्थिति का आकलन करने के लिए व्यावहारिक अनुप्रयोग प्रदान करता है।",
+        "quiz": {
+          "question": "इस परियोजना में कृत्रिम बुद्धिमत्ता द्वारा किस प्रकार के डेटा का उपयोग किया जाता है?",
+          "choices": [
+            "कॉस्मिक कण",
+            "भूकंपीय तरंगें",
+            "GPS उपग्रह सिग्नल"
+          ],
+          "explanation": "पाठ में कॉस्मिक कणों की मदद से एकत्र किए गए डेटा के उपयोग का उल्लेख है।"
+        }
+      },
+      "zh": {
+        "title": "利用人工智能分析宇宙粒子进行成像",
+        "fact": "研究人员和GScan公司正在开发基于人工智能的方法来利用宇宙粒子数据。",
+        "whyItMatters": "这项创新能够高精度地定位隐藏物体或肉眼不可见的内部结构。它为评估桥梁等大型建筑的状况提供了具体的应用。",
+        "quiz": {
+          "question": "该项目中的人工智能利用了哪类数据？",
+          "choices": [
+            "宇宙粒子",
+            "地震波",
+            "GPS卫星信号"
+          ],
+          "explanation": "文本提到了使用借助宇宙粒子收集的数据。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-dac53ecf2d1e",
+    "title": "Panne en cours sur plusieurs services de Microsoft 365",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Plusieurs applications de la suite Microsoft 365, dont Outlook et Teams, rencontrent actuellement des perturbations en raison d'une charge excessive.",
+    "whyItMatters": "Cette panne perturbe le travail quotidien de nombreux professionnels qui dépendent de ces outils pour communiquer et gérer leurs courriels. Les équipes techniques de l'entreprise travaillent pour rétablir un fonctionnement normal.",
+    "summary": "Plusieurs applications de la suite Microsoft 365, dont Outlook et Teams, rencontrent actuellement des perturbations en raison d'une charge excessive. Cette panne perturbe le travail quotidien de nombreux professionnels qui dépendent de ces outils pour communiquer et gérer leurs courriels. Les équipes techniques de l'entreprise travaillent pour rétablir un fonctionnement normal.",
+    "source": "Engadget",
+    "region": "en",
+    "sourceURL": "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+    "publishedAt": "2026-11-12T19:17:32Z",
+    "quiz": {
+      "question": "Quels services de Microsoft sont principalement touchés par cette perturbation ?",
+      "choices": [
+        "Word et Excel",
+        "Outlook et Teams",
+        "OneDrive et Skype"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article précise que la messagerie Outlook et la plateforme de collaboration Teams font partie des services impactés."
+    },
+    "translations": {
+      "en": {
+        "title": "Microsoft 365 services experiencing ongoing outage",
+        "fact": "Several Microsoft 365 applications, including Outlook and Teams, are currently experiencing disruptions due to excessive load.",
+        "whyItMatters": "This outage disrupts the daily work of many professionals who depend on these tools to communicate and manage their emails. The company's technical teams are working to restore normal operations.",
+        "quiz": {
+          "question": "Which Microsoft services are primarily affected by this disruption?",
+          "choices": [
+            "Word and Excel",
+            "Outlook and Teams",
+            "OneDrive and Skype"
+          ],
+          "explanation": "The article specifies that Outlook email and the Teams collaboration platform are among the impacted services."
+        }
+      },
+      "es": {
+        "title": "Apagón en curso en varios servicios de Microsoft 365",
+        "fact": "Varias aplicaciones de la suite Microsoft 365, entre ellas Outlook y Teams, sufren actualmente perturbaciones debido a una carga excesiva.",
+        "whyItMatters": "Esta caída perturba el trabajo diario de muchos profesionales que dependen de estas herramientas para comunicarse y gestionar sus correos. Los equipos técnicos de la empresa trabajan para restablecer el funcionamiento normal.",
+        "quiz": {
+          "question": "¿Qué servicios de Microsoft se ven principalmente afectados por esta perturbación?",
+          "choices": [
+            "Word y Excel",
+            "Outlook y Teams",
+            "OneDrive y Skype"
+          ],
+          "explanation": "El artículo precisa que el servicio de correo Outlook y la plataforma de colaboración Teams forman parte de los servicios afectados."
+        }
+      },
+      "hi": {
+        "title": "Microsoft 365 के कई सेवाओं में रुकावट",
+        "fact": "Microsoft 365 सूट के कई एप्लिकेशन, जिनमें Outlook और Teams शामिल हैं, अत्यधिक लोड के कारण वर्तमान में बाधाओं का सामना कर रहे हैं।",
+        "whyItMatters": "यह रुकावट कई पेशेवरों کے روزمرہ के काम को बाधित करती है जो संवाद करने और अपने ईमेल प्रबंधित करने केلए इन उपकरणों पर निर्भर हैं। कंपनी की तकनीकी टीमें सामान्य कामकाज को बहाल करने के लिए काम कर रही हैं।",
+        "quiz": {
+          "question": "Microsoft की कौन सी सेवाएं इस बाधा से मुख्य रूप से प्रभावित हैं?",
+          "choices": [
+            "Word और Excel",
+            "Outlook और Teams",
+            "OneDrive और Skype"
+          ],
+          "explanation": "लेख में निर्दिष्ट किया गया है कि Outlook मेलबॉक्स और सहयोग प्लेटफ़ॉर्म Teams प्रभावित सेवाओं का हिस्सा हैं।"
+        }
+      },
+      "zh": {
+        "title": "Microsoft 365多项服务正在发生故障",
+        "fact": "Microsoft 365套件中的多款应用（包括Outlook和Teams）目前因负载过高而遭遇故障。",
+        "whyItMatters": "此次故障打乱了许多依赖这些工具进行日常沟通和管理电子邮件的专业人士的工作。该公司的技术团队正致力于恢复正常运行。",
+        "quiz": {
+          "question": "微软的哪些服务受此次故障影响最大？",
+          "choices": [
+            "Word和Excel",
+            "Outlook和Teams",
+            "OneDrive和Skype"
+          ],
+          "explanation": "文章指出，Outlook邮箱和协作平台Teams是受影响的服务之一。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-8944e5548610",
+    "title": "Opération de reprise de liquidité par la banque indienne",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La banque centrale indienne va piloter une adjudication de reverse repo à taux variable d'un montant de 75 000 crores de roupies.",
+    "whyItMatters": "Cette opération financière vise à réguler les conditions de liquidité à court terme sur les marchés monétaires du pays. Elle permet à l'institution de piloter les taux d'intérêt au jour le jour selon l'évolution de la conjoncture.",
+    "summary": "La banque centrale indienne va piloter une adjudication de reverse repo à taux variable d'un montant de 75 000 crores de roupies. Cette opération financière vise à réguler les conditions de liquidité à court terme sur les marchés monétaires du pays. Elle permet à l'institution de piloter les taux d'intérêt au jour le jour selon l'évolution de la conjoncture.",
+    "source": "RBI",
+    "region": "in",
+    "sourceURL": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63965",
+    "publishedAt": "2026-11-12T19:05:00Z",
+    "quiz": {
+      "question": "Quel est le montant notifié pour cette adjudication de reverse repo menée par la banque centrale indienne ?",
+      "choices": [
+        "75 000 crores de roupies",
+        "100 000 crores de roupies",
+        "25 000 crores de roupies"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'opération porte sur un montant notifié de 75 000 crores de roupies pour une durée de trois jours."
+    },
+    "translations": {
+      "en": {
+        "title": "Liquidity repo operation by the Indian central bank",
+        "fact": "The Reserve Bank of India will conduct a variable rate reverse repo auction amounting to 75,000 crore rupees.",
+        "whyItMatters": "This financial operation aims to regulate short-term liquidity conditions in the country's money markets. It allows the institution to manage overnight interest rates according to economic trends.",
+        "quiz": {
+          "question": "What is the notified amount for this reverse repo auction conducted by the Indian central bank?",
+          "choices": [
+            "75,000 crore rupees",
+            "100,000 crore rupees",
+            "25,000 crore rupees"
+          ],
+          "explanation": "The operation involves a notified amount of 75,000 crore rupees for a duration of three days."
+        }
+      },
+      "es": {
+        "title": "Operación de absorción de liquidez del banco indio",
+        "fact": "El banco central de la India dirigirá una subasta de recompra inversa a tipo variable por un importe de 75 000 crores de rupias.",
+        "whyItMatters": "Esta operación financiera busca regular las condiciones de liquidez a corto plazo en los mercados monetarios del país. Permite a la institución gestionar los tipos de interés a un día según la evolución de la coyuntura.",
+        "quiz": {
+          "question": "¿Cuál es el importe notificado para esta subasta de recompra inversa realizada por el banco central indio?",
+          "choices": [
+            "75 000 crores de rupias",
+            "100 000 crores de rupias",
+            "25 000 crores de rupias"
+          ],
+          "explanation": "La operación se centra en un importe notificado de 75 000 crores de rupias por un plazo de tres días."
+        }
+      },
+      "hi": {
+        "title": "भारतीय बैंक द्वारा तरलता पुनः प्राप्त करने का अभियान",
+        "fact": "भारतीय केंद्रीय बैंक 75,000 करोड़ रुपये की राशि के साथ एक परिवर्तनीय दर वाले रिवर्स रेपो नीलामी का संचालन करेगा।",
+        "whyItMatters": "इस वित्तीय अभियान का उद्देश्य देश के मौद्रिक बाजारों में अल्पकालिक तरलता की स्थिति को विनियमित करना है। यह संस्थान को स्थिति के विकास के अनुसार ओवरनाइट ब्याज दरों को संचालित करने की अनुमति देता है।",
+        "quiz": {
+          "question": "भारतीय केंद्रीय बैंक द्वारा संचालित इस रिवर्स रेपो नीलामी के लिए अधिसूचित राशि क्या है?",
+          "choices": [
+            "75,000 करोड़ रुपये",
+            "100,000 करोड़ रुपये",
+            "25,000 करोड़ रुपये"
+          ],
+          "explanation": "यह अभियान तीन दिनों की अवधि के लिए 75,000 करोड़ रुपये की अधिसूचित राशि पर केंद्रित है।"
+        }
+      },
+      "zh": {
+        "title": "印度央行开展流动性回购操作",
+        "fact": "印度央行将主导一场金额达75000亿卢比的变动利率逆回购招标。",
+        "whyItMatters": "这项金融操作旨在调节国内货币市场短期流动性状况，使该机构能够根据经济形势的发展来引导隔夜利率。",
+        "quiz": {
+          "question": "印度央行此次逆回购招标的通告金额是多少？",
+          "choices": [
+            "75000亿卢比",
+            "100000亿卢比",
+            "25000亿卢比"
+          ],
+          "explanation": "该操作的通告金额为75000亿卢比，期限为三天。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-82ba770a292c",
+    "title": "Nouvelles grilles tarifaires pour la Réserve fédérale",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La banque centrale américaine a publié ses nouveaux tarifs et ses ajustements pour les services de paiement destinés aux banques dès 2027.",
+    "whyItMatters": "Ces modifications visent à moderniser et rationaliser les services de compensation de chèques et de paiements interbancaires. Elles impactent directement l'organisation opérationnelle des institutions financières pour leurs transactions futures.",
+    "summary": "La banque centrale américaine a publié ses nouveaux tarifs et ses ajustements pour les services de paiement destinés aux banques dès 2027. Ces modifications visent à moderniser et rationaliser les services de compensation de chèques et de paiements interbancaires. Elles impactent directement l'organisation opérationnelle des institutions financières pour leurs transactions futures.",
+    "source": "Federal Reserve",
+    "region": "en",
+    "sourceURL": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+    "publishedAt": "2026-11-12T18:30:00Z",
+    "quiz": {
+      "question": "À quelle date ces nouveaux tarifs et services de la Réserve fédérale entreront-ils en vigueur ?",
+      "choices": [
+        "Le 1er janvier 2027",
+        "Le 1er janvier 2026",
+        "Le 31 décembre 2027"
+      ],
+      "answerIndex": 0,
+      "explanation": "La tarification prend effet à compter du 1er janvier 2027 pour les services fournis aux banques."
+    },
+    "translations": {
+      "en": {
+        "title": "New fee schedules introduced by the Federal Reserve",
+        "fact": "The U.S. central bank has published its new fees and adjustments for payment services provided to banks starting in 2027.",
+        "whyItMatters": "These changes aim to modernize and streamline check clearing and interbank payment services. They directly impact the operational organization of financial institutions for their future transactions.",
+        "quiz": {
+          "question": "When will these new Federal Reserve fees and services take effect?",
+          "choices": [
+            "January 1, 2027",
+            "January 1, 2026",
+            "December 31, 2027"
+          ],
+          "explanation": "The pricing takes effect on January 1, 2027, for services provided to banks."
+        }
+      },
+      "es": {
+        "title": "Nuevas tarifas de la Reserva Federal para 2027",
+        "fact": "El banco central estadounidense publicó sus nuevas tarifas y ajustes para los servicios de pago destinados a los bancos a partir de 2027.",
+        "whyItMatters": "Estas modificaciones buscan modernizar y racionalizar los servicios de compensación de cheques y pagos interbancarios. Impactan directamente en la organización operativa de las instituciones financieras para sus futuras transacciones.",
+        "quiz": {
+          "question": "¿En qué fecha entrarán en vigor estas nuevas tarifas y servicios de la Reserva Federal?",
+          "choices": [
+            "El 1 de enero de 2027",
+            "El 1 de enero de 2026",
+            "El 31 de diciembre de 2027"
+          ],
+          "explanation": "La tarificación surte efecto a partir del 1 de enero de 2027 para los servicios prestados a los bancos."
+        }
+      },
+      "hi": {
+        "title": "फेडरल रिजर्व के लिए नई मूल्य निर्धारण सूचियां",
+        "fact": "अमेरिकी केंद्रीय बैंक ने 2027 से बैंकों के लिए भुगतान सेवाओं के संबंध में अपने नए शुल्क और समायोजन प्रकाशित किए हैं।",
+        "whyItMatters": "इन संशोधनों का उद्देश्य चेक समाशोधन और अंतरबैंक भुगतान सेवाओं को आधुनिक बनाना और सुव्यवस्थित करना है। वे अपने भविष्य के लेन-देन के लिए वित्तीय संस्थानों के संगठनात्मक संचालन को सीधे प्रभावित करते हैं।",
+        "quiz": {
+          "question": "फेडरल रिजर्व के ये नए शुल्क और सेवाएं किस तारीख से लागू होंगे?",
+          "choices": [
+            "1 जनवरी 2027",
+            "1 जनवरी 2026",
+            "31 दिसंबर 2027"
+          ],
+          "explanation": "यह मूल्य निर्धारण बैंकों को प्रदान की जाने वाली सेवाओं के लिए 1 जनवरी 2027 से प्रभावी होता है।"
+        }
+      },
+      "zh": {
+        "title": "美联储发布新收费标准",
+        "fact": "美国央行公布了针对银行支付服务的全新收费标准及调整方案，将于2027年起生效。",
+        "whyItMatters": "这些修改旨在现代化并精简支票结算和银行间支付服务，将直接影响金融机构未来交易的运营组织结构。",
+        "quiz": {
+          "question": "美联储这些新费率和服务将于何时正式生效？",
+          "choices": [
+            "2027年1月1日",
+            "2026年1月1日",
+            "2027年12月31日"
+          ],
+          "explanation": "针对银行业务的收费标准将于2027年1月1日起正式生效。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-583a7bb43180",
+    "title": "Donald Trump suggere de confier la direction de Nvidia a Tim Cook",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Donald Trump a exprime le souhaite de voir Tim Cook remplacer Jensen Huang a la tete de l'entreprise Nvidia.",
+    "whyItMatters": "Cette sortie politique illustre l'attention croissante portée par les dirigeants politiques aux géants américains des semi-conducteurs. Toutefois, la nomination du dirigeant d'Apple ne relève ni de la Maison-Blanche ni d'une décision unilatérale.",
+    "summary": "Donald Trump a exprime le souhaite de voir Tim Cook remplacer Jensen Huang a la tete de l'entreprise Nvidia. Cette sortie politique illustre l'attention croissante portée par les dirigeants politiques aux géants américains des semi-conducteurs. Toutefois, la nomination du dirigeant d'Apple ne relève ni de la Maison-Blanche ni d'une décision unilatérale.",
+    "source": "Frandroid",
+    "region": "fr",
+    "sourceURL": "https://www.frandroid.com/marques/nvidia/3321275_une-legende-remplace-une-legende-trump-reclame-tim-cook-pour-diriger-nvidia",
+    "publishedAt": "2026-11-12T18:17:19Z",
+    "quiz": {
+      "question": "Quel dirigeant Donald Trump a-t-il suggere pour diriger Nvidia ?",
+      "choices": [
+        "Sundar Pichai",
+        "Tim Cook",
+        "Elon Musk"
+      ],
+      "answerIndex": 1,
+      "explanation": "Donald Trump a souhaite que Tim Cook prenne la direction de Nvidia apres le depart de Jensen Huang."
+    },
+    "translations": {
+      "en": {
+        "title": "Donald Trump suggests Tim Cook should lead Nvidia",
+        "fact": "Donald Trump expressed the desire to see Tim Cook replace Jensen Huang at the head of Nvidia.",
+        "whyItMatters": "This political statement illustrates the growing attention paid by political leaders to American semiconductor giants. However, appointing Apple's chief executive is neither up to the White House nor a unilateral decision.",
+        "quiz": {
+          "question": "Which executive did Donald Trump suggest to lead Nvidia?",
+          "choices": [
+            "Sundar Pichai",
+            "Tim Cook",
+            "Elon Musk"
+          ],
+          "explanation": "Donald Trump expressed the wish for Tim Cook to take over the leadership of Nvidia after Jensen Huang's departure."
+        }
+      },
+      "es": {
+        "title": "Donald Trump sugiere poner a Tim Cook al frente de Nvidia",
+        "fact": "Donald Trump expresó su deseo de que Tim Cook sustituya a Jensen Huang al frente de la empresa Nvidia.",
+        "whyItMatters": "Esta declaración política ilustra la atención creciente que los líderes políticos prestan a los gigantes estadounidenses de los semiconductores. Sin embargo, el nombramiento del directivo de Apple no depende de la Casa Blanca ni de una decisión unilateral.",
+        "quiz": {
+          "question": "¿Qué directivo sugirió Donald Trump para dirigir Nvidia?",
+          "choices": [
+            "Sundar Pichai",
+            "Tim Cook",
+            "Elon Musk"
+          ],
+          "explanation": "Donald Trump deseó que Tim Cook asumiera la dirección de Nvidia tras la marcha de Jensen Huang."
+        }
+      },
+      "hi": {
+        "title": "डонаल्ड ट्रंप का Nvidia के नेतृत्व Tim Cook को देने का सुझाव",
+        "fact": "डонаल्ड ट्रंप ने इच्छा व्यक्त की है कि Tim Cook, Nvidia कंपनी के प्रमुख के रूप में Jensen Huang की जगह लें।",
+        "whyItMatters": "यह राजनीतिक बयान अमेरिकी सेमीकंडक्टर दिग्गजों पर राजनीतिक नेताओं द्वारा दिए जा रहे बढ़ते ध्यान को दर्शाता है। हालांकि, Apple के प्रमुख की नियुक्ति न तो व्हाइट हाउस के अधिकार क्षेत्र में है और न ही एकतरफा निर्णय है।",
+        "quiz": {
+          "question": "डонаल्ड ट्रंप ने Nvidia का नेतृत्व करने के लिए किस नेता का सुझाव दिया है?",
+          "choices": [
+            "सुंदर पिचाई",
+            "Tim Cook",
+            "एलोन मस्क"
+          ],
+          "explanation": "डонаल्ड ट्रंप ने इच्छा जताई कि Jensen Huang के जाने के बाद Tim Cook Nvidia की कमान संभालें।"
+        }
+      },
+      "zh": {
+        "title": "特朗普建议蒂姆·库克掌舵英伟达",
+        "fact": "唐纳德·特朗普表达了希望蒂姆·库克接替黄仁勋担任英伟达公司首席执行官的愿望。",
+        "whyItMatters": "这一政治言论表明政治领导人对美国半导体巨头的关注日益增加。不过，任命苹果公司高管既不是白宫的职责，也不是单方面决定的。",
+        "quiz": {
+          "question": "唐纳德·特朗普建议由谁来领导英伟达？",
+          "choices": [
+            "桑达尔·皮查伊",
+            "蒂姆·库克",
+            "埃隆·马斯克"
+          ],
+          "explanation": "唐纳德·特朗普希望蒂姆·库克在黄仁勋离职后接管英伟达。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-8865be63c867",
+    "title": "Forte demande pour les véhicules de Scout Motors",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le constructeur Scout Motors totalise environ 212 000 réservations pour ses futurs modèles de véhicules.",
+    "whyItMatters": "Cet engouement commercial intervient alors que l'entreprise s'apprête à achever la construction de son usine en Caroline du Sud. Il témoigne de l'intérêt marqué du marché pour ses nouveaux projets de transport électrique.",
+    "summary": "Le constructeur Scout Motors totalise environ 212 000 réservations pour ses futurs modèles de véhicules. Cet engouement commercial intervient alors que l'entreprise s'apprête à achever la construction de son usine en Caroline du Sud. Il témoigne de l'intérêt marqué du marché pour ses nouveaux projets de transport électrique.",
+    "source": "CNBC",
+    "region": "en",
+    "sourceURL": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
+    "publishedAt": "2026-11-12T17:49:47Z",
+    "quiz": {
+      "question": "Où se situe l'usine de Scout Motors qui approche de son achèvement ?",
+      "choices": [
+        "En Caroline du Sud",
+        "En Californie",
+        "Au Texas"
+      ],
+      "answerIndex": 0,
+      "explanation": "L'entreprise finalise la construction de son usine située en Caroline du Sud."
+    },
+    "translations": {
+      "en": {
+        "title": "Strong demand for Scout Motors electric vehicles",
+        "fact": "Manufacturer Scout Motors has totaled approximately 212,000 reservations for its upcoming vehicle models.",
+        "whyItMatters": "This commercial enthusiasm comes as the company prepares to complete the construction of its factory in South Carolina. It demonstrates strong market interest in its new electric transport projects.",
+        "quiz": {
+          "question": "Where is the Scout Motors factory that is nearing completion located?",
+          "choices": [
+            "South Carolina",
+            "California",
+            "Texas"
+          ],
+          "explanation": "The company is finalizing the construction of its factory located in South Carolina."
+        }
+      },
+      "es": {
+        "title": "Fuerte demanda para los vehículos de Scout Motors",
+        "fact": "El fabricante Scout Motors acumula cerca de 212 000 reservas para sus futuros modelos de vehículos.",
+        "whyItMatters": "Este entusiasmo comercial llega cuando la empresa se dispone a finalizar la construcción de su planta en Carolina del Sur. Evidencia el gran interés del mercado por sus nuevos proyectos de transporte eléctrico.",
+        "quiz": {
+          "question": "¿Dónde se encuentra la fábrica de Scout Motors que está a punto de terminarse?",
+          "choices": [
+            "En Carolina del Sur",
+            "En California",
+            "En Texas"
+          ],
+          "explanation": "La empresa finaliza la construcción de su fábrica situada en Carolina del Sur."
+        }
+      },
+      "hi": {
+        "title": "Scout Motors के वाहनों के लिए भारी मांग",
+        "fact": "वाहन निर्माता Scout Motors को अपने भविष्य के वाहन मॉडल के लिए लगभग 212,000 बुकिंग प्राप्त हुई हैं।",
+        "whyItMatters": "यह व्यावसायिक उत्साह ऐसे समय में आया है जब कंपनी दक्षिण कैरोलिना में अपने कारखाने का निर्माण पूरा करने वाली है। यह इसके नए इलेक्ट्रिक परिवहन प्रोजेक्ट्स के लिए बाजार की गहरी रुचि को दर्शाता है।",
+        "quiz": {
+          "question": "Scout Motors का कारखाना कहाँ स्थित है जो पूरा होने के करीब है?",
+          "choices": [
+            "दक्षिण कैरोलिना में",
+            "कैलिफोर्निया में",
+            "टेक्सास में"
+          ],
+          "explanation": "कंपनी दक्षिण कैरोलिना में स्थित अपने कारखाने का निर्माण अंतिम रूप दे रही है।"
+        }
+      },
+      "zh": {
+        "title": "Scout Motors汽车需求强劲",
+        "fact": "汽车制造商Scout Motors为其未来的车型累计获得了约212,000份预订。",
+        "whyItMatters": "在这一商业热潮涌现之际，该公司正准备完成其位于南卡罗来纳州工厂的建设。这证明了市场对其新能源汽车项目的高度兴趣。",
+        "quiz": {
+          "question": "即将完工的Scout Motors工厂位于何处？",
+          "choices": [
+            "南卡罗来纳州",
+            "加利福尼亚州",
+            "德克萨斯州"
+          ],
+          "explanation": "该公司正在最终敲定其位于南卡罗来纳州的工厂建设。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-3e930886ab28",
+    "title": "Nouveau départ à la tête du fonds Fireside Ventures",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "Le fonds de capital-risque spécialisé dans la tech grand public Fireside Ventures enregistre un second départ majeur au sein de son équipe dirigeante.",
+    "whyItMatters": "Ces mouvements successifs au sommet interrogent sur la stratégie future de cette structure influente. Ils surviennent peu de temps après le départ d'un cofondateur, modifiant la gouvernance de l'entreprise.",
+    "summary": "Le fonds de capital-risque spécialisé dans la tech grand public Fireside Ventures enregistre un second départ majeur au sein de son équipe dirigeante. Ces mouvements successifs au sommet interrogent sur la stratégie future de cette structure influente. Ils surviennent peu de temps après le départ d'un cofondateur, modifiant la gouvernance de l'entreprise.",
+    "source": "Inc42",
+    "region": "in",
+    "sourceURL": "https://inc42.com/buzz/exclusive-fireside-ventures-sees-another-key-exit-days-after-cofounder-vinay-singh/",
+    "publishedAt": "2026-11-12T17:12:16Z",
+    "quiz": {
+      "question": "Quel type d'entreprise est Fireside Ventures ?",
+      "choices": [
+        "Un fonds de capital-risque",
+        "Un incubateur de start-ups publiques",
+        "Une banque d'investissement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Le texte indique qu'il s'agit d'une firme de capital-risque axée sur la technologie grand public."
+    },
+    "translations": {
+      "en": {
+        "title": "New leadership departure at Fireside Ventures",
+        "fact": "Consumer tech venture capital fund Fireside Ventures has recorded a second major departure within its leadership team.",
+        "whyItMatters": "These successive top-level moves raise questions about the future strategy of this influential firm. They occur shortly after the departure of a co-founder, altering the company's governance.",
+        "quiz": {
+          "question": "What type of company is Fireside Ventures?",
+          "choices": [
+            "A venture capital fund",
+            "A public startup incubator",
+            "An investment bank"
+          ],
+          "explanation": "The text indicates it is a venture capital firm focused on consumer technology."
+        }
+      },
+      "es": {
+        "title": "Nueva salida al frente del fondo Fireside Ventures",
+        "fact": "El fondo de capital riesgo especializado en tecnología de consumo Fireside Ventures registra una segunda marcha importante en su equipo directivo.",
+        "whyItMatters": "Estos movimientos sucesivos en la cúpula cuestionan la estrategia futura de esta influyente estructura. Ocurren poco después de la salida de un cofundador, lo que altera la gobernanza de la empresa.",
+        "quiz": {
+          "question": "¿Qué tipo de empresa es Fireside Ventures?",
+          "choices": [
+            "Un fondo de capital riesgo",
+            "Una incubadora de empresas emergentes públicas",
+            "Un banco de inversión"
+          ],
+          "explanation": "El texto indica que se trata de una firma de capital riesgo centrada en la tecnología de consumo."
+        }
+      },
+      "hi": {
+        "title": "Fireside Ventures फंड के शीर्ष पर एक नया प्रस्थान",
+        "fact": "उपभोक्ता तकनीक में विशेषज्ञता रखने वाले वेंचर कैपिटल फंड Fireside Ventures की नेतृत्व टीम के भीतर दूसरा बड़ा प्रस्थान दर्ज किया गया है।",
+        "whyItMatters": "शीर्ष स्तर पर ये क्रमिक बदलाव इस प्रभावशाली ढांचे की भविष्य की रणनीति पर सवाल खड़े करते हैं। वे सह-संस्थापक के जाने के तुरंत बाद हुए हैं, जो कंपनी के शासन को बदल रहे हैं।",
+        "quiz": {
+          "question": "Fireside Ventures किस प्रकार की कंपनी है?",
+          "choices": [
+            "एक वेंचर कैपिटल फंड",
+            "सार्वजनिक स्टार्ट-अप इनक्यूबेटर",
+            "एक निवेश बैंक"
+          ],
+          "explanation": "पाठ से संकेत मिलता है कि यह उपभोक्ता तकनीक पर केंद्रित एक वेंचर कैपिटल फर्म है।"
+        }
+      },
+      "zh": {
+        "title": "Fireside Ventures基金高层再现变动",
+        "fact": "专注于大众消费科技的风险投资基金Fireside Ventures迎来了其管理团队的第二场重大离职。",
+        "whyItMatters": "高层的连续变动让人对这家具有影响力机构的未来战略产生疑问。这些变动发生在一位联合创始人离职后不久，改变了公司的治理结构。",
+        "quiz": {
+          "question": "Fireside Ventures是一家什么类型的企业？",
+          "choices": [
+            "一家风险投资基金",
+            "一家公共初创企业孵化器",
+            "一家投资银行"
+          ],
+          "explanation": "文章指出，这是一家专注于大众消费科技的风险投资公司。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-23cbf695687e",
+    "title": "Refus du Linky : la justice européenne ferme la porte",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "La Cour de justice de l'Union européenne a estimé que le droit européen ne garantit pas aux consommateurs le droit de conserver un ancien compteur électrique.",
+    "whyItMatters": "Cette décision valide l'obligation du compteur Linky en France et supprime un important moyen de recours pour ses opposants. Ces derniers risquent par ailleurs de payer des frais annuels pouvant atteindre 65,70 euros hors taxes.",
+    "summary": "La Cour de justice de l'Union européenne a estimé que le droit européen ne garantit pas aux consommateurs le droit de conserver un ancien compteur électrique. Cette décision valide l'obligation du compteur Linky en France et supprime un important moyen de recours pour ses opposants. Ces derniers risquent par ailleurs de payer des frais annuels pouvant atteindre 65,70 euros hors taxes.",
+    "source": "01net",
+    "region": "fr",
+    "sourceURL": "https://www.01net.com/actualites/peut-on-encore-refuser-le-linky-ce-que-change-larret-europeen-et-ce-que-ca-vous-coute.html",
+    "publishedAt": "2026-11-12T17:03:57Z",
+    "quiz": {
+      "question": "Que confirme la décision de la Cour de justice européenne concernant les compteurs électriques ?",
+      "choices": [
+        "L'installation des compteurs communicants est interdite dans toute l'Union européenne.",
+        "Le remplacement des anciens compteurs par des modèles connectés est obligatoire.",
+        "Les usagers peuvent exiger le maintien de leur ancien compteur gratuitement."
+      ],
+      "answerIndex": 1,
+      "explanation": "La justice européenne a jugé que le droit communautaire ne garantit pas le maintien des anciens compteurs."
+    },
+    "translations": {
+      "en": {
+        "title": "Linky meter refusal: European court closes the door",
+        "fact": "The Court of Justice of the European Union ruled that European law does not guarantee consumers the right to keep an old electricity meter.",
+        "whyItMatters": "This ruling validates the mandatory installation of the Linky meter in France and removes a major legal recourse for its opponents. The latter also risk paying annual fees of up to 65.70 euros excluding tax.",
+        "quiz": {
+          "question": "What does the European court's ruling confirm regarding electricity meters?",
+          "choices": [
+            "The installation of smart meters is banned throughout the European Union.",
+            "Replacing old meters with connected models is mandatory.",
+            "Users can demand to keep their old meter for free."
+          ],
+          "explanation": "European courts ruled that EU law does not guarantee the retention of old meters."
+        }
+      },
+      "es": {
+        "title": "Rechazo a Linky: la justicia europea cierra la puerta",
+        "fact": "El Tribunal de Justicia de la Unión Europea estimó que el derecho europeo no garantiza a los consumidores el derecho a conservar un contador eléctrico antiguo.",
+        "whyItMatters": "Esta decisión valida la obligación del contador Linky en Francia y elimina un importante medio de recurso para sus detractores. Estos últimos se arriesgan además a pagar tasas anuales de hasta 65,70 euros sin impuestos.",
+        "quiz": {
+          "question": "¿Qué confirma la decisión del Tribunal de Justicia de la UE sobre los contadores eléctricos?",
+          "choices": [
+            "La instalación de contadores inteligentes está prohibida en toda la Unión Europea.",
+            "La sustitución de los contadores antiguos por modelos conectados es obligatoria.",
+            "Los usuarios pueden exigir el mantenimiento de su antiguo contador de forma gratuita."
+          ],
+          "explanation": "La justicia europea dictaminó que el derecho comunitario no garantiza el mantenimiento de los contadores antiguos."
+        }
+      },
+      "hi": {
+        "title": "Linky से इनकार: यूरोपीय न्यायलय ने दरवाजा बंद किया",
+        "fact": "यू यूरोपीय संघ के न्याय न्यायालय ने माना है कि यूरोपीय कानून उपभोक्ताओं को पुराने बिजली मीटर को बनाए रखने का अधिकार नहीं देता है।",
+        "whyItMatters": "यह निर्णय फ्रांस में Linky मीटर की अनिवार्यता को मान्य करता है और इसके विरोधियों के लिए अपील के एक महत्वपूर्ण साधन को समाप्त करता है। इसके अलावा, इन विरोधियों को करों को छोड़कर 65.70 यूरो तक के वार्षिक शुल्क का भुगतान करने का जोखिम है।",
+        "quiz": {
+          "question": "बिजली मीटरों के संबंध में यूरोपीय न्याय न्यायालय का निर्णय क्या पुष्टि करता है?",
+          "choices": [
+            "पूरे यूरोपीय संघ में संचार मीटरों की स्थापना प्रतिबंधित है।",
+            "पुराने मीटरों को कनेक्टेड मॉडल से बदलना अनिवार्य है।",
+            "उपयोगकर्ता अपने पुराने मीटर को मुफ्त में बनाए रखने की मांग कर सकते हैं।"
+          ],
+          "explanation": "यूरोपीय न्याय ने फैसला सुनाया कि सामुदायिक कानून पुराने मीटरों को बनाए रखने की गारंटी नहीं देता है।"
+        }
+      },
+      "zh": {
+        "title": "欧洲法院对拒绝Linky电表关上大门",
+        "fact": "欧洲联盟法院认为，欧洲法律并不保障消费者保留旧电表的权利。",
+        "whyItMatters": "这一裁决确认了Linky电表在法国的强制性，并剥夺了反对者的一项重要上诉途径。此外，反对者可能面临高达65.70欧元（不含税）的年度费用。",
+        "quiz": {
+          "question": "欧洲法院关于电表的裁决确认了什么？",
+          "choices": [
+            "全欧盟境内禁止安装智能电表。",
+            "用联网型号替换旧电表是强制性的。",
+            "用户可以要求免费保留他们的旧电表。"
+          ],
+          "explanation": "欧洲法院裁定，欧盟法律并不保障保留旧电表的权利。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-82758f08a604",
+    "title": "L'intelligence artificielle relance les bandes magnétiques",
+    "topic": "tech",
+    "subject": "Big Tech",
+    "fact": "Le fabricant Fujifilm a annoncé un investissement massif pour accroître sa production de bandes magnétiques, portées par les besoins de l'intelligence artificielle.",
+    "whyItMatters": "Cette technologie ancienne, rappelant les cassettes VHS, retrouve un usage stratégique pour le stockage de volumes massifs de données. Les centres de données y voient une solution durable et économique pour archiver les informations nécessaires aux modèles d'IA.",
+    "summary": "Le fabricant Fujifilm a annoncé un investissement massif pour accroître sa production de bandes magnétiques, portées par les besoins de l'intelligence artificielle. Cette technologie ancienne, rappelant les cassettes VHS, retrouve un usage stratégique pour le stockage de volumes massifs de données. Les centres de données y voient une solution durable et économique pour archiver les informations nécessaires aux modèles d'IA.",
+    "source": "Genbeta",
+    "region": "es",
+    "sourceURL": "https://www.genbeta.com/actualidad/inteligencia-artificial-resucita-cintas-magneticas-tecnologia-vhs",
+    "publishedAt": "2026-11-12T17:01:27Z",
+    "quiz": {
+      "question": "Quelle technologie ancienne connaît un regain d'intérêt grâce à l'intelligence artificielle ?",
+      "choices": [
+        "Le disque vinyle",
+        "La bande magnétique",
+        "La disquette 3 pouces et demi"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'article explique que la bande magnétique revient en force pour répondre aux besoins de stockage de l'IA."
+    },
+    "translations": {
+      "en": {
+        "title": "Artificial intelligence revives magnetic tapes",
+        "fact": "Manufacturer Fujifilm has announced a massive investment to increase its production of magnetic tapes, driven by the needs of artificial intelligence.",
+        "whyItMatters": "This older technology, reminiscent of VHS cassettes, is finding a strategic use for storing massive volumes of data. Data centers see it as a sustainable and economical solution to archive information required for AI models.",
+        "quiz": {
+          "question": "Which older technology is seeing a resurgence thanks to artificial intelligence?",
+          "choices": [
+            "Vinyl records",
+            "Magnetic tape",
+            "3.5-inch floppy disks"
+          ],
+          "explanation": "The article explains that magnetic tape is making a comeback to meet AI storage needs."
+        }
+      },
+      "es": {
+        "title": "La inteligencia artificial reaviva las cintas magnéticas",
+        "fact": "El fabricante Fujifilm anunció una inversión masiva para aumentar su producción de cintas magnéticas, impulsadas por las necesidades de la inteligencia artificial.",
+        "whyItMatters": "Esta tecnología antigua, que recuerda a las cintas VHS, recupera un uso estratégico para el almacenamiento de volúmenes masivos de datos. Los centros de datos la ven como una solución duradera y económica para archivar la información necesaria para los modelos de IA.",
+        "quiz": {
+          "question": "¿Qué tecnología antigua recupera protagonismo gracias a la inteligencia artificial?",
+          "choices": [
+            "El disco de vinilo",
+            "La cinta magnética",
+            "El disquete de 3 pulgadas y media"
+          ],
+          "explanation": "El artículo explica que la cinta magnética vuelve con fuerza para responder a las necesidades de almacenamiento de la IA."
+        }
+      },
+      "hi": {
+        "title": "आर्टिफिशियल इंटेलिजेंस ने मैग्नेटिक टेप को पुनर्जीवित किया",
+        "fact": "निर्माता Fujifilm ने आर्टिफिशियल इंटेलिजेंस की आवश्यकताओं से प्रेरित होकर अपने मैग्नेटिक टेप के उत्पादन को बढ़ाने के लिए भारी निवेश की घोषणा की है।",
+        "whyItMatters": "वीएचएस कैसेट की याद दिलाने वाली यह पुरानी तकनीक, डेटा के विशाल संस्करणों के भंडारण के लिए एक रणनीतिक उपयोग प्राप्त कर रही है। डेटा सेंटर इसे AI मॉडल के लिए आवश्यक जानकारी को संग्रहीत करने का एक टिकाऊ और किफायती समाधान मानते हैं।",
+        "quiz": {
+          "question": "आर्टिफिशियल इंटेलिजेंस की बदौलਤ किस पुरानी तकनीक में रुचि फिर से बढ़ रही है?",
+          "choices": [
+            "विनाइल डिस्क",
+            "मैग्नेटिक टेप",
+            "साढ़े 3 इंच की फ्लॉपी डिस्क"
+          ],
+          "explanation": "लेख बताता है कि AI भंडारण की जरूरतों को पूरा करने के लिए मैग्नेटिक टेप जोरदार वापसी कर रहा है।"
+        }
+      },
+      "zh": {
+        "title": "人工智能让磁带迎来复苏",
+        "fact": "制造商富士胶片宣布了一项大规模投资，以在人工智能需求的推动下增加磁带的产量。",
+        "whyItMatters": "这种让人联想到VHS录像带的古老技术，在存储海量数据方面重新找到了战略用途。数据中心将其视为存档人工智能模型所需信息的持久且经济的解决方案。",
+        "quiz": {
+          "question": "哪项古老技术在人工智能的助力下重新受到关注？",
+          "choices": [
+            "黑胶唱片",
+            "磁带",
+            "3.5英寸软盘"
+          ],
+          "explanation": "文章解释说，磁带卷土重来是为了满足人工智能的存储需求。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-63022fe4b836",
+    "title": "Ralentissement de la croissance du patrimoine en France",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le patrimoine économique national de la France a atteint 20 196 milliards d'euros fin 2025, affichant une progression de 1,2 %.",
+    "whyItMatters": "Cette hausse ralentit nettement par rapport aux années précédentes, pénalisée par le repli du marché foncier. Malgré ce frein, le patrimoine non financier des ménages a progressé grâce à la valorisation des constructions.",
+    "summary": "Le patrimoine économique national de la France a atteint 20 196 milliards d'euros fin 2025, affichant une progression de 1,2 %. Cette hausse ralentit nettement par rapport aux années précédentes, pénalisée par le repli du marché foncier. Malgré ce frein, le patrimoine non financier des ménages a progressé grâce à la valorisation des constructions.",
+    "source": "INSEE",
+    "region": "fr",
+    "sourceURL": "https://www.insee.fr/fr/statistiques/9111734",
+    "publishedAt": "2026-11-12T16:00:00Z",
+    "quiz": {
+      "question": "Quel facteur explique principalement le ralentissement de la progression du patrimoine national depuis 2022 ?",
+      "choices": [
+        "La hausse massive des taxes foncières",
+        "Le repli du prix du foncier",
+        "L'effondrement du marché boursier"
+      ],
+      "answerIndex": 1,
+      "explanation": "Le patrimoine national a progressé moins vite en raison du repli du prix du foncier."
+    },
+    "translations": {
+      "en": {
+        "title": "Slowdown in French wealth growth",
+        "fact": "France's national economic wealth reached 20,196 billion euros at the end of 2025, posting a 1.2% increase.",
+        "whyItMatters": "This growth slowed down significantly compared to previous years, weighed down by the downturn in the real estate market. Despite this drag, households' non-financial wealth increased thanks to the appreciation of buildings.",
+        "quiz": {
+          "question": "What main factor explains the slowdown in national wealth growth since 2022?",
+          "choices": [
+            "The massive rise in property taxes",
+            "The decline in real estate prices",
+            "The stock market collapse"
+          ],
+          "explanation": "National wealth grew at a slower pace due to the decline in real estate prices."
+        }
+      },
+      "es": {
+        "title": "Frenazo en el crecimiento del patrimonio en Francia",
+        "fact": "El patrimonio económico nacional de Francia alcanzó los 20 196 millones de euros a finales de 2025, con un avance del 1,2 %.",
+        "whyItMatters": "Este incremento se desacelera notablemente respecto a años anteriores, penalizado por la caída del mercado inmobiliario. A pesar de este freno, el patrimonio no financiero de los hogares aumentó gracias a la revalorización de las construcciones.",
+        "quiz": {
+          "question": "¿Qué factor explica principalmente la desaceleración del patrimonio nacional desde 2022?",
+          "choices": [
+            "La subida masiva de los impuestos sobre bienes inmuebles",
+            "La caída del precio del suelo",
+            "El desplome del mercado bursátil"
+          ],
+          "explanation": "El patrimonio nacional creció de forma más lenta debido a la bajada del precio del suelo."
+        }
+      },
+      "hi": {
+        "title": "फ्रांस में संपत्ति की वृद्धि में मंदी",
+        "fact": "फ्रांस की राष्ट्रीय आर्थिक संपत्ति 2025 के अंत में 20,196 बिलियन यूरो तक पहुंच गई, जिसमें 1.2% की वृद्धि दर्ज की गई।",
+        "whyItMatters": "भूमि बाजार में गिरावट से दंडित होकर, यह वृद्धि पिछले वर्षों की तुलना में काफी धीमी हो गई है। इस बाधा के बावजूद, निर्माण के मूल्यांकन के कारण परिवारों की गैर-वित्तीय संपत्ति में वृद्धि हुई है।",
+        "quiz": {
+          "question": "2022 से राष्ट्रीय संपत्ति की वृद्धि में मंदी का मुख्य कारण क्या है?",
+          "choices": [
+            "भूमि करों में भारी वृद्धि",
+            "भूमि की कीमतों में गिरावट",
+            "शेयर बाजार का पतन"
+          ],
+          "explanation": "भूमि की कीमतों में गिरावट के कारण राष्ट्रीय संपत्ति कम तेजी से बढ़ी।"
+        }
+      },
+      "zh": {
+        "title": "法国财富增长放缓",
+        "fact": "截至2025年底，法国的国家经济资产总额达到201960亿欧元，实现了1.2%的增长。",
+        "whyItMatters": "受房地产市场回调的拖累，这一涨幅较前几年明显放缓。尽管存在这一拖累因素，但由于建筑估值的上升，家庭非金融资产依然有所增长。",
+        "quiz": {
+          "question": "哪个因素主要解释了自2022年以来国家财富增长放缓的原因？",
+          "choices": [
+            "房产税的大幅上涨",
+            "土地价格的回落",
+            "股市的崩盘"
+          ],
+          "explanation": "由于土地价格的回落，国家财富的增长速度有所放缓。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-28adc2aecc1f",
+    "title": "Fin de parcours pour la startup de jeux Zupee",
+    "topic": "tech",
+    "subject": "Startups",
+    "fact": "La startup indienne Zupee a mis fin à ses activités et licencié l'ensemble de ses effectifs.",
+    "whyItMatters": "Cette fermeture brutale illustre la fragilité de certains acteurs du secteur numérique malgré des levées de fonds passées. Elle met en lumière les difficultés persistantes pour rentabiliser les modèles économiques dans le secteur du jeu mobile.",
+    "summary": "La startup indienne Zupee a mis fin à ses activités et licencié l'ensemble de ses effectifs. Cette fermeture brutale illustre la fragilité de certains acteurs du secteur numérique malgré des levées de fonds passées. Elle met en lumière les difficultés persistantes pour rentabiliser les modèles économiques dans le secteur du jeu mobile.",
+    "source": "Inc42",
+    "region": "in",
+    "sourceURL": "https://inc42.com/buzz/why-zupees-ai-pivot-was-a-smokescreen-for-its-shutdown/",
+    "publishedAt": "2026-11-12T15:51:24Z",
+    "quiz": {
+      "question": "Quelle mesure radicale la startup Zupee a-t-elle prise récemment ?",
+      "choices": [
+        "Elle a fusionné avec un géant tech",
+        "Elle a changé de nom commercial",
+        "Elle a licencié toute son équipe"
+      ],
+      "answerIndex": 2,
+      "explanation": "L'article indique que la startup a mis fin à ses activités après avoir licencié l'intégralité de sa main-d'œuvre."
+    },
+    "translations": {
+      "en": {
+        "title": "End of the line for gaming startup Zupee",
+        "fact": "Indian startup Zupee has shut down its operations and laid off its entire workforce.",
+        "whyItMatters": "This abrupt closure illustrates the fragility of certain digital sector players despite past fundraising rounds. It highlights persistent difficulties in making business models profitable in the mobile gaming sector.",
+        "quiz": {
+          "question": "What drastic measure did startup Zupee take recently?",
+          "choices": [
+            "It merged with a tech giant",
+            "It rebranded its commercial name",
+            "It laid off its entire team"
+          ],
+          "explanation": "The article indicates that the startup shut down its operations after laying off its entire workforce."
+        }
+      },
+      "es": {
+        "title": "Fin de trayecto para la startup de juegos Zupee",
+        "fact": "La startup india Zupee puso fin a sus actividades y despidió a toda su plantilla.",
+        "whyItMatters": "Este cierre abrupto ilustra la fragilidad de ciertos actores del sector digital a pesar de las rondas de financiación pasadas. Pone de relieve las dificultades persistentes para rentabilizar los modelos de negocio en el sector de los juegos móviles.",
+        "quiz": {
+          "question": "¿Qué medida drástica tomó recientemente la startup Zupee?",
+          "choices": [
+            "Se fusionó con un gigante tecnológico",
+            "Cambió de nombre comercial",
+            "Despidió a todo su equipo"
+          ],
+          "explanation": "El artículo indica que la startup puso fin a sus operaciones tras despedir a la totalidad de su fuerza laboral."
+        }
+      },
+      "hi": {
+        "title": "गेमिंग स्टार्टअप Zupee के लिए सफर का अंत",
+        "fact": "भारतीय स्टार्टअप Zupee ने अपनी गतिविधियों को समाप्त कर दिया है और अपने सभी कर्मचारियों को निकाल दिया है।",
+        "whyItMatters": "यह अचानक बंद होना पिछले वित्तपोषण के बावजूद डिजिटल क्षेत्र के कुछ खिलाड़ियों की नाजुकता को दर्शाता है। यह मोबाइल गेमिंग क्षेत्र में आर्थिक मॉडल को लाभदायक बनाने में लगातार आ रही कठिनाइयों को उजागर करता है।",
+        "quiz": {
+          "question": "स्टार्टअप Zupee ने हाल ही में कौन सा कठोर कदम उठाया है?",
+          "choices": [
+            "इसने एक तकनीकी दिग्गज के साथ विलय किया",
+            "इसने अपना व्यावसायिक नाम बदल दिया",
+            "इसने अपनी पूरी टीम को निकाल दिया"
+          ],
+          "explanation": "लेख इंगित करता है कि स्टार्टअप ने अपनी पूरी कार्यबल को नौकरी से निकालने के बाद अपनी गतिविधियों को समाप्त कर दिया।"
+        }
+      },
+      "zh": {
+        "title": "游戏初创公司Zupee走到尽头",
+        "fact": "印度初创公司Zupee已宣布终止运营并解雇了全体员工。",
+        "whyItMatters": "这次突然的关停表明，尽管过去有过融资，数字行业中的某些企业依然十分脆弱。它凸显了移动游戏领域在实现商业模式盈利方面面临的持续困难。",
+        "quiz": {
+          "question": "初创公司Zupee最近采取了什么激进措施？",
+          "choices": [
+            "它与一家科技巨头进行了合并",
+            "它更改了商业名称",
+            "它解雇了整个团队"
+          ],
+          "explanation": "文章指出，该初创公司在解雇了全部员工后终止了业务。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-659e712cdb17",
+    "title": "Négociations ferroviaires en Espagne face aux grèves",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Les autorités de transport et les syndicats espagnols poursuivent leurs discussions pour renforcer la sécurité ferroviaire sous la menace de grèves.",
+    "whyItMatters": "Ces pourparlers interviennent alors que plusieurs journées de débrayage sont programmées par les organisations syndicales. Un accord est recherché pour éviter de fortes perturbations sur le réseau exploité par la Renfe et Adif.",
+    "summary": "Les autorités de transport et les syndicats espagnols poursuivent leurs discussions pour renforcer la sécurité ferroviaire sous la menace de grèves. Ces pourparlers interviennent alors que plusieurs journées de débrayage sont programmées par les organisations syndicales. Un accord est recherché pour éviter de fortes perturbations sur le réseau exploité par la Renfe et Adif.",
+    "source": "El País Economía",
+    "region": "es",
+    "sourceURL": "https://elpais.com/economia/2026-11-12/transportes-vuelve-a-negociar-con-los-sindicatos-para-evitar-mas-huelgas-ferroviarias-tras-el-siniestro-de-urda.html",
+    "publishedAt": "2026-11-12T15:30:04Z",
+    "quiz": {
+      "question": "Quelles organisations syndicales ont des mouvements de grève prévus dans les transports ferroviaires espagnols ?",
+      "choices": [
+        "Semaf, UGT et CC OO",
+        "Uniquement la CGT",
+        "FO et CFDT"
+      ],
+      "answerIndex": 0,
+      "explanation": "Les syndicats Semaf, UGT et CC OO ont des arrêts de travail convoqués pour les jours à venir."
+    },
+    "translations": {
+      "en": {
+        "title": "Railway talks in Spain amid strike threats",
+        "fact": "Spanish transport authorities and trade unions are continuing discussions to enhance rail safety under the threat of strikes.",
+        "whyItMatters": "These talks come as several days of walkouts are scheduled by labor organizations. An agreement is being sought to prevent severe disruptions on the network operated by Renfe and Adif.",
+        "quiz": {
+          "question": "Which trade unions have planned strikes in Spain's railway transport?",
+          "choices": [
+            "Semaf, UGT, and CC OO",
+            "Only CGT",
+            "FO and CFDT"
+          ],
+          "explanation": "Unions Semaf, UGT, and CC OO have called for work stoppages in the coming days."
+        }
+      },
+      "es": {
+        "title": "Negociaciones ferroviarias en España ante las huelgas",
+        "fact": "Las autoridades de transporte y los sindicatos españoles continúan sus conversaciones para reforzar la seguridad ferroviaria bajo la amenaza de huelgas.",
+        "whyItMatters": "Estas conversaciones se producen cuando las organizaciones sindicales tienen programadas varias jornadas de paros. Se busca un acuerdo para evitar graves alteraciones en la red operada por Renfe y Adif.",
+        "quiz": {
+          "question": "¿Qué organizaciones sindicales tienen previstas movilizaciones en el transporte ferroviario español?",
+          "choices": [
+            "Semaf, UGT y CC OO",
+            "Únicamente la CGT",
+            "FO y CFDT"
+          ],
+          "explanation": "Los sindicatos Semaf, UGT y CC OO tienen convocados paros laborales para los próximos días."
+        }
+      },
+      "hi": {
+        "title": "हड़तालों के बीच स्पेन में रेलवे वार्ता",
+        "fact": "स्पेनिश परिवहन अधिकारी और ट्रेड यूनियन हड़तालों की धमकी के तहत रेलवे सुरक्षा को मजबूत करने के लिए अपनी चर्चाएं जारी रख रहे हैं।",
+        "whyItMatters": "ये वार्ताएं तब हो रही हैं जब ट्रेड यूनियन संगठनों द्वारा कई दिनों की हड़ताल निर्धारित की गई है। Renfe और Adif द्वारा संचालित नेटवर्क पर भारी बाधाओं से बचने के लिए एक समझौते की तलाश की जा रही है।",
+        "quiz": {
+          "question": "स्पेनिश रेलवे परिवहन में किन ट्रेड यूनियन संगठनों ने हड़ताल की योजना बनाई है?",
+          "choices": [
+            "Semaf, UGT और CC OO",
+            "केवल CGT",
+            "FO और CFDT"
+          ],
+          "explanation": "यूनियनों Semaf, UGT और CC OO ने आने वाले दिनों के लिए काम रोकने का आह्वान किया है।"
+        }
+      },
+      "zh": {
+        "title": "西班牙面对罢工举行铁路谈判",
+        "fact": "西班牙交通当局与工会正继续就加强铁路安全展开讨论，同时面临着罢工威胁。",
+        "whyItMatters": "此次谈判是在工会组织计划进行多日罢工的背景下进行的。各方正寻求达成协议，以避免由Renfe和Adif运营的网络受到严重干扰。",
+        "quiz": {
+          "question": "哪些工会组织在西班牙铁路运输中计划了罢工活动？",
+          "choices": [
+            "Semaf、UGT和CC OO",
+            "仅限CGT",
+            "FO和CFDT"
+          ],
+          "explanation": "Semaf、UGT和CC OO工会已号召在未来几天举行罢工。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-a5ab0c265588",
+    "title": "Jensen Huang quitte la direction de Nvidia apres trente-trois ans",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Jensen Huang a demissionne de ses fonctions chez Nvidia, entrainant la nomination de Colette Kress au poste de directrice generale par interim.",
+    "whyItMatters": "Ce départ marque un tournant historique pour l'un des fabricants de semi-conducteurs les plus influents au monde. Le conseil d'administration doit désormais désigner un successeur permanent, en interne ou en externe.",
+    "summary": "Jensen Huang a demissionne de ses fonctions chez Nvidia, entrainant la nomination de Colette Kress au poste de directrice generale par interim. Ce départ marque un tournant historique pour l'un des fabricants de semi-conducteurs les plus influents au monde. Le conseil d'administration doit désormais désigner un successeur permanent, en interne ou en externe.",
+    "source": "YourStory",
+    "region": "in",
+    "sourceURL": "https://yourstory.com/2026/11/jensen-huang-resigns-after-33-years-at-nvidia",
+    "publishedAt": "2026-11-12T14:38:57Z",
+    "quiz": {
+      "question": "Qui a ete nommee directrice generale par interim de Nvidia ?",
+      "choices": [
+        "Jensen Huang",
+        "Colette Kress",
+        "Tim Cook"
+      ],
+      "answerIndex": 1,
+      "explanation": "La directrice financiere Colette Kress a ete nommee directrice generale par interim suite au depart de Jensen Huang."
+    },
+    "translations": {
+      "en": {
+        "title": "Jensen Huang steps down as Nvidia head after 33 years",
+        "fact": "Jensen Huang has resigned from his position at Nvidia, leading to the appointment of Colette Kress as interim CEO.",
+        "whyItMatters": "This departure marks a historic turning point for one of the world's most influential semiconductor manufacturers. The board of directors must now appoint a permanent successor, either internally or externally.",
+        "quiz": {
+          "question": "Who was appointed interim CEO of Nvidia?",
+          "choices": [
+            "Jensen Huang",
+            "Colette Kress",
+            "Tim Cook"
+          ],
+          "explanation": "CFO Colette Kress was appointed interim CEO following Jensen Huang's departure."
+        }
+      },
+      "es": {
+        "title": "Jensen Huang deja la dirección de Nvidia tras treinta y tres años",
+        "fact": "Jensen Huang dimitió de su cargo en Nvidia, lo que llevó al nombramiento de Colette Kress como consejera delegada interina.",
+        "whyItMatters": "Esta salida marca un punto de inflexión histórico para uno de los fabricantes de semiconductores más influyentes del mundo. El consejo de administración debe designar ahora a un sucesor permanente, ya sea interno o externo.",
+        "quiz": {
+          "question": "¿Quién fue nombrada consejera delegada interina de Nvidia?",
+          "choices": [
+            "Jensen Huang",
+            "Colette Kress",
+            "Tim Cook"
+          ],
+          "explanation": "La directora financiera Colette Kress fue nombrada consejera delegada interina tras la marcha de Jensen Huang."
+        }
+      },
+      "hi": {
+        "title": "तेरह साल बाद Jensen Huang ने Nvidia का नेतृत्व छोड़ा",
+        "fact": "Jensen Huang ने Nvidia में अपने पद से इस्तीफा दे दिया है, जिसके परिणामस्वरूप Colette Kress को अंतरिम मुख्य कार्यकारी अधिकारी नियुक्त किया गया है।",
+        "whyItMatters": "यह प्रस्थान दुनिया के सबसे प्रभावशाली सेमीकंडक्टर निर्माताओं में से एक के लिए एक ऐतिहासिक मोड़ है। निदेशक मंडल को अब आंतरिक या बाहरी रूप से एक स्थायी उत्तराधिकारी नामित करना होगा।",
+        "quiz": {
+          "question": "Nvidia की अंतरिम मुख्य कार्यकारी अधिकारी किसे नियुक्त किया गया है?",
+          "choices": [
+            "Jensen Huang",
+            "Colette Kress",
+            "Tim Cook"
+          ],
+          "explanation": "Jensen Huang के जाने के बाद मुख्य वित्तीय अधिकारी Colette Kress को अंतरिम मुख्य कार्यकारी अधिकारी नियुक्त किया गया।"
+        }
+      },
+      "zh": {
+        "title": "黄仁勋卸任英伟达掌门人，历时三十三年",
+        "fact": "黄仁勋已辞去在英伟达的职务，导致科莱特·克雷斯被任命为临时首席执行官。",
+        "whyItMatters": "这一离职标志着全球最具影响力的半导体制造商之一迎来了历史性转折。董事会现在必须在内部或外部指定一位永久继承人。",
+        "quiz": {
+          "question": "谁被任命为英伟达临时首席执行官？",
+          "choices": [
+            "黄仁勋",
+            "科莱特·克雷斯",
+            "蒂姆·库克"
+          ],
+          "explanation": "在黄仁勋离职后，首席财务官科莱特·克雷斯被任命为临时首席执行官。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-67620d37149d",
+    "title": "Hausse des travailleurs étrangers en Espagne",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "L'Espagne se positionne comme le deuxième pays de l'Union européenne comptant le plus de travailleurs nés à l'étranger.",
+    "whyItMatters": "Cette dynamique place le pays au quatrième rang des récepteurs de main-d'œuvre migrante au sein de l'OCDE. L'intégration de cette population active influence profondément la structure du marché du travail national.",
+    "summary": "L'Espagne se positionne comme le deuxième pays de l'Union européenne comptant le plus de travailleurs nés à l'étranger. Cette dynamique place le pays au quatrième rang des récepteurs de main-d'œuvre migrante au sein de l'OCDE. L'intégration de cette population active influence profondément la structure du marché du travail national.",
+    "source": "El País Economía",
+    "region": "es",
+    "sourceURL": "https://elpais.com/economia/2026-11-12/espana-ya-es-el-segundo-pais-de-la-ue-con-mas-trabajadores-nacidos-en-el-extranjero.html",
+    "publishedAt": "2026-11-12T13:21:21Z",
+    "quiz": {
+      "question": "Quel est le classement de l'Espagne au sein de l'OCDE pour l'accueil de main-d'œuvre migrante ?",
+      "choices": [
+        "Dixième",
+        "Quatrième",
+        "Deuxième"
+      ],
+      "answerIndex": 1,
+      "explanation": "L'Espagne arrive au quatrième rang des pays de l'OCDE pour l'accueil de main-d'œuvre migrante."
+    },
+    "terms": [
+      {
+        "term": "OCDE",
+        "definition": "Organisation internationale regroupant des pays développés pour coordonner leurs politiques économiques."
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Increase in foreign workers in Spain",
+        "fact": "Spain ranks as the second European Union country with the highest number of foreign-born workers.",
+        "whyItMatters": "This momentum places the country fourth among recipients of migrant labor within the OECD. The integration of this active population deeply influences the structure of the national labor market.",
+        "quiz": {
+          "question": "What is Spain's ranking within the OECD for welcoming migrant labor?",
+          "choices": [
+            "Tenth",
+            "Fourth",
+            "Second"
+          ],
+          "explanation": "Spain ranks fourth among OECD countries for welcoming migrant labor."
+        }
+      },
+      "es": {
+        "title": "Aumento de los trabajadores extranjeros en España",
+        "fact": "España se sitúa como el segundo país de la Unión Europea con más trabajadores nacidos en el extranjero.",
+        "whyItMatters": "Esta dinámica sitúa al país en el cuarto puesto como receptor de mano de obra migrante dentro de la OCDE. La integración de esta población activa influye profundamente en la estructura del mercado laboral nacional.",
+        "quiz": {
+          "question": "¿Qué puesto ocupa España en la OCDE en cuanto a la acogida de mano de obra migrante?",
+          "choices": [
+            "Décimo",
+            "Cuarto",
+            "Segundo"
+          ],
+          "explanation": "España ocupa el cuarto lugar entre los países de la OCDE en la acogida de mano de obra migrante."
+        },
+        "terms": [
+          {
+            "term": "OCDE",
+            "definition": "Organización internacional que agrupa a países desarrollados para coordinar sus políticas económicas."
+          }
+        ]
+      },
+      "hi": {
+        "title": "स्पेन में विदेशी श्रमिकों में वृद्धि",
+        "fact": "स्पेन यूरोपीय संघ में विदेश में जन्मे श्रमिकों की सबसे अधिक संख्या वाला दूसरा देश बन गया है।",
+        "whyItMatters": "यह गतिशीलता देश को ओईसीडी के भीतर प्रवासी श्रम के चौथे सबसे बड़े प्राप्तकर्ता के रूप में रखती है। इस कार्यशील आबादी का एकीकरण राष्ट्रीय श्रम बाजार की संरचना को गहराई से प्रभावित करता है।",
+        "quiz": {
+          "question": "प्रवासी श्रम के स्वागत के लिए ओईसीडी के भीतर स्पेन की रैंकिंग क्या है?",
+          "choices": [
+            "दसवां",
+            "चौथा",
+            "दूसरा"
+          ],
+          "explanation": "प्रवासी श्रम के स्वागत के लिए स्पेन ओईसीडी देशों में चौथे स्थान पर आता है।"
+        },
+        "terms": [
+          {
+            "term": "ओईसीडी",
+            "definition": "विकसित देशों का एक अंतरराष्ट्रीय संगठन जो उनकी आर्थिक नीतियों का समन्वय करता है।"
+          }
+        ]
+      },
+      "zh": {
+        "title": "西班牙外籍劳工人数增加",
+        "fact": "西班牙在欧盟外国出生劳工最多的国家中排名第二。",
+        "whyItMatters": "这一动态使该国在经合组织接收移民劳动力方面排在第四位。这一活跃人口的融入深刻影响了国家劳动力市场的结构。",
+        "quiz": {
+          "question": "西班牙在经合组织接收移民劳动力方面排名第几？",
+          "choices": [
+            "第十",
+            "第四",
+            "第二"
+          ],
+          "explanation": "西班牙在经合组织接收移民劳动力方面排名第四。"
+        },
+        "terms": [
+          {
+            "term": "经合组织",
+            "definition": "由发达国家组成的国际组织，旨在协调其经济政策。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rss-d5c0cd322e57",
+    "title": "Alphabet leve des milliards grace a des emissions obligataires",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Alphabet a enregistre environ cinq milliards de dollars de commandes initiales lors de ventes d'obligations realisees a Hong Kong et a Singapour.",
+    "whyItMatters": "Ce succès financier offre au géant technologique une marge de manœuvre accrue pour financer ses investissements massifs dans les infrastructures d'intelligence artificielle. Ces fonds permettent de soutenir la croissance de ses projets malgré la volatilité des marchés boursiers.",
+    "summary": "Alphabet a enregistre environ cinq milliards de dollars de commandes initiales lors de ventes d'obligations realisees a Hong Kong et a Singapour. Ce succès financier offre au géant technologique une marge de manœuvre accrue pour financer ses investissements massifs dans les infrastructures d'intelligence artificielle. Ces fonds permettent de soutenir la croissance de ses projets malgré la volatilité des marchés boursiers.",
+    "source": "ET Tech",
+    "region": "in",
+    "sourceURL": "https://economictimes.indiatimes.com/tech/technology/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-5-billion-in-early-orders/articleshow/135759335.cms",
+    "publishedAt": "2026-11-12T07:04:28Z",
+    "quiz": {
+      "question": "Ou Alphabet a-t-il principalement attire des commandes pour ses obligations ?",
+      "choices": [
+        "A Tokyo et a Francfort",
+        "A Hong Kong et a Singapour",
+        "A Londres et a New York"
+      ],
+      "answerIndex": 1,
+      "explanation": "Les ventes d'obligations d'Alphabet ont eu lieu a Hong Kong et a Singapour."
+    },
+    "translations": {
+      "en": {
+        "title": "Alphabet raises billions through bond issuances",
+        "fact": "Alphabet recorded about five billion dollars in initial orders during bond sales held in Hong Kong and Singapore.",
+        "whyItMatters": "This financial success gives the tech giant increased leeway to finance its massive investments in artificial intelligence infrastructure. These funds help support the growth of its projects despite stock market volatility.",
+        "quiz": {
+          "question": "Where did Alphabet mainly attract orders for its bonds?",
+          "choices": [
+            "Tokyo and Frankfurt",
+            "Hong Kong and Singapore",
+            "London and New York"
+          ],
+          "explanation": "Alphabet's bond sales took place in Hong Kong and Singapore."
+        }
+      },
+      "es": {
+        "title": "Alphabet capta miles de millones con emisiones de bonos",
+        "fact": "Alphabet registró unos cinco mil millones de dólares en pedidos iniciales durante ventas de bonos realizadas en Hong Kong y Singapur.",
+        "whyItMatters": "Este éxito financiero ofrece al gigante tecnológico un mayor margen de maniobra para financiar sus masivas inversiones en infraestructuras de inteligencia artificial. Estos fondos permiten respaldar el crecimiento de sus proyectos a pesar de la volatilidad de los mercados bursátiles.",
+        "quiz": {
+          "question": "¿Dónde atrajo principalmente Alphabet pedidos para sus bonos?",
+          "choices": [
+            "En Tokio y Fráncfort",
+            "En Hong Kong y Singapur",
+            "En Londres y Nueva York"
+          ],
+          "explanation": "Las ventas de bonos de Alphabet tuvieron lugar en Hong Kong y Singapur."
+        }
+      },
+      "hi": {
+        "title": "Alphabet ने बॉन्ड जारी करके अरबों जुटाए",
+        "fact": "Alphabet ने हांगकांग और सिंगापुर में किए गए बॉन्ड की बिक्री के दौरान लगभग पांच बिलियन डॉलर के शुरुआती ऑर्डर दर्ज किए।",
+        "whyItMatters": "यह वित्तीय सफलता तकनीकी दिग्गज को आर्टिफिशियल इंटेलिजेंस बुनियादी ढांचे में अपने भारी निवेश को वित्तपोषित करने के लिए बढ़ी हुई गुंजाइश प्रदान करती है। ये फंड शेयर बाजार की अस्थिरता के बावजूद इसके प्रोजेक्ट्स के विकास का समर्थन करने की अनुमति देते हैं।",
+        "quiz": {
+          "question": "Alphabet ने मुख्य रूप से अपने बॉन्ड के लिए कहां ऑर्डर आकर्षित किए?",
+          "choices": [
+            "टोक्यो और फ्रैंकफर्ट में",
+            "हांगकांग और सिंगापुर में",
+            "लंदन और न्यूयॉर्क में"
+          ],
+          "explanation": "Alphabet के बॉन्ड की बिक्री हांगकांग और सिंगापुर में हुई।"
+        }
+      },
+      "zh": {
+        "title": "Alphabet通过发行债券筹集数十亿美元",
+        "fact": "Alphabet在香港和新加坡进行的债券销售中录得约50亿美元的初始订单。",
+        "whyItMatters": "这一财务上的成功为这家科技巨头提供了更多的资金空间，用于为其在人工智能基础设施上的巨额投资提供资金。尽管股市动荡，这些资金仍能支持其项目的增长。",
+        "quiz": {
+          "question": "Alphabet主要在哪里为其债券吸引了订单？",
+          "choices": [
+            "在东京和法兰克福",
+            "在香港和新加坡",
+            "在伦敦和纽约"
+          ],
+          "explanation": "Alphabet的债券销售是在香港和新加坡进行的。"
+        }
+      }
+    }
+  },
+  {
+    "id": "rss-7ad1c4b80b1c",
+    "title": "Prorogation des loyers : des économies en Espagne",
+    "topic": "finance",
+    "subject": "Macro",
+    "fact": "Le ministère espagnol de la Consommation estime qu'une prolongation des contrats de location permettrait des économies substantielles pour des millions de foyers.",
+    "whyItMatters": "Cette mesure potentielle vise à offrir un répit financier direct aux locataires face aux tensions immobilières. Elle met en lumière les arbitrages politiques en cours pour réguler le marché du logement.",
+    "summary": "Le ministère espagnol de la Consommation estime qu'une prolongation des contrats de location permettrait des économies substantielles pour des millions de foyers. Cette mesure potentielle vise à offrir un répit financier direct aux locataires face aux tensions immobilières. Elle met en lumière les arbitrages politiques en cours pour réguler le marché du logement.",
+    "source": "El País Economía",
+    "region": "es",
+    "sourceURL": "https://elpais.com/economia/vivienda/2026-11-12/consumo-calcula-que-la-prorroga-de-los-alquileres-ahorraria-4341-euros-por-hogar-y-beneficiaria-a-casi-cinco-millones-de-personas.html",
+    "publishedAt": "2026-11-12T06:00:00Z",
+    "quiz": {
+      "question": "Quel organisme évalue les économies potentielles liées à la prolongation des loyers en Espagne ?",
+      "choices": [
+        "La Banque centrale européenne",
+        "Le ministère de la Consommation",
+        "Le ministère des Finances"
+      ],
+      "answerIndex": 1,
+      "explanation": "C'est le ministère de la Consommation qui réalise cette estimation concernant l'impact de la prolongation des baux."
+    },
+    "translations": {
+      "en": {
+        "title": "Rent extensions: potential savings in Spain",
+        "fact": "The Spanish Ministry of Consumption estimates that extending rental contracts would allow substantial savings for millions of households.",
+        "whyItMatters": "This potential measure aims to provide direct financial relief to tenants facing housing pressures. It highlights current political compromises underway to regulate the housing market.",
+        "quiz": {
+          "question": "Which body evaluates potential savings related to rent extensions in Spain?",
+          "choices": [
+            "The European Central Bank",
+            "The Ministry of Consumption",
+            "The Ministry of Finance"
+          ],
+          "explanation": "It is the Ministry of Consumption that makes this estimate regarding the impact of lease extensions."
+        }
+      },
+      "es": {
+        "title": "Prorrogas de alquileres: ahorro en España",
+        "fact": "El Ministerio de Consumo de España estima que una prórroga de los contratos de alquiler permitiría ahorros sustanciales para millones de hogares.",
+        "whyItMatters": "Esta posible medida busca ofrecer un respiro financiero directo a los inquilinos frente a las tensiones inmobiliarias. Pone de relieve los debates políticos en curso para regular el mercado de la vivienda.",
+        "quiz": {
+          "question": "¿Qué organismo evalúa los ahorros potenciales vinculados a la prórroga de los alquileres en España?",
+          "choices": [
+            "El Banco Central Europeo",
+            "El Ministerio de Consumo",
+            "El Ministerio de Hacienda"
+          ],
+          "explanation": "Es el Ministerio de Consumo el que realiza esta estimación sobre el impacto de la prórroga de los contratos de arrendamiento."
+        }
+      },
+      "hi": {
+        "title": "किराए का विस्तार: स्पेन में बचत",
+        "fact": "स्पेनिश उपभोक्ता मंत्रालय का अनुमान है कि किराये के अनुबंधों का विस्तार लाखों परिवारों के लिए पर्याप्त बचत की अनुमति देगा।",
+        "whyItMatters": "इस संभावित उपाय का उद्देश्य आवास के तनावों का सामना कर रहे किरायेदारों को प्रत्यक्ष वित्तीय राहत प्रदान करना है। यह आवास बाजार को विनियमित करने के लिए चल रहे राजनीतिक समझौतों को उजागर करता है।",
+        "quiz": {
+          "question": "स्पेन में किराए के विस्तार से जुड़ी संभावित बचत का मूल्यांकन कौन सा निकाय करता है?",
+          "choices": [
+            "यूरोपीय केंद्रीय बैंक",
+            "उपभोक्ता मंत्रालय",
+            "वित्त मंत्रालय"
+          ],
+          "explanation": "यह उपभोक्ता मंत्रालय है जो पट्टे के विस्तार के प्रभाव के बारे में यह अनुमान लगाता है।"
+        }
+      },
+      "zh": {
+        "title": "延长租约：为西班牙家庭节省开支",
+        "fact": "西班牙消费部估计，延长租赁合同将为数百万家庭节省大量开支。",
+        "whyItMatters": "这项潜在措施旨在面对房地产紧张局势时，为租户提供直接的财务喘息机会。它突显了当前为调节住房市场而正在进行的政治权衡。",
+        "quiz": {
+          "question": "哪个机构评估了西班牙延长租约带来的潜在节省？",
+          "choices": [
+            "欧洲中央银行",
+            "消费部",
+            "财政部"
+          ],
+          "explanation": "正是消费部对延长租约的影响进行了这一估算。"
+        }
+      }
+    }
+  },
+  {
     "id": "rss-16e1fedb7df0",
     "title": "OpenAI s'associe à Samsung pour un appareil d'IA",
     "topic": "tech",
@@ -14932,168 +17458,6 @@
             "definition": "由投资基金而非传统银行向企业发放的贷款。"
           }
         ]
-      }
-    }
-  },
-  {
-    "id": "rss-a6cb67ba7946",
-    "title": "Anthropic pourrait revoir sa valorisation boursière à la baisse",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "L'entreprise Anthropic envisage d'accepter une valorisation inférieure à ses objectifs initiaux pour son introduction en Bourse.",
-    "whyItMatters": "Une correction récente du marché technologique a refroidi l'ardeur des investisseurs institutionnels clés. Cette tendance illustre la prudence actuelle du capital-risque face aux valorisations élevées des sociétés d'intelligence artificielle.",
-    "summary": "L'entreprise Anthropic envisage d'accepter une valorisation inférieure à ses objectifs initiaux pour son introduction en Bourse. Une correction récente du marché technologique a refroidi l'ardeur des investisseurs institutionnels clés. Cette tendance illustre la prudence actuelle du capital-risque face aux valorisations élevées des sociétés d'intelligence artificielle.",
-    "source": "Tech Xplore Business",
-    "region": "en",
-    "sourceURL": "https://techxplore.com/news/2026-11-anthropic-ipo-ambitions-investors-balk.html",
-    "publishedAt": "2026-11-06T08:58:57Z",
-    "quiz": {
-      "question": "Quelle est la cause principale de cette révision potentielle de valorisation pour Anthropic ?",
-      "choices": [
-        "Une interdiction réglementaire de cotation",
-        "Une vente massive de valeurs technologiques",
-        "Le rachat total par un concurrent direct"
-      ],
-      "answerIndex": 1,
-      "explanation": "Un mouvement de vente important sur les actions technologiques a effrayé les investisseurs et pèse sur les ambitions de l'entreprise."
-    },
-    "translations": {
-      "en": {
-        "title": "Anthropic may lower its market valuation",
-        "fact": "Anthropic is considering accepting a valuation lower than its initial targets for its initial public offering.",
-        "whyItMatters": "A recent correction in the tech market has cooled the enthusiasm of key institutional investors. This trend illustrates the current caution of venture capital in the face of high valuations for artificial intelligence companies.",
-        "quiz": {
-          "question": "What is the main cause of this potential valuation revision for Anthropic?",
-          "choices": [
-            "A regulatory listing ban",
-            "A massive sell-off of tech stocks",
-            "A total buyout by a direct competitor"
-          ],
-          "explanation": "A significant sell-off in tech stocks has frightened investors and is weighing on the company's ambitions."
-        }
-      },
-      "es": {
-        "title": "Anthropic podría rebajar su valoración bursátil",
-        "fact": "La empresa Anthropic baraja aceptar una valoración inferior a sus objetivos iniciales para su salida a bolsa.",
-        "whyItMatters": "Una corrección reciente del mercado tecnológico ha enfriado el entusiasmo de los inversores institucionales clave. Esta tendencia ilustra la prudencia actual del capital riesgo frente a las altas valoraciones de las empresas de inteligencia artificial.",
-        "quiz": {
-          "question": "¿Cuál es la causa principal de esta posible revisión de valoración para Anthropic?",
-          "choices": [
-            "Una prohibición regulatoria de cotización",
-            "Una venta masiva de valores tecnológicos",
-            "La adquisición total por parte de un competidor directo"
-          ],
-          "explanation": "Un importante movimiento de venta en las acciones tecnológicas ha asustado a los inversores y pesa sobre las ambiciones de la empresa."
-        }
-      },
-      "hi": {
-        "title": "Anthropic अपने बाजार मूल्यांकन को नीचे की ओर संशोधित कर सकती है",
-        "fact": "Anthropic कंपनी अपने शेयर बाजार में प्रवेश के लिए अपने शुरुआती लक्ष्यों से कम मूल्यांकन स्वीकार करने पर विचार कर रही है।",
-        "whyItMatters": "तकनीकी बाजार में हालिया सुधार ने प्रमुख संस्थागत निवेशकों के उत्साह को ठंडा कर दिया है। यह प्रवृत्ति कृत्रिम बुद्धिमत्ता कंपनियों के उच्च मूल्यांकन के सामने उद्यम पूंजी की वर्तमान सावधानी को दर्शाती है।",
-        "quiz": {
-          "question": "Anthropic के लिए इस संभावित मूल्यांकन संशोधन का मुख्य कारण क्या है?",
-          "choices": [
-            "लिस्टिंग पर विनियामक प्रतिबंध",
-            "तकनीकी शेयरों की भारी बिक्री",
-            "प्रत्यक्ष प्रतियोगी द्वारा पूर्ण अधिग्रहण"
-          ],
-          "explanation": "तकनीकी शेयरों पर एक महत्वपूर्ण बिक्री आंदोलन ने निवेशकों को डरा दिया है और कंपनी की महत्वाकांक्षाओं पर भारी पड़ता है।"
-        }
-      },
-      "zh": {
-        "title": "安东尼公司可能下调其股市估值",
-        "fact": "安东尼公司正考虑在首次公开募股时接受低于其最初目标的估值。",
-        "whyItMatters": "科技市场的近期回调冷却了关键机构投资者的热情。这一趋势说明了风险投资面对人工智能公司高估值时的当前谨慎态度。",
-        "quiz": {
-          "question": "安东尼公司此次潜在估值修正的主要原因是什么？",
-          "choices": [
-            "监管机构禁止上市",
-            "科技股遭大量抛售",
-            "被直接竞争对手全资收购"
-          ],
-          "explanation": "科技股的大规模抛售吓退了投资者，并对其公司的雄心造成了压力。"
-        }
-      }
-    }
-  },
-  {
-    "id": "rss-2faaa2f9e385",
-    "title": "Hausse de l'endettement des ménages selon l'Insee",
-    "topic": "finance",
-    "subject": "Macro",
-    "fact": "D'après l'Insee, la part des ménages possédant un emprunt en cours atteint 46 pour cent, un taux qui progresse nettement avec le niveau de vie et l'âge.",
-    "whyItMatters": "Cette situation montre que l'accès au crédit concerne principalement les foyers les plus aisés et les classes d'âge engagées dans l'accession à la propriété. L'emprunt reste ainsi un outil fortement corrélé au cycle de vie.",
-    "summary": "D'après l'Insee, la part des ménages possédant un emprunt en cours atteint 46 pour cent, un taux qui progresse nettement avec le niveau de vie et l'âge. Cette situation montre que l'accès au crédit concerne principalement les foyers les plus aisés et les classes d'âge engagées dans l'accession à la propriété. L'emprunt reste ainsi un outil fortement corrélé au cycle de vie.",
-    "source": "INSEE",
-    "region": "fr",
-    "sourceURL": "https://www.insee.fr/fr/statistiques/9102022",
-    "publishedAt": "2026-11-05T16:00:00Z",
-    "quiz": {
-      "question": "Quelle tranche de la population présente la plus forte proportion de ménages endettés ?",
-      "choices": [
-        "Les 10 pour cent des ménages les plus modestes",
-        "Les jeunes actifs de moins de vingt-cinq ans",
-        "Les 10 pour cent des ménages les plus aisés"
-      ],
-      "answerIndex": 2,
-      "explanation": "La part des ménages endettés s'élève à 57 pour cent pour les 10 pour cent les plus aisés, contre 27 pour cent pour les plus modestes."
-    },
-    "translations": {
-      "en": {
-        "title": "Rise in household debt according to Insee",
-        "fact": "According to Insee, the share of households with an active loan reaches 46 percent, a rate that rises sharply with standard of living and age.",
-        "whyItMatters": "This situation shows that access to credit mainly concerns wealthier households and age groups engaged in homeownership. Thus, borrowing remains a tool strongly correlated with the life cycle.",
-        "quiz": {
-          "question": "Which slice of the population has the highest proportion of indebted households?",
-          "choices": [
-            "The 10 percent most modest households",
-            "Young workers under twenty-five",
-            "The 10 percent wealthiest households"
-          ],
-          "explanation": "The share of indebted households rises to 57 percent for the top 10 percent, compared to 27 percent for the lowest-income households."
-        }
-      },
-      "es": {
-        "title": "Aumento del endeudamiento de los hogares según el Insee",
-        "fact": "Según el Insee, el porcentaje de hogares con un préstamo en curso alcanza el 46 por ciento, una tasa que aumenta notablemente con el nivel de vida y la edad.",
-        "whyItMatters": "Esta situación muestra que el acceso al crédito concierne principalmente a los hogares más pudientes y a los grupos de edad inmersos en la compra de vivienda. El préstamo sigue siendo una herramienta muy vinculada al ciclo vital.",
-        "quiz": {
-          "question": "¿Qué sector de la población presenta la mayor proporción de hogares endeudados?",
-          "choices": [
-            "El 10 por ciento de los hogares más modestos",
-            "Los jóvenes activos menores de veinticinco años",
-            "El 10 por ciento de los hogares más ricos"
-          ],
-          "explanation": "El porcentaje de hogares endeudados asciende al 57 por ciento para el 10 por ciento más rico, frente al 27 por ciento para los más modestos."
-        }
-      },
-      "hi": {
-        "title": "Insee के अनुसार परिवारों की ऋणग्रस्तता में वृद्धि",
-        "fact": "Insee के अनुसार, मौजूदा ऋण वाले परिवारों का हिस्सा 46 प्रतिशत तक पहुँच गया है, जो जीवन स्तर और उम्र के साथ काफी बढ़ जाता है।",
-        "whyItMatters": "यह स्थिति दर्शाती है कि ऋण तक पहुँच मुख्य रूप से सबसे अमीर परिवारों और घर खरीदने में लगे आयु वर्गों से संबंधित है। इस प्रकार ऋण जीवन चक्र से मजबूती से जुड़ा हुआ एक उपकरण बना हुआ है।",
-        "quiz": {
-          "question": "आबादी के किस वर्ग में ऋणी परिवारों का अनुपात सबसे अधिक है?",
-          "choices": [
-            "सबसे गरीब 10 प्रतिशत परिवार",
-            "पच्चीस वर्ष से कम उम्र के युवा कामकाजी",
-            "सबसे अमीर 10 प्रतिशत परिवार"
-          ],
-          "explanation": "ऋणी परिवारों का हिस्सा सबसे अमीर 10 प्रतिशत के लिए 57 प्रतिशत है, जबकि सबसे गरीब लोगों के लिए यह 27 प्रतिशत है।"
-        }
-      },
-      "zh": {
-        "title": "根据法国国家统计与经济研究所数据，家庭负债上升",
-        "fact": "根据法国国家统计与经济研究所的数据，拥有未偿还贷款的家庭比例达到了46%，这一比例随着生活水平和年龄的提高而显著增长。",
-        "whyItMatters": "这种情况表明，获得信贷主要涉及最富裕的家庭以及处于购房置业阶段的年龄段。因此，贷款仍然是一个与生命周期高度相关的工具。",
-        "quiz": {
-          "question": "哪个人口群体的负债家庭比例最高？",
-          "choices": [
-            "最贫困的10%家庭",
-            "25岁以下的年轻积极就业者",
-            "最富裕的10%家庭"
-          ],
-          "explanation": "最富裕的10%家庭的负债比例高达57%，而最贫困家庭的这一比例为27%。"
-        }
       }
     }
   }
