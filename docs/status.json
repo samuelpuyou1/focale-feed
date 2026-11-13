@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-12T21:51:46Z",
+  "ranAt": "2026-11-13T17:13:27Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,33 +10,47 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 30,
+  "newCards": 29,
   "byTopic": {
-    "tech": 10,
-    "finance": 20
+    "tech": 14,
+    "finance": 15
   },
   "byRegion": {
-    "fr": 8,
-    "en": 8,
-    "es": 5,
-    "in": 6,
-    "cn": 3
+    "fr": 11,
+    "en": 7,
+    "es": 4,
+    "in": 3,
+    "cn": 4
   },
   "quality": {
-    "fixed": 0,
-    "rejected": 1
+    "fixed": 1,
+    "rejected": 0
   },
-  "calls": 11,
+  "calls": 9,
   "apiCalls": {
-    "gemini-flash-latest": 28,
-    "gemini-flash-lite-latest": 24
+    "gemini-flash-latest": 37,
+    "gemini-flash-lite-latest": 25,
+    "gemini-omni-1.2-flash": 1,
+    "gemini-omni-1.1-flash": 1,
+    "gemini-3.8-flash": 2,
+    "gemini-3.7-flash": 2,
+    "gemini-3.6-flash": 2
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.6-flash": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -54,10 +68,10 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 30,
-    "es": 30,
-    "hi": 30,
-    "zh": 30
+    "en": 29,
+    "es": 29,
+    "hi": 29,
+    "zh": 29
   },
   "untranslated": {
     "en": 0,
@@ -66,16 +80,8 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 431,
-    "finance": 206
+    "tech": 456,
+    "finance": 228
   },
-  "errors": [
-    "réponse invalide (Tech Xplore) : {\"i\": 1, \"title\": \"IA et aerodynamic\", \"fact\": \"Des chercheurs de l'universite Kyushu ont concu un systeme d'intelligence artificielle capable de prevoir la per",
-    "réponse invalide (Tech Xplore) : {\"i\": 8, \"title\": \"Exploration de modeles de langage alternatifs plus economiques\", \"fact\": \"Des chercheurs etudient l'utilisation du reservoir computing pour c",
-    "réponse invalide (El País Economía) : {\"i\": 2, \"title\": \"Telefonica affiche un benefice de 464 millions d'euros\", \"fact\": \"L'operateur Telefonica a enregistre un benefice de 464 millions d'euros sur",
-    "réponse invalide (YourStory) : {\"i\": 1, \"title\": \"Levee de fonds pour la startup Kutlerri.ai\", \"fact\": \"La jeune entreprise Kutlerri.ai a leve quatre millions de dollars pour developper des a",
-    "réponse invalide (ET Tech) : {\"i\": 2, \"title\": \"Forte hausse des resultats trimestriels pour Foxconn\", \"fact\": \"Le fabricant taiwanais Foxconn a enregistre une augmentation de trente-quatre",
-    "réponse invalide (Numerama) : {\"i\": 5, \"title\": \"Volkswagen abandonne le gigacasting pour sa future Golf\", \"fact\": \"Le constructeur automobile Volkswagen renonce a la technique du gigacastin",
-    "réponse invalide (01net) : {\"i\": 7, \"title\": \"Alerte de Binance sur une faille critique d'iOS\", \"fact\": \"La plateforme Binance met en garde contre une vulnerabilite nommee worse_query pre"
-  ]
+  "errors": []
 }
