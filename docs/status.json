@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-13T17:13:27Z",
+  "ranAt": "2026-11-14T19:56:45Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,47 +10,33 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 29,
+  "newCards": 30,
   "byTopic": {
-    "tech": 14,
-    "finance": 15
+    "tech": 10,
+    "finance": 20
   },
   "byRegion": {
-    "fr": 11,
-    "en": 7,
-    "es": 4,
-    "in": 3,
-    "cn": 4
+    "fr": 9,
+    "en": 8,
+    "es": 5,
+    "in": 5,
+    "cn": 3
   },
   "quality": {
-    "fixed": 1,
+    "fixed": 3,
     "rejected": 0
   },
   "calls": 9,
   "apiCalls": {
-    "gemini-flash-latest": 37,
-    "gemini-flash-lite-latest": 25,
-    "gemini-omni-1.2-flash": 1,
-    "gemini-omni-1.1-flash": 1,
-    "gemini-3.8-flash": 2,
-    "gemini-3.7-flash": 2,
-    "gemini-3.6-flash": 2
+    "gemini-flash-latest": 26,
+    "gemini-flash-lite-latest": 20
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.6-flash": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -68,10 +54,10 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 29,
-    "es": 29,
-    "hi": 29,
-    "zh": 29
+    "en": 30,
+    "es": 30,
+    "hi": 30,
+    "zh": 30
   },
   "untranslated": {
     "en": 0,
@@ -80,8 +66,11 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 456,
-    "finance": 228
+    "tech": 381,
+    "finance": 175
   },
-  "errors": []
+  "errors": [
+    "réponse invalide (RBI) : {\"i\": 10, \"card\": {\"title\": \"Sanction financière pour One Mobikwik par la banque centrale\", \"fact\": \"La Reserve Bank of India a infligé une amende de neuf lakh ",
+    "réponse invalide (Wallstreetcn) : {\"i\": 11, \"card\": {\"title\": \"Anthropic prépare une introduction en Bourse historique\", \"fact\": \"L'entreprise Anthropic prépare une entrée en Bourse majeure pour"
+  ]
 }
