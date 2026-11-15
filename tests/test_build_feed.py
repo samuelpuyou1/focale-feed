@@ -186,6 +186,64 @@ class RegionAndQualityTests(unittest.TestCase):
         finally:
             bf.call_gemini = original
 
+    def test_quality_review_replaces_quiz_answered_outside_the_card(self):
+        card = bf.validate(RAW, ITEM, random.Random(1))
+        new_quiz = {"question": "Qu'attendent les marchés en mars ?", "choices": ["Une baisse", "Une hausse", "Un gel"],
+                    "answer": "Une baisse", "explanation": "La carte dit que les marchés attendent une baisse en mars."}
+        original = bf.call_gemini
+        try:
+            seen = {}
+            def fake(prompt, key):
+                seen["prompt"] = prompt
+                return {"cards": [{"i": 1, "quiz": new_quiz}]}
+            bf.call_gemini = fake
+            kept, fixed, rejected = bf.review_quality([card], {"rss-abc": "extrait"}, "k", random.Random(2))
+            self.assertIn("Bonne réponse : Elle maintient ses taux", seen["prompt"], "Le relecteur voit le quiz")
+            self.assertEqual((fixed, rejected), (1, 0))
+            quiz = kept[0]["quiz"]
+            self.assertEqual(quiz["choices"][quiz["answerIndex"]], "Une baisse")
+            self.assertTrue(kept[0]["quizChecked"])
+            bf.call_gemini = lambda prompt, key: {"cards": [{"i": 1, "quiz": {"question": "?", "choices": ["A"], "answer": "B"}}]}
+            kept, fixed, rejected = bf.review_quality([card], {}, "k")
+            self.assertEqual((kept, rejected), ([], 1), "Quiz hors carte sans remplaçant valide : carte écartée")
+        finally:
+            bf.call_gemini = original
+
+    def test_prompt_ties_quiz_to_card_text(self):
+        self.assertIn("jamais l'extrait", bf.PROMPT)
+        self.assertIn("jamais l'extrait", bf.QUALITY_PROMPT)
+
+    def test_published_quizzes_are_checked_once(self):
+        card = dict(bf.validate(RAW, ITEM, random.Random(1)), translations={"en": {"title": "x"}})
+        fine = dict(bf.validate(RAW, ITEM, random.Random(1)), id="b", translations={"en": {"title": "y"}})
+        done = dict(fine, id="c", quizChecked=True)
+        new_quiz = {"question": "Qu'attendent les marchés en mars ?", "choices": ["Une baisse", "Une hausse", "Un gel"],
+                    "answer": "Une baisse", "explanation": "La carte le dit."}
+        original, delay = bf.call_gemini, bf.DELAY_SECONDS
+        bf.DELAY_SECONDS = 0
+        try:
+            prompts = []
+            def fake(prompt, key):
+                prompts.append(prompt)
+                return {"cards": [{"i": 1, "quiz": new_quiz}, {"i": 2, "ok": True}]}
+            bf.call_gemini = fake
+            cards = [card, fine, done]
+            self.assertEqual(bf.review_published_quizzes(cards, "k"), 1)
+            self.assertNotIn("[3]", prompts[0], "Une carte déjà relue n'est pas renvoyée")
+            self.assertNotIn("translations", card, "Quiz remplacé : à retraduire")
+            self.assertIn("translations", fine)
+            self.assertTrue(all(c["quizChecked"] for c in cards))
+            self.assertEqual(bf.review_published_quizzes(cards, "k"), 0)
+            self.assertEqual(len(prompts), 1, "Plus rien à relire")
+            def boom(prompt, key):
+                raise bf.GeminiError("panne")
+            bf.call_gemini = boom
+            pending = [{k: v for k, v in fine.items() if k != "quizChecked"} | {"id": "d"}]
+            self.assertEqual(bf.review_published_quizzes(pending, "k"), 0)
+            self.assertNotIn("quizChecked", pending[0], "En cas de panne, la carte sera relue plus tard")
+        finally:
+            bf.call_gemini, bf.DELAY_SECONDS = original, delay
+
 
 class GlossaryTests(unittest.TestCase):
     def test_terms_must_appear_in_text(self):

@@ -226,6 +226,9 @@ Règles :
   d'une entreprise non cotée ou d'une enseigne relèvent de « Macro » sauf si l'article parle de son cours de Bourse ;
   « Fintech » = paiements, néobanques, cartes, crédit en ligne, services financiers numériques.
 - "quiz" : une question qui vérifie la compréhension de la carte, 3 choix courts et plausibles dont UN seul juste ;
+  le lecteur ne voit que ton "fact" et ton "whyItMatters", jamais l'extrait : la bonne réponse doit être écrite
+  noir sur blanc dans l'un de ces deux textes. N'interroge jamais sur un nom, un chiffre ou un détail de l'extrait
+  que tu n'as pas repris dans la carte ;
   les mauvais choix sont du même type que la bonne réponse et crédibles pour qui n'a pas lu la carte
   (jamais de noms inventés ni de réponse absurde) ; la réponse ne doit PAS se lire dans le titre (interroge plutôt
   sur la cause, la conséquence ou un détail du « fait ») ; pas de mot qui trahit un mauvais choix (« exactement »,
@@ -534,6 +537,24 @@ def dedupe(cards: list[dict]) -> list[dict]:
     return kept
 
 
+def clean_quiz(raw, rng: random.Random) -> dict | None:
+    """Quiz de l'IA ({question, choices, answer, explanation}) au format de l'app. None s'il est invalide."""
+    try:
+        question = str(raw["question"]).strip()
+        choices = [str(c).strip() for c in raw["choices"]]
+        answer = str(raw["answer"]).strip()
+        explanation = str(raw["explanation"]).strip()
+    except (KeyError, TypeError):
+        return None
+    choices = list(dict.fromkeys(c for c in choices if c))
+    if not question or not explanation:
+        return None
+    if not 3 <= len(choices) <= 4 or answer not in choices or any(len(c) > 90 for c in choices):
+        return None
+    rng.shuffle(choices)  # la bonne réponse n'est pas toujours au même endroit
+    return {"question": question, "choices": choices, "answerIndex": choices.index(answer), "explanation": explanation}
+
+
 def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
     """Vérifie la réponse de l'IA et produit une carte au format de l'app. None si invalide."""
     if not isinstance(raw, dict) or raw.get("skip"):
@@ -543,25 +564,20 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
         fact = str(raw["fact"]).strip()
         why = str(raw["whyItMatters"]).strip()
         subject = str(raw["subject"]).strip()
-        quiz = raw["quiz"]
-        question = str(quiz["question"]).strip()
-        choices = [str(c).strip() for c in quiz["choices"]]
-        answer = str(quiz["answer"]).strip()
-        explanation = str(quiz["explanation"]).strip()
+        raw_quiz = raw["quiz"]
     except (KeyError, TypeError):
         return None
 
     if not (8 <= len(title) <= 90 and 20 <= len(fact) <= 320 and 30 <= len(why) <= 500):
         return None
-    if subject not in ALL_SUBJECTS or not question or not explanation:
+    if subject not in ALL_SUBJECTS:
         return None
     if not has_accents(title, fact, why):
         return None
-    choices = list(dict.fromkeys(c for c in choices if c))
-    if not 3 <= len(choices) <= 4 or answer not in choices or any(len(c) > 90 for c in choices):
+    quiz = clean_quiz(raw_quiz, rng)
+    if quiz is None:
         return None
 
-    rng.shuffle(choices)  # la bonne réponse n'est pas toujours au même endroit
     card = {
         "id": item["id"],
         "title": title[:90],
@@ -574,12 +590,7 @@ def validate(raw: dict, item: dict, rng: random.Random) -> dict | None:
         "region": item.get("region", "fr"),
         "sourceURL": item["link"],
         "publishedAt": item["published"].strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "quiz": {
-            "question": question,
-            "choices": choices,
-            "answerIndex": choices.index(answer),
-            "explanation": explanation,
-        },
+        "quiz": quiz,
     }
     terms = clean_terms(raw.get("terms"), fact, why)
     if terms:
@@ -613,10 +624,14 @@ dont elle a été tirée. Vérifie :
 1. qu'elle n'affirme rien (fait, chiffre, nom) que l'extrait ne dit pas ;
 2. l'orthographe et les accords (singulier/pluriel, masculin/féminin) ;
 3. le sujet, parmi {subjects} : « Marchés » = Bourse, actions, indices, taux, matières premières ;
-   « Macro » = économie générale, emploi, inflation, budgets, entreprises hors Bourse.
+   « Macro » = économie générale, emploi, inflation, budgets, entreprises hors Bourse ;
+4. le quiz : le lecteur ne voit que « Le fait » et « Pourquoi ça compte », jamais l'extrait. La bonne réponse doit
+   être écrite dans l'un de ces deux textes, et un seul choix doit être juste. Sinon, écris un nouveau quiz
+   (3 choix courts et plausibles) dont la réponse se lit dans la carte.
 Réponds uniquement en JSON : {{"cards": [...]}}, une entrée par carte :
 {{"i": <numéro>, "ok": true}} si tout va bien ;
-{{"i": <numéro>, "title"?, "fact"?, "whyItMatters"?, "subject"?}} avec seulement les champs corrigés ;
+{{"i": <numéro>, "title"?, "fact"?, "whyItMatters"?, "subject"?, "quiz"?}} avec seulement les champs corrigés
+("quiz" = {{"question", "choices", "answer", "explanation"}}, "answer" = le texte exact du bon choix) ;
 {{"i": <numéro>, "reject": true}} si la carte affirme ce que l'extrait ne dit pas.
 
 {cards}"""
@@ -642,14 +657,22 @@ def apply_correction(card: dict, fix: dict, topic_subjects: list[str]) -> dict:
     return fixed
 
 
-def review_quality(cards: list[dict], excerpts: dict[str, str], api_key: str) -> tuple[list[dict], int, int]:
-    """Relecture IA des nouvelles cartes : fidélité à l'extrait, accords, sujet.
+def quiz_listing(card: dict) -> str:
+    quiz = card["quiz"]
+    return (f"Quiz : {quiz['question']}\nChoix : {' | '.join(quiz['choices'])}"
+            f"\nBonne réponse : {quiz['choices'][quiz['answerIndex']]}")
+
+
+def review_quality(cards: list[dict], excerpts: dict[str, str], api_key: str,
+                   rng: random.Random | None = None) -> tuple[list[dict], int, int]:
+    """Relecture IA des nouvelles cartes : fidélité à l'extrait, accords, sujet, quiz qui se répond avec la carte.
     Retourne (cartes gardées, corrigées, rejetées). En cas d'erreur, les cartes passent telles quelles."""
     if not cards:
         return cards, 0, 0
+    rng = rng or random.Random(0)
     text = "\n\n".join(
         f"[{n}] Sujet : {c['subject']}\nTitre : {c['title']}\nLe fait : {c['fact']}\nPourquoi ça compte : {c['whyItMatters']}"
-        f"\nExtrait d'origine : {excerpts.get(c['id'], '')}" for n, c in enumerate(cards, 1))
+        f"\n{quiz_listing(c)}\nExtrait d'origine : {excerpts.get(c['id'], '')}" for n, c in enumerate(cards, 1))
     try:
         entries = batch_entries(call_gemini(QUALITY_PROMPT.format(subjects=", ".join(ALL_SUBJECTS), cards=text), api_key),
                                 len(cards))
@@ -664,11 +687,72 @@ def review_quality(cards: list[dict], excerpts: dict[str, str], api_key: str) ->
             print(f"  x rejetée (relecture) : {card['title'][:70]}")
             continue
         corrected = apply_correction(card, fix, SUBJECTS[card["topic"]])
+        if "quiz" in fix:
+            # Le quiz ne se répondait pas avec la carte : on prend le nouveau, ou on écarte la carte s'il est invalide.
+            quiz = clean_quiz(fix["quiz"], rng)
+            if quiz is None:
+                rejected += 1
+                print(f"  x rejetée (quiz hors carte, pas de remplaçant valide) : {card['title'][:70]}")
+                continue
+            corrected = dict(corrected, quiz=quiz)
         if corrected != card:
             fixed_count += 1
             print(f"  ~ corrigée : {corrected['title'][:70]}")
-        kept.append(corrected)
+        kept.append(dict(corrected, quizChecked=True))
     return kept, fixed_count, rejected
+
+
+QUIZ_PROMPT = """Voici des cartes d'actualité déjà publiées, avec leur quiz. Le lecteur ne voit que « Le fait » et
+« Pourquoi ça compte ». Pour chaque carte, vérifie que la bonne réponse du quiz est écrite dans l'un de ces deux
+textes et qu'un seul choix est juste. Sinon, écris un nouveau quiz en français (une question, 3 choix courts et
+plausibles du même type, une explication d'une phrase) dont la réponse se lit dans la carte, sans rien inventer.
+Réponds uniquement en JSON : {{"cards": [...]}}, une entrée par carte :
+{{"i": <numéro>, "ok": true}} si le quiz convient ;
+{{"i": <numéro>, "quiz": {{"question", "choices", "answer", "explanation"}}}} sinon ("answer" = texte exact du bon choix).
+
+{cards}"""
+QUIZ_BATCH = 40          # cartes publiées relues par requête
+QUIZ_MAX_CALLS = 5       # plafond de requêtes de rattrapage par lancement
+
+
+def review_published_quizzes(cards: list[dict], api_key: str, rng: random.Random | None = None,
+                             budget: int = QUIZ_MAX_CALLS) -> int:
+    """Rattrapage : relit le quiz des cartes publiées avant ce contrôle (sans « quizChecked »).
+    Un quiz remplacé perd ses traductions, que `translate_cards` refait ensuite. Retourne le nombre de quiz remplacés."""
+    rng = rng or random.Random(0)
+    todo = [c for c in cards if not c.get("quizChecked")]
+    replaced = 0
+    for start in range(0, len(todo), QUIZ_BATCH):
+        if budget <= 0:
+            break
+        budget -= 1
+        batch = todo[start:start + QUIZ_BATCH]
+        text = "\n\n".join(f"[{n}] Le fait : {c['fact']}\nPourquoi ça compte : {c['whyItMatters']}\n{quiz_listing(c)}"
+                           for n, c in enumerate(batch, 1))
+        try:
+            entries = batch_entries(call_gemini(QUIZ_PROMPT.format(cards=text), api_key), len(batch))
+        except QuotaExhausted as error:
+            note(f"relecture des quiz publiés arrêtée : {error}")
+            break
+        except GeminiError as error:
+            note(f"relecture des quiz publiés impossible : {error}")
+            continue
+        finally:
+            time.sleep(DELAY_SECONDS)
+        for n, card in enumerate(batch, 1):
+            entry = entries.get(n)
+            if not entry:
+                continue  # pas de réponse pour cette carte : elle sera relue au prochain lancement
+            if "quiz" in entry:
+                quiz = clean_quiz(entry["quiz"], rng)
+                if quiz is None:
+                    continue
+                card["quiz"] = quiz
+                card.pop("translations", None)
+                replaced += 1
+                print(f"  ~ quiz remplacé : {card['title'][:70]}")
+            card["quizChecked"] = True
+    return replaced
 
 
 # ---------------------------------------------------------------- Fusion
@@ -805,7 +889,7 @@ def main() -> int:
                 print(f"  - ignoré : {item['title'][:70]}")
     fixed = rejected = 0
     if new_cards:
-        new_cards, fixed, rejected = review_quality(new_cards, excerpts, api_key)
+        new_cards, fixed, rejected = review_quality(new_cards, excerpts, api_key, rng)
         dupes = review_duplicates(new_cards, recent, api_key)
         for i in sorted(dupes):
             print(f"  = doublon (relecture) : {new_cards[i]['title'][:70]}")
@@ -816,6 +900,7 @@ def main() -> int:
         note(f"seulement {len(new_cards)} cartes (objectif {DAILY_MIN}) : ajouter des sources dans sources.json")
 
     cards = merge(new_cards, existing, now)
+    quiz_replaced = review_published_quizzes(cards, api_key, rng)
     translated = translate_cards(cards, api_key)
     missing = {code: sum(code not in (c.get("translations") or {}) for c in cards) for code in TRANSLATIONS}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -823,7 +908,7 @@ def main() -> int:
     OUTPUT.write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS.write_text(json.dumps({
         "ranAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "models": MODELS, "newCards": len(new_cards), "byTopic": made, "byRegion": made_region,
-        "quality": {"fixed": fixed, "rejected": rejected}, "calls": calls,
+        "quality": {"fixed": fixed, "rejected": rejected, "quizReplaced": quiz_replaced}, "calls": calls,
         "apiCalls": API_CALLS, "quotaErrors": QUOTA_ERRORS, "modelErrors": MODEL_ERRORS, "availableModels": AVAILABLE_MODELS,
         "totalCards": len(cards), "translated": translated, "untranslated": missing, "candidates": {t: len(i) for t, i in by_topic.items()}, "errors": ERRORS,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
