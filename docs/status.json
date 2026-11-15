@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-14T19:56:45Z",
+  "ranAt": "2026-11-15T16:21:54Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,24 +12,25 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 10,
-    "finance": 20
+    "tech": 11,
+    "finance": 19
   },
   "byRegion": {
-    "fr": 9,
-    "en": 8,
-    "es": 5,
+    "fr": 12,
+    "en": 4,
+    "es": 4,
     "in": 5,
-    "cn": 3
+    "cn": 5
   },
   "quality": {
-    "fixed": 3,
-    "rejected": 0
+    "fixed": 0,
+    "rejected": 0,
+    "quizReplaced": 20
   },
-  "calls": 9,
+  "calls": 19,
   "apiCalls": {
-    "gemini-flash-latest": 26,
-    "gemini-flash-lite-latest": 20
+    "gemini-flash-latest": 47,
+    "gemini-flash-lite-latest": 45
   },
   "quotaErrors": {
     "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
@@ -54,23 +55,26 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 30,
-    "es": 30,
-    "hi": 30,
-    "zh": 30
+    "en": 50,
+    "es": 50,
+    "hi": 50,
+    "zh": 0
   },
   "untranslated": {
     "en": 0,
     "es": 0,
     "hi": 0,
-    "zh": 0
+    "zh": 50
   },
   "candidates": {
-    "tech": 381,
-    "finance": 175
+    "tech": 283,
+    "finance": 102
   },
   "errors": [
-    "réponse invalide (RBI) : {\"i\": 10, \"card\": {\"title\": \"Sanction financière pour One Mobikwik par la banque centrale\", \"fact\": \"La Reserve Bank of India a infligé une amende de neuf lakh ",
-    "réponse invalide (Wallstreetcn) : {\"i\": 11, \"card\": {\"title\": \"Anthropic prépare une introduction en Bourse historique\", \"fact\": \"L'entreprise Anthropic prépare une entrée en Bourse majeure pour"
+    "réponse invalide (Cointelegraph) : {\"i\": 2, \"title\": \"Fuite de donnees chez la plateforme Coinone\", \"fact\": \"La plateforme crypto sud-coreenne Coinone a averti ses utilisateurs d'une fuite de don",
+    "réponse invalide (El País Economía) : {\"i\": 3, \"title\": \"Hernandez de Cos bien place pour presider la BCE\", \"fact\": \"L'Espagnol Hernandez de Cos gagne du terrain dans la course finale pour la presid",
+    "réponse invalide (Cointelegraph) : {\"i\": 4, \"title\": \"Arret du protocole RWA stUSDT\", \"fact\": \"L'equipe du protocole stUSDT met fin a ses activites trois ans apres avoir atteint un sommet de vale",
+    "réponse invalide (El País Economía) : {\"i\": 5, \"title\": \"La difficile recuperation des fonds apres une fraude\", \"fact\": \"Les escroqueries bancaires engendrent des pertes financieres massives et lais",
+    "réponse invalide (YourStory) : {\"i\": 2, \"fact\": \"La maison mere de Zomato, Eternal, revise son calendrier pour l'adoption de vehicules electriques d'ici 2030.\", \"whyItMatters\": \"Cette modific"
   ]
 }
