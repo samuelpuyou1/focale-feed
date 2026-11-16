@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-15T16:21:54Z",
+  "ranAt": "2026-11-16T19:36:49Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,32 +12,45 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 11,
-    "finance": 19
+    "tech": 12,
+    "finance": 18
   },
   "byRegion": {
     "fr": 12,
-    "en": 4,
-    "es": 4,
-    "in": 5,
-    "cn": 5
+    "en": 7,
+    "es": 5,
+    "in": 4,
+    "cn": 2
   },
   "quality": {
-    "fixed": 0,
+    "fixed": 2,
     "rejected": 0,
-    "quizReplaced": 20
+    "quizReplaced": 0
   },
-  "calls": 19,
+  "calls": 8,
   "apiCalls": {
-    "gemini-flash-latest": 47,
-    "gemini-flash-lite-latest": 45
+    "gemini-flash-latest": 37,
+    "gemini-flash-lite-latest": 33,
+    "gemini-omni-1.2-flash": 1,
+    "gemini-omni-1.1-flash": 1,
+    "gemini-3.8-flash": 3,
+    "gemini-3.7-flash": 3,
+    "gemini-3.6-flash": 3
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "gemini-flash-lite-latest": "JSONDecodeError: Expecting property name enclosed in double quotes: line 135 column 5 (char 3588)",
+    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -55,26 +68,20 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 50,
-    "es": 50,
-    "hi": 50,
-    "zh": 0
+    "en": 28,
+    "es": 28,
+    "hi": 28,
+    "zh": 69
   },
   "untranslated": {
     "en": 0,
     "es": 0,
     "hi": 0,
-    "zh": 50
+    "zh": 0
   },
   "candidates": {
-    "tech": 283,
-    "finance": 102
+    "tech": 388,
+    "finance": 177
   },
-  "errors": [
-    "réponse invalide (Cointelegraph) : {\"i\": 2, \"title\": \"Fuite de donnees chez la plateforme Coinone\", \"fact\": \"La plateforme crypto sud-coreenne Coinone a averti ses utilisateurs d'une fuite de don",
-    "réponse invalide (El País Economía) : {\"i\": 3, \"title\": \"Hernandez de Cos bien place pour presider la BCE\", \"fact\": \"L'Espagnol Hernandez de Cos gagne du terrain dans la course finale pour la presid",
-    "réponse invalide (Cointelegraph) : {\"i\": 4, \"title\": \"Arret du protocole RWA stUSDT\", \"fact\": \"L'equipe du protocole stUSDT met fin a ses activites trois ans apres avoir atteint un sommet de vale",
-    "réponse invalide (El País Economía) : {\"i\": 5, \"title\": \"La difficile recuperation des fonds apres une fraude\", \"fact\": \"Les escroqueries bancaires engendrent des pertes financieres massives et lais",
-    "réponse invalide (YourStory) : {\"i\": 2, \"fact\": \"La maison mere de Zomato, Eternal, revise son calendrier pour l'adoption de vehicules electriques d'ici 2030.\", \"whyItMatters\": \"Cette modific"
-  ]
+  "errors": []
 }
