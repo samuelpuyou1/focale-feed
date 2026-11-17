@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-16T19:36:49Z",
+  "ranAt": "2026-11-17T22:54:14Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,45 +12,32 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 12,
-    "finance": 18
+    "tech": 14,
+    "finance": 16
   },
   "byRegion": {
-    "fr": 12,
-    "en": 7,
+    "fr": 9,
+    "en": 8,
     "es": 5,
-    "in": 4,
-    "cn": 2
+    "in": 5,
+    "cn": 3
   },
   "quality": {
-    "fixed": 2,
+    "fixed": 0,
     "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 8,
+  "calls": 16,
   "apiCalls": {
-    "gemini-flash-latest": 37,
-    "gemini-flash-lite-latest": 33,
-    "gemini-omni-1.2-flash": 1,
-    "gemini-omni-1.1-flash": 1,
-    "gemini-3.8-flash": 3,
-    "gemini-3.7-flash": 3,
-    "gemini-3.6-flash": 3
+    "gemini-flash-latest": 31,
+    "gemini-flash-lite-latest": 32
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
-    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "JSONDecodeError: Expecting property name enclosed in double quotes: line 135 column 5 (char 3588)",
-    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+    "gemini-flash-lite-latest": "JSONDecodeError: Expecting ',' delimiter: line 1 column 729 (char 728)"
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -68,10 +55,10 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 28,
-    "es": 28,
-    "hi": 28,
-    "zh": 69
+    "en": 29,
+    "es": 29,
+    "hi": 29,
+    "zh": 29
   },
   "untranslated": {
     "en": 0,
@@ -80,8 +67,17 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 388,
-    "finance": 177
+    "tech": 460,
+    "finance": 222
   },
-  "errors": []
+  "errors": [
+    "réponse invalide (Inc42) : {\"i\": 2, \"fact\": \"La plateforme Coinbase a rétabli partiellement les retraits en roupies indiennes après une semaine de perturbations.\", \"whyItMatters\": \"Cette ",
+    "réponse invalide (Tech Xplore) : {\"i\": 4, \"fact\": \"Des chercheurs ont découvert que certains additifs pour batteries utilisés ensemble réduisent leur durée de vie au lieu de l'améliorer.\", \"why",
+    "réponse invalide (YourStory) : {\"i\": 2, \"title\": \"Amazon investit massivement dans le vert en Inde\", \"fact\": \"Amazon prevoit d'investir sept milliards de dollars supplementaires dans les ener",
+    "réponse invalide (ET Tech) : {\"i\": 3, \"title\": \"Restrictions americaines sur les puces d'IA en Asie\", \"fact\": \"De nouvelles regles americaines limitent l'expedition de puces avancees vers l",
+    "réponse invalide (ET Tech) : {\"i\": 2, \"fact\": \"Les actions de Samsung Electronics et de TSMC ont recule en Asie apres l'annonce de restrictions americaines sur l'acces de la Chine aux puces",
+    "réponse invalide (01net) : {\"i\": 4, \"title\": \"Google Messages prepare le retour du tri des conversations\", \"fact\": \"Google prepare une mise a jour de son application Google Messages pour ",
+    "réponse invalide (Frandroid) : {\"i\": 11, \"title\": \"Microsoft lance sept nouveaux modeles d'intelligence artificielle\", \"fact\": \"Microsoft deploie sept modeles d'intelligence artificielle conc",
+    "réponse invalide (01net) : {\"i\": 12, \"title\": \"Google detecte des cyberattaques menees par des agents d'IA\", \"fact\": \"Google a mis en evidence des cyberattaques menees de bout en bout par"
+  ]
 }
