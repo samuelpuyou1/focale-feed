@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-18T18:04:19Z",
+  "ranAt": "2026-11-19T22:40:38Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,48 +10,34 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 29,
+  "newCards": 30,
   "byTopic": {
-    "tech": 16,
-    "finance": 13
+    "tech": 12,
+    "finance": 18
   },
   "byRegion": {
-    "fr": 6,
-    "en": 8,
-    "es": 3,
-    "in": 7,
-    "cn": 5
+    "fr": 8,
+    "en": 7,
+    "es": 5,
+    "in": 6,
+    "cn": 4
   },
   "quality": {
-    "fixed": 1,
+    "fixed": 2,
     "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 6,
+  "calls": 8,
   "apiCalls": {
-    "gemini-flash-latest": 29,
-    "gemini-flash-lite-latest": 31,
-    "gemini-omni-1.2-flash": 1,
-    "gemini-omni-1.1-flash": 1,
-    "gemini-3.8-flash": 6,
-    "gemini-3.7-flash": 6,
-    "gemini-3.6-flash": 5
+    "gemini-flash-latest": 26,
+    "gemini-flash-lite-latest": 17
   },
   "quotaErrors": {
-    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.6-flash": "TimeoutError: The read operation timed out"
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -69,10 +55,10 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 28,
-    "es": 28,
-    "hi": 28,
-    "zh": 28
+    "en": 30,
+    "es": 30,
+    "hi": 30,
+    "zh": 30
   },
   "untranslated": {
     "en": 0,
@@ -81,8 +67,14 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 452,
-    "finance": 234
+    "tech": 426,
+    "finance": 232
   },
-  "errors": []
+  "errors": [
+    "réponse invalide (INSEE) : {\"i\": 1, \"title\": \"Le poids clef de l'artisanat dans l'economie francaise\", \"fact\": \"L'artisanat compte 1,1 million d'etablissements en France et contribue au P",
+    "réponse invalide (Cointelegraph) : {\"i\": 6, \"title\": \"MoonPay vise une licence bancaire aux Etats-Unis\", \"fact\": \"L'entreprise MoonPay demande une charte de banque nationale de fideicommis aupres",
+    "réponse invalide (RBI) : {\"i\": 9, \"title\": \"Operation de liquidite de la banque centrale indienne\", \"fact\": \"La Reserve Bank of India organise une encheres de pension a taux variable de",
+    "réponse invalide (El País Economía) : {\"i\": 10, \"title\": \"Record historique pour l'emploi touristique en Espagne\", \"fact\": \"Le nombre de cotisants dans le secteur touristique espagnol a progresse de",
+    "réponse invalide (RBI) : {\"i\": 11, \"title\": \"Publication d'un rapport sur les finances rurales indiennes\", \"fact\": \"La Reserve Bank of India a publie la seconde edition de son etude con"
+  ]
 }
