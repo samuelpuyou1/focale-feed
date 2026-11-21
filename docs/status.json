@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-20T22:15:04Z",
+  "ranAt": "2026-11-21T16:47:06Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,27 +10,27 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 28,
+  "newCards": 29,
   "byTopic": {
-    "tech": 13,
-    "finance": 15
+    "tech": 12,
+    "finance": 17
   },
   "byRegion": {
-    "fr": 8,
-    "en": 7,
+    "fr": 9,
+    "en": 9,
     "es": 5,
-    "in": 5,
+    "in": 3,
     "cn": 3
   },
   "quality": {
-    "fixed": 1,
-    "rejected": 1,
+    "fixed": 0,
+    "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 11,
+  "calls": 13,
   "apiCalls": {
-    "gemini-flash-latest": 23,
-    "gemini-flash-lite-latest": 23
+    "gemini-flash-latest": 38,
+    "gemini-flash-lite-latest": 28
   },
   "quotaErrors": {
     "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
@@ -55,20 +55,29 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 27,
-    "es": 27,
-    "hi": 27,
-    "zh": 27
+    "en": 16,
+    "es": 29,
+    "hi": 29,
+    "zh": 28
   },
   "untranslated": {
-    "en": 0,
+    "en": 13,
     "es": 0,
     "hi": 0,
-    "zh": 0
+    "zh": 1
   },
   "candidates": {
-    "tech": 426,
-    "finance": 236
+    "tech": 424,
+    "finance": 179
   },
-  "errors": []
+  "errors": [
+    "réponse invalide (ET Tech) : {\"i\": 2, \"fact\": \"Databricks discute d'une nouvelle levée de fonds pour atteindre une valorisation de 225 milliards de dollars.\", \"whyItMatters\": \"Cette opérati",
+    "réponse invalide (Ars Technica) : {\"i\": 3, \"fact\": \"Un test mené sur la chaîne d'approvisionnement de l'intelligence artificielle démontre que des données personnelles restent traçables et vulné",
+    "réponse invalide (Journal du Geek) : {\"i\": 5, \"fact\": \"La machine xTool C1 Color Cutter est lancée pour scanner, imprimer en couleur et découper à partir de 449 euros.\", \"whyItMatters\": \"Cet appare",
+    "réponse invalide (Inc42) : {\"i\": 6, \"fact\": \"Une startup fondée par un ancien élève de l'IIT Delhi attaque Apple en justice pour violation de brevet concernant la fonction NameDrop.\", \"wh",
+    "réponse invalide (IT Home) : {\"i\": 9, \"fact\": \"Ubisoft confirme le développement du jeu mobile Assassin's Creed Jade tout en maintenant sa priorité sur les consoles et le PC.\", \"whyItMatter",
+    "réponse invalide (cnBeta) : {\"i\": 10, \"fact\": \"Des développeurs indépendants testent une adaptation non officielle de GTA 6 sur PC avec une compatibilité multi-matériel.\", \"whyItMatters\": ",
+    "réponse invalide (Tech Xplore) : {\"i\": 11, \"fact\": \"Une recherche universitaire met en évidence la banalisation des interfaces trompeuses et des faux sentiments d'urgence sur les sites web.\", \"",
+    "réponse invalide (01net) : {\"i\": 4, \"fact\": \"Pour concevoir son premier smartphone axe sur l'intelligence artificielle, OpenAI s'associerait avec l'entreprise FIH Mobile.\", \"whyItMatters\""
+  ]
 }
