@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-21T16:47:06Z",
+  "ranAt": "2026-11-22T17:09:33Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -10,34 +10,47 @@
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite"
   ],
-  "newCards": 29,
+  "newCards": 30,
   "byTopic": {
-    "tech": 12,
+    "tech": 13,
     "finance": 17
   },
   "byRegion": {
     "fr": 9,
-    "en": 9,
+    "en": 7,
     "es": 5,
-    "in": 3,
-    "cn": 3
+    "in": 5,
+    "cn": 4
   },
   "quality": {
     "fixed": 0,
     "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 13,
+  "calls": 7,
   "apiCalls": {
-    "gemini-flash-latest": 38,
-    "gemini-flash-lite-latest": 28
+    "gemini-flash-latest": 35,
+    "gemini-flash-lite-latest": 21,
+    "gemini-omni-1.2-flash": 1,
+    "gemini-omni-1.1-flash": 1,
+    "gemini-3.8-flash": 1,
+    "gemini-3.7-flash": 1,
+    "gemini-3.6-flash": 1
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-omni-1.2-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 0",
+    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
+    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
+    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
+    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -55,29 +68,20 @@
   ],
   "totalCards": 200,
   "translated": {
-    "en": 16,
-    "es": 29,
-    "hi": 29,
-    "zh": 28
+    "en": 43,
+    "es": 30,
+    "hi": 30,
+    "zh": 31
   },
   "untranslated": {
-    "en": 13,
+    "en": 0,
     "es": 0,
     "hi": 0,
-    "zh": 1
+    "zh": 0
   },
   "candidates": {
-    "tech": 424,
-    "finance": 179
+    "tech": 274,
+    "finance": 98
   },
-  "errors": [
-    "réponse invalide (ET Tech) : {\"i\": 2, \"fact\": \"Databricks discute d'une nouvelle levée de fonds pour atteindre une valorisation de 225 milliards de dollars.\", \"whyItMatters\": \"Cette opérati",
-    "réponse invalide (Ars Technica) : {\"i\": 3, \"fact\": \"Un test mené sur la chaîne d'approvisionnement de l'intelligence artificielle démontre que des données personnelles restent traçables et vulné",
-    "réponse invalide (Journal du Geek) : {\"i\": 5, \"fact\": \"La machine xTool C1 Color Cutter est lancée pour scanner, imprimer en couleur et découper à partir de 449 euros.\", \"whyItMatters\": \"Cet appare",
-    "réponse invalide (Inc42) : {\"i\": 6, \"fact\": \"Une startup fondée par un ancien élève de l'IIT Delhi attaque Apple en justice pour violation de brevet concernant la fonction NameDrop.\", \"wh",
-    "réponse invalide (IT Home) : {\"i\": 9, \"fact\": \"Ubisoft confirme le développement du jeu mobile Assassin's Creed Jade tout en maintenant sa priorité sur les consoles et le PC.\", \"whyItMatter",
-    "réponse invalide (cnBeta) : {\"i\": 10, \"fact\": \"Des développeurs indépendants testent une adaptation non officielle de GTA 6 sur PC avec une compatibilité multi-matériel.\", \"whyItMatters\": ",
-    "réponse invalide (Tech Xplore) : {\"i\": 11, \"fact\": \"Une recherche universitaire met en évidence la banalisation des interfaces trompeuses et des faux sentiments d'urgence sur les sites web.\", \"",
-    "réponse invalide (01net) : {\"i\": 4, \"fact\": \"Pour concevoir son premier smartphone axe sur l'intelligence artificielle, OpenAI s'associerait avec l'entreprise FIH Mobile.\", \"whyItMatters\""
-  ]
+  "errors": []
 }
