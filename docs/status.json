@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-25T19:16:13Z",
+  "ranAt": "2026-11-26T18:59:51Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,45 +12,32 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 12,
-    "finance": 18
+    "tech": 13,
+    "finance": 17
   },
   "byRegion": {
-    "fr": 12,
-    "en": 7,
-    "es": 4,
-    "in": 3,
+    "fr": 8,
+    "en": 8,
+    "es": 5,
+    "in": 5,
     "cn": 4
   },
   "quality": {
-    "fixed": 0,
-    "rejected": 1,
+    "fixed": 1,
+    "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 14,
+  "calls": 16,
   "apiCalls": {
-    "gemini-flash-latest": 44,
-    "gemini-flash-lite-latest": 40,
-    "gemini-omni-1.2-flash": 1,
-    "gemini-omni-1.1-flash": 1,
-    "gemini-3.8-flash": 1,
-    "gemini-3.7-flash": 1,
-    "gemini-3.6-flash": 1
+    "gemini-flash-latest": 47,
+    "gemini-flash-lite-latest": 26
   },
   "quotaErrors": {
-    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-omni-1.2-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-omni-1.1-flash": "generate_content_free_tier_input_token_count, GenerateContentInputTokensPerModelPerMinute-FreeTier, limite 0",
-    "gemini-3.8-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20",
-    "gemini-3.7-flash": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
+    "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
     "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "gemini-omni-1.2-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-omni-1.1-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.8-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-3.7-flash": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+    "gemini-flash-lite-latest": "JSONDecodeError: Expecting property name enclosed in double quotes: line 77 column 5 (char 4910)"
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -66,12 +53,12 @@
     "gemini-2.5-flash-lite",
     "gemini-2.5-flash"
   ],
-  "totalCards": 173,
+  "totalCards": 186,
   "translated": {
-    "en": 30,
-    "es": 30,
-    "hi": 31,
-    "zh": 30
+    "en": 29,
+    "es": 29,
+    "hi": 29,
+    "zh": 29
   },
   "untranslated": {
     "en": 0,
@@ -80,17 +67,17 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 427,
-    "finance": 248
+    "tech": 413,
+    "finance": 238
   },
   "errors": [
-    "réponse invalide (Hipertextual) : {\"i\": 1, \"skip\": false, \"title\": \"Samsung preparerait un Galaxy Z Trifold pour 2027\", \"fact\": \"Samsung prepare un modele de seconde generation de son smartphone",
-    "réponse invalide (Inc42) : {\"i\": 2, \"skip\": false, \"title\": \"Walmart demande le depart du directeur de Flipkart\", \"fact\": \"Walmart a demande a Kalyan Krishnamurthy de quitter ses fonction",
-    "réponse invalide (ET Tech) : {\"i\": 4, \"skip\": false, \"title\": \"Feu vert pour la constellation de satellites Starmind\", \"fact\": \"La commission federale des communications aux Etats-Unis a ap",
-    "réponse invalide (IT Home) : {\"i\": 5, \"skip\": false, \"title\": \"Lancement officiel du jeu Blue Star Chronicle\", \"fact\": \"Le jeu de role fantastique Blue Star Chronicle est officiellement lan",
-    "réponse invalide (cnBeta) : {\"i\": 6, \"skip\": false, \"title\": \"Nvidia reduirait la fourniture de cartes graphiques RTX\", \"fact\": \"Nvidia prevoit de reduire la fourniture de ses cartes graph",
-    "réponse invalide (Presse-citron) : {\"i\": 7, \"skip\": false, \"title\": \"Simulation virtuelle d'une Terre privee de toute vie\", \"fact\": \"Des chercheurs ont recree virtuellement l'evolution d'une Terr",
-    "réponse invalide (Numerama) : {\"i\": 8, \"skip\": false, \"title\": \"Premier jour rouge Tempo d'EDF en avance cet hiver\", \"fact\": \"Le premier jour rouge Tempo d'EDF de la saison est fixe au 26 no",
-    "réponse invalide (Inc42) : {\"i\": 9, \"skip\": false, \"title\": \"Navi franchit la barre des 5 % de parts sur UPI\", \"fact\": \"La plateforme de services financiers dirigee par Sachin Bansal a at"
+    "réponse invalide (Wallstreetcn) : {\"i\": 11, \"title\": \"L'ambition robotique et commerciale de Xpeng\", \"fact\": \"Le constructeur Xpeng prévoit de commercialiser son robot humanoïde IRON, dont le pr",
+    "réponse invalide (cnBeta) : {\"i\": 6, \"title\": \"Nouvelle architecture HBM pour Huawei\", \"fact\": \"Huawei prepare une nouvelle architecture de memoire a haute bande passante pour doubler la d",
+    "réponse invalide (Numerama) : {\"i\": 11, \"title\": \"Une voix de legende ressuscitee par l'IA\", \"fact\": \"Electronic Arts utilise l'intelligence artificielle generative pour integrer la voix de ",
+    "réponse invalide (01net) : {\"i\": 4, \"fact\": \"La FIFA a confirme avoir subi une cyberattaque revendiquee par un groupe de cybercriminels.\", \"whyItMatters\": \"Cette intrusion a entraine la c",
+    "réponse invalide (Engadget) : {\"i\": 6, \"fact\": \"Un homme a ete condamne a quarante-sept mois de prison pour escroquerie aux criptomonnaies grace a l'intelligence artificielle.\", \"whyItMatter",
+    "réponse invalide (Hipertextual) : {\"i\": 8, \"fact\": \"Apple maintient le developpement de son projet de tablette tactile pliable malgre des difficultes techniques.\", \"whyItMatters\": \"Les defis lie",
+    "réponse invalide (IT Home) : {\"i\": 9, \"fact\": \"Huawei a presente cinq nouvelles marques technologiques lors d'une conference dediee a son systeme d'exploitation.\", \"whyItMatters\": \"L'ecosys",
+    "réponse invalide (cnBeta) : {\"i\": 10, \"fact\": \"Une entreprise a lance un nouveau type de retroeclairage pour ecrans permettant d'augmenter la luminosite et la duree de vie.\", \"whyItMatters"
   ]
 }
