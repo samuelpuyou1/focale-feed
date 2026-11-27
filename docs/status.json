@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-26T18:59:51Z",
+  "ranAt": "2026-11-27T18:59:05Z",
   "models": [
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
@@ -12,8 +12,8 @@
   ],
   "newCards": 30,
   "byTopic": {
-    "tech": 13,
-    "finance": 17
+    "tech": 12,
+    "finance": 18
   },
   "byRegion": {
     "fr": 8,
@@ -23,21 +23,20 @@
     "cn": 4
   },
   "quality": {
-    "fixed": 1,
+    "fixed": 4,
     "rejected": 0,
     "quizReplaced": 0
   },
-  "calls": 16,
+  "calls": 8,
   "apiCalls": {
-    "gemini-flash-latest": 47,
-    "gemini-flash-lite-latest": 26
+    "gemini-flash-latest": 28,
+    "gemini-flash-lite-latest": 8
   },
   "quotaErrors": {
     "gemini-flash-latest": "generate_content_free_tier_requests, GenerateRequestsPerDayPerProjectPerModel-FreeTier, limite 20"
   },
   "modelErrors": {
-    "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-",
-    "gemini-flash-lite-latest": "JSONDecodeError: Expecting property name enclosed in double quotes: line 77 column 5 (char 4910)"
+    "gemini-flash-latest": "HTTP 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
   },
   "availableModels": [
     "gemini-flash-latest",
@@ -53,12 +52,12 @@
     "gemini-2.5-flash-lite",
     "gemini-2.5-flash"
   ],
-  "totalCards": 186,
+  "totalCards": 183,
   "translated": {
-    "en": 29,
-    "es": 29,
-    "hi": 29,
-    "zh": 29
+    "en": 30,
+    "es": 30,
+    "hi": 30,
+    "zh": 30
   },
   "untranslated": {
     "en": 0,
@@ -67,17 +66,10 @@
     "zh": 0
   },
   "candidates": {
-    "tech": 413,
-    "finance": 238
+    "tech": 371,
+    "finance": 221
   },
   "errors": [
-    "réponse invalide (Wallstreetcn) : {\"i\": 11, \"title\": \"L'ambition robotique et commerciale de Xpeng\", \"fact\": \"Le constructeur Xpeng prévoit de commercialiser son robot humanoïde IRON, dont le pr",
-    "réponse invalide (cnBeta) : {\"i\": 6, \"title\": \"Nouvelle architecture HBM pour Huawei\", \"fact\": \"Huawei prepare une nouvelle architecture de memoire a haute bande passante pour doubler la d",
-    "réponse invalide (Numerama) : {\"i\": 11, \"title\": \"Une voix de legende ressuscitee par l'IA\", \"fact\": \"Electronic Arts utilise l'intelligence artificielle generative pour integrer la voix de ",
-    "réponse invalide (01net) : {\"i\": 4, \"fact\": \"La FIFA a confirme avoir subi une cyberattaque revendiquee par un groupe de cybercriminels.\", \"whyItMatters\": \"Cette intrusion a entraine la c",
-    "réponse invalide (Engadget) : {\"i\": 6, \"fact\": \"Un homme a ete condamne a quarante-sept mois de prison pour escroquerie aux criptomonnaies grace a l'intelligence artificielle.\", \"whyItMatter",
-    "réponse invalide (Hipertextual) : {\"i\": 8, \"fact\": \"Apple maintient le developpement de son projet de tablette tactile pliable malgre des difficultes techniques.\", \"whyItMatters\": \"Les defis lie",
-    "réponse invalide (IT Home) : {\"i\": 9, \"fact\": \"Huawei a presente cinq nouvelles marques technologiques lors d'une conference dediee a son systeme d'exploitation.\", \"whyItMatters\": \"L'ecosys",
-    "réponse invalide (cnBeta) : {\"i\": 10, \"fact\": \"Une entreprise a lance un nouveau type de retroeclairage pour ecrans permettant d'augmenter la luminosite et la duree de vie.\", \"whyItMatters"
+    "réponse invalide (Cointelegraph) : {\"i\": 1, \"title\": \"Binance prepare le lancement d'actions tokenisees\", \"fact\": \"La plateforme Binance recrute pour developper des produits d'actions tokenisees "
   ]
 }
